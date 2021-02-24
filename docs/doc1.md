@@ -1,7 +1,7 @@
 ---
 id: doc1
 title: Commands
-sidebar_label: Commands
+sidebar_label: All Commands
 ---
 
 **Portal prefix: ./ *(default)***

@@ -5,149 +5,52 @@
     "previous": "Previous",
     "tagline": "A fully fledged and feature rich bot for Discord",
     "docs": {
+      "command_about": {
+        "title": "about",
+        "sidebar_label": "about"
+      },
+      "command_announce": {
+        "title": "announce",
+        "sidebar_label": "announce"
+      },
+      "command_announcement": {
+        "title": "Announcement",
+        "sidebar_label": "Announcement"
+      },
+      "command_authorise": {
+        "title": "authorise",
+        "sidebar_label": "authorise"
+      },
+      "command_authorised_roles": {
+        "title": "authorised_roles",
+        "sidebar_label": "authorised_roles"
+      },
       "commands/command_about": {
         "title": "about",
         "sidebar_label": "about"
       },
-      "commands/command_announce": {
-        "title": "announce",
-        "sidebar_label": "announce"
+      "corona": {
+        "title": "corona"
       },
-      "commands/command_announcement": {
-        "title": "Announcement",
-        "sidebar_label": "Announcement"
-      },
-      "commands/command_authorise": {
-        "title": "authorise",
-        "sidebar_label": "authorise"
-      },
-      "commands/command_authorised_roles": {
-        "title": "authorised_roles",
-        "sidebar_label": "authorised_roles"
-      },
-      "commands/command_corona": {
-        "title": "Commands",
-        "sidebar_label": "Commands"
-      },
-      "commands/command_crypto": {
+      "command_crypto": {
         "title": "focus",
         "sidebar_label": "focus"
       },
-      "commands/command_deauthorise": {
+      "command_deauthorise": {
         "title": "deauthorise",
         "sidebar_label": "deauthorise"
       },
-      "commands/command_delete": {
+      "command_delete": {
         "title": "delete",
         "sidebar_label": "delete"
       },
-      "commands/command_dj": {
+      "command_dj": {
         "title": "dj",
         "sidebar_label": "dj"
       },
-      "commands/command_force": {
-        "title": "force",
-        "sidebar_label": "force"
-      },
-      "commands/command_help": {
-        "title": "help",
-        "sidebar_label": "help"
-      },
-      "commands/command_ignore": {
-        "title": "ignore",
-        "sidebar_label": "ignore"
-      },
-      "commands/command_ignored": {
-        "title": "ignored",
-        "sidebar_label": "ignored"
-      },
-      "commands/command_join": {
-        "title": "join",
-        "sidebar_label": "join"
-      },
-      "commands/command_joke": {
-        "title": "joke",
-        "sidebar_label": "joke"
-      },
-      "commands/command_leaderboard": {
-        "title": "leaderboard",
-        "sidebar_label": "leaderboard"
-      },
-      "commands/command_leave": {
-        "title": "leave",
-        "sidebar_label": "leave"
-      },
-      "commands/command_level": {
-        "title": "level",
-        "sidebar_label": "level"
-      },
-      "commands/command_music": {
-        "title": "music",
-        "sidebar_label": "music"
-      },
-      "commands/command_ping": {
-        "title": "ping",
-        "sidebar_label": "ping"
-      },
-      "commands/command_portal": {
-        "title": "portal",
-        "sidebar_label": "portal"
-      },
-      "commands/command_prefix": {
-        "title": "prefix",
-        "sidebar_label": "prefix"
-      },
-      "commands/command_ranks": {
-        "title": "ranks",
-        "sidebar_label": "ranks"
-      },
-      "commands/command_role_assigner": {
-        "title": "role_assigner",
-        "sidebar_label": "role_assigner"
-      },
-      "commands/command_roll": {
-        "title": "roll",
-        "sidebar_label": "roll"
-      },
-      "commands/command_run": {
-        "title": "run",
-        "sidebar_label": "run"
-      },
-      "commands/command_set_ranks": {
-        "title": "set_ranks",
-        "sidebar_label": "set_ranks"
-      },
-      "commands/command_set": {
-        "title": "set",
-        "sidebar_label": "set"
-      },
-      "commands/command_setup": {
-        "title": "setup",
-        "sidebar_label": "setup"
-      },
-      "commands/command_spotify": {
-        "title": "spotify",
-        "sidebar_label": "spotify"
-      },
-      "commands/command_state": {
-        "title": "state",
-        "sidebar_label": "state"
-      },
-      "commands/command_url": {
-        "title": "url",
-        "sidebar_label": "url"
-      },
-      "commands/command_weather": {
-        "title": "weather",
-        "sidebar_label": "weather"
-      },
-      "commands/command_whoami": {
-        "title": "whoami",
-        "sidebar_label": "whoami"
-      },
       "doc1": {
         "title": "Commands",
-        "sidebar_label": "Commands"
+        "sidebar_label": "All Commands"
       },
       "doc2": {
         "title": "document number 2"
@@ -160,20 +63,125 @@
       },
       "doc5": {
         "title": "Fifth Document"
+      },
+      "faq": {
+        "title": "FAQ",
+        "sidebar_label": "FAQ"
+      },
+      "command_force": {
+        "title": "force",
+        "sidebar_label": "force"
+      },
+      "command_help": {
+        "title": "help",
+        "sidebar_label": "help"
+      },
+      "command_ignore": {
+        "title": "ignore",
+        "sidebar_label": "ignore"
+      },
+      "command_ignored": {
+        "title": "ignored",
+        "sidebar_label": "ignored"
+      },
+      "command_join": {
+        "title": "join",
+        "sidebar_label": "join"
+      },
+      "command_joke": {
+        "title": "joke",
+        "sidebar_label": "joke"
+      },
+      "command_leaderboard": {
+        "title": "leaderboard",
+        "sidebar_label": "leaderboard"
+      },
+      "command_leave": {
+        "title": "leave",
+        "sidebar_label": "leave"
+      },
+      "command_level": {
+        "title": "level",
+        "sidebar_label": "level"
+      },
+      "command_music": {
+        "title": "music",
+        "sidebar_label": "music"
+      },
+      "command_ping": {
+        "title": "ping",
+        "sidebar_label": "ping"
+      },
+      "command_portal": {
+        "title": "portal",
+        "sidebar_label": "portal"
+      },
+      "command_prefix": {
+        "title": "prefix",
+        "sidebar_label": "prefix"
+      },
+      "command_ranks": {
+        "title": "ranks",
+        "sidebar_label": "ranks"
+      },
+      "command_role_assigner": {
+        "title": "role_assigner",
+        "sidebar_label": "role_assigner"
+      },
+      "command_roll": {
+        "title": "roll",
+        "sidebar_label": "roll"
+      },
+      "command_run": {
+        "title": "run",
+        "sidebar_label": "run"
+      },
+      "command_set_ranks": {
+        "title": "set_ranks",
+        "sidebar_label": "set_ranks"
+      },
+      "command_set": {
+        "title": "set",
+        "sidebar_label": "set"
+      },
+      "command_setup": {
+        "title": "setup",
+        "sidebar_label": "setup"
+      },
+      "command_spotify": {
+        "title": "spotify",
+        "sidebar_label": "spotify"
+      },
+      "command_state": {
+        "title": "state",
+        "sidebar_label": "state"
+      },
+      "command_url": {
+        "title": "url",
+        "sidebar_label": "url"
+      },
+      "command_weather": {
+        "title": "weather",
+        "sidebar_label": "weather"
+      },
+      "command_whoami": {
+        "title": "whoami",
+        "sidebar_label": "whoami"
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
+      "Commands": "Commands",
+      "Features": "Features",
+      "FAQ": "FAQ",
       "Help": "Help",
-      "Blog": "Blog"
+      "Updates": "Updates"
     },
     "categories": {
-      "Commands": "Commands",
+      "commands": "commands",
       "Docusaurus": "Docusaurus",
-      "First Category": "First Category",
-      "Second Category": "Second Category",
-      "Rest of docs": "Rest of docs"
+      "With authorisation": "With authorisation",
+      "Without Authorisation": "Without Authorisation",
+      "First Category": "First Category"
     }
   },
   "pages-strings": {

@@ -21,18 +21,18 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
       title: 'Browse Docs',
+      content: `Learn more using the [documentation](${docUrl('doc1.html')}) ` +
+        `for Portal`,
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      title: 'Join our community',
+      content: 'Ask questions about the documentation and Portal at the official Portal server',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      title: 'Keep up with the latest updates',
+      content: `Find out what's new with Portal by following the latests ` +
+        `[updates](${docUrl('doc1.html')}).`,
     },
   ];
 
@@ -43,7 +43,7 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need Help ?</h1>
           </header>
-          <p>This project is maintained by Keybraker</p>
+          {/* <p>This project is maintained by Keybraker</p> */}
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

@@ -108,7 +108,7 @@ class Index extends React.Component {
             content:
               'Music players have become an essential part of every discord community and thus server. ' +
               'With Portal you not only get a clutter free server whilst having an easy to use music player, ' +
-              'you get the highest quality and speed there is !<br>' +
+              'you get the highest quality and speed there is !' +
               'Just type `./music portal_music` and a new channel will appear. You now just need to type what you want ' +
               'and Portal will be there to play it for you! And when you wish to pause or anything else just react to the ' +
               'player with the appropriate emote.',
@@ -157,7 +157,7 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: '24/7',
+            content: '24/7 online, so you never miss a thing !',
             image: `${baseUrl}svg/fast-time.svg`,
             imageAlign: 'top',
             title: '99% up time',
