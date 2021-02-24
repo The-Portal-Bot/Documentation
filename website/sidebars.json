@@ -1,0 +1,24 @@
+{
+    "docs": {
+        "Commands": [
+            "doc1",
+            "doc2"
+        ],
+        "Docusaurus": [
+            "doc1",
+            "doc2"
+        ],
+        "First Category": [
+            "doc2"
+        ],
+        "Second Category": [
+            "doc3"
+        ]
+    },
+    "docs-other": {
+        "Rest of docs": [
+            "doc4",
+            "doc5"
+        ]
+    }
+}
