@@ -1,12 +1,12 @@
 ---
 id: command_ping
-title: Commands
-sidebar_label: Commands
+title: ping
+sidebar_label: ping
 ---
 
-### ping             
+### ping
 
-> Description: _Returns round trip latency_
-> Arguments  : _none_   <br>
-> Accessible : _everyone        _<br>
+> Description: _Returns round trip latency_<br>
+> Arguments  : _none_<br>
+> Accessible : _everyone_<br>
 > Cooldown   : _-_<br>

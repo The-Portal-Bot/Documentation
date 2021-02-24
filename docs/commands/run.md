@@ -1,12 +1,12 @@
 ---
 id: command_run
-title: Commands
-sidebar_label: Commands
+title: run
+sidebar_label: run
 ---
 
 ### run
 
-> Description: _Runs the given command string and returns its output_
+> Description: _Runs the given command string and returns its output_<br>
 > Arguments  : _!exec\_command_<br>
 > Accessible : _everyone_<br>
 > Cooldown   : _-_<br>

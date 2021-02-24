@@ -1,11 +1,12 @@
 ---
 id: command_ranks
-title: Commands
-sidebar_label: Commands
+title: ranks
+sidebar_label: ranks
 ---
+
 ### ranks
 
-> Description: _Returns ranks of ranking system_
+> Description: _Returns ranks of ranking system_<br>
 > Arguments  : _none_<br>
 > Accessible : _everyone_<br>
 > Cooldown   : _-_<br>

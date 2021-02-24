@@ -1,7 +1,7 @@
 ---
 id: command_leaderboard
-title: Commands
-sidebar_label: Commands
+title: leaderboard
+sidebar_label: leaderboard
 ---
 
 ### leaderboard

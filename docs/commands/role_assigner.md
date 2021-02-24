@@ -1,7 +1,7 @@
 ---
 id: command_role_assigner
-title: Commands
-sidebar_label: Commands
+title: role_assigner
+sidebar_label: role_assigner
 ---
 
 ### role_assigner    

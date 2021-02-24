@@ -1,7 +1,7 @@
 ---
 id: command_setup
-title: Commands
-sidebar_label: Commands
+title: setup
+sidebar_label: setup
 ---
 
 ### setup

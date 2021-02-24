@@ -1,12 +1,12 @@
 ---
 id: command_ignored
-title: Commands
-sidebar_label: Commands
+title: ignored
+sidebar_label: ignored
 ---
 
 ### ignored
 
-> Description: _Displays all ignored members_
+> Description: _Displays all ignored members_<br>
 > Arguments  : _none_<br>
 > Accessible : _everyone_<br>
 > Cooldown   : _none_<br>

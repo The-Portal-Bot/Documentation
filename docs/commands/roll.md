@@ -1,7 +1,7 @@
 ---
 id: command_roll
-title: Commands
-sidebar_label: Commands
+title: roll
+sidebar_label: roll
 ---
 
 ### roll

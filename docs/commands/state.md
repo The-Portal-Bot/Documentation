@@ -1,12 +1,12 @@
 ---
 id: command_state
-title: Commands
-sidebar_label: Commands
+title: state
+sidebar_label: state
 ---
 
 ### state            
 
-> Description: _Returns the current state of portal_
+> Description: _Returns the current state of portal_<br>
 > Arguments  : _@channel\_name \| @category\_name_<br>
 > Accessible : _admin_<br>
 > Cooldown   : _-_<br>

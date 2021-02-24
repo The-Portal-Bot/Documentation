@@ -1,7 +1,7 @@
 ---
 id: command_prefix
-title: Commands
-sidebar_label: Commands
+title: prefix
+sidebar_label: prefix
 ---
 
 ### prefix

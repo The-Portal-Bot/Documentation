@@ -1,11 +1,12 @@
 ---
 id: command_whoami
-title: Commands
-sidebar_label: Commands
+title: whoami
+sidebar_label: whoami
 ---
 
-### whoami           
-> Description: _Replies with the your portal stats_ 
+### whoami
+
+> Description: _Replies with the your portal stats_<br>
 > Arguments  : _none_ <br>
 > Accessible : _everyone_<br>
 > Cooldown   : _-_<br>

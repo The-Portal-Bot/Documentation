@@ -1,12 +1,12 @@
 ---
 id: command_crypto
-title: Commands
-sidebar_label: Commands
+title: crypto
+sidebar_label: crypto
 ---
 
 ### crypto           
 
-> Description: _Replies with the current price of requested cryptocurrency_
+> Description: _Replies with the current price of requested cryptocurrency_<br>
 > Arguments  : _!cryptocurrency \| exchange_<br>
-> Accessible : _everyone        _<br>
+> Accessible : _everyone_<br>
 > Cooldown   : _-_<br>

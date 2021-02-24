@@ -1,7 +1,7 @@
 ---
 id: command_portal
-title: Commands
-sidebar_label: Commands
+title: portal
+sidebar_label: portal
 ---
 
 ### portal

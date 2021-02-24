@@ -1,10 +1,10 @@
 ---
 id: command_about
-title: Commands
-sidebar_label: Commands
+title: about
+sidebar_label: about
 ---
 
-### about            
+### about
 
 > Description: _Returns an about Portal message_<br>
 > Arguments  : _none_<br>

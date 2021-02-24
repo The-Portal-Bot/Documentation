@@ -1,7 +1,7 @@
 ---
 id: command_set_ranks
-title: Commands
-sidebar_label: Commands
+title: set_ranks
+sidebar_label: set_ranks
 ---
 
 ### set_ranks

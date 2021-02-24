@@ -1,10 +1,10 @@
 ---
 id: command_set
-title: Commands
-sidebar_label: Commands
+title: set
+sidebar_label: set
 ---
 
-### set              
+### set
 
 > Description: _Sets the value of an attribute_<br>
 > Arguments  : _!attribute !value_<br>

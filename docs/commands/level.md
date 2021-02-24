@@ -1,12 +1,12 @@
 ---
 id: command_level
-title: Commands
-sidebar_label: Commands
+title: level
+sidebar_label: level
 ---
 
 ### level            
 
-> Description: _Returns your level_
+> Description: _Returns your level_<br>
 > Arguments  : _none_<br>
 > Accessible : _everyone_<br>
 > Cooldown   : _-_<br>
