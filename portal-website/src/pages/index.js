@@ -6,6 +6,23 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+function AddButton({ imageUrl, title, link }) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <Link
+      className={clsx(
+        'button button--outline button--secondary button--lg',
+        styles.buttons,
+      )}
+      to={link}>
+      <div className={clsx(styles.marginRightSmall)}>{title}</div> 
+      {imgUrl && (
+        <img className={styles.discordImage} src={imgUrl} alt={title} />
+      )}
+    </Link>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -18,14 +35,11 @@ function Home() {
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Add to Discord
-            </Link>
+            <AddButton 
+              imageUrl="svg/discord_logo.svg"
+              title="Add to Discord" 
+              link="https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot"
+            />
           </div>
         </div>
       </header>
@@ -33,7 +47,7 @@ function Home() {
         <div className="container">
           <p className="hero__subtitle">
             With Portal's features and commands, you can have an organised<br />
-            and fully functional server with just a few steps
+            and fully functional server in just a few steps
           </p>
           <div className={styles.buttons}>
             <Link
@@ -50,36 +64,19 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/commands/')}>
+              to={useBaseUrl('commands/')}>
               Commands
             </Link> <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/features/')}>
+              to={useBaseUrl('features/')}>
               Features
             </Link>
           </div>
         </div>
       </header>
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">
-            a labor of love
-          </h1>
-        </div>
-      </header>
-      <main>
-        <Link
-          className={clsx(
-            'button button--outline button--secondary button--lg',
-            styles.getStarted,
-          )}
-          to={useBaseUrl('docs/commands/')}>
-          All Commands
-        </Link>
-      </main>
     </Layout>
   );
 }

@@ -31,13 +31,7 @@ module.exports = {
                     to: 'docs/',
                     activeBasePath: 'docs',
                     label: 'Documentation',
-                    position: 'right',
-                },
-                {
-                    to: 'faq/',
-                    activeBasePath: 'faq',
-                    label: 'Faq',
-                    position: 'right',
+                    position: 'left',
                 },
                 {
                     to: 'help/',
@@ -46,19 +40,13 @@ module.exports = {
                     position: 'right',
                 },
                 {
-                    to: 'todo/',
-                    activeBasePath: 'todo',
-                    label: 'To Do',
-                    position: 'right',
-                },
-                {
                     to: 'blog',
-                    label: 'Updates',
+                    label: 'Log',
                     position: 'right'
                 },
                 {
-                    href: 'https://github.com/keybraker/Portal',
-                    label: 'GitHub',
+                    href: 'https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot',
+                    label: 'Add to Discord',
                     position: 'right',
                 },
             ],
@@ -100,8 +88,8 @@ module.exports = {
                             to: 'blog',
                         },
                         {
-                            label: 'FAQ',
-                            to: 'faq',
+                            label: 'Help',
+                            to: 'help',
                         },
                         {
                             label: 'Updates',
@@ -120,6 +108,10 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://portal-bot.xyz/',
+                },
+                help: {
+                    sidebarPath: require.resolve('./sidebars.js'),
+                    editUrl: 'https://portal-bot.xyz/help/',
                 },
                 blog: {
                     showReadingTime: true,

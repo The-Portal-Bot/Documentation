@@ -13,6 +13,13 @@
     overflow: hidden;
 }
 
+.infoBanner {
+    padding: 1rem 0;
+    text-align: center;
+    position: bottom;
+    overflow: hidden;
+}
+
 @media screen and (max-width: 966px) {
     .heroBanner {
         padding: 2rem;
@@ -44,6 +51,15 @@
     width: 96px;
 }
 
+.discordImage {
+    height: 24px;
+    width: 24px;
+}
+
 .marginRight {
     margin-right: 2rem;
+}
+
+.marginRightSmall {
+    margin-right: 1rem;
 }

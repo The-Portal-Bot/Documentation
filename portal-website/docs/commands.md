@@ -1,7 +1,7 @@
 ---
 id: commands
 title: Commands
-sidebar_label: All Commands
+sidebar_label: Commands
 ---
 
 Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex. ./about) you can access this command, and await a reply or action from Portal.

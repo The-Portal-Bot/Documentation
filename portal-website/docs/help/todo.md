@@ -1,7 +1,7 @@
 ---
-id: faq
-title: FAQ
-sidebar_label: FAQ
+id: todo
+title: todo
+sidebar_label: todo
 ---
 
 Q. **What does Portal do ?**
