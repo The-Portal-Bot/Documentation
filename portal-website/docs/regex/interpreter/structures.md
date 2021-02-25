@@ -4,9 +4,22 @@ title: Structures
 sidebar_label: Structures
 ---
 
-* _prefix:_ __{{__
-* _suffix:_ __}}__
-* _Structures are conditional flow manipulators_
+### Description
+
+|  prefix |   sufix  | Description                                  |
+|:-------:|:--------:|:--------------------------------------------:|
+|    {{   |     }}   | Structures are conditional flow manipulators |
+
+#### Format
+
+```json 
+{{
+    "if": "string", "is": "string", "with": "string",
+    "yes": "string", "no": "string"
+}}
+```
+
+### List of Attributes
 
 | Attributes | Description           | Usage                                                                                           |
 | :--------- | :-------------------- | :---------------------------------------------------------------------------------------------- |

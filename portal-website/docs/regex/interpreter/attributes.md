@@ -4,8 +4,13 @@ title: Attributes
 sidebar_label: Attributes
 ---
 
-* _prefix:_ __@__
-* _Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance_
+### Description
+
+|  prefix | Description                                                                                                          |     Format     |       Example `@g.locale`  |
+|:-------:|:--------------------------------------------------------------------------------------------------------------------:|:--------------:| :-------------------------:| 
+|    &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance |  `&attribute`  |              `gr`          |
+
+### List of Attributes
 
 | Attributes          | Description                                                    | Type    | Default                               |
 | :------------------ | :------------------------------------------------------------- | :------ | :------------------------------------ |
