@@ -113,14 +113,6 @@ function Home() {
           </section>
         )}
       </main>
-
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
-        <div className="container">
-          <h2 className="hero__title">
-            There are so many things to love
-          </h2>
-        </div>
-      </header>
     </Layout>
   );
 }
