@@ -1,5 +1,5 @@
 module.exports = {
-    help: [
+    docs: [
         'help/help',
         'help/faq',
         'help/todo'

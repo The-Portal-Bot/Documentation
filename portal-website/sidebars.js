@@ -50,10 +50,7 @@ module.exports = {
                 'regex/variables',
                 'regex/attributes',
                 'regex/pipes',
-                'regex/structures',
-                // 'doc2',
-                // 'doc3',
-                // 'mdx'}
+                'regex/structures'
             ],
         }
     ]

@@ -66,7 +66,7 @@ module.exports = {
                     ],
                 },
                 {
-                    title: 'Community',
+                    title: 'help',
                     items: [{
                             label: 'Portal Official Channel',
                             href: 'https://discordapp.com/invite/docusaurus',
@@ -101,6 +101,20 @@ module.exports = {
             copyright: `Copyright © ${new Date().getFullYear()} Designed and Built by Ioannis Tsiakkas`,
         },
     },
+    plugins: [
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'help',
+                path: 'help',
+                editUrl: 'https://portal-bot.xyz/help/',
+                routeBasePath: 'help',
+                sidebarPath: require.resolve('./sidebarsHelp.js'),
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
+            },
+        ]
+    ],
     presets: [
         [
             '@docusaurus/preset-classic',
@@ -110,7 +124,7 @@ module.exports = {
                     editUrl: 'https://portal-bot.xyz/',
                 },
                 help: {
-                    sidebarPath: require.resolve('./sidebars.js'),
+                    sidebarPath: require.resolve('./sidebarsHelp.js'),
                     editUrl: 'https://portal-bot.xyz/help/',
                 },
                 blog: {
