@@ -41,7 +41,7 @@ module.exports = {
                 },
                 {
                     to: 'blog',
-                    label: 'Log',
+                    label: 'Blog',
                     position: 'right'
                 },
                 {

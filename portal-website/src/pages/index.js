@@ -11,6 +11,7 @@ function AddButton({ imageUrl, title, link }) {
   return (
     <Link
       className={clsx(
+        styles.marginRight,
         'button button--outline button--secondary button--lg',
         styles.buttons,
       )}
@@ -40,10 +41,18 @@ function Home() {
               title="Add to Discord" 
               link="https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot"
             />
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/')}>
+              Documentation
+            </Link>
           </div>
         </div>
       </header>
-      <header className={clsx('hero hero--secondary', styles.heroBanner)}>
+      <main className={clsx('hero--secondary', styles.heroBanner)}>
         <div className="container">
           <p className="hero__subtitle">
             With Portal's features and commands, you can have an organised<br />
@@ -53,22 +62,14 @@ function Home() {
             <Link
               className={clsx(
                 styles.marginRight,
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/')}>
-              Documentation
-            </Link> <Link
-              className={clsx(
-                styles.marginRight,
-                'button button--outline button--secondary button--lg',
+                'button button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('commands/')}>
               Commands
             </Link> <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--primary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('features/')}>
@@ -76,7 +77,7 @@ function Home() {
             </Link>
           </div>
         </div>
-      </header>
+      </main>
     </Layout>
   );
 }
