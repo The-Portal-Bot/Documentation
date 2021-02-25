@@ -18,7 +18,7 @@ function AddButton({ imageUrl, title, link }) {
       to={link}>
       <div className={clsx(styles.marginRightSmall)}>{title}</div> 
       {imgUrl && (
-        <img className={styles.discordImage} src={imgUrl} alt={title} />
+        <img className={styles.discordImage} src={imageUrl}alt={title} />
       )}
     </Link>
   );
@@ -27,10 +27,15 @@ function AddButton({ imageUrl, title, link }) {
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
+  const runner_before = "svg/runner.svg";
+  const logo = "img/portal/portal_logo_legacy.png";
+  const runner_after = "svg/runner.svg";
+  const title = "portal logo";
+
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={'Main'}
+      description="Portal main explanation">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -52,7 +57,18 @@ function Home() {
           </div>
         </div>
       </header>
+
       <main className={clsx('hero--secondary', styles.heroBanner)}>
+        <div className="container">
+          <p className={clsx(styles.buttons)}>
+            <h1 className={clsx('hero__subtitle', styles.marginRight)}>Portal can be in the center of your server</h1>
+            <img className={clsx(styles.featureImage, styles.marginRight)} src={logo} alt={title} />
+            <h1 className={clsx('hero__subtitle')}>and help you achieve that you want !</h1>
+          </p>
+        </div>
+      </main>
+
+      <main className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <p className="hero__subtitle">
             With Portal's features and commands, you can have an organised<br />
@@ -62,14 +78,14 @@ function Home() {
             <Link
               className={clsx(
                 styles.marginRight,
-                'button button--primary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('commands/')}>
               Commands
             </Link> <Link
               className={clsx(
-                'button button--primary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('features/')}>

@@ -6,8 +6,8 @@ module.exports = {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'Ioannis Tsiakkas', // Usually your GitHub org/user name.
-    projectName: 'portal', // Usually your repo name.
+    organizationName: 'keybraker',
+    projectName: 'portal',
     themeConfig: {
         navbar: {
             title: 'Portal',
@@ -69,7 +69,7 @@ module.exports = {
                     title: 'help',
                     items: [{
                             label: 'Portal Official Channel',
-                            href: 'https://discordapp.com/invite/docusaurus',
+                            href: 'https://discord.com/invite/nuKXgFXr5y',
                         },
                         {
                             label: 'Github',
@@ -83,38 +83,21 @@ module.exports = {
                 },
                 {
                     title: 'More',
-                    items: [{
-                            label: 'Blog',
-                            to: 'blog',
-                        },
+                    items: [
                         {
                             label: 'Help',
                             to: 'help',
                         },
                         {
-                            label: 'Updates',
-                            href: 'updates',
-                        },
+                            label: 'Blog',
+                            to: 'blog',
+                        }
                     ],
                 },
             ],
             copyright: `Copyright © ${new Date().getFullYear()} Designed and Built by Ioannis Tsiakkas`,
         },
     },
-    plugins: [
-        [
-            '@docusaurus/plugin-content-docs',
-            {
-                id: 'help',
-                path: 'help',
-                editUrl: 'https://portal-bot.xyz/help/',
-                routeBasePath: 'help',
-                sidebarPath: require.resolve('./sidebarsHelp.js'),
-                showLastUpdateAuthor: true,
-                showLastUpdateTime: true,
-            },
-        ]
-    ],
     presets: [
         [
             '@docusaurus/preset-classic',
@@ -122,10 +105,6 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://portal-bot.xyz/',
-                },
-                help: {
-                    sidebarPath: require.resolve('./sidebarsHelp.js'),
-                    editUrl: 'https://portal-bot.xyz/help/',
                 },
                 blog: {
                     showReadingTime: true,

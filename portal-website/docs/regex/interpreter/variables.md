@@ -4,8 +4,14 @@ title: Variables
 sidebar_label: Variables
 ---
 
+#### Description
+Variables are immutable and live data that return information.
+To access a variable you have begin with the prefix followed
+by the variable name.
+For example If you would like to have a channel that displays only
+the currently played games, you would write `./set v.regex $status_list`
+
 * _prefix:_ __$__
-* _Variables are immutable and live data that return information_
 
 | Variable              | Description                          |
 | :-------------------- | :----------------------------------- |

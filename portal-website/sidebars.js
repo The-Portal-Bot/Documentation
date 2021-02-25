@@ -46,12 +46,17 @@ module.exports = {
             ]
         },
         {
-            'Regex Interpreter': [
-                'regex/variables',
-                'regex/attributes',
-                'regex/pipes',
-                'regex/structures'
-            ],
+            Interpreter: [
+                'regex/interpreter',
+                {
+                    Options: [
+                        'regex/interpreter/variables',
+                        'regex/interpreter/attributes',
+                        'regex/interpreter/pipes',
+                        'regex/interpreter/structures'
+                    ]
+                }
+            ]
         }
     ]
 };
