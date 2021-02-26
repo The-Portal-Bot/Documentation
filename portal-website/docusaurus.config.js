@@ -5,7 +5,7 @@ module.exports = {
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
-    favicon: 'img/portal/portal_logo_legacy.ico',
+    favicon: 'img/portal/portal_logo4.ico',
     organizationName: 'keybraker',
     projectName: 'portal',
     themeConfig: {
@@ -46,7 +46,7 @@ module.exports = {
             title: 'Portal',
             logo: {
                 alt: 'portal\'s logo',
-                src: 'img/portal/portal_logo_legacy.png',
+                src: 'img/portal/portal_logo4.png',
             },
             items: [{
                     to: 'commands/',

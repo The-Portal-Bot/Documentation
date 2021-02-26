@@ -14,7 +14,12 @@ sidebar_label: authorise
     ```bash
     ./authorise 228666893068795905
     ```
-    > Note that you cant authorise with name as someone could change their name to get authorised
+
+:::important
+
+You cant authorise with name as someone could change their name to get authorised
+
+:::
 
 * Lets say you want to add role _Admins_ to authorised roles, you would type
     ```bash

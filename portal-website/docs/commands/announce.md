@@ -4,9 +4,9 @@ title: announce
 sidebar_label: announce
 ---
 
-|                              Description                               |      Argument       | Accessible |   Cooldown    |
-| :--------------------------------------------------------------------: | :-----------------: | :--------: | :-----------: |
-| Makes an announcement in the announcement <br />channel and tags @here | __!title \| @body__ | `everyone` | `1min/member` |
+|                              Description                              |      Argument       | Accessible |  Cooldown   |
+| :-------------------------------------------------------------------: | :-----------------: | :--------: | :---------: |
+| Makes an announcement in the announcement<br />channel and tags @here | __!title \| @body__ | `everyone` | `1min/user` |
 
 ## Examples
 

@@ -7,7 +7,12 @@ sidebar_label: run
 |                     Description                      |      Argument      | Accessible | Cooldown |
 | :--------------------------------------------------: | :----------------: | :--------: | :------: |
 | Runs the given command string and returns its output | __!exec\_command__ | `everyone` |  `none`  |
-> run is designed for you to test names before setting them to your channel
+
+:::note
+
+run is designed for you to test names before setting them to your channel
+
+:::
 
 ## Examples
 

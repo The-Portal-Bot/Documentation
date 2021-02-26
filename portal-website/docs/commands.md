@@ -15,15 +15,15 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 ### [announce](commands/command_announce)
 
-|                              Description                               |      Argument       | Accessible |  Cooldown   |
-| :--------------------------------------------------------------------: | :-----------------: | :--------: | :---------: |
-| Makes an announcement in the announcement <br />channel and tags @here | __!title \| @body__ | `everyone` | `1min/user` |
+|                              Description                              |      Argument       | Accessible |  Cooldown   |
+| :-------------------------------------------------------------------: | :-----------------: | :--------: | :---------: |
+| Makes an announcement in the announcement<br />channel and tags @here | __!title \| @body__ | `everyone` | `1min/user` |
 
 ### [announcement](commands/command_announcement)
 
 |                                     Description                                     |               Argument                | Accessible | Cooldown |
 | :---------------------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new announcement channel or sets<br />the current channel as announcement | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new announcement channel or<br />sets the current channel as announcement | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [authorise](commands/command_authorise)
 
@@ -60,7 +60,12 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 |                    Description                    |        Argument        | Accessible | Cooldown |
 | :-----------------------------------------------: | :--------------------: | :--------: | :------: |
 | Deletes n number of messsages on the text channel | __!numer_of_messages__ |  `admin`   |  `none`  |
-> Note that Portal will delete n + 1 messages as it will also delete the command to delete
+
+:::note
+
+Note that Portal will delete n + 1 messages as it will also delete the command to delete
+
+:::
 
 ### [dj](commands/command_dj)
 
@@ -73,7 +78,12 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 |                       Description                       |      Argument       | Accessible | Cooldown |
 | :-----------------------------------------------------: | :-----------------: | :--------: | :------: |
 | Creates focus channel for you and your requested member | __!username @time__ |  `admin`   |  `none`  |
-> Note that if no time is given your focued channel will have a 5 minute life
+
+:::note
+
+Note that if no time is given your focued channel will have a 5 minute life
+
+:::
 
 ### [force](commands/command_force)
 
@@ -91,7 +101,7 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 |                            Description                             |               Argument                | Accessible | Cooldown |
 | :----------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | __!channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [ignored](commands/command_ignored)
 
@@ -103,14 +113,19 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 |                            Description                             |               Argument                | Accessible | Cooldown |
 | :----------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | __!channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [joke](commands/command_joke)
 
 |     Description     |   Argument    | Accessible | Cooldown |
 | :-----------------: | :-----------: | :--------: | :------: |
 | Replies with a joke | __@category__ | `everyone` |  `none`  |
-> Note that category can be dad, chuck or blonde
+
+:::note
+
+Note that category can be dad, chuck or blonde
+
+:::
 
 ### [leaderboard](commands/command_leaderboard)
 
@@ -134,7 +149,7 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 |                              Description                              |               Argument                | Accessible | Cooldown |
 | :-------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new music channel or sets<br />the current channel as music | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new music channel or sets<br />the current channel as music | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [ping](commands/command_ping)
 
@@ -146,7 +161,7 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 |                               Description                               |               Argument                | Accessible | Cooldown |
 | :---------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new portal channel or sets<br />the current channel as portal | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new portal channel or sets<br />the current channel as portal | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [prefix](commands/command_prefix)
 
@@ -177,7 +192,12 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 |                     Description                      |      Argument      | Accessible | Cooldown |
 | :--------------------------------------------------: | :----------------: | :--------: | :------: |
 | Runs the given command string and returns its output | __!exec\_command__ | `everyone` |  `none`  |
-> run is designed for you to test names before setting them to your channel
+
+:::note
+
+run is designed for you to test names before setting them to your channel
+
+:::
 
 ### [set_ranks](commands/command_set_ranks)
 
@@ -190,7 +210,12 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 |          Description           |       Argument        | Accessible | Cooldown |
 | :----------------------------: | :-------------------: | :--------: | :------: |
 | Sets the value of an attribute | __!attribute !value__ |  `admin`   |  `none`  |
-> Note that you do not have to use attribute prefix (&), as you can only set attributes
+
+:::note
+
+Note that you do not have to use attribute prefix (&), as you can only set attributes
+
+:::
 
 ### [setup](commands/command_setup)
 
@@ -202,7 +227,7 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 |                                Description                                |               Argument                | Accessible | Cooldown |
 | :-----------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new spotify channel or sets<br />the current channel as spotify | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new spotify channel or sets<br />the current channel as spotify | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [state](commands/command_state)
 
@@ -214,7 +239,7 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 |                            Description                            |               Argument                | Accessible | Cooldown |
 | :---------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new url channel or sets<br />the current channel as url | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new url channel or sets<br />the current channel as url | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [weather](commands/command_weather)
 

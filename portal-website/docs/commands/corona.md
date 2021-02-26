@@ -18,4 +18,9 @@ sidebar_label: corona
     ```bash
     ./corona greece
     ```
-    > Note that you can write the country either capital or lowercase
+
+:::tip
+
+You can write the country either capital or lowercase
+
+:::

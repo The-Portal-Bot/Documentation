@@ -14,4 +14,9 @@ sidebar_label: dj
     ```bash
     ./dj 228666893068795905
     ```
-    > Note that you cant authorise with name as someone could change their name to get authorised
+
+:::important
+
+You cant authorise with name as someone could change their name to get deauthorised
+
+:::

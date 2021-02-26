@@ -25,7 +25,7 @@ Portal's music player resides in a text channel. Rather than requesting
 a song via a command you simply type the song you wish to listen in the
 music channel, and portal magically appears and plays it for you.
 
----
+<!-- ---
 
 ## Admonitions
 
@@ -57,4 +57,4 @@ This is a caution
 
 This is a warning
 
-:::
+::: -->

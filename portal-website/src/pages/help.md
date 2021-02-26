@@ -4,6 +4,12 @@ title: Help
 sidebar_label: Help
 ---
 
+## Documentation
+
+You can find the detailed Documentation [here](docs)
+
+---
+
 ## Discord Server
 
 You can join the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y) 
@@ -11,7 +17,7 @@ and get answers to your questions
 
 ---
 
-## Error Reporting
+## Error Reporting & Feature requests
 
 Error reporting and feature requests can be made through github or from 
 the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)

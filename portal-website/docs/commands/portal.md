@@ -6,7 +6,7 @@ sidebar_label: portal
 
 |                               Description                               |               Argument                | Accessible | Cooldown |
 | :---------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new portal channel or sets<br />the current channel as portal | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new portal channel or sets<br />the current channel as portal | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ## Examples
 

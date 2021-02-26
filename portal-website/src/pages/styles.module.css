@@ -6,10 +6,7 @@
  * and scoped locally.
  */
 
-.heroRest {
-    padding: 4rem 0;
-    text-align: center;
-}
+.heroRest {}
 
 .heroBanner {
     padding: 4rem 0;
@@ -67,4 +64,20 @@
 
 .marginRightSmall {
     margin-right: 1rem;
+}
+
+.linkHighlight {
+    color: rgb(131, 131, 131);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.linkHighlight:hover {
+    color: rgb(0, 132, 255);
+    background-color: transparent;
+    text-decoration: none;
 }

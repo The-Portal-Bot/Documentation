@@ -6,7 +6,7 @@ sidebar_label: announcement
 
 |                                     Description                                     |               Argument                | Accessible | Cooldown |
 | :---------------------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new announcement channel or sets<br />the current channel as announcement | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new announcement channel or<br />sets the current channel as announcement | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ## Examples
 

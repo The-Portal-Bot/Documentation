@@ -6,7 +6,7 @@ sidebar_label: music
 
 |                              Description                              |               Argument                | Accessible | Cooldown |
 | :-------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new music channel or sets<br />the current channel as music | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new music channel or sets<br />the current channel as music | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ## Examples
 

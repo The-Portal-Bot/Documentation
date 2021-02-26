@@ -6,7 +6,7 @@ sidebar_label: url
 
 |                            Description                            |               Argument                | Accessible | Cooldown |
 | :---------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new url channel or sets<br />the current channel as url | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new url channel or sets<br />the current channel as url | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ## Examples
 

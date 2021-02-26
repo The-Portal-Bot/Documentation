@@ -27,7 +27,7 @@ function AddButton({ imageUrl, title, link }) {
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-  const logo = "img/portal/portal_logo_legacy.png";
+  const logo = "img/portal/portal_logo4.png";
   const title = "portal logo";
 
   return (
@@ -66,24 +66,22 @@ function Home() {
         </div>
       </main>
 
-      <main className={clsx('hero hero--primary heroRest', styles.heroBanner)}>
+      <main className={clsx('hero hero--primary', styles.heroRest, styles.heroBanner)}>
         <div className="container">
           <p className="">
-            With Portal's Features and Commands
-            {/* <Link
+            With Portal's Features and Commands <Link
               className={clsx(
-                'button button--outline',
+                styles.linkHighlight,
               )}
               to={useBaseUrl('features/')}>
               Features
             </Link> and <Link
               className={clsx(
-                'button button--outline',
+                styles.linkHighlight,
               )}
               to={useBaseUrl('commands/')}>
               Commands
-            </Link> */}
-            , you can have an organised<br />
+            </Link>, you can have an organised<br />
             and fully functional server in just a few steps
           </p>
         </div>

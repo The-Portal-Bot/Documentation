@@ -7,7 +7,12 @@ sidebar_label: delete
 |                    Description                    |        Argument        | Accessible | Cooldown |
 | :-----------------------------------------------: | :--------------------: | :--------: | :------: |
 | Deletes n number of messsages on the text channel | __!numer_of_messages__ |  `admin`   |  `none`  |
-> Note that Portal will delete n + 1 messages as it will also delete the command to delete
+
+:::note
+
+Note that Portal will delete n + 1 messages as it will also delete the command to delete
+
+:::
 
 ## Examples
 

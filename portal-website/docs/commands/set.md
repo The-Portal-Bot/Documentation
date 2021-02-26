@@ -7,7 +7,12 @@ sidebar_label: set
 |          Description           |       Argument        | Accessible | Cooldown |
 | :----------------------------: | :-------------------: | :--------: | :------: |
 | Sets the value of an attribute | __!attribute !value__ |  `admin`   |  `none`  |
-> Note that you do not have to use attribute prefix (&), as you can only set attributes
+
+:::note
+
+Note that you do not have to use attribute prefix (&), as you can only set attributes
+
+:::
 
 ## Examples
 

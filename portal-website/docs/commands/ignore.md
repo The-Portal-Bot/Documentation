@@ -6,7 +6,7 @@ sidebar_label: ignore
 
 |                            Description                             |               Argument                | Accessible | Cooldown |
 | :----------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | __!channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ## Examples
 

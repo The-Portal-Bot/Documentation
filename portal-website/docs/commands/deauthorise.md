@@ -10,11 +10,16 @@ sidebar_label: deauthorise
 
 ## Examples
 
-* Lets say you want to deauthorise a member called Mallory with id (228666893068795905), you would type
+* Lets say you want to deauthorise member Mallory with id (228666893068795905), you would type
     ```bash
     ./deauthorise 228666893068795905
     ```
-    > Note that you cant deauthorise with name as someone could change their name to get deauthorised
+
+:::important
+
+You cant deauthorise with name as someone could change their name to get deauthorised
+
+:::
 
 * Lets say you want to add role _Admins_ to deauthorised roles, you would type
     ```bash

@@ -7,7 +7,10 @@ sidebar_label: joke
 |     Description     |   Argument    | Accessible | Cooldown |
 | :-----------------: | :-----------: | :--------: | :------: |
 | Replies with a joke | __@category__ | `everyone` |  `none`  |
-> Note that category can be dad, chuck or blonde
+
+:::note
+Note that category can be dad, chuck or blonde
+:::
 
 ## Examples
 

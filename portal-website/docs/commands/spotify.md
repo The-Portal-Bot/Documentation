@@ -6,7 +6,7 @@ sidebar_label: spotify
 
 |                                Description                                |               Argument                | Accessible | Cooldown |
 | :-----------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new spotify channel or sets<br />the current channel as spotify | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+| Creates a new spotify channel or sets<br />the current channel as spotify | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ## Examples
 
