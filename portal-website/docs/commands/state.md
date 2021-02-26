@@ -4,7 +4,13 @@ title: state
 sidebar_label: state
 ---
 
-> Description: _Returns the current state of portal_<br />
-> Arguments  : _@channel\_name \| @category\_name_<br />
-> Accessible : _admin_<br />
-> Cooldown   : _-_<br />
+|             Description             | Argument | Accessible | Cooldown |
+| :---------------------------------: | :------: | :--------: | :------: |
+| Returns the current state of Portal | __none__ | `everyone` |  `none`  |
+
+## Examples
+
+* Lets say you want to see the current channels Portal controls, you would type
+    ```bash
+    ./state
+    ```

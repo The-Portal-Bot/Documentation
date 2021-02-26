@@ -6,9 +6,9 @@ sidebar_label: Attributes
 
 ### Description
 
-|  prefix | Description                                                                                                          |     Format     |       Example `@g.locale`  |
-|:-------:|:--------------------------------------------------------------------------------------------------------------------:|:--------------:| :-------------------------:| 
-|    &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance |  `&attribute`  |              `gr`          |
+| prefix |                                                     Description                                                      |    Format    | Example `&g.locale` |
+| :----: | :------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
+|   &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance | `&attribute` |        `gr`         |
 
 ### List of Attributes
 

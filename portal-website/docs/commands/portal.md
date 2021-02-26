@@ -4,7 +4,22 @@ title: portal
 sidebar_label: portal
 ---
 
-> Description: _Create portal channel or sets as portal channel_<br />
-> Arguments  : _!channel\_name \| @category\_name_<br />
-> Accessible : _admin_<br />
-> Cooldown   : _admin_<br />
+|                               Description                               |               Argument                | Accessible | Cooldown |
+| :---------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+| Creates a new portal channel or sets<br />the current channel as portal | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+
+## Examples
+
+* Lets say you want to create a new portal channel, you would type
+    ```bash
+    ./portal channel_spawner
+    ```
+
+    This would create a new portal channel called _channel_spawner_.
+
+* Lets say you want to create a new portal channel under a category, you would type
+    ```bash
+    ./portal channel_spawner | portal
+    ```
+
+    This would create a new portal channel called _channel_spawner_ under category _portal_.

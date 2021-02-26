@@ -4,7 +4,15 @@ title: setup
 sidebar_label: setup
 ---
 
-> Description: _Creates an announcement, spotify, url-only and music channel_<br />
-> Arguments  : _none_<br />
-> Accessible : _admin_<br />
-> Cooldown   : _10 minutes per admin_<br />
+|                         Description                          | Argument | Accessible |   Cooldown    |
+| :----------------------------------------------------------: | :------: | :--------: | :-----------: |
+| Creates an announcement, spotify, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
+
+## Examples
+
+* Lets say you want to setup your server, you would type
+    ```bash
+    ./setup
+    ```
+
+    This would create a new announcement, spotify, url-only and music channel under one category, to get you started.

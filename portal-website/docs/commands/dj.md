@@ -4,7 +4,14 @@ title: dj
 sidebar_label: dj
 ---
 
-> Description: _Sets given member as a dj_<br />
-> Arguments  : _!member\_id_<br />
-> Accessible : _admin_<br />
-> Cooldown   : _admin_<br />
+|        Description        |    Argument     | Accessible | Cooldown |
+| :-----------------------: | :-------------: | :--------: | :------: |
+| Sets given member as a dj | __!member\_id__ |  `admin`   |  `none`  |
+
+## Examples
+
+* Lets say you want to make a member called Mallory with id (228666893068795905) a dj, you would type
+    ```bash
+    ./dj 228666893068795905
+    ```
+    > Note that you cant authorise with name as someone could change their name to get authorised

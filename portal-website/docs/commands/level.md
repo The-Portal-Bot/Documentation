@@ -4,7 +4,13 @@ title: level
 sidebar_label: level
 ---
 
-> Description: _Returns your level_<br />
-> Arguments  : _none_<br />
-> Accessible : _everyone_<br />
-> Cooldown   : _-_<br />
+|    Description     | Argument | Accessible | Cooldown |
+| :----------------: | :------: | :--------: | :------: |
+| Returns your level | __none__ | `everyone` |  `none`  |
+
+## Examples
+
+* Lets say you want to get your current level card, you would type
+    ```bash
+    ./level
+    ```

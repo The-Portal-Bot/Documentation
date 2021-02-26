@@ -6,9 +6,9 @@ sidebar_label: Variables
 
 ### Description
 
-|  prefix | Description                                                   |     Format     |          Example `$status_list`        |
-|:-------:|:-------------------------------------------------------------:|:--------------:| :-------------------------------------:| 
-|    $    | Variables are immutable and live data that return information |   `$variable`  |    `CS:GO`<br />or<br />`CS:GO, Apex`  |
+| prefix |                          Description                          |   Format    |       Example `$status_list`       |
+| :----: | :-----------------------------------------------------------: | :---------: | :--------------------------------: |
+|   $    | Variables are immutable and live data that return information | `$variable` | `CS:GO`<br />or<br />`CS:GO, Apex` |
 
 ## List of Variables
 | Variable              | Description                          |

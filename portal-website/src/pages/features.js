@@ -62,8 +62,8 @@ const features = [
     imageUrl: 'svg/music.svg',
     description: (
       <>
-        Portal is streaming the best quality music there is.
-        Make use of it in your music channl.
+        The easiest way to add music to your server. there
+        your are only one channel and one name away of your songs !
       </>
     ),
   }
@@ -95,7 +95,7 @@ function Home() {
           <h1 className="hero__title">Features</h1>
           <p className="hero__subtitle">
             You can think of features as the aftermath
-            of a command or the passives of Portal
+            of a command or things Portal does by default
           </p>
         </div>
       </header>

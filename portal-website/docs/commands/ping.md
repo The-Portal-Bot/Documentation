@@ -4,7 +4,13 @@ title: ping
 sidebar_label: ping
 ---
 
-> Description: _Returns round trip latency_<br />
-> Arguments  : _none_<br />
-> Accessible : _everyone_<br />
-> Cooldown   : _-_<br />
+|                 Description                 | Argument | Accessible | Cooldown |
+| :-----------------------------------------: | :------: | :--------: | :------: |
+| Pings Portal and returns round trip latency | __none__ | `everyone` |  `none`  |
+
+## Examples
+
+* Lets say you want to learn the latency to Portal, you would type
+    ```bash
+    ./ping
+    ```

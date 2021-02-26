@@ -4,7 +4,22 @@ title: spotify
 sidebar_label: spotify
 ---
 
-> Description: _Creates a new or sets the current channel as spotify channel_<br />
-> Arguments  : _none_<br />
-> Accessible : _none_<br />
-> Cooldown   : _admin_<br />
+|                                Description                                |               Argument                | Accessible | Cooldown |
+| :-----------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+| Creates a new spotify channel or sets<br />the current channel as spotify | __@channel\_name \| @category\_name__ |  `admin`   |  `none`  |
+
+## Examples
+
+* Lets say you want to create a new spotify channel, you would type
+    ```bash
+    ./spotify listening_list
+    ```
+
+    This would create a new spotify channel called _listening_list_.
+
+* Lets say you want to create a new spotify channel under a category, you would type
+    ```bash
+    ./spotify listening_list | spotify
+    ```
+
+    This would create a new spotify channel called _listening_list_ under category _spotify_.

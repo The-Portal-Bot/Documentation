@@ -6,9 +6,9 @@ sidebar_label: Structures
 
 ### Description
 
-|  prefix |   sufix  | Description                                  |
-|:-------:|:--------:|:--------------------------------------------:|
-|    {{   |     }}   | Structures are conditional flow manipulators |
+| prefix | sufix |                 Description                  |
+| :----: | :---: | :------------------------------------------: |
+|   {{   |  }}   | Structures are conditional flow manipulators |
 
 #### Format
 

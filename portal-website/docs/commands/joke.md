@@ -4,7 +4,19 @@ title: joke
 sidebar_label: joke
 ---
 
-> Description: _Replies with a joke_<br />
-> Arguments  : _@category_<br />
-> Accessible : _everyone_<br />
-> Cooldown   : _-_<br />
+|     Description     |   Argument    | Accessible | Cooldown |
+| :-----------------: | :-----------: | :--------: | :------: |
+| Replies with a joke | __@category__ | `everyone` |  `none`  |
+> Note that category can be dad, chuck or blonde
+
+## Examples
+
+* Lets say you want to get a joke from Portal, you would type
+    ```bash
+    ./joke
+    ```
+
+* Lets say you want to get a dad joke from Portal, you would type
+    ```bash
+    ./joke dad
+    ```

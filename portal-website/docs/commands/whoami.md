@@ -4,7 +4,13 @@ title: whoami
 sidebar_label: whoami
 ---
 
-> Description: _Replies with the your portal stats_<br />
-> Arguments  : _none_<br />
-> Accessible : _everyone_<br />
-> Cooldown   : _-_<br />
+|                   Description                   | Argument | Accessible | Cooldown |
+| :---------------------------------------------: | :------: | :--------: | :------: |
+| Replies with the your personal information card | __none__ | `everyone` |  `none`  |
+
+## Examples
+
+* Lets say you want to get your information card, you would type
+    ```bash
+    ./whoami
+    ```

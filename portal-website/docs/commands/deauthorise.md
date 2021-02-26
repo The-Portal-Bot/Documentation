@@ -4,7 +4,19 @@ title: deauthorise
 sidebar_label: deauthorise
 ---
 
-> Description: _Removes role from admin roles_<br />
-> Arguments  : _!role_<br />
-> Accessible : _admin_<br />
-> Cooldown   : _admin_<br />
+|         Description          |        Argument         | Accessible | Cooldown |
+| :--------------------------: | :---------------------: | :--------: | :------: |
+| Deauthorise a role or member | __!role or member\_id__ |  `admin`   |  `none`  |
+
+## Examples
+
+* Lets say you want to deauthorise a member called Mallory with id (228666893068795905), you would type
+    ```bash
+    ./deauthorise 228666893068795905
+    ```
+    > Note that you cant deauthorise with name as someone could change their name to get deauthorised
+
+* Lets say you want to add role _Admins_ to deauthorised roles, you would type
+    ```bash
+    ./deauthorise Admins
+    ```

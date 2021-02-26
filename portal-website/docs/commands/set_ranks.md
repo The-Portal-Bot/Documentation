@@ -4,7 +4,24 @@ title: set_ranks
 sidebar_label: set_ranks
 ---
 
-> Description: _Sets roles that will be given when said level reached_<br />
-> Arguments  : _rank json_<br />
-> Accessible : _voice-portal owner, admin_<br />
-> Cooldown   : _admin_<br />
+|                     Description                      | Argument | Accessible | Cooldown |
+| :--------------------------------------------------: | :------: | :--------: | :------: |
+| Sets roles that will be given when said level reache | __none__ |  `admin`   |  `none`  |
+
+## Examples
+
+* Lets say you want to create a new ranking system for your server, you would type
+    ```json
+    ./set_ranks [
+        {
+            "level": "10",
+            "role": "newbie"
+        },
+        {
+            "level": "100",
+            "role": "admin"
+        }
+    ]
+    ```
+
+    This would create a ranking system by which you would be given role `newbie` when reaching level `10` and `admin` at level `100`.Í

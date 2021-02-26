@@ -4,7 +4,13 @@ title: join
 sidebar_label: join
 ---
 
-> Description: _Joins current voice channel and announces events_<br />
-> Arguments  : _none_<br />
-> Accessible : _everyone_<br />
-> Cooldown   : _1 minute per user_<br />
+|         Description          | Argument | Accessible |   Cooldown    |
+| :--------------------------: | :------: | :--------: | :-----------: |
+| Joins current voice channel_ | __none__ | `everyone` | `1min/member` |
+
+## Examples
+
+* Lets say you want Portal to join your voice channel, you would type
+    ```bash
+    ./join
+    ```

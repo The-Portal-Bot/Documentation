@@ -6,6 +6,11 @@
  * and scoped locally.
  */
 
+.heroRest {
+    padding: 4rem 0;
+    text-align: center;
+}
+
 .heroBanner {
     padding: 4rem 0;
     text-align: center;

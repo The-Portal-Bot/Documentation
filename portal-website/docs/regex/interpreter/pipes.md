@@ -6,9 +6,9 @@ sidebar_label: Pipes
 
 ### Description
 
-|  prefix | Description                                                                         |     Format     |       Example @g.locale \| upperCase  |
-|:-------:|:-----------------------------------------------------------------------------------:|:--------------:| :-------------------------------------:| 
-|    \|    | Pipes are mini functions you can pass text or Variables to manipulate their outcome |     \| pipe    |                   `GR`                 |
+| prefix |                                     Description                                     | Format  | Example &g.locale \| upperCase |
+| :----: | :---------------------------------------------------------------------------------: | :-----: | :----------------------------: |
+|   \|   | Pipes are mini functions you can pass text or Variables to manipulate their outcome | \| pipe |              `GR`              |
 
 ### List of Attributes
 
