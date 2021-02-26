@@ -4,23 +4,28 @@ title: Structures
 sidebar_label: Structures
 ---
 
-### Description
+### Structures
 
 | prefix | sufix |                 Description                  |
 | :----: | :---: | :------------------------------------------: |
 |   {{   |  }}   | Structures are conditional flow manipulators |
 
-#### Format
+### List of Attributes
+
+| Attributes | Description           |
+| :--------- | :-------------------- |
+| `if`       | conditional statement |
+
+#### Usage
 
 ```json 
 {{
-    "if": "string", "is": "string", "with": "string",
-    "yes": "string", "no": "string"
+    "if": "@status_list", "is": "===", "with": "CS:GO",
+    "yes": "$member_count/5", "no": "is not CS"
 }}
 ```
 
-### List of Attributes
-
-| Attributes | Description           | Usage                                                                                           |
-| :--------- | :-------------------- | :---------------------------------------------------------------------------------------------- |
-| `if`       | conditional statement | `{{ "if": "John", "is": "===", "with": "John", "yes": "same name", "no": "not the same name"}}` |
+will become
+```
+If you're playing CS:GO: 4/5 (if 4 members in channel), if not: is not CS
+```

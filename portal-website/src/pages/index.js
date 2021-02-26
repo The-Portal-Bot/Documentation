@@ -61,14 +61,32 @@ function Home() {
           <p className={clsx(styles.buttons)}>
             <h1 className={clsx('hero__subtitle', styles.marginRight)}>Portal can be in the center of your server</h1>
             <img className={clsx(styles.featureImage, styles.marginRight)} src={logo} alt={title} />
-            <h1 className={clsx('hero__subtitle')}>and help you achieve that you want !</h1>
+            <h1 className={clsx('hero__subtitle')}>and help you achieve that you want</h1>
+          </p>
+          <hr className={clsx('hero__subtitle', styles.horizontalLine)} />
+          <p className={clsx('hero__subtitle', styles.marginRight)}>
+            With Portal's <Link
+              className={clsx(
+                styles.linkHighlight,
+              )}
+              to={useBaseUrl('features/')}>
+              Features
+            </Link> and <Link
+              className={clsx(
+                styles.linkHighlight,
+              )}
+              to={useBaseUrl('commands/')}>
+              Commands
+            </Link>
+            <br />you can have an organised
+            and fully functional server in just a few steps
           </p>
         </div>
       </main>
 
-      <main className={clsx('hero hero--primary', styles.heroRest, styles.heroBanner)}>
-        <div className="container">
-          <p className="">
+      {/* <main className={clsx('hero hero--primary', styles.flexit, styles.heroBanner)}>
+        <div className={clsx('container', styles.heroRest)}>
+          <p>
             With Portal's Features and Commands <Link
               className={clsx(
                 styles.linkHighlight,
@@ -85,7 +103,8 @@ function Home() {
             and fully functional server in just a few steps
           </p>
         </div>
-      </main>
+      </main> */}
+
     </Layout>
   );
 }

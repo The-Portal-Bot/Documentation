@@ -6,7 +6,14 @@
  * and scoped locally.
  */
 
-.heroRest {}
+.heroRest {
+    flex-flow: 100;
+}
+
+.horizontalLine {
+    border: 2px;
+    border-color: black;
+}
 
 .heroBanner {
     padding: 4rem 0;

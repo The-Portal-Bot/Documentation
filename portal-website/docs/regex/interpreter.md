@@ -17,27 +17,27 @@ __CS:GO__.
 
 ### [Variables](interpreter/variables)
 
-|  prefix | Description                                                   |     Format     |          Example `$status_list`        |
-|:-------:|:-------------------------------------------------------------:|:--------------:| :-------------------------------------:| 
-|    $    | Variables are immutable and live data that return information |   `$variable`  |    `CS:GO`<br />or<br />`CS:GO, Apex`  |
+| prefix |                          Description                          |   Format    |       Example `$status_list`       |
+| :----: | :-----------------------------------------------------------: | :---------: | :--------------------------------: |
+|   $    | Variables are immutable and live data that return information | `$variable` | `CS:GO`<br />or<br />`CS:GO, Apex` |
 
 ### [Attributes](interpreter/attributes)
 
-|  prefix | Description                                                                                                          |     Format     |       Example `@g.locale`  |
-|:-------:|:--------------------------------------------------------------------------------------------------------------------:|:--------------:| :-------------------------:| 
-|    &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance |  `&attribute`  |              `gr`          |
+| prefix |                                                     Description                                                      |    Format    | Example `@g.locale` |
+| :----: | :------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
+|   &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance | `&attribute` |        `gr`         |
 
 ### [Pipes](interpreter/pipes)
 
-|  prefix | Description                                                                         |     Format     |       Example @g.locale \| upperCase  |
-|:-------:|:-----------------------------------------------------------------------------------:|:--------------:| :-------------------------------------:| 
-|    \|    | Pipes are mini functions you can pass text or Variables to manipulate their outcome |     \| pipe    |                   `GR`                 |
+| prefix |                                     Description                                     | Format  | Example @g.locale \| upperCase |
+| :----: | :---------------------------------------------------------------------------------: | :-----: | :----------------------------: |
+|   \|   | Pipes are mini functions you can pass text or Variables to manipulate their outcome | \| pipe |              `GR`              |
 
 ### [Structures](interpreter/structures)
 
-|  prefix |   sufix  | Description                                  |
-|:-------:|:--------:|:--------------------------------------------:|
-|    {{   |     }}   | Structures are conditional flow manipulators |
+| prefix | sufix |                 Description                  |
+| :----: | :---: | :------------------------------------------: |
+|   {{   |  }}   | Structures are conditional flow manipulators |
 
 #### Format
 
@@ -56,6 +56,7 @@ __CS:GO__.
     "yes": "$member_count/5", "no": "is not CS"
 }}
 ```
+
 will become
 ```
 If you're playing CS:GO: 4/5 (if 4 members in channel), if not: is not CS
