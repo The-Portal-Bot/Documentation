@@ -24,7 +24,7 @@ module.exports = {
             // Dark/light switch icon options
             switchConfig: {
                 // Icon for the switch while in dark mode
-                darkIcon: '🥷🏿',
+                darkIcon: '\u{1F319}',
 
                 // CSS to apply to dark icon,
                 // React inline style object
@@ -35,7 +35,7 @@ module.exports = {
 
                 // Unicode icons such as '\u2600' will work
                 // Unicode with 5 chars require brackets: '\u{1F602}'
-                lightIcon: '🐤',
+                lightIcon: '\u2600',
 
                 lightIconStyle: {
                     marginLeft: '1px',
@@ -95,24 +95,20 @@ module.exports = {
                         {
                             label: 'Features',
                             to: 'features/',
-                        },
-                    ],
+                        }
+                    ]
                 },
                 {
-                    title: 'help',
+                    title: 'Help',
                     items: [{
-                            label: 'Portal Official Channel',
+                            label: 'Portal Official Server',
                             href: 'https://discord.com/invite/nuKXgFXr5y',
                         },
                         {
                             label: 'Github',
                             href: 'https://github.com/keybraker/Portal',
-                        },
-                        // {
-                        //     label: 'Twitter',
-                        //     href: 'https://twitter.com/docusaurus',
-                        // },
-                    ],
+                        }
+                    ]
                 },
                 {
                     title: 'More',
@@ -124,10 +120,10 @@ module.exports = {
                             label: 'Blog',
                             to: 'blog',
                         }
-                    ],
-                },
+                    ]
+                }
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Designed and Built by Ioannis Tsiakkas`,
+            copyright: `<br />Copyright © ${new Date().getFullYear()}<br />Designed and Built by Ioannis Tsiakkas`,
         },
     },
     presets: [

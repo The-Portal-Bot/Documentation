@@ -16,7 +16,8 @@ function AddButton({ imageUrl, title, link }) {
         styles.marginRight,
         styles.marginBottomSmall,
         'button button--outline button--secondary button--lg',
-        styles.buttons
+        styles.buttons,
+        styles.minWidth
       )}
       to={link}>
       <div className={clsx(styles.marginRightSmall)}>{title}</div>
@@ -51,7 +52,8 @@ function Home() {
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
-                styles.getStarted
+                styles.getStarted, 
+                styles.minWidth
               )}
               to={useBaseUrl('docs/')}>
               Documentation
@@ -63,9 +65,9 @@ function Home() {
       <main className={clsx('hero--secondary', styles.heroBanner)}>
         <div className="container">
           <p className={clsx(styles.buttons, styles.aligner)}>
-            <h1 className={clsx('hero__subtitle', styles.marginRight, styles.alignRight)}>Portal can be the center of your server</h1>
-            <img className={clsx(styles.featureImage, styles.marginRight, styles.marginBottom)} src={logo} alt={title} />
-            <h1 className={clsx('hero__subtitle', styles.alignLeft)}>and help you organise and grow it</h1>
+            <h1 className={clsx('hero__subtitle', styles.alignRight, styles.minMax)}>Portal can be the center of your server</h1>
+            <img className={clsx(styles.featureImage, styles.marginLeft, styles.marginRight)} src={logo} alt={title} />
+            <h1 className={clsx('hero__subtitle', styles.alignLeft, styles.minMax)}>and help you organise and grow it</h1>
           </p>
           <hr className={clsx('hero__subtitle', styles.horizontalLine)} />
           <p className={clsx('hero__subtitle', styles.marginRight)}>

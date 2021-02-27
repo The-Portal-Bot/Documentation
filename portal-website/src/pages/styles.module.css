@@ -61,8 +61,19 @@
 }
 
 .discordImage {
+    display: block;
+    margin: auto;
     height: 24px;
     width: 24px;
+}
+
+.minWidth {
+    width: 15rem;
+}
+
+.minMax {
+    width: 20rem;
+    max-width: 25rem;
 }
 
 .marginBottom {
@@ -71,6 +82,10 @@
 
 .marginRight {
     margin-right: 2rem;
+}
+
+.marginLeft {
+    margin-left: 2rem;
 }
 
 .marginRightSmall {
@@ -101,6 +116,11 @@ a:hover {
     text-align: right;
 }
 
+.aligner {
+    align-items: center;
+    flex-direction: row;
+}
+
 @media only screen and (max-width: 500px) {
     .marginBottom {
         margin-bottom: 2rem;
@@ -110,6 +130,9 @@ a:hover {
     }
     .marginRight {
         margin-right: 0rem;
+    }
+    .marginLeft {
+        margin-left: 0rem;
     }
     .alignLeft {
         text-align: center;
