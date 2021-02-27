@@ -65,6 +65,10 @@
     width: 24px;
 }
 
+.marginBottom {
+    margin-bottom: 0rem;
+}
+
 .marginRight {
     margin-right: 2rem;
 }
@@ -87,4 +91,34 @@ a:hover {
     color: rgb(0, 132, 255);
     background-color: transparent;
     text-decoration: none;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+@media only screen and (max-width: 500px) {
+    .marginBottom {
+        margin-bottom: 2rem;
+    }
+    .marginBottomSmall {
+        margin-bottom: 1rem;
+    }
+    .marginRight {
+        margin-right: 0rem;
+    }
+    .alignLeft {
+        text-align: center;
+    }
+    .alignRight {
+        text-align: center;
+    }
+    .aligner {
+        align-items: center;
+        flex-direction: column;
+    }
 }

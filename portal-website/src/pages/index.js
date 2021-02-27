@@ -1,10 +1,12 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import React from 'react';
 import styles from './styles.module.css';
+
+const urlInvite = 'https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot';
 
 function AddButton({ imageUrl, title, link }) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -12,8 +14,9 @@ function AddButton({ imageUrl, title, link }) {
     <Link
       className={clsx(
         styles.marginRight,
+        styles.marginBottomSmall,
         'button button--outline button--secondary button--lg',
-        styles.buttons,
+        styles.buttons
       )}
       to={link}>
       <div className={clsx(styles.marginRightSmall)}>{title}</div>
@@ -27,27 +30,28 @@ function AddButton({ imageUrl, title, link }) {
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-  const logo = "img/portal/portal_logo4.png";
+  const logo = "img/portal/portal_logo.png";
   const title = "portal logo";
 
   return (
     <Layout
       title={'Main'}
-      description="Portal main explanation">
+      description="Portal main">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
+          <div className={clsx(styles.buttons, styles.aligner)}>
             <AddButton
+              className={clsx(styles.marginBottom)}
               imageUrl="svg/discord_logo.svg"
               title="Add to Discord"
-              link="https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot"
+              link={urlInvite}
             />
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
-                styles.getStarted,
+                styles.getStarted
               )}
               to={useBaseUrl('docs/')}>
               Documentation
@@ -58,10 +62,10 @@ function Home() {
 
       <main className={clsx('hero--secondary', styles.heroBanner)}>
         <div className="container">
-          <p className={clsx(styles.buttons)}>
-            <h1 className={clsx('hero__subtitle', styles.marginRight)}>Portal can be in the center of your server</h1>
-            <img className={clsx(styles.featureImage, styles.marginRight)} src={logo} alt={title} />
-            <h1 className={clsx('hero__subtitle')}>and help you achieve that you want</h1>
+          <p className={clsx(styles.buttons, styles.aligner)}>
+            <h1 className={clsx('hero__subtitle', styles.marginRight, styles.alignRight)}>Portal can be the center of your server</h1>
+            <img className={clsx(styles.featureImage, styles.marginRight, styles.marginBottom)} src={logo} alt={title} />
+            <h1 className={clsx('hero__subtitle', styles.alignLeft)}>and help you organise and grow it</h1>
           </p>
           <hr className={clsx('hero__subtitle', styles.horizontalLine)} />
           <p className={clsx('hero__subtitle', styles.marginRight)}>
@@ -83,28 +87,6 @@ function Home() {
           </p>
         </div>
       </main>
-
-      {/* <main className={clsx('hero hero--primary', styles.flexit, styles.heroBanner)}>
-        <div className={clsx('container', styles.heroRest)}>
-          <p>
-            With Portal's Features and Commands <Link
-              className={clsx(
-                styles.linkHighlight,
-              )}
-              to={useBaseUrl('features/')}>
-              Features
-            </Link> and <Link
-              className={clsx(
-                styles.linkHighlight,
-              )}
-              to={useBaseUrl('commands/')}>
-              Commands
-            </Link>, you can have an organised<br />
-            and fully functional server in just a few steps
-          </p>
-        </div>
-      </main> */}
-
     </Layout>
   );
 }

@@ -6,7 +6,7 @@ sidebar_label: Help
 
 ## Documentation
 
-You can find the detailed Documentation [here](docs)
+You can find the detailed Documentation [here](/docs)
 
 ---
 
