@@ -6,7 +6,7 @@ sidebar_label: deauthorise
 
 |         Description          |        Argument         | Accessible | Cooldown |
 | :--------------------------: | :---------------------: | :--------: | :------: |
-| Deauthorise a role or member | __!role or member\_id__ |  `admin`   |  `none`  |
+| Deauthorise a role or member | __!role or !member\_id__ |  `admin`   |  `none`  |
 
 ## Examples
 

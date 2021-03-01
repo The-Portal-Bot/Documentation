@@ -10,14 +10,14 @@ slug: /
 You can interact with portal only via a text channel.
 Portal **does not** resposd to private messages. You
 can make a request (command) by typing your prefix followed
-by the command as follows `./help`
+by the command as follows `./help`.
 
-## Commands
+## [Commands](commands)
 
 Portal has many different commands, which doing something different.
 There commands such as *weather* that replies with weather data, and there
 are commands as *music* that have a lasting effect as it spawns a music
-channel. *To se the full list of commands click [here](/docs/commands)*
+channel. *To see the full list of commands click [here](commands).*
 
 ## Music Player
 

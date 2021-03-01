@@ -21,8 +21,8 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 ### [announcement](/docs/commands/command_announcement)
 
-|                                     Description                                     |               Argument                | Accessible | Cooldown |
-| :---------------------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                                     Description                                     |         Argument          | Accessible | Cooldown |
+| :---------------------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new announcement channel or<br />sets the current channel as announcement | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [authorise](/docs/commands/command_authorise)
@@ -51,9 +51,9 @@ Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex.
 
 ### [deauthorise](/docs/commands/command_deauthorise)
 
-|         Description          |        Argument         | Accessible | Cooldown |
-| :--------------------------: | :---------------------: | :--------: | :------: |
-| Deauthorise a role or member | __!role or member\_id__ |  `admin`   |  `none`  |
+|         Description          |         Argument         | Accessible | Cooldown |
+| :--------------------------: | :----------------------: | :--------: | :------: |
+| Deauthorise a role or member | __!role or !member\_id__ |  `admin`   |  `none`  |
 
 ### [delete](/docs/commands/command_delete)
 
@@ -99,8 +99,8 @@ Note that if no time is given your focued channel will have a 5 minute life
 
 ### [ignore](/docs/commands/command_ignore)
 
-|                            Description                             |               Argument                | Accessible | Cooldown |
-| :----------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                            Description                             |         Argument          | Accessible | Cooldown |
+| :----------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [ignored](/docs/commands/command_ignored)
@@ -111,8 +111,8 @@ Note that if no time is given your focued channel will have a 5 minute life
 
 ### [join](/docs/commands/command_join)
 
-|                            Description                             |               Argument                | Accessible | Cooldown |
-| :----------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                            Description                             |         Argument          | Accessible | Cooldown |
+| :----------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [joke](/docs/commands/command_joke)
@@ -147,8 +147,8 @@ Note that category can be dad, chuck or blonde
 
 ### [music](/docs/commands/command_music)
 
-|                              Description                              |               Argument                | Accessible | Cooldown |
-| :-------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                              Description                              |         Argument          | Accessible | Cooldown |
+| :-------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new music channel or sets<br />the current channel as music | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [ping](/docs/commands/command_ping)
@@ -159,8 +159,8 @@ Note that category can be dad, chuck or blonde
 
 ### [portal](/docs/commands/command_portal)
 
-|                               Description                               |               Argument                | Accessible | Cooldown |
-| :---------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                               Description                               |         Argument          | Accessible | Cooldown |
+| :---------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new portal channel or sets<br />the current channel as portal | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [prefix](/docs/commands/command_prefix)
@@ -180,6 +180,12 @@ Note that category can be dad, chuck or blonde
 |                          Description                           |    Argument    | Accessible | Cooldown |
 | :------------------------------------------------------------: | :------------: | :--------: | :------: |
 | Replies with a message that gives roles when an emote is added | __!role_json__ |  `admin`   |  `none`  |
+
+:::warning
+
+For Portal to be able to assign roles, said roles must all be beneath Portal's role, in server settings
+
+:::
 
 ### [roll](/docs/commands/command_roll)
 
@@ -225,8 +231,8 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 ### [spotify](/docs/commands/command_spotify)
 
-|                                Description                                |               Argument                | Accessible | Cooldown |
-| :-----------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                                Description                                |         Argument          | Accessible | Cooldown |
+| :-----------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new spotify channel or sets<br />the current channel as spotify | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [state](/docs/commands/command_state)
@@ -237,8 +243,8 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 ### [url](/docs/commands/command_url)
 
-|                            Description                            |               Argument                | Accessible | Cooldown |
-| :---------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
+|                            Description                            |         Argument          | Accessible | Cooldown |
+| :---------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new url channel or sets<br />the current channel as url | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [weather](/docs/commands/command_weather)
