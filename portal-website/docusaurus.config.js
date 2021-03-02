@@ -133,7 +133,7 @@ module.exports = {
                         },
                         {
                             label: 'Top.gg',
-                            href: 'https://github.com/keybraker/Portal',
+                            href: 'https://top.gg/bot/704400876860735569',
                         }
                     ]
                 }
