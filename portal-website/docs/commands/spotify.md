@@ -4,7 +4,7 @@ title: spotify (deprecated)
 sidebar_label: spotify (deprecated)
 ---
 
-:::warning
+:::caution
 
 Deprecated: as it gave a little value and often lead to spam, it has been discontinued
 

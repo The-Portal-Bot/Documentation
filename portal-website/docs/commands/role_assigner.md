@@ -27,3 +27,9 @@ sidebar_label: role_assigner
     ```
 
     This would create message with which you could reply with `:thumbsup:` to be added to `moba` or for example `:dog:` to be removed from `fps`
+
+:::caution
+
+For Portal to be able to assign roles, said roles must all be beneath Portal's role, in server settings
+
+:::

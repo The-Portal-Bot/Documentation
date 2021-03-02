@@ -181,7 +181,7 @@ Note that category can be dad, chuck or blonde
 | :------------------------------------------------------------: | :------------: | :--------: | :------: |
 | Replies with a message that gives roles when an emote is added | __!role_json__ |  `admin`   |  `none`  |
 
-:::warning
+:::caution
 
 For Portal to be able to assign roles, said roles must all be beneath Portal's role, in server settings
 
@@ -231,15 +231,15 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 ### [spotify (deprecated)](/docs/commands/command_spotify)
 
-:::warning
+|                                Description                                |         Argument          | Accessible | Cooldown |
+| :-----------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
+| Creates a new spotify channel or sets<br />the current channel as spotify | __!channel \| @category__ |  `admin`   |  `none`  |
+
+:::caution
 
 Deprecated: as it gave a little value and often lead to spam, it has been discontinued
 
 :::
-
-|                                Description                                |         Argument          | Accessible | Cooldown |
-| :-----------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
-| Creates a new spotify channel or sets<br />the current channel as spotify | __!channel \| @category__ |  `admin`   |  `none`  |
 
 ### [state](/docs/commands/command_state)
 
