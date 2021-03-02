@@ -14,3 +14,5 @@ sidebar_label: state
     ```bash
     ./state
     ```
+
+    Portal will reply with the _current state of Portal controlled channels_ in an embedded card.

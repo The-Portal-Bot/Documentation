@@ -20,3 +20,5 @@ run is designed for you to test names before setting them to your channel
     ```bash
     ./run $member_list
     ```
+
+    If current members in channel are Alex and Mallory it will reply with `Alex, Mallory`

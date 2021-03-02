@@ -9,6 +9,18 @@ module.exports = {
     organizationName: 'keybraker',
     projectName: 'portal',
     themeConfig: {
+        // algolia: {
+        //     apiKey: 'YOUR_API_KEY',
+        //     indexName: 'YOUR_INDEX_NAME',
+
+        //     // Optional: see doc section bellow
+        //     contextualSearch: true,
+
+        //     // Optional: Algolia search parameters
+        //     searchParameters: {},
+
+        //     //... other Algolia params
+        // },
         colorMode: {
             // "light" | "dark"
             defaultMode: 'light',
@@ -101,6 +113,9 @@ module.exports = {
                 {
                     title: 'Help',
                     items: [{
+                            label: 'Help',
+                            to: 'help',
+                        }, {
                             label: 'Portal Official Server',
                             href: 'https://discord.com/invite/nuKXgFXr5y',
                         },
@@ -113,12 +128,12 @@ module.exports = {
                 {
                     title: 'More',
                     items: [{
-                            label: 'Help',
-                            to: 'help',
-                        },
-                        {
                             label: 'Blog',
                             to: 'blog',
+                        },
+                        {
+                            label: 'Top.gg',
+                            href: 'https://github.com/keybraker/Portal',
                         }
                     ]
                 }

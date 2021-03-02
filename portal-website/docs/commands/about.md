@@ -15,4 +15,4 @@ sidebar_label: about
     ./about
     ```
 
-    Portal will return an about message.
+    Portal will reply with an _About Portal_ embedded card.

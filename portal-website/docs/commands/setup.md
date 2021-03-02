@@ -6,7 +6,7 @@ sidebar_label: setup
 
 |                         Description                          | Argument | Accessible |   Cooldown    |
 | :----------------------------------------------------------: | :------: | :--------: | :-----------: |
-| Creates an announcement, spotify, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
+| Creates an announcement, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
 
 ## Examples
 
@@ -15,4 +15,4 @@ sidebar_label: setup
     ./setup
     ```
 
-    This would create a new announcement, spotify, url-only and music channel under one category, to get you started.
+    This would create a new announcement, url-only and music channel under one category, to get you started.

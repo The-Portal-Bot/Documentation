@@ -16,7 +16,6 @@ sidebar_label: leaderboard
     ```
 
     This will return the leaderboard with all members in server
-    > Think twice in big servers
 
 * Lets say you want to get only the top 10, you would type
     ```bash
@@ -24,4 +23,9 @@ sidebar_label: leaderboard
     ```
 
     This will return the leaderboard with all members in server
-    > Think twice in big servers
+
+:::tip
+
+Maximum amount of users to display is 25
+
+:::

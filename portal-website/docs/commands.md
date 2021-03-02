@@ -4,7 +4,8 @@ title: Commands
 sidebar_label: Commands
 ---
 
-Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex. ./about) you can access this command, and await a reply or action from Portal.
+Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex. ./about) 
+you can access this command, and await a reply or action from Portal.<br /><br />
 **Portal prefix: ./ *(default)***
 
 ### [about](/docs/commands/command_about)
@@ -227,7 +228,7 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 |                         Description                          | Argument | Accessible |   Cooldown    |
 | :----------------------------------------------------------: | :------: | :--------: | :-----------: |
-| Creates an announcement, spotify, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
+| Creates an announcement, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
 
 ### [spotify (deprecated)](/docs/commands/command_spotify)
 

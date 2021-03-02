@@ -14,3 +14,5 @@ sidebar_label: weather
     ```bash
     ./weather Athens
     ```
+
+    Portal will reply with a _current weather data for Athens Greece_ in an embedded card.

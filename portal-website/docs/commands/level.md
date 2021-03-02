@@ -14,3 +14,5 @@ sidebar_label: level
     ```bash
     ./level
     ```
+
+    Portal will reply with an _current level_ embedded card.

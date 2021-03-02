@@ -16,4 +16,9 @@ sidebar_label: prefix
     ```
 
     This would set Portal's prefix to `!`
-    _Note that if you cant remember your prefix, just type prefix and portal will inform you_
+
+:::tip
+
+If you cant remember your prefix, just type prefix and portal will inform you
+
+:::

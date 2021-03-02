@@ -15,4 +15,4 @@ sidebar_label: ranks
     ./ranks
     ```
 
-    This would return a list with ranks you get at certain levels, essentially the ranking system.
+    Portal will reply with a list with ranks you get at certain levels, essentially the ranking system.

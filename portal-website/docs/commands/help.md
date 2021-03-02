@@ -20,7 +20,21 @@ sidebar_label: help
     ./help force
     ```
 
-* Lets say you want to know all the commands Portal has, you would type
+* Lets say you want to know all the variables Portal has, you would type
     ```bash
-    ./help commands
+    ./help variables
     ```
+
+* Lets say you want to know all the variables guide Portal has, you would type
+    ```bash
+    ./help variables guide
+    ```
+
+:::tip
+
+help command can be given arguments:
+1.  [interpreter types](/docs/regex/interpreter) (ex. variables, pipes, etc)
+2.  [commands](/docs/commands) (ex. portal, focus, etc)
+3.  guides for example `./help variables guide` will reply on how to use variables.
+
+:::

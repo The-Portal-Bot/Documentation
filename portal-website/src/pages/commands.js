@@ -69,7 +69,7 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">Commands</h1>
           <p className="hero__subtitle">
-            One command away of greatness
+            One command away from greatness
           </p>
           <div className="container">
             <h3 className="hero__title">

@@ -19,6 +19,8 @@ sidebar_label: corona
     ./corona greece
     ```
 
+    Portal will reply with an _corona statitics for Greece_ embedded card.
+
 :::tip
 
 You can write the country either capital or lowercase

@@ -14,3 +14,5 @@ sidebar_label: whoami
     ```bash
     ./whoami
     ```
+
+    Portal will reply with a _personal_ embedded card.

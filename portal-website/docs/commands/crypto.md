@@ -14,3 +14,5 @@ sidebar_label: crypto
     ```bash
     ./crypto bitcoin | usd
     ```
+
+    Portal will reply with an _crypto statitics for bitcoin in USD_ embedded card.
