@@ -1,8 +1,14 @@
 ---
 id: command_spotify
-title: spotify
-sidebar_label: spotify
+title: spotify (deprecated)
+sidebar_label: spotify (deprecated)
 ---
+
+:::warning
+
+Deprecated: as it gave a little value and often lead to spam, it has been discontinued
+
+:::
 
 |                                Description                                |               Argument                | Accessible | Cooldown |
 | :-----------------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |

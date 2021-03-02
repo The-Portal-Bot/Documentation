@@ -81,7 +81,7 @@ Note that Portal will delete n + 1 messages as it will also delete the command t
 
 :::note
 
-Note that if no time is given your focued channel will have a 5 minute life
+If duration is not specified the channel will live until everyone has left
 
 :::
 
@@ -229,7 +229,13 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 | :----------------------------------------------------------: | :------: | :--------: | :-----------: |
 | Creates an announcement, spotify, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
 
-### [spotify](/docs/commands/command_spotify)
+### [spotify (deprecated)](/docs/commands/command_spotify)
+
+:::warning
+
+Deprecated: as it gave a little value and often lead to spam, it has been discontinued
+
+:::
 
 |                                Description                                |         Argument          | Accessible | Cooldown |
 | :-----------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
