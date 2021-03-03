@@ -158,17 +158,17 @@ Note that category can be dad, chuck or blonde
 | :-----------------------------------------: | :------: | :--------: | :------: |
 | Pings Portal and returns round trip latency | __none__ | `everyone` |  `none`  |
 
+### [poll](/docs/commands/command_poll)
+
+|                              Description                               |              Argument              | Accessible | Cooldown |
+| :--------------------------------------------------------------------: | :--------------------------------: | :--------: | :------: |
+| Replies with a message poll, that people can vote until owner stops it | __!poll_question \| [JSON array]__ | `everyone` |  `none`  |
+
 ### [portal](/docs/commands/command_portal)
 
 |                               Description                               |         Argument          | Accessible | Cooldown |
 | :---------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new portal channel or sets<br />the current channel as portal | __!channel \| @category__ |  `admin`   |  `none`  |
-
-### [prefix](/docs/commands/command_prefix)
-
-|         Description          |  Argument   | Accessible | Cooldown |
-| :--------------------------: | :---------: | :--------: | :------: |
-| Set the prefix of the server | __!prefix__ |  `admin`   |  `none`  |
 
 ### [ranks](/docs/commands/command_ranks)
 

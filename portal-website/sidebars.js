@@ -29,7 +29,6 @@ module.exports = {
                         'commands/command_music',
                         'commands/command_ping',
                         'commands/command_portal',
-                        'commands/command_prefix',
                         'commands/command_ranks',
                         'commands/command_role_assigner',
                         'commands/command_roll',

@@ -41,7 +41,7 @@ It provides:
 ---
 
 ### Q. **How do I create portal controlled channels ?**
-#### A. All portal channels are spawned in the same manner
+#### A. All portal channels are spawned in the same manner.
  
 Create a new portal (voice) that spawns voice channels
 1. `./portal my_portal` 
@@ -60,21 +60,28 @@ Create a new music/announcement/spotify (text)
 ---
 
 ### Q. **How do I remove a channel from its category ?**
-#### A. By typing the category it is as a comment `./announcement`
+#### A. By typing the category it is as a comment `./announcement`.
 
 ---
 
 ### Q. **How do I play music from music channel ?**
-#### A. Music channel is a text channel where you can Portal's music player resides
-    
+#### A. First create a music channel and then just type the song you want.
+
+Portal's music player resides in a text channel. Rather than requesting
+a song via a command you simply type the song you wish to listen in the
+music channel, and portal magically appears and plays it for you.
+
 Guide
-1. Find and enter music channel, in case you cant find it
-  1.1  run command `./state` to locate it
-  1.2 in case it does not exist create one with `./music my_music`
-2. Type in plain text the name of the song you want to listen too
-  *make sure you are inside a Portal controlled voice channel*
+1. Create a music channel by simply typing
+   ```
+   ./music my music channel
+   ```
+
+2. Go to the newly created music channel (run command `./state` to locate it)
+
+3. Type in plain text the name of the song you want to listen too
 
 ---
 
 ### Q. **How do I interact with music player ?**
-#### A. In music channel resides the music player, by reacting with given reactions you can**play**, **pause**, **skip**, **clear queue** and **portal disconnect** list and disconnect player
+#### A. In music channel resides the music player, by reacting with given reactions <br />you can**play**, **pause**, **skip**, **clear queue** and **portal disconnect** list and   disconnect player.

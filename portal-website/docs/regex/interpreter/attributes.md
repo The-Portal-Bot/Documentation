@@ -18,7 +18,12 @@ sidebar_label: Attributes
 | `v.ann_announce`    | _if announcements will be made in voice_                       | boolean | _true_                                 |
 | `p.ann_user`        | _if join/leave announcements will be made in voices of portal_ | boolean | _true_                                 |
 | `v.ann_user`        | _if join/leave announcements will be made in voice_            | boolean | _true_                                 |
+| `p.no_bots`          | _whether bots can join voices of portal_                       | boolean | _false_                                |
+| `v.no_bots`          | _whether bots can join voice_                                  | boolean | _false_                                |
+| `p.render`          | _whether Portal will render name voices of portal_             | boolean | _true_                                 |
+| `v.render`          | _whether Portal will render name voice_                        | boolean | _true_                                 |
 | `v.bitrate`         | _if voice's current bitrate_                                   | number  | _96000_                                |
+| `g.prefix`          | _Portal's prefix_                                              | string  | _./_                                   |
 | `g.locale`          | _global locale_                                                | enum    | _gr_, _en_, _de_                       |
 | `p.locale`          | _portal's locale_                                              | enum    | _gr_, _en_, _de_                       |
 | `v.locale`          | _voice's locale_                                               | enum    | _gr_, _en_, _de_                       |

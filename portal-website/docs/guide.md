@@ -19,11 +19,15 @@ There commands such as *weather* that replies with weather data, and there
 are commands as *music* that have a lasting effect as it spawns a music
 channel. *To see the full list of commands click [here](commands).*
 
-## Music Player
+## [Interpreter](regex/interpreter)
 
-Portal's music player resides in a text channel. Rather than requesting
-a song via a command you simply type the song you wish to listen in the
-music channel, and portal magically appears and plays it for you.
+Text Interpreter is a program used by Portal when asked to generate
+a channel's name. For example if you have set your voices name to
+`./set v.regex $status_list` portal knows thats `status_list` is a 
+variable, as it is proceded by the symbol _$_  (portal can read variables,
+attributes, pipes and structures as seen bellow).<br />
+So lets say you are playing Counter Strike, your channel's name will be
+__CS:GO__.
 
 <!-- ---
 
