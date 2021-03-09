@@ -26,18 +26,6 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 | :---------------------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Creates a new announcement channel or<br />sets the current channel as announcement | __!channel \| @category__ |  `admin`   |  `none`  |
 
-### [authorise](/docs/commands/command_authorise)
-
-|                           Description                            |         Argument         | Accessible | Cooldown |
-| :--------------------------------------------------------------: | :----------------------: | :--------: | :------: |
-| Authorise a role or member, adding <br />them to authorised list | __!role or !member\_id__ |  `admin`   |  `none`  |
-
-### [authorised_roles](/docs/commands/command_authorised_roles)
-
-|          Description           | Argument | Accessible | Cooldown |
-| :----------------------------: | :------: | :--------: | :------: |
-| Displayes all authorised roles | __none__ | `everyone` |  `none`  |
-
 ### [corona](/docs/commands/command_corona)
 
 |                    Description                     |     Argument      | Accessible | Cooldown |
@@ -50,12 +38,6 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 | :--------------------------------------------------------: | :-----------------------------: | :--------: | :------: |
 | Replies with the current price of requested cryptocurrency | __!cryptocurrency \| exchange__ | `everyone` |  `none`  |
 
-### [deauthorise](/docs/commands/command_deauthorise)
-
-|         Description          |         Argument         | Accessible | Cooldown |
-| :--------------------------: | :----------------------: | :--------: | :------: |
-| Deauthorise a role or member | __!role or !member\_id__ |  `admin`   |  `none`  |
-
 ### [delete](/docs/commands/command_delete)
 
 |                    Description                    |        Argument        | Accessible | Cooldown |
@@ -67,12 +49,6 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 Note that Portal will delete n + 1 messages as it will also delete the command to delete
 
 :::
-
-### [dj](/docs/commands/command_dj)
-
-|        Description        |    Argument     | Accessible | Cooldown |
-| :-----------------------: | :-------------: | :--------: | :------: |
-| Sets given member as a dj | __!member\_id__ |  `admin`   |  `none`  |
 
 ### [focus](/docs/commands/command_focus)
 
@@ -103,12 +79,6 @@ If duration is not specified the channel will live until everyone has left
 |                            Description                             |         Argument          | Accessible | Cooldown |
 | :----------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
 | Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
-
-### [ignored](/docs/commands/command_ignored)
-
-|         Description          | Argument | Accessible | Cooldown |
-| :--------------------------: | :------: | :--------: | :------: |
-| Displays all ignored members | __none__ | `everyone` |  `none`  |
 
 ### [join](/docs/commands/command_join)
 
@@ -226,21 +196,9 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 ### [setup](/docs/commands/command_setup)
 
-|                         Description                          | Argument | Accessible |   Cooldown    |
-| :----------------------------------------------------------: | :------: | :--------: | :-----------: |
+|                     Description                     | Argument | Accessible |   Cooldown    |
+| :-------------------------------------------------: | :------: | :--------: | :-----------: |
 | Creates an announcement, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
-
-### [spotify (deprecated)](/docs/commands/command_spotify)
-
-|                                Description                                |         Argument          | Accessible | Cooldown |
-| :-----------------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
-| Creates a new spotify channel or sets<br />the current channel as spotify | __!channel \| @category__ |  `admin`   |  `none`  |
-
-:::caution
-
-Deprecated: as it gave a little value and often lead to spam, it has been discontinued
-
-:::
 
 ### [state](/docs/commands/command_state)
 

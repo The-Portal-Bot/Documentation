@@ -26,8 +26,17 @@ the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)
 
 ## FAQ
 
+### Q. **How can I give members authority ?**
+#### A. You have to create roles `p.dj`, `p.admin` and `p.ignore` and assign them to users.
+
+| to         | give role  | description                                  |
+| :--------- | :--------- | :------------------------------------------- |
+| make dj    | `p.dj`     | A dj controls the music player without votes |
+| make admin | `p.admin`  | An admin can use all the authorised commands |
+| ignore     | `p.ignore` | An ignored member will be ignored by Portal  |
+
 ### Q. **What does Portal do ?**
-#### A. Portal is a fully functional multipurpose discord bot that helps you manage and organise your server
+#### A. Portal is a fully functional multipurpose discord bot that helps you manage and organise your server.
      
 It provides:
 1. Voice channels on demand (with auto-name update)
@@ -36,7 +45,7 @@ It provides:
 4. Music player that is clean and clutter free
 5. Portal will keep you up to speed, with voice announcements
 6. Get the latest on the corona virus and current weather
-7. Spotify / Announcement / URL-only channels
+7. Ignored / Announcement / URL-only channels
 
 ---
 
@@ -49,12 +58,12 @@ Create a new portal (voice) that spawns voice channels
 2. `./portal my_portal | my_category`
     will create a new portal channel named **my_portal** and category **my_category** and make **my_portal** as child
 
-Create a new music/announcement/spotify (text)
+Create a new music/announcement (text)
 1. `./music`
-    will make current channel music/announcement/spotify
+    will make current channel music/announcement
 2. `./music my_channel`
     will create a new requested type channel named **my_channel** and category **my_category** and make **my_portal** as child
-3. `./music my_channel| my_category`
+3. `./music my_channel | my_category`
     will create a new requested type channel named **my_channel** and category **my_category** and make **my_channel** as child
 
 ---
@@ -72,16 +81,13 @@ a song via a command you simply type the song you wish to listen in the
 music channel, and portal magically appears and plays it for you.
 
 Guide
-1. Create a music channel by simply typing
+1. Create a music channel by simply typing _(if it doesn't exist)_
    ```
    ./music my music channel
    ```
 
-2. Go to the newly created music channel (run command `./state` to locate it)
+2. Go to the newly created music channel _(run command `./state` to locate it)_
 
 3. Type in plain text the name of the song you want to listen too
 
----
-
-### Q. **How do I interact with music player ?**
-#### A. In music channel resides the music player, by reacting with given reactions <br />you can**play**, **pause**, **skip**, **clear queue** and **portal disconnect** list and   disconnect player.
+![Docusaurus with Keytar](/gif/music.gif)

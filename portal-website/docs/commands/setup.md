@@ -4,8 +4,8 @@ title: setup
 sidebar_label: setup
 ---
 
-|                         Description                          | Argument | Accessible |   Cooldown    |
-| :----------------------------------------------------------: | :------: | :--------: | :-----------: |
+|                     Description                     | Argument | Accessible |   Cooldown    |
+| :-------------------------------------------------: | :------: | :--------: | :-----------: |
 | Creates an announcement, url-only and music channel | __none__ |  `admin`   | `10min/admin` |
 
 ## Examples
