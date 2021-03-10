@@ -1,5 +1,5 @@
 ---
-id: command_focus
+id: focus
 title: focus
 sidebar_label: focus
 ---

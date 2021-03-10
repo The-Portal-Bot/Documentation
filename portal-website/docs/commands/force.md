@@ -1,5 +1,5 @@
 ---
-id: command_force
+id: force
 title: force
 sidebar_label: force
 ---

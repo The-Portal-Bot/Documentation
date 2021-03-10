@@ -1,12 +1,12 @@
 ---
-id: command_run
+id: run
 title: run
 sidebar_label: run
 ---
 
 |                     Description                      |      Argument      | Accessible | Cooldown |
 | :--------------------------------------------------: | :----------------: | :--------: | :------: |
-| Runs the given command string and returns its output | __!exec\_command__ | `everyone` |  `none`  |
+| Runs the given command string and returns its output | __!exec\__ | `everyone` |  `none`  |
 
 :::note
 

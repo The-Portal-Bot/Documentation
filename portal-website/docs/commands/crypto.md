@@ -1,5 +1,5 @@
 ---
-id: command_crypto
+id: crypto
 title: crypto
 sidebar_label: crypto
 ---

@@ -1,5 +1,5 @@
 ---
-id: command_music
+id: music
 title: music
 sidebar_label: music
 ---

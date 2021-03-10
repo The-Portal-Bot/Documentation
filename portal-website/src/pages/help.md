@@ -53,23 +53,36 @@ It provides:
 #### A. All portal channels are spawned in the same manner.
  
 Create a new portal (voice) that spawns voice channels
-1. `./portal my_portal` 
-    will create a new portal channel named **my_portal**
-2. `./portal my_portal | my_category`
-    will create a new portal channel named **my_portal** and category **my_category** and make **my_portal** as child
+1. will create a new portal channel named **my_portal**
+    ```bash
+        ./portal my_portal
+    ```
+2. will create a new portal channel named **my_portal** and category **my_category** and make **my_portal** as child
+    ```bash
+        ./portal my_portal | my_category
+    ```
 
 Create a new music/announcement (text)
-1. `./music`
-    will make current channel music/announcement
-2. `./music my_channel`
-    will create a new requested type channel named **my_channel** and category **my_category** and make **my_portal** as child
-3. `./music my_channel | my_category`
-    will create a new requested type channel named **my_channel** and category **my_category** and make **my_channel** as child
+1. will make current channel music/announcement
+    ```bash
+        ./music
+    ```
+2. will create a new requested type channel named **my_channel** and category **my_category** and make **my_portal** as child
+    ```bash
+        ./music my_channel
+    ```
+3. will create a new requested type channel named **my_channel** and category **my_category** and make **my_channel** as child
+    ```bash
+        ./music my_channel | my_category
+    ```
 
 ---
 
 ### Q. **How do I remove a channel from its category ?**
-#### A. By typing the category it is as a comment `./announcement`.
+#### A. You just have to write a message inside the channel with the category name
+
+For example lets say that you have a channel called _my-music_ which is the music channel,
+you just have to type `./music` and the channel will no longer be the music channel.
 
 ---
 
@@ -77,8 +90,8 @@ Create a new music/announcement (text)
 #### A. First create a music channel and then just type the song you want.
 
 Portal's music player resides in a text channel. Rather than requesting
-a song via a command you simply type the song you wish to listen in the
-music channel, and portal magically appears and plays it for you.
+a song via a command you simply type the song you wish to listen to, in the
+music channel, and portal magically appear and play it for you.
 
 Guide
 1. Create a music channel by simply typing _(if it doesn't exist)_

@@ -1,5 +1,5 @@
 ---
-id: command_help
+id: help
 title: help
 sidebar_label: help
 ---

@@ -1,5 +1,5 @@
 ---
-id: command_delete
+id: delete
 title: delete
 sidebar_label: delete
 ---

@@ -1,5 +1,5 @@
 ---
-id: command_roll
+id: roll
 title: roll
 sidebar_label: roll
 ---

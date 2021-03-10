@@ -1,5 +1,5 @@
 ---
-id: command_url
+id: url
 title: url
 sidebar_label: url
 ---

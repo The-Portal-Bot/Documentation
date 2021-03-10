@@ -1,5 +1,5 @@
 ---
-id: command_state
+id: state
 title: state
 sidebar_label: state
 ---

@@ -1,5 +1,5 @@
 ---
-id: command_role_assigner
+id: role_assigner
 title: role_assigner
 sidebar_label: role_assigner
 ---

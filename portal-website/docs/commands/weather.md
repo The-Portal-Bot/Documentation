@@ -1,5 +1,5 @@
 ---
-id: command_weather
+id: weather
 title: weather
 sidebar_label: weather
 ---

@@ -1,5 +1,5 @@
 ---
-id: command_corona
+id: corona
 title: corona
 sidebar_label: corona
 ---    
@@ -19,7 +19,7 @@ sidebar_label: corona
     ./corona greece
     ```
 
-    Portal will reply with an _corona statitics for Greece_ embedded card.
+    Portal will reply with an embedded card that has the _corona statitics for Greece_.
 
 :::tip
 

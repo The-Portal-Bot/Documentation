@@ -1,5 +1,5 @@
 ---
-id: command_leaderboard
+id: leaderboard
 title: leaderboard
 sidebar_label: leaderboard
 ---

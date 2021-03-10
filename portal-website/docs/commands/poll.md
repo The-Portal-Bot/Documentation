@@ -1,5 +1,5 @@
 ---
-id: command_poll
+id: poll
 title: poll
 sidebar_label: poll
 ---

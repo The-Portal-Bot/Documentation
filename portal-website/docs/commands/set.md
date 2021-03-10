@@ -1,5 +1,5 @@
 ---
-id: command_set
+id: set
 title: set
 sidebar_label: set
 ---

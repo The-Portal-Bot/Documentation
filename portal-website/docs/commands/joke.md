@@ -1,5 +1,5 @@
 ---
-id: command_joke
+id: joke
 title: joke
 sidebar_label: joke
 ---

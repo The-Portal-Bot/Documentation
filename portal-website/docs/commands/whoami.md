@@ -1,5 +1,5 @@
 ---
-id: command_whoami
+id: whoami
 title: whoami
 sidebar_label: whoami
 ---

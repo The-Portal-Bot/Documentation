@@ -1,5 +1,5 @@
 ---
-id: command_ignore
+id: ignore
 title: ignore
 sidebar_label: ignore
 ---

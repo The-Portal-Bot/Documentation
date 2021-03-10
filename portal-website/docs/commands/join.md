@@ -1,5 +1,5 @@
 ---
-id: command_join
+id: join
 title: join
 sidebar_label: join
 ---

@@ -1,5 +1,5 @@
 ---
-id: command_about
+id: about
 title: about
 sidebar_label: about
 ---

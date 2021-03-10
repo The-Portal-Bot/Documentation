@@ -1,5 +1,5 @@
 ---
-id: command_level
+id: level
 title: level
 sidebar_label: level
 ---

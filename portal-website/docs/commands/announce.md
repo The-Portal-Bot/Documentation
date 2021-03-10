@@ -1,5 +1,5 @@
 ---
-id: command_announce
+id: announce
 title: announce
 sidebar_label: announce
 ---

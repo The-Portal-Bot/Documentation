@@ -1,5 +1,5 @@
 ---
-id: command_portal
+id: portal
 title: portal
 sidebar_label: portal
 ---

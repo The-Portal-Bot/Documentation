@@ -1,5 +1,5 @@
 ---
-id: command_set_ranks
+id: set_ranks
 title: set_ranks
 sidebar_label: set_ranks
 ---

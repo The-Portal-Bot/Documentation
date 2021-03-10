@@ -1,5 +1,5 @@
 ---
-id: command_leave
+id: leave
 title: leave
 sidebar_label: leave
 ---

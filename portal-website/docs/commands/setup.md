@@ -1,5 +1,5 @@
 ---
-id: command_setup
+id: setup
 title: setup
 sidebar_label: setup
 ---
