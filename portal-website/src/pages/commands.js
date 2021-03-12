@@ -78,7 +78,7 @@ function Home() {
                   'button button--outline button--secondary button--lg',
                   styles.getStarted,
                 )}
-                to={useBaseUrl('docs/commands/')}>
+                to={useBaseUrl('docs/commands/description')}>
                 All Commands
               </Link>
             </h3>

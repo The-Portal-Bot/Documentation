@@ -33,8 +33,8 @@ sidebar_label: help
 :::tip
 
 help command can be given arguments:
-1.  [interpreter types](/docs/regex/interpreter) (ex. variables, pipes, etc)
-2.  [commands](/docs/commands) (ex. portal, focus, etc)
+1.  [interpreter types](/docs/interpreter/description) (ex. variables, pipes, etc)
+2.  [commands](/docs/commands/description) (ex. portal, focus, etc)
 3.  guides for example `./help variables guide` will reply on how to use variables.
 
 :::
