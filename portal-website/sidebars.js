@@ -108,19 +108,18 @@ module.exports = {
                         'interpreter/objects/pipes/description',
                         {
                             'All Pipes': [
-                                'interpreter/objects/pipes/detailed/upperCase',
-                                'interpreter/objects/pipes/detailed/lowerCase',
+                                'interpreter/objects/pipes/detailed/camelCase',
                                 'interpreter/objects/pipes/detailed/capitalise',
                                 'interpreter/objects/pipes/detailed/decapitalise',
-                                'interpreter/objects/pipes/detailed/souvlakiCase',
-                                'interpreter/objects/pipes/detailed/snakeCase',
-                                'interpreter/objects/pipes/detailed/titleCase',
-                                'interpreter/objects/pipes/detailed/camelCase',
-                                'interpreter/objects/pipes/detailed/acronym',
-                                'interpreter/objects/pipes/detailed/word',
+                                'interpreter/objects/pipes/detailed/length',
+                                'interpreter/objects/pipes/detailed/lowerCase',
                                 'interpreter/objects/pipes/detailed/populous_count',
                                 'interpreter/objects/pipes/detailed/populous',
-                                'interpreter/objects/pipes/detailed/summary_count'
+                                'interpreter/objects/pipes/detailed/snakeCase',
+                                'interpreter/objects/pipes/detailed/souvlakiCase',
+                                'interpreter/objects/pipes/detailed/titleCase',
+                                'interpreter/objects/pipes/detailed/upperCase',
+                                'interpreter/objects/pipes/detailed/words'
                             ]
                         }
                     ],

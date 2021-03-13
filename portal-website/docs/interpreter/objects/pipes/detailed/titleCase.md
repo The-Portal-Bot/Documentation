@@ -4,6 +4,20 @@ title: titleCase
 sidebar_label: titleCase
 ---
 
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an titleCase of the input_ | string |
+### Description
+
+_returns an titleCase of the input_
+
+### Input Type
+
+string, string array
+
+### Output Type
+
+string
+
+### Example
+
+|             input              |       output        |
+| :----------------------------: | :-----------------: |
+| __IOANNISTSIAKKAS\|titleCase__ | __Ioannistsiakkas__ |

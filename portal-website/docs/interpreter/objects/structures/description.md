@@ -12,6 +12,6 @@ sidebar_label: Description
 
 ### [if](/docs/interpreter/objects/structures/detailed/if)
 
-|                        Description                         |
-| :--------------------------------------------------------: |
-| _Conditional return, in programming a simple if statement_ |
+|                         Description                         |
+| :---------------------------------------------------------: |
+| _Conditional outcome, in programming a simple if statement_ |

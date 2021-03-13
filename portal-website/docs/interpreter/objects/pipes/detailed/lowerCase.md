@@ -4,6 +4,20 @@ title: lowerCase
 sidebar_label: lowerCase
 ---
 
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an lowerCase of the input_ | string |
+### Description
+
+_returns an lowercase of the input_
+
+### Input Type
+
+string, string array
+
+### Output Type
+
+string
+
+### Example
+
+|         input          |   output    |
+| :--------------------: | :---------: |
+| __IOANNIS\|lowerCase__ | __ioannis__ |

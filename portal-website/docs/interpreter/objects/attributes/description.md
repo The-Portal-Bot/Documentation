@@ -8,6 +8,8 @@ sidebar_label: Description
 | :----: | :------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
 |   &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance | `&attribute` |        `gr`         |
 
+Attributes have three categories _global, portal, voice and member_. You can recognise the category of an attribute by the prefix in its name, for example ___p.locale___ refers to the locale of the portal whereas ___g.prefix___ refers to the prefix of the bot.
+
 ## List of Attributes
 
 ### [p.ann_announce](/docs/interpreter/objects/attributes/detailed/p.ann_announce)

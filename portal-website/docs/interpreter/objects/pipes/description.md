@@ -10,71 +10,41 @@ sidebar_label: Description
 
 ## List of Pipes
 
-### [upperCase](/docs/interpreter/objects/pipes/detailed/upperCase)
+### [camelCase](/docs/interpreter/objects/pipes/detailed/camelCase)
 
 |             Description             |  Type  |
 | :---------------------------------: | :----: |
-| _returns an upperCase of the input_ | string |
+| _returns an camelcase of the input_ | string |
+
+### [capitalise](/docs/interpreter/objects/pipes/detailed/capitalise)
+
+|                                     Description                                      |  Type  |
+| :----------------------------------------------------------------------------------: | :----: |
+| _returns the input capitalised, the first letter capitalcase and the rest lowercase_ | string |
+
+### [decapitalise](/docs/interpreter/objects/pipes/detailed/decapitalise)
+
+|                                      Description                                       |  Type  |
+| :------------------------------------------------------------------------------------: | :----: |
+| _returns the input decapitalised, the first letter lowercase and the rest capitalcase_ | string |
+
+### [length](/docs/interpreter/objects/pipes/detailed/length)
+
+|         Description          |  Type  |
+| :--------------------------: | :----: |
+| _returns the length of text_ | number |
 
 ### [lowerCase](/docs/interpreter/objects/pipes/detailed/lowerCase)
 
 |             Description             |  Type  |
 | :---------------------------------: | :----: |
-| _returns an lowerCase of the input_ | string |
-
-### [capitalise](/docs/interpreter/objects/pipes/detailed/capitalise)
-
-|           Description           |  Type  |
-| :-----------------------------: | :----: |
-| _returns the input capitalised_ | string |
-
-### [decapitalise](/docs/interpreter/objects/pipes/detailed/decapitalise)
-
-|            Description            |  Type  |
-| :-------------------------------: | :----: |
-| _returns the input decapitalised_ | string |
-
-### [souvlakiCase](/docs/interpreter/objects/pipes/detailed/souvlakiCase)
-
-|              Description               |  Type  |
-| :------------------------------------: | :----: |
-| _returns an souvlakiCase of the input_ | string |
-
-### [snakeCase](/docs/interpreter/objects/pipes/detailed/snakeCase)
-
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an snakeCase of the input_ | string |
-
-### [titleCase](/docs/interpreter/objects/pipes/detailed/titleCase)
-
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an titleCase of the input_ | string |
-
-### [camelCase](/docs/interpreter/objects/pipes/detailed/camelCase)
-
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an camelCase of the input_ | string |
-
-### [acronym](/docs/interpreter/objects/pipes/detailed/acronym)
-
-|            Description            |  Type  |
-| :-------------------------------: | :----: |
-| _returns an acronym of the input_ | string |
-
-### [word](/docs/interpreter/objects/pipes/detailed/word)
-
-|           Description           |  Type  |
-| :-----------------------------: | :----: |
-| _returns \# words of the input_ | string |
+| _returns an lowercase of the input_ | string |
 
 ### [populous_count](/docs/interpreter/objects/pipes/detailed/populous_count)
 
-|                    Description                     |  Type  |
-| :------------------------------------------------: | :----: |
-| _returns the count of most common element in list_ | number |
+|                               Description                               |  Type  |
+| :---------------------------------------------------------------------: | :----: |
+| _returns the number of times the most common element was found in list_ | number |
 
 ### [populous](/docs/interpreter/objects/pipes/detailed/populous)
 
@@ -82,8 +52,32 @@ sidebar_label: Description
 | :---------------------------------------------------: | :---: |
 | _returns the name of the most common element in list_ | list  |
 
-### [summary_count](/docs/interpreter/objects/pipes/detailed/summary_count)
+### [snakeCase](/docs/interpreter/objects/pipes/detailed/snakeCase)
 
-|                  Description                   |  Type  |
-| :--------------------------------------------: | :----: |
-| _returns the count of members having a status_ | number |
+|             Description             |  Type  |
+| :---------------------------------: | :----: |
+| _returns an snakecase of the input_ | string |
+
+### [souvlakiCase](/docs/interpreter/objects/pipes/detailed/souvlakiCase)
+
+|              Description               |  Type  |
+| :------------------------------------: | :----: |
+| _returns an souvlakicase of the input_ | string |
+
+### [titleCase](/docs/interpreter/objects/pipes/detailed/titleCase)
+
+|             Description             |  Type  |
+| :---------------------------------: | :----: |
+| _returns an titlecase of the input_ | string |
+
+### [upperCase](/docs/interpreter/objects/pipes/detailed/upperCase)
+
+|             Description             |  Type  |
+| :---------------------------------: | :----: |
+| _returns an uppercase of the input_ | string |
+
+### [word](/docs/interpreter/objects/pipes/detailed/words)
+
+|           Description           |  Type  |
+| :-----------------------------: | :----: |
+| _returns \# words of the input_ | string |

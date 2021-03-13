@@ -4,6 +4,20 @@ title: capitalise
 sidebar_label: capitalise
 ---
 
-|             Description              |  Type  |
-| :----------------------------------: | :----: |
-| _returns the input capitalised_ | string |
+### Description
+
+_returns the input capitalised, the first letter capitalcase and the rest lowercase_
+
+### Input Type
+
+string, string array
+
+### Output Type
+
+string
+
+### Example
+
+|          input          |   output    |
+| :---------------------: | :---------: |
+| __ioannis\|capitalise__ | __Ioannis__ |

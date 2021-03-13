@@ -4,6 +4,20 @@ title: camelCase
 sidebar_label: camelCase
 ---
 
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an camelCase of the input_ | string |
+### Description
+
+_returns an camelcase of the input_
+
+### Input Type
+
+string, string array
+
+### Output Type
+
+string
+
+### Example
+
+|             input              |       output        |
+| :----------------------------: | :-----------------: |
+| __IOANNISTsiakkas\|camelCase__ | __ioannisTsiakkas__ |

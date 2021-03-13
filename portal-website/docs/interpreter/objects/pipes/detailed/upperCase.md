@@ -4,6 +4,20 @@ title: upperCase
 sidebar_label: upperCase
 ---
 
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns an upperCase of the input_ | string |
+### Description
+
+_returns an upperCase of the input_
+
+### Input Type
+
+string, string array
+
+### Output Type
+
+string
+
+### Example
+
+|             input              |       output        |
+| :----------------------------: | :-----------------: |
+| __ioannistsiakkas\|upperCase__ | __IOANNISTSIAKKAS__ |
