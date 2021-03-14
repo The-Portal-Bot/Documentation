@@ -4,9 +4,9 @@ title: Structures
 sidebar_label: Description
 ---
 
-| prefix | sufix |                 Description                  |
-| :----: | :---: | :------------------------------------------: |
-|   {{   |  }}   | Structures are conditional flow manipulators |
+| prefix | sufix |                  Description                   |
+| :----: | :---: | :--------------------------------------------: |
+|   {{   |  }}   | _Structures are conditional flow manipulators_ |
 
 ## List of Structures
 

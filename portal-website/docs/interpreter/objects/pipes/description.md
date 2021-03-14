@@ -4,11 +4,17 @@ title: Pipes
 sidebar_label: Description
 ---
 
-| prefix |                                     Description                                     | Format  | Example &g.locale \| upperCase |
-| :----: | :---------------------------------------------------------------------------------: | :-----: | :----------------------------: |
-|   \|   | Pipes are mini functions you can pass text or Variables to manipulate their outcome | \| pipe |              `GR`              |
+| prefix |                                      Description                                      | Format  | Example &g.locale \| upperCase |
+| :----: | :-----------------------------------------------------------------------------------: | :-----: | :----------------------------: |
+|   \|   | _Pipes are mini functions you can pass text or Variables to manipulate their outcome_ | \| pipe |              `GR`              |
 
 ## List of Pipes
+
+### [acronym](/docs/interpreter/objects/pipes/detailed/acronym)
+
+|             Description             |  Type  |
+| :---------------------------------: | :----: |
+| _returns the acronoym of the input_ | string |
 
 ### [camelCase](/docs/interpreter/objects/pipes/detailed/camelCase)
 

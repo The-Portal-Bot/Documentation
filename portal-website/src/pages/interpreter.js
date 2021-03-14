@@ -8,37 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Your one-way to an organised server',
-    imageUrl: 'svg/teleport.svg',
+    title: 'Variables',
+    imageUrl: 'svg/variables.svg',
     description: (
       <>
-        With Portal you can have one voice-channel to rule them all.
-        Simply create a portal channel (with portal command) and
-        you can have unlimited voice channels that will be dynamically
-        named and deleted when the last member has left it.
+        Variables are immutable and live data that return information.
       </>
     ),
   },
   {
-    title: 'Music Player',
-    imageUrl: 'svg/music_notes.svg',
+    title: 'Attributes',
+    imageUrl: 'svg/attributes.svg',
     description: (
       <>
-        Music players have become an essential part of every discord
-        community and thus server. With Portal you not only get a clutter
-        free server whilst having an easy to use music player,
-        you get the highest quality music there is.
+        Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance.
       </>
     ),
   },
   {
-    title: 'More Features',
-    imageUrl: 'svg/features2.svg',
+    title: 'Pipes',
+    imageUrl: 'svg/pipes.svg',
     description: (
       <>
-        Portal has many usefull features you can use, from informative commands
-        like <b>./corona gr</b> and <b>./weather Athens</b> to funny ones, like <b>./joke</b> and
-        even more usefull once like <b>./focus</b> and <b>./url</b> !
+        Pipes are mini functions you can pass text or Variables to manipulate their outcome.
       </>
     ),
   }
@@ -63,13 +55,13 @@ function Home() {
   const context = useDocusaurusContext();
   return (
     <Layout
-      title="Commands"
+      title="Text Interpreter"
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Commands</h1>
+          <h1 className="hero__title">Text Interpreter</h1>
           <p className="hero__subtitle">
-            One command away from greatness
+          Is used by Portal when generateing channel names.
           </p>
           <div className="container">
             <h3 className="hero__title">
@@ -78,8 +70,8 @@ function Home() {
                   'button button--outline button--secondary button--lg',
                   styles.getStarted,
                 )}
-                to={useBaseUrl('docs/commands/description')}>
-                Command Docs
+                to={useBaseUrl('docs/interpreter/description')}>
+                Text Interpreter Docs
               </Link>
             </h3>
           </div>

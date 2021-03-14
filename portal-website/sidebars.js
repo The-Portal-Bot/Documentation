@@ -138,6 +138,7 @@ module.exports = {
                         'interpreter/objects/pipes/description',
                         {
                             'All Pipes': [
+                                'interpreter/objects/pipes/detailed/acronym',
                                 'interpreter/objects/pipes/detailed/camelCase',
                                 'interpreter/objects/pipes/detailed/capitalise',
                                 'interpreter/objects/pipes/detailed/decapitalise',

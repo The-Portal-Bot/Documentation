@@ -4,9 +4,9 @@ title: Attributes
 sidebar_label: Description
 ---
 
-| prefix |                                                     Description                                                      |    Format    | Example `&g.locale` |
-| :----: | :------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
-|   &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance | `&attribute` |        `gr`         |
+| prefix |                                                      Description                                                       |    Format    | Example `&g.locale` |
+| :----: | :--------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
+|   &    | _Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance_ | `&attribute` |        `gr`         |
 
 Attributes have three categories _global, portal, voice and member_. You can recognise the category of an attribute by the prefix in its name, for example ___p.locale___ refers to the locale of the portal whereas ___g.prefix___ refers to the prefix of the bot.
 

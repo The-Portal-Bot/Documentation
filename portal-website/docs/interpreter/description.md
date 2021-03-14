@@ -15,27 +15,27 @@ __CS:GO__.
 
 ### [Variables](objects/variables/description)
 
-| prefix |                          Description                          |   Format    |       Example `$status_list`       |
-| :----: | :-----------------------------------------------------------: | :---------: | :--------------------------------: |
-|   $    | Variables are immutable and live data that return information | `$variable` | `CS:GO`<br />or<br />`CS:GO, Apex` |
+| prefix |                           Description                           |   Format    |       Example `$status_list`       |
+| :----: | :-------------------------------------------------------------: | :---------: | :--------------------------------: |
+|   $    | _Variables are immutable and live data that return information_ | `$variable` | `CS:GO`<br />or<br />`CS:GO, Apex` |
 
 ### [Attributes](objects/attributes/description)
 
-| prefix |                                                     Description                                                      |    Format    | Example `@g.locale` |
-| :----: | :------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
-|   &    | Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance | `&attribute` |        `gr`         |
+| prefix |                                                      Description                                                       |    Format    | Example `@g.locale` |
+| :----: | :--------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
+|   &    | _Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance_ | `&attribute` |        `gr`         |
 
 ### [Pipes](objects/pipes/description)
 
-| prefix |                                     Description                                     | Format | Example @g.locale \| upperCase |
-| :----: | :---------------------------------------------------------------------------------: | :----: | :----------------------------: |
-|   \|   | Pipes are mini functions you can pass text or Variables to manipulate their outcome | \|pipe |              `GR`              |
+| prefix |                                      Description                                      | Format | Example @g.locale \| upperCase |
+| :----: | :-----------------------------------------------------------------------------------: | :----: | :----------------------------: |
+|   \|   | _Pipes are mini functions you can pass text or Variables to manipulate their outcome_ | \|pipe |              `GR`              |
 
 ### [Structures](objects/structures/description)
 
-| prefix | sufix |                 Description                  |
-| :----: | :---: | :------------------------------------------: |
-|   {{   |  }}   | Structures are conditional flow manipulators |
+| prefix | sufix |                  Description                   |
+| :----: | :---: | :--------------------------------------------: |
+|   {{   |  }}   | _Structures are conditional flow manipulators_ |
 
 ### Combined
 

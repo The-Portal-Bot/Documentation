@@ -60,12 +60,7 @@ module.exports = {
                 alt: 'portal\'s logo',
                 src: 'img/portal/portal_logo.png',
             },
-            items: [{
-                    to: 'commands/',
-                    activeBasePath: 'commands',
-                    label: 'Commands',
-                    position: 'left',
-                },
+            items: [
                 {
                     to: 'features/',
                     activeBasePath: 'features',
@@ -73,10 +68,22 @@ module.exports = {
                     position: 'left',
                 },
                 {
+                    to: 'commands/',
+                    activeBasePath: 'commands',
+                    label: 'Commands',
+                    position: 'left',
+                },
+                {
+                    to: 'interpreter/',
+                    activeBasePath: 'interpreter',
+                    label: 'Text Interpreter',
+                    position: 'left',
+                },
+                {
                     to: 'docs/',
                     activeBasePath: 'docs',
                     label: 'Documentation',
-                    position: 'left',
+                    position: 'right',
                 },
                 {
                     to: 'help/',

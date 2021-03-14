@@ -22,7 +22,7 @@ channel. *To see the full list of commands click [here](commands).*
 ## [Text Interpreter](interpreter/description)
 
 Text Interpreter is a program used by Portal when asked to generate
-a channel's name. For example if you have set your voices name to
+a channel name. For example if you have set your voices name to
 `./set v.regex $status_list` portal knows thats `status_list` is a 
 variable, as it is proceded by the symbol _$_  (portal can read variables,
 attributes, pipes and structures as seen bellow).<br />

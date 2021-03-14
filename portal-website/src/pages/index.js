@@ -52,7 +52,7 @@ function Home() {
             <Link
               className={clsx(
                 'button button--outline button--secondary button--lg',
-                styles.getStarted, 
+                styles.getStarted,
                 styles.minWidth
               )}
               to={useBaseUrl('docs/')}>
@@ -83,9 +83,17 @@ function Home() {
               )}
               to={useBaseUrl('commands/')}>
               Commands
-            </Link>
-            <br />you can have an organised
-            and fully functional server in just a few steps
+            </Link><br />
+            you can have an organised
+            and fully functional server in just a few steps.<br /><br />
+            The <Link
+              className={clsx(
+                styles.linkHighlight,
+              )}
+              to={useBaseUrl('interpreter/')}>
+              Text Interpreter
+            </Link> is a program used to generate channel names.<br />
+            You can create anything you want !
           </p>
         </div>
       </main>
