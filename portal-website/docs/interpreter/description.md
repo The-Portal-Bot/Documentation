@@ -27,9 +27,9 @@ __CS:GO__.
 
 ### [Pipes](objects/pipes/description)
 
-| prefix |                                     Description                                     | Format  | Example @g.locale \| upperCase |
-| :----: | :---------------------------------------------------------------------------------: | :-----: | :----------------------------: |
-|   \|   | Pipes are mini functions you can pass text or Variables to manipulate their outcome | \| pipe |              `GR`              |
+| prefix |                                     Description                                     | Format | Example @g.locale \| upperCase |
+| :----: | :---------------------------------------------------------------------------------: | :----: | :----------------------------: |
+|   \|   | Pipes are mini functions you can pass text or Variables to manipulate their outcome | \|pipe |              `GR`              |
 
 ### [Structures](objects/structures/description)
 
@@ -37,35 +37,14 @@ __CS:GO__.
 | :----: | :---: | :------------------------------------------: |
 |   {{   |  }}   | Structures are conditional flow manipulators |
 
-#### Format
-
-```json 
-{{
-    "if": "string", "is": "string", "with": "string",
-    "yes": "string", "no": "string"
-}}
-```
-
-#### Example
-
-```json 
-{{
-    "if": "@status_list", "is": "===", "with": "CS:GO",
-    "yes": "$member_count/5", "no": "is not CS"
-}}
-```
-
-will become
-```
-If you're playing CS:GO: 4/5 (if 4 members in channel), if not: is not CS
-```
-
 ### Combined
 
 Combining everything in one naming guideline it would look something like this:<br />
+
 ```
-$status_list / @g.locale / g.locale | upperCase
+$status_list / &g.locale / &g.locale|upperCase
 ```
+
 will become
 ```
 CS:GO / gr / GR
