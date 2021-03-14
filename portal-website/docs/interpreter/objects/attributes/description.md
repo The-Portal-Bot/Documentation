@@ -12,9 +12,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ## List of Attributes
 
-### Global
+## Global
 
-----
+---
 
 ### [g.locale](/docs/interpreter/objects/attributes/detailed/global/g.locale)
 
@@ -40,7 +40,7 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 | :-----------------------------: | :----: | :-------------------------: | :-------: |
 | _In what speed members rank up_ | string | _none, slow, default, fast_ |  `admin`  |
 
-###  Member
+##  Member
 
 ---
 
@@ -50,7 +50,7 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 | :-----------------------------------------: | :-----: | :---------: | :-------: |
 | _regex guidelines for user's voice's title_ | boolean | _(nothing)_ |  `none`   |
 
-### Portal
+## Portal
 
 ---
 
@@ -108,7 +108,7 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 | :--------------------------------------------: | :-----: | :------------------------------------: | :-------: |
 | _regex guidelines for portal's voice's titles_ | boolean | _G$#-P$member\_count \| $status\_list_ | `portal`  |
 
-### Voice
+## Voice
 
 ---
 

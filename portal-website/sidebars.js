@@ -57,12 +57,12 @@ module.exports = {
                                     ]
                                 },
                                 {
-                                    'Member': [        
+                                    'Member': [
                                         'interpreter/objects/attributes/detailed/member/m.regex'
                                     ]
                                 },
                                 {
-                                    'Portal': [        
+                                    'Portal': [
                                         'interpreter/objects/attributes/detailed/portal/p.ann_announce',
                                         'interpreter/objects/attributes/detailed/portal/p.ann_user',
                                         'interpreter/objects/attributes/detailed/portal/p.locale',
@@ -73,9 +73,9 @@ module.exports = {
                                         'interpreter/objects/attributes/detailed/portal/p.user_limit',
                                         'interpreter/objects/attributes/detailed/portal/p.v.regex'
                                     ]
-                                }
-                                ,{
-                                    'Voice': [        
+                                },
+                                {
+                                    'Voice': [
                                         'interpreter/objects/attributes/detailed/voice/v.ann_announce',
                                         'interpreter/objects/attributes/detailed/voice/v.ann_user',
                                         'interpreter/objects/attributes/detailed/voice/v.locale',
@@ -93,28 +93,44 @@ module.exports = {
                         'interpreter/objects/variables/description',
                         {
                             'All Variables': [
-                                'interpreter/objects/variables/detailed/slash',
-                                'interpreter/objects/variables/detailed/double_slash',
-                                'interpreter/objects/variables/detailed/creator_portal',
-                                'interpreter/objects/variables/detailed/creator_voice',
-                                'interpreter/objects/variables/detailed/date',
-                                'interpreter/objects/variables/detailed/day_number',
-                                'interpreter/objects/variables/detailed/day_name',
-                                'interpreter/objects/variables/detailed/month_number',
-                                'interpreter/objects/variables/detailed/month_name',
-                                'interpreter/objects/variables/detailed/year',
-                                'interpreter/objects/variables/detailed/time',
-                                'interpreter/objects/variables/detailed/hour',
-                                'interpreter/objects/variables/detailed/minute',
-                                'interpreter/objects/variables/detailed/second',
-                                'interpreter/objects/variables/detailed/status_list',
-                                'interpreter/objects/variables/detailed/status_count',
-                                'interpreter/objects/variables/detailed/status_history',
-                                'interpreter/objects/variables/detailed/member_list',
-                                'interpreter/objects/variables/detailed/member_count',
-                                'interpreter/objects/variables/detailed/member_active_count',
-                                'interpreter/objects/variables/detailed/member_with_status',
-                                'interpreter/objects/variables/detailed/member_history'
+                                {
+                                    'General': [
+                                        'interpreter/objects/variables/detailed/general/creator_portal',
+                                        'interpreter/objects/variables/detailed/general/creator_voice',
+                                        'interpreter/objects/variables/detailed/general/slash',
+                                        'interpreter/objects/variables/detailed/general/double_slash'
+                                    ]
+                                },
+                                {
+                                    'Member': [
+                                        'interpreter/objects/variables/detailed/member/member_list',
+                                        'interpreter/objects/variables/detailed/member/member_count',
+                                        'interpreter/objects/variables/detailed/member/member_active_count',
+                                        'interpreter/objects/variables/detailed/member/member_with_status',
+                                        'interpreter/objects/variables/detailed/member/member_history'
+                                    ]
+                                },
+                                {
+                                    'Status': [
+                                        'interpreter/objects/variables/detailed/status/status_list',
+                                        'interpreter/objects/variables/detailed/status/status_count',
+                                        'interpreter/objects/variables/detailed/status/status_history',
+                                    ]
+                                },
+                                {
+                                    'Time': [
+                                        'interpreter/objects/variables/detailed/time/date',
+                                        'interpreter/objects/variables/detailed/time/day_number',
+                                        'interpreter/objects/variables/detailed/time/day_name',
+                                        'interpreter/objects/variables/detailed/time/month_number',
+                                        'interpreter/objects/variables/detailed/time/month_name',
+                                        'interpreter/objects/variables/detailed/time/year',
+                                        'interpreter/objects/variables/detailed/time/time',
+                                        'interpreter/objects/variables/detailed/time/hour',
+                                        'interpreter/objects/variables/detailed/time/minute',
+                                        'interpreter/objects/variables/detailed/time/second'
+                                    ]
+                                }
                             ]
                         }
                     ],
