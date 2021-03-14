@@ -6,7 +6,7 @@ sidebar_label: weather
 
 |                       Description                        |    Argument     | Accessible | Cooldown |
 | :------------------------------------------------------: | :-------------: | :--------: | :------: |
-| Replies with the current wheather for the requested city | __!city\_name__ | `everyone` |  `none`  |
+| Replies with the current whether for the requested city | __!city\_name__ | `everyone` |  `none`  |
 
 ## Examples
 

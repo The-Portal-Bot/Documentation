@@ -228,7 +228,7 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 |                       Description                        |    Argument     | Accessible | Cooldown |
 | :------------------------------------------------------: | :-------------: | :--------: | :------: |
-| Replies with the current wheather for the requested city | __!city\_name__ | `everyone` |  `none`  |
+| Replies with the current whether for the requested city | __!city\_name__ | `everyone` |  `none`  |
 
 ### [whoami](/docs/commands/detailed/whoami)
 

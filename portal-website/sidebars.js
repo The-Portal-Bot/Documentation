@@ -48,30 +48,44 @@ module.exports = {
                         'interpreter/objects/attributes/description',
                         {
                             'All Attributes': [
-                                'interpreter/objects/attributes/detailed/p.ann_announce',
-                                'interpreter/objects/attributes/detailed/p.ann_announce',
-                                'interpreter/objects/attributes/detailed/v.ann_announce',
-                                'interpreter/objects/attributes/detailed/p.ann_user',
-                                'interpreter/objects/attributes/detailed/v.ann_user',
-                                'interpreter/objects/attributes/detailed/p.no_bots',
-                                'interpreter/objects/attributes/detailed/v.no_bots',
-                                'interpreter/objects/attributes/detailed/p.render',
-                                'interpreter/objects/attributes/detailed/v.render',
-                                'interpreter/objects/attributes/detailed/v.bitrate',
-                                'interpreter/objects/attributes/detailed/g.prefix',
-                                'interpreter/objects/attributes/detailed/g.rank_speed',
-                                'interpreter/objects/attributes/detailed/g.profanity_level',
-                                'interpreter/objects/attributes/detailed/g.locale',
-                                'interpreter/objects/attributes/detailed/p.locale',
-                                'interpreter/objects/attributes/detailed/v.locale',
-                                'interpreter/objects/attributes/detailed/v.position',
-                                'interpreter/objects/attributes/detailed/p.regex_overwrite',
-                                'interpreter/objects/attributes/detailed/p.regex',
-                                'interpreter/objects/attributes/detailed/p.v.regex',
-                                'interpreter/objects/attributes/detailed/v.regex',
-                                'interpreter/objects/attributes/detailed/m.regex',
-                                'interpreter/objects/attributes/detailed/p.user_limit',
-                                'interpreter/objects/attributes/detailed/v.user_limit'
+                                {
+                                    'Global': [
+                                        'interpreter/objects/attributes/detailed/global/g.locale',
+                                        'interpreter/objects/attributes/detailed/global/g.prefix',
+                                        'interpreter/objects/attributes/detailed/global/g.profanity_level',
+                                        'interpreter/objects/attributes/detailed/global/g.rank_speed'
+                                    ]
+                                },
+                                {
+                                    'Member': [        
+                                        'interpreter/objects/attributes/detailed/member/m.regex'
+                                    ]
+                                },
+                                {
+                                    'Portal': [        
+                                        'interpreter/objects/attributes/detailed/portal/p.ann_announce',
+                                        'interpreter/objects/attributes/detailed/portal/p.ann_user',
+                                        'interpreter/objects/attributes/detailed/portal/p.locale',
+                                        'interpreter/objects/attributes/detailed/portal/p.no_bots',
+                                        'interpreter/objects/attributes/detailed/portal/p.regex_overwrite',
+                                        'interpreter/objects/attributes/detailed/portal/p.regex',
+                                        'interpreter/objects/attributes/detailed/portal/p.render',
+                                        'interpreter/objects/attributes/detailed/portal/p.user_limit',
+                                        'interpreter/objects/attributes/detailed/portal/p.v.regex'
+                                    ]
+                                }
+                                ,{
+                                    'Voice': [        
+                                        'interpreter/objects/attributes/detailed/voice/v.ann_announce',
+                                        'interpreter/objects/attributes/detailed/voice/v.ann_user',
+                                        'interpreter/objects/attributes/detailed/voice/v.locale',
+                                        'interpreter/objects/attributes/detailed/voice/v.no_bots',
+                                        'interpreter/objects/attributes/detailed/voice/v.position',
+                                        'interpreter/objects/attributes/detailed/voice/v.regex',
+                                        'interpreter/objects/attributes/detailed/voice/v.render',
+                                        'interpreter/objects/attributes/detailed/voice/v.user_limit'
+                                    ]
+                                }
                             ]
                         }
                     ],
