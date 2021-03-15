@@ -17,7 +17,8 @@ by the command as follows `./help`.
 Portal has many different commands, which doing something different.
 There commands such as *weather* that replies with weather data, and there
 are commands as *music* that have a lasting effect as it spawns a music
-channel. *To see the full list of commands click [here](commands).*
+channel.<br />
+*To see the full list of commands click [here](commands/description).*
 
 ## [Text Interpreter](interpreter/description)
 
@@ -27,7 +28,8 @@ a channel name. For example if you have set your voices name to
 variable, as it is proceded by the symbol _$_  (portal can read variables,
 attributes, pipes and structures as seen bellow).<br />
 So lets say you are playing Counter Strike, your channel's name will be
-__CS:GO__.
+__CS:GO__.<br />
+*To see the full documentation click [here](interpreter/description).*
 
 <!-- ---
 

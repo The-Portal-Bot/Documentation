@@ -12,7 +12,7 @@ sidebar_label: if
 
 ```json 
 {{
-    "if": "@status_list", "is": "===", "with": "CS:GO",
+    "if": "$status_list", "is": "===", "with": "CS:GO",
     "yes": "$member_count/5", "no": "is not CS"
 }}
 ```
