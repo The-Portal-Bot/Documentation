@@ -41,6 +41,11 @@
     justify-content: center;
 }
 
+.midCut {
+    width: 45%;
+    padding: 2rem 2rem 4rem 2rem;
+}
+
 .features {
     display: flex;
     align-items: center;
