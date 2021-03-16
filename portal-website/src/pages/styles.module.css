@@ -43,7 +43,18 @@
 
 .midCut {
     width: 45%;
-    padding: 2rem 2rem 4rem 2rem;
+}
+
+.midText {
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.imgPadRight {
+    padding: 2rem 0rem 4rem 2rem;
+}
+
+.imgPadLeft {
+    padding: 2rem 2rem 4rem 0rem;
 }
 
 .features {

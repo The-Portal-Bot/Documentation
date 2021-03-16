@@ -14,9 +14,9 @@ by the command as follows `./help`.
 
 ## [Commands](commands/description)
 
-Portal has many different commands, which doing something different.
-There commands such as *weather* that replies with weather data, and there
-are commands as *music* that have a lasting effect as it spawns a music
+Portal has many different commands, with many different functions.
+From commands that inform you about real world data to commands
+such as *music* that have a lasting effect as it spawns a music
 channel.<br />
 *To see the full list of commands click [here](commands/description).*
 

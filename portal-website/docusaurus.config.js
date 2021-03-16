@@ -23,7 +23,7 @@ module.exports = {
         // },
         colorMode: {
             // "light" | "dark"
-            defaultMode: 'light',
+            defaultMode: 'dark',
 
             // Hides the switch in the navbar
             // Useful if you want to support a single color mode
@@ -61,12 +61,12 @@ module.exports = {
                 src: 'img/portal/portal_logo.png',
             },
             items: [
-                {
-                    to: 'features/',
-                    activeBasePath: 'features',
-                    label: 'Features',
-                    position: 'left',
-                },
+                // {
+                //     to: 'features/',
+                //     activeBasePath: 'features',
+                //     label: 'Features',
+                //     position: 'left',
+                // },
                 {
                     to: 'music-player/',
                     activeBasePath: 'music-player',
