@@ -110,9 +110,9 @@ If duration is not specified the channel will live until everyone has left
 
 ### [ignore](/docs/commands/detailed/ignore)
 
-|                            Description                             |         Argument          | Clearance | Cooldown |
-| :----------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`  |  `none`  |
+|                       Description                       | Argument | Clearance | Cooldown |
+| :-----------------------------------------------------: | :------: | :-------: | :------: |
+| ignore channels, so that portal does not listen to them | __none__ |  `admin`  |  `none`  |
 
 ## J
 

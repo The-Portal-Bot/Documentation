@@ -68,6 +68,12 @@ module.exports = {
                     position: 'left',
                 },
                 {
+                    to: 'music-player/',
+                    activeBasePath: 'music-player',
+                    label: 'Music Player',
+                    position: 'left',
+                },
+                {
                     to: 'commands/',
                     activeBasePath: 'commands',
                     label: 'Commands',
@@ -107,13 +113,18 @@ module.exports = {
             style: 'dark',
             links: [{
                     title: 'Docs',
-                    items: [{
+                    items: [
+                        {
+                            label: 'Music Player',
+                            to: 'music-player/',
+                        },
+                        {
                             label: 'Commands',
                             to: 'commands/',
                         },
                         {
-                            label: 'Features',
-                            to: 'features/',
+                            label: 'Text Interpreter',
+                            to: 'interpreter/',
                         }
                     ]
                 },

@@ -4,40 +4,24 @@ title: ignore
 sidebar_label: ignore
 ---
 
-|                            Description                             |               Argument                | Accessible | Cooldown |
-| :----------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`   |  `none`  |
+|                       Description                       | Argument | Accessible | Cooldown |
+| :-----------------------------------------------------: | :------: | :--------: | :------: |
+| ignore channels, so that portal does not listen to them | __none__ |  `admin`   |  `none`  |
 
 ## Examples
 
-* Lets say you want to create a new ignore channel, you would type
+* Lets say you want to ignore a channel _car photos_, you would type inside of it
     ```bash
-    ./ignore portal_free
+    ./ignore
     ```
 
-    This would create a new ignore channel called _megaphone_.
-
-* Lets say you want to create a new ignore channel under a category, you would type
+* Lets say you want to stopping ignoring channel _car photos_, you would type inside of it
     ```bash
-    ./ignore cars | portal_free_zone
+    ./ignore
     ```
 
-    This would create a new ignore channel called _megaphone_ under category _ignores_.
+:::tip
 
-* Lets say you want to ignore a member called Mallory with id (228666893068795905), you would type
-    ```bash
-    ./ignore 228666893068795905
-    ```
-    or
-    ```bash
-    ./ignore Mallory
-    ```
+To ignore members you have to give them Portal's ignore role that is named [`p.ignore`](/help/#q-how-can-i-give-members-authority)
 
-* Lets say you want to stop ignoring Mallory with id (228666893068795905), you would type
-    ```bash
-    ./ignore 228666893068795905
-    ```
-    or
-    ```bash
-    ./ignore Mallory
-    ```
+:::

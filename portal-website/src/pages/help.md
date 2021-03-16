@@ -26,7 +26,7 @@ the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)
 
 ## FAQ
 
-### Q. **How can I give members authority ?**
+### Q. **How can I give members authority?**
 #### A. You have to create roles `p.dj`, `p.admin` and `p.ignore` and assign them to users.
 
 | to         | give role  | description                                  |
@@ -35,7 +35,7 @@ the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)
 | make admin | `p.admin`  | An admin can use all the authorised commands |
 | ignore     | `p.ignore` | An ignored member will be ignored by Portal  |
 
-### Q. **What does Portal do ?**
+### Q. **What does Portal do?**
 #### A. Portal is a fully functional multipurpose discord bot that helps you manage and organise your server.
      
 It provides:
@@ -49,7 +49,7 @@ It provides:
 
 ---
 
-### Q. **How do I create portal controlled channels ?**
+### Q. **How do I create portal controlled channels?**
 #### A. All portal channels are spawned in the same manner.
  
 Create a new portal (voice) that spawns voice channels
@@ -78,7 +78,7 @@ Create a new music/announcement (text)
 
 ---
 
-### Q. **How do I remove a channel from its category ?**
+### Q. **How do I remove a channel from its category?**
 #### A. You just have to write a message inside the channel with the category name
 
 For example lets say that you have a channel called _my-music_ which is the music channel,
@@ -86,7 +86,7 @@ you just have to type `./music` and the channel will no longer be the music chan
 
 ---
 
-### Q. **How do I play music from music channel ?**
+### Q. **How do I play music from music channel?**
 #### A. First create a music channel and then just type the song you want.
 
 Portal's music player resides in a text channel. Rather than requesting

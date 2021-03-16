@@ -87,14 +87,13 @@ function Home() {
   const context = useDocusaurusContext();
   return (
     <Layout
-      title="Features"
+      title="Music Player"
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">Features</h1>
+          <h1 className="hero__title">Music Player</h1>
           <p className="hero__subtitle">
-            You can think of features as the aftermath
-            of a command or things Portal does by default
+            A music player made for convenience, speed and ease of mind
           </p>
         </div>
       </header>
