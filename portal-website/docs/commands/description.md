@@ -72,7 +72,7 @@ Note that Portal will delete n + 1 messages as it will also delete the command t
 
 :::
 
-## f
+## F
 
 ---
 

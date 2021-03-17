@@ -1,53 +1,50 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import Layout from "@theme/Layout";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import useBaseUrl from "@docusaurus/useBaseUrl";
+import styles from "./styles.module.css";
 
 const features = [
   {
-    title: 'Your one-way to an organised server',
-    imageUrl: 'svg/teleport.svg',
+    title: "Your one-way to an organised server",
+    imageUrl: "svg/teleport.svg",
     description: (
       <>
-        With Portal you can have one voice-channel to rule them all.
-        Simply create a portal channel (with portal command) and
-        you can have unlimited voice channels that will be dynamically
-        named and deleted when the last member has left it.
+        With Portal you can have one voice-channel to rule them all. Simply
+        create a portal channel which allows you to have, unlimited voice channels
+        that will be dynamically named and deleted when the last member has left them.
       </>
     ),
   },
   {
-    title: 'Music Player',
-    imageUrl: 'svg/music_notes.svg',
+    title: "Music Player",
+    imageUrl: "svg/music_notes.svg",
     description: (
       <>
-        Music players have become an essential part of every discord
-        community and thus server. With Portal you not only get a clutter
-        free server whilst having an easy to use music player,
-        you get the highest quality music there is.
+        Music players have become an essential part of every discord community
+        and thus server. With Portal you not only get a clutter free server, button
+        also, an easy to use music player.
       </>
     ),
   },
   {
-    title: 'More Features',
-    imageUrl: 'svg/features2.svg',
+    title: "Even more",
+    imageUrl: "svg/features2.svg",
     description: (
       <>
-        Portal has many usefull features you can use, from informative commands
-        like <b>./corona gr</b> and <b>./weather Athens</b> to funny ones, like <b>./joke</b> and
-        even more usefull once like <b>./focus</b> and <b>./url</b> !
+        Portal has many more commands for you to use, find them all in the docs.
+        From url-only channels to role-assigning messages Portal has you covered !
       </>
     ),
-  }
+  },
 ];
 
 function Feature({ imageUrl, title, description }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx("col col--4", styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.featureImage} src={imgUrl} alt={title} />
@@ -64,21 +61,21 @@ function Home() {
   return (
     <Layout
       title="Commands"
-      description="Description will go into a meta tag in <head />">
-      <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      description="Description will go into a meta tag in <head />"
+    >
+      <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">Commands</h1>
-          <p className="hero__subtitle">
-            One command away from greatness
-          </p>
+          <p className="hero__subtitle">One command away from greatness</p>
           <div className="container">
             <h3 className="hero__title">
               <Link
                 className={clsx(
-                  'button button--outline button--secondary button--lg',
-                  styles.getStarted,
+                  "button button--outline button--secondary button--lg",
+                  styles.getStarted
                 )}
-                to={useBaseUrl('docs/commands/description')}>
+                to={useBaseUrl("docs/commands/description")}
+              >
                 Command Docs
               </Link>
             </h3>

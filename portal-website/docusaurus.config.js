@@ -68,12 +68,6 @@ module.exports = {
                 //     position: 'left',
                 // },
                 {
-                    to: 'music-player/',
-                    activeBasePath: 'music-player',
-                    label: 'Music Player',
-                    position: 'left',
-                },
-                {
                     to: 'commands/',
                     activeBasePath: 'commands',
                     label: 'Commands',
@@ -83,6 +77,12 @@ module.exports = {
                     to: 'interpreter/',
                     activeBasePath: 'interpreter',
                     label: 'Text Interpreter',
+                    position: 'left',
+                },
+                {
+                    to: 'music-player/',
+                    activeBasePath: 'music-player',
+                    label: 'Music Player',
                     position: 'left',
                 },
                 {
@@ -112,49 +112,49 @@ module.exports = {
         footer: {
             style: 'dark',
             links: [{
-                    title: 'Docs',
-                    items: [
-                        {
-                            label: 'Music Player',
-                            to: 'music-player/',
-                        },
-                        {
-                            label: 'Commands',
-                            to: 'commands/',
-                        },
-                        {
-                            label: 'Text Interpreter',
-                            to: 'interpreter/',
-                        }
-                    ]
+                title: 'Docs',
+                items: [
+                    {
+                        label: 'Commands',
+                        to: 'commands/',
+                    },
+                    {
+                        label: 'Text Interpreter',
+                        to: 'interpreter/',
+                    },
+                    {
+                        label: 'Music Player',
+                        to: 'music-player/',
+                    }
+                ]
+            },
+            {
+                title: 'Help',
+                items: [{
+                    label: 'Help',
+                    to: 'help',
+                }, {
+                    label: 'Portal Official Server',
+                    href: 'https://discord.com/invite/nuKXgFXr5y',
                 },
                 {
-                    title: 'Help',
-                    items: [{
-                            label: 'Help',
-                            to: 'help',
-                        }, {
-                            label: 'Portal Official Server',
-                            href: 'https://discord.com/invite/nuKXgFXr5y',
-                        },
-                        {
-                            label: 'Github',
-                            href: 'https://github.com/keybraker/Portal',
-                        }
-                    ]
-                },
-                {
-                    title: 'More',
-                    items: [{
-                            label: 'Blog',
-                            to: 'blog',
-                        },
-                        {
-                            label: 'Top.gg',
-                            href: 'https://top.gg/bot/704400876860735569',
-                        }
-                    ]
+                    label: 'Github',
+                    href: 'https://github.com/keybraker/Portal',
                 }
+                ]
+            },
+            {
+                title: 'More',
+                items: [{
+                    label: 'Blog',
+                    to: 'blog',
+                },
+                {
+                    label: 'Top.gg',
+                    href: 'https://top.gg/bot/704400876860735569',
+                }
+                ]
+            }
             ],
             copyright: `<br />Copyright © ${new Date().getFullYear()}<br />Designed and Built by Ioannis Tsiakkas`,
         },

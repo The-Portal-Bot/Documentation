@@ -49,35 +49,24 @@ const features = [
     imageUrl: "gif/music_volume.gif",
     description: (
       <>
-        You can control the volume of Portal to streamline the experience
-        for all the users, with two simple clicks.
+        You can control the volume of Portal to streamline the experience for
+        all the users, with two simple clicks.
       </>
     ),
   },
   {
     index: 5,
-    title: "Playlist auto insert",
-    imageUrl: "gif/music_volume.gif",
+    title: "Add to queue and skip to it",
+    imageUrl: "gif/music_queue_skip.gif",
     description: (
       <>
-        Automatic playlist insertion. Simply enter the playlist link and start
-        listening to your favorite music, without any breaks !
+        When requesting a song and Portal already playing a video, it is added
+        to the queue. Simple skip to go to the next song !
       </>
     ),
   },
   {
     index: 6,
-    title: "Add to queue and skip to it",
-    imageUrl: "gif/music_queue_skip.gif",
-    description: (
-      <>
-        When requesting a song and Portal already playing a video, it is added to the queue.
-        Simple skip to go to the next song !
-      </>
-    ),
-  },
-  {
-    index: 7,
     title: "The DJ is in the house",
     imageUrl: "gif/pdj.gif",
     description: (
@@ -88,13 +77,25 @@ const features = [
     ),
   },
   {
+    index: 7,
+    title: "Playlist auto insert",
+    imageUrl: "gif/music_volume.gif",
+    description: (
+      <>
+        Automatic playlist insertion. Simply enter the playlist link and start
+        listening to your favorite music, without any breaks !
+      </>
+    ),
+  },
+  {
     index: 8,
     title: "Finished listening",
     imageUrl: "gif/music_kick.gif",
     description: (
       <>
-        Are you done with Portal?<br />
-        Just show Portal the door and he will clear the queue  and leave.
+        Are you done with Portal?
+        <br />
+        Just show Portal the door and he will clear the queue and leave.
       </>
     ),
   },
@@ -109,7 +110,7 @@ function Feature({ index, imageUrl, title, description }) {
           className={clsx(
             "text--center",
             styles.midCut,
-            styles.imgPadLeft,
+            styles.imgPad,
             styles.heroBanner
           )}
         >
@@ -125,7 +126,7 @@ function Feature({ index, imageUrl, title, description }) {
           className={clsx(
             "text--center",
             styles.midCut,
-            styles.imgPadRight,
+            styles.imgPad,
             styles.heroBanner
           )}
         >
@@ -146,9 +147,7 @@ function Home() {
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">Music Player</h1>
-          <p className="hero__subtitle">
-            Easy to use, fast and fun
-          </p>
+          <p className="hero__subtitle">Easy to use, fast and fun</p>
         </div>
       </header>
 
