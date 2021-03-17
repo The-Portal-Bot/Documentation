@@ -9,7 +9,7 @@ const features = [
   {
     index: 1,
     title: "Type it, Play it!",
-    imageUrl: "gif/start_music.gif",
+    imageUrl: "gif/music_start.gif",
     description: (
       <>
         You don't need to learn any command, simply type the video you wish to
@@ -20,7 +20,7 @@ const features = [
   {
     index: 2,
     title: "Easy and intuitive",
-    imageUrl: "gif/play_pause.gif",
+    imageUrl: "gif/music_play_pause.gif",
     description: (
       <>
         You don't need to type anything to just play and pause.
@@ -34,7 +34,7 @@ const features = [
   {
     index: 3,
     title: "Sometime you have to listen on repeat",
-    imageUrl: "gif/pinned_video.gif",
+    imageUrl: "gif/music_pin.gif",
     description: (
       <>
         Is a song stuck in your head, embrace it with pinned videos.
@@ -45,8 +45,19 @@ const features = [
   },
   {
     index: 4,
+    title: "Volume controls",
+    imageUrl: "gif/music_volume.gif",
+    description: (
+      <>
+        You can control the volume of Portal to streamline the experience
+        for all the users, with two simple clicks.
+      </>
+    ),
+  },
+  {
+    index: 5,
     title: "Playlist auto insert",
-    imageUrl: "gif/pinned_video.gif",
+    imageUrl: "gif/music_volume.gif",
     description: (
       <>
         Automatic playlist insertion. Simply enter the playlist link and start
@@ -55,24 +66,35 @@ const features = [
     ),
   },
   {
-    index: 5,
-    title: "Cool and clean",
-    imageUrl: "gif/pinned_video.gif",
+    index: 6,
+    title: "Add to queue and skip to it",
+    imageUrl: "gif/music_queue_skip.gif",
     description: (
       <>
-        Portal will auto-delete the video request so that your music player is
-        always clean and easy to see.
+        When requesting a song and Portal already playing a video, it is added to the queue.
+        Simple skip to go to the next song !
       </>
     ),
   },
   {
-    index: 6,
+    index: 7,
     title: "The DJ is in the house",
-    imageUrl: "gif/pinned_video.gif",
+    imageUrl: "gif/pdj.gif",
     description: (
       <>
         DJ's are important, and that is why there is one ! Simply assign role{" "}
         <b>p.dj</b> to make him a DJ.
+      </>
+    ),
+  },
+  {
+    index: 8,
+    title: "Finished listening",
+    imageUrl: "gif/music_kick.gif",
+    description: (
+      <>
+        Are you done with Portal?<br />
+        Just show Portal the door and he will clear the queue  and leave.
       </>
     ),
   },

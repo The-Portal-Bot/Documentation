@@ -102,5 +102,3 @@ Guide
 2. Go to the newly created music channel _(run command `./state` to locate it)_
 
 3. Type in plain text the name of the song you want to listen too
-
-![Docusaurus with Keytar](/gif/music.gif)
