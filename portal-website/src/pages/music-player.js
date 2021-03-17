@@ -61,7 +61,7 @@ const features = [
     description: (
       <>
         When requesting a song and Portal already playing a video, it is added
-        to the queue. Simple skip to go to the next song !
+        to the queue. Simple skip to the next song !
       </>
     ),
   },
@@ -118,8 +118,8 @@ function Feature({ index, imageUrl, title, description }) {
         </div>
       )}
       <div className={clsx(styles.midCut, styles.midText)}>
-        <h3>{title}</h3>
-        <p>{description}</p>
+        <h3 className={clsx(index % 2 === 0 ? styles.alignLeft : styles.alignRight)}>{title}</h3>
+        <p className={clsx(index % 2 === 0 ? styles.alignLeft : styles.alignRight)}>{description}</p>
       </div>
       {index % 2 !== 0 && imgUrl && (
         <div
