@@ -1,5 +1,4 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
@@ -38,7 +37,6 @@ const features = [
     description: (
       <>
         Is a song stuck in your head, embrace it with pinned videos.
-        <br />
         Simply pin the video and Portal will replay it, once it is over.
       </>
     ),
@@ -68,7 +66,7 @@ const features = [
   {
     index: 6,
     title: "The DJ is in the house",
-    imageUrl: "gif/pdj.gif",
+    imageUrl: "gif/music_dj.gif",
     description: (
       <>
         DJ's are important, and that is why there is one ! Simply assign role{" "}
@@ -79,7 +77,7 @@ const features = [
   {
     index: 7,
     title: "Playlist auto insert",
-    imageUrl: "gif/music_volume.gif",
+    imageUrl: "gif/music_playlist.gif",
     description: (
       <>
         Automatic playlist insertion. Simply enter the playlist link and start
@@ -138,7 +136,6 @@ function Feature({ index, imageUrl, title, description }) {
 }
 
 function Home() {
-  const context = useDocusaurusContext();
   return (
     <Layout
       title="Music Player"
