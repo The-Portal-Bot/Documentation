@@ -61,7 +61,7 @@ function Home() {
   return (
     <Layout
       title="Commands"
-      description="Description will go into a meta tag in <head />"
+      description="All Commnads"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
