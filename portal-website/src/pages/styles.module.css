@@ -57,6 +57,12 @@
     width: 100%;
 }
 
+.features_no_padding {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
 .commands {
     display: flex;
     align-items: right;

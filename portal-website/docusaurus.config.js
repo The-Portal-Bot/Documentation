@@ -154,9 +154,21 @@ module.exports = {
                     href: 'https://top.gg/bot/704400876860735569',
                 }
                 ]
+            },
+            {
+                title: 'Support',
+                items: [{
+                    label: 'PaypalMe',
+                    to: 'https://www.paypal.com/paypalme/tsiakkas',
+                },
+                {
+                    label: 'Github Sponsor',
+                    href: 'https://github.com/sponsors/keybraker',
+                }
+                ]
             }
             ],
-            copyright: `<br />Copyright © ${new Date().getFullYear()}<br />Designed and Built by Ioannis Tsiakkas`,
+            copyright: `<br />Copyright © 2020 - ${new Date().getFullYear()}<br />Designed and Built by Ioannis Tsiakkas`,
         },
     },
     presets: [

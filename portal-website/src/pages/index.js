@@ -170,9 +170,9 @@ function Home() {
         </div>
       </main>
 
-      <main className={clsx("hero hero--primary", styles.heroBanner)}>
+      <main className={clsx("hero--`secondary`", styles.heroBanner)}>
         {features && features.length > 0 && (
-          <section className={styles.features}>
+          <section className={styles.features_no_padding}>
             <div className="container">
               <div className="row">
                 {features.map((props, idx) => (
