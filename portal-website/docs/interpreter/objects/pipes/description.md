@@ -12,9 +12,21 @@ sidebar_label: Description
 
 ### [acronym](/docs/interpreter/objects/pipes/detailed/acronym)
 
-|             Description             |  Type  |
-| :---------------------------------: | :----: |
-| _returns the acronoym of the input_ | string |
+|            Description             |  Type  |
+| :--------------------------------: | :----: |
+| _returns the acronym of the input_ | string |
+
+### [vowels](/docs/interpreter/objects/pipes/detailed/vowels)
+
+|            Description            |  Type  |
+| :-------------------------------: | :----: |
+| _returns the vowels of the input_ | string |
+
+### [consonants](/docs/interpreter/objects/pipes/detailed/consonants)
+
+|              Description              |  Type  |
+| :-----------------------------------: | :----: |
+| _returns the consonants of the input_ | string |
 
 ### [camelCase](/docs/interpreter/objects/pipes/detailed/camelCase)
 
@@ -54,9 +66,9 @@ sidebar_label: Description
 
 ### [populous](/docs/interpreter/objects/pipes/detailed/populous)
 
-|                      Description                      | Type  |
-| :---------------------------------------------------: | :---: |
-| _returns the name of the most common element in list_ | list  |
+|                      Description                      | Type |
+| :---------------------------------------------------: | :--: |
+| _returns the name of the most common element in list_ | list |
 
 ### [snakeCase](/docs/interpreter/objects/pipes/detailed/snakeCase)
 

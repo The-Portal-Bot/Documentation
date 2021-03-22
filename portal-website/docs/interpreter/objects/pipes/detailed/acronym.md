@@ -6,7 +6,7 @@ sidebar_label: acronym
 
 ### Description
 
-_returns the acronoym of the input_
+_returns the acronym of the input_
 
 ### Input Type
 
@@ -18,8 +18,8 @@ string
 
 ### Example
 
-|           input           |   output   |
-| :-----------------------: | :--------: |
-| __$status_list\|acronym__ | __AL, RL__ |
+|           input           |  output   |
+| :-----------------------: | :-------: |
+| **$status_list\|acronym** | **AL,RL** |
 
 $status_list = [ "Apex Legends", "Apex Legends", "Rocket League" ]
