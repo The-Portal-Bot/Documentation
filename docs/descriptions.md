@@ -31,11 +31,11 @@ So lets say you are playing Counter Strike, your channel's name will be
 __CS:GO__.<br />
 *To see the full documentation click [here](interpreter/description).*
 
-## [Leveling](ranking)
+## [Ranking System](ranking)
 
 Portal's leveling system tracks messages sent and minutes spent in server's
 voice channels. Different actions ammount to different points that give you
-levels which then give you roles.
+levels which then give you roles.<br />
 *To see the full documentation click [here](ranking).*
 
 <!-- ---
