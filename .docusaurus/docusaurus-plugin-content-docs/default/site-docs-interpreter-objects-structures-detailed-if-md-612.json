@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/structures/detailed/if",
+  "id": "interpreter/objects/structures/detailed/if",
+  "isDocsHomePage": false,
+  "title": "if",
+  "description": "|                        Description                         |",
+  "source": "@site/docs/interpreter/objects/structures/detailed/if.md",
+  "slug": "/interpreter/objects/structures/detailed/if",
+  "permalink": "/docs/interpreter/objects/structures/detailed/if",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/structures/detailed/if.md",
+  "version": "current",
+  "sidebar_label": "if",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Structures",
+    "permalink": "/docs/interpreter/objects/structures/description"
+  },
+  "next": {
+    "title": "Ranking System",
+    "permalink": "/docs/ranking"
+  }
+}

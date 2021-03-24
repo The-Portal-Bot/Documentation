@@ -1,0 +1,22 @@
+{
+  "unversionedId": "commands/detailed/announcement",
+  "id": "commands/detailed/announcement",
+  "isDocsHomePage": false,
+  "title": "announcement",
+  "description": "|                                     Description                                     |               Argument                | Accessible | Cooldown |",
+  "source": "@site/docs/commands/detailed/announcement.md",
+  "slug": "/commands/detailed/announcement",
+  "permalink": "/docs/commands/detailed/announcement",
+  "editUrl": "https://portal-bot.xyz/docs/commands/detailed/announcement.md",
+  "version": "current",
+  "sidebar_label": "announcement",
+  "sidebar": "docs",
+  "previous": {
+    "title": "announce",
+    "permalink": "/docs/commands/detailed/announce"
+  },
+  "next": {
+    "title": "corona",
+    "permalink": "/docs/commands/detailed/corona"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/time/hour",
+  "id": "interpreter/objects/variables/detailed/time/hour",
+  "isDocsHomePage": false,
+  "title": "hour",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/time/hour.md",
+  "slug": "/interpreter/objects/variables/detailed/time/hour",
+  "permalink": "/docs/interpreter/objects/variables/detailed/time/hour",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/hour.md",
+  "version": "current",
+  "sidebar_label": "hour",
+  "sidebar": "docs",
+  "previous": {
+    "title": "time",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/time"
+  },
+  "next": {
+    "title": "minute",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/minute"
+  }
+}

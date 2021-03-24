@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/status/status_history",
+  "id": "interpreter/objects/variables/detailed/status/status_history",
+  "isDocsHomePage": false,
+  "title": "status_history",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/status/status_hisotry.md",
+  "slug": "/interpreter/objects/variables/detailed/status/status_history",
+  "permalink": "/docs/interpreter/objects/variables/detailed/status/status_history",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/status/status_hisotry.md",
+  "version": "current",
+  "sidebar_label": "status_history",
+  "sidebar": "docs",
+  "previous": {
+    "title": "status_count",
+    "permalink": "/docs/interpreter/objects/variables/detailed/status/status_count"
+  },
+  "next": {
+    "title": "date",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/date"
+  }
+}

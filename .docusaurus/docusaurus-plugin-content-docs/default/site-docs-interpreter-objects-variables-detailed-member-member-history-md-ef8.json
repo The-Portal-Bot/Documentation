@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/member/member_history",
+  "id": "interpreter/objects/variables/detailed/member/member_history",
+  "isDocsHomePage": false,
+  "title": "member_history",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/member/member_history.md",
+  "slug": "/interpreter/objects/variables/detailed/member/member_history",
+  "permalink": "/docs/interpreter/objects/variables/detailed/member/member_history",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_history.md",
+  "version": "current",
+  "sidebar_label": "member_history",
+  "sidebar": "docs",
+  "previous": {
+    "title": "member_with_status",
+    "permalink": "/docs/interpreter/objects/variables/detailed/member/member_with_status"
+  },
+  "next": {
+    "title": "status_list",
+    "permalink": "/docs/interpreter/objects/variables/detailed/status/status_list"
+  }
+}

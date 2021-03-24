@@ -1,0 +1,22 @@
+{
+  "unversionedId": "commands/detailed/ignore",
+  "id": "commands/detailed/ignore",
+  "isDocsHomePage": false,
+  "title": "ignore",
+  "description": "|                       Description                       | Argument | Accessible | Cooldown |",
+  "source": "@site/docs/commands/detailed/ignore.md",
+  "slug": "/commands/detailed/ignore",
+  "permalink": "/docs/commands/detailed/ignore",
+  "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ignore.md",
+  "version": "current",
+  "sidebar_label": "ignore",
+  "sidebar": "docs",
+  "previous": {
+    "title": "help",
+    "permalink": "/docs/commands/detailed/help"
+  },
+  "next": {
+    "title": "join",
+    "permalink": "/docs/commands/detailed/join"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/consonants",
+  "id": "interpreter/objects/pipes/detailed/consonants",
+  "isDocsHomePage": false,
+  "title": "consonants",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/consonants.md",
+  "slug": "/interpreter/objects/pipes/detailed/consonants",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/consonants",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/consonants.md",
+  "version": "current",
+  "sidebar_label": "consonants"
+}

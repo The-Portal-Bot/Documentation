@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/time/month_name",
+  "id": "interpreter/objects/variables/detailed/time/month_name",
+  "isDocsHomePage": false,
+  "title": "month_name",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/time/month_name.md",
+  "slug": "/interpreter/objects/variables/detailed/time/month_name",
+  "permalink": "/docs/interpreter/objects/variables/detailed/time/month_name",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/month_name.md",
+  "version": "current",
+  "sidebar_label": "month_name",
+  "sidebar": "docs",
+  "previous": {
+    "title": "month_number",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/month_number"
+  },
+  "next": {
+    "title": "year",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/year"
+  }
+}

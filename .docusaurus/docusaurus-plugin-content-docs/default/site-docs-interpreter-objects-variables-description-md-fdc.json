@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/description",
+  "id": "interpreter/objects/variables/description",
+  "isDocsHomePage": false,
+  "title": "Variable",
+  "description": "| prefix |                           Description                           |   Format    |       Example $status_list       |",
+  "source": "@site/docs/interpreter/objects/variables/description.md",
+  "slug": "/interpreter/objects/variables/description",
+  "permalink": "/docs/interpreter/objects/variables/description",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/description.md",
+  "version": "current",
+  "sidebar_label": "Description",
+  "sidebar": "docs",
+  "previous": {
+    "title": "v.user_limit",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.user_limit"
+  },
+  "next": {
+    "title": "creator_portal",
+    "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_portal"
+  }
+}

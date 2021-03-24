@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/general/double_slash",
+  "id": "interpreter/objects/variables/detailed/general/double_slash",
+  "isDocsHomePage": false,
+  "title": "\\##",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/general/double_slash.md",
+  "slug": "/interpreter/objects/variables/detailed/general/double_slash",
+  "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/double_slash.md",
+  "version": "current",
+  "sidebar_label": "\\##",
+  "sidebar": "docs",
+  "previous": {
+    "title": "/#",
+    "permalink": "/docs/interpreter/objects/variables/detailed/general/slash"
+  },
+  "next": {
+    "title": "member_list",
+    "permalink": "/docs/interpreter/objects/variables/detailed/member/member_list"
+  }
+}

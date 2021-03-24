@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/attributes/description",
+  "id": "interpreter/objects/attributes/description",
+  "isDocsHomePage": false,
+  "title": "Attributes",
+  "description": "| prefix |                                                      Description                                                       |    Format    | Example &g.locale |",
+  "source": "@site/docs/interpreter/objects/attributes/description.md",
+  "slug": "/interpreter/objects/attributes/description",
+  "permalink": "/docs/interpreter/objects/attributes/description",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/description.md",
+  "version": "current",
+  "sidebar_label": "Description",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Description",
+    "permalink": "/docs/interpreter/description"
+  },
+  "next": {
+    "title": "g.locale",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.locale"
+  }
+}

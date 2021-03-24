@@ -1,0 +1,3245 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/home/keybraker/Documents/Portal-Documentation/sidebars.js",
+          "docsDirPath": "/home/keybraker/Documents/Portal-Documentation/docs",
+          "docsDirPathLocalized": "/home/keybraker/Documents/Portal-Documentation/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "descriptions",
+          "sidebars": {
+            "docs": [
+              {
+                "type": "doc",
+                "id": "descriptions"
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Commands",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "commands/description"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "All Commands",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/about"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/announce"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/announcement"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/corona"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/crypto"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/delete"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/focus"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/force"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/help"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/ignore"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/join"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/joke"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/leaderboard"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/leave"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/level"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/music"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/ping"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/portal"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/ranks"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/role_assigner"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/roll"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/run"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/set_ranks"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/set"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/state"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/url"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/weather"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/whoami"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "collapsed": true,
+                "type": "category",
+                "label": "Text Interpreter",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "interpreter/description"
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Attributes",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "interpreter/objects/attributes/description"
+                      },
+                      {
+                        "collapsed": true,
+                        "type": "category",
+                        "label": "All Attributes",
+                        "items": [
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Global",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/global/g.locale"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/global/g.prefix"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/global/g.profanity_level"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/global/g.rank_speed"
+                              }
+                            ]
+                          },
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Member",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/member/m.regex"
+                              }
+                            ]
+                          },
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Portal",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.ann_announce"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.ann_user"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.locale"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.no_bots"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.regex_overwrite"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.regex"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.render"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.user_limit"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/portal/p.v.regex"
+                              }
+                            ]
+                          },
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Voice",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.ann_announce"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.ann_user"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.locale"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.no_bots"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.position"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.regex"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.render"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/attributes/detailed/voice/v.user_limit"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Variables",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "interpreter/objects/variables/description"
+                      },
+                      {
+                        "collapsed": true,
+                        "type": "category",
+                        "label": "All Variables",
+                        "items": [
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "General",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/general/creator_portal"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/general/creator_voice"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/general/slash"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/general/double_slash"
+                              }
+                            ]
+                          },
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Member",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/member/member_list"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/member/member_count"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/member/member_active_count"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/member/member_with_status"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/member/member_history"
+                              }
+                            ]
+                          },
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Status",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/status/status_list"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/status/status_count"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/status/status_history"
+                              }
+                            ]
+                          },
+                          {
+                            "collapsed": true,
+                            "type": "category",
+                            "label": "Time",
+                            "items": [
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/date"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/day_number"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/day_name"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/month_number"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/month_name"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/year"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/time"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/hour"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/minute"
+                              },
+                              {
+                                "type": "doc",
+                                "id": "interpreter/objects/variables/detailed/time/second"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Pipes",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "interpreter/objects/pipes/description"
+                      },
+                      {
+                        "collapsed": true,
+                        "type": "category",
+                        "label": "All Pipes",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/acronym"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/camelCase"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/capitalise"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/decapitalise"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/length"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/lowerCase"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/populous_count"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/populous"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/snakeCase"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/souvlakiCase"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/titleCase"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/upperCase"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/words"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "collapsed": true,
+                    "type": "category",
+                    "label": "Structures",
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "interpreter/objects/structures/description"
+                      },
+                      {
+                        "collapsed": true,
+                        "type": "category",
+                        "label": "All Structures",
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/structures/detailed/if"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "ranking"
+              }
+            ]
+          },
+          "permalinkToSidebar": {
+            "/docs/commands/description": "docs",
+            "/docs/commands/detailed/about": "docs",
+            "/docs/commands/detailed/announce": "docs",
+            "/docs/commands/detailed/announcement": "docs",
+            "/docs/commands/detailed/corona": "docs",
+            "/docs/commands/detailed/crypto": "docs",
+            "/docs/commands/detailed/delete": "docs",
+            "/docs/commands/detailed/focus": "docs",
+            "/docs/commands/detailed/force": "docs",
+            "/docs/commands/detailed/help": "docs",
+            "/docs/commands/detailed/ignore": "docs",
+            "/docs/commands/detailed/join": "docs",
+            "/docs/commands/detailed/joke": "docs",
+            "/docs/commands/detailed/leaderboard": "docs",
+            "/docs/commands/detailed/leave": "docs",
+            "/docs/commands/detailed/level": "docs",
+            "/docs/commands/detailed/music": "docs",
+            "/docs/commands/detailed/ping": "docs",
+            "/docs/commands/detailed/portal": "docs",
+            "/docs/commands/detailed/ranks": "docs",
+            "/docs/commands/detailed/role_assigner": "docs",
+            "/docs/commands/detailed/roll": "docs",
+            "/docs/commands/detailed/run": "docs",
+            "/docs/commands/detailed/set": "docs",
+            "/docs/commands/detailed/set_ranks": "docs",
+            "/docs/commands/detailed/state": "docs",
+            "/docs/commands/detailed/url": "docs",
+            "/docs/commands/detailed/weather": "docs",
+            "/docs/commands/detailed/whoami": "docs",
+            "/docs/": "docs",
+            "/docs/interpreter/description": "docs",
+            "/docs/interpreter/objects/attributes/description": "docs",
+            "/docs/interpreter/objects/attributes/detailed/global/g.locale": "docs",
+            "/docs/interpreter/objects/attributes/detailed/global/g.prefix": "docs",
+            "/docs/interpreter/objects/attributes/detailed/global/g.profanity_level": "docs",
+            "/docs/interpreter/objects/attributes/detailed/global/g.rank_speed": "docs",
+            "/docs/interpreter/objects/attributes/detailed/member/m.regex": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.ann_user": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.locale": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.no_bots": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.regex": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.render": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.user_limit": "docs",
+            "/docs/interpreter/objects/attributes/detailed/portal/p.v.regex": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.ann_user": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.locale": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.no_bots": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.position": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.regex": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.render": "docs",
+            "/docs/interpreter/objects/attributes/detailed/voice/v.user_limit": "docs",
+            "/docs/interpreter/objects/pipes/description": "docs",
+            "/docs/interpreter/objects/pipes/detailed/acronym": "docs",
+            "/docs/interpreter/objects/pipes/detailed/camelCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/capitalise": "docs",
+            "/docs/interpreter/objects/pipes/detailed/decapitalise": "docs",
+            "/docs/interpreter/objects/pipes/detailed/length": "docs",
+            "/docs/interpreter/objects/pipes/detailed/lowerCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/populous": "docs",
+            "/docs/interpreter/objects/pipes/detailed/populous_count": "docs",
+            "/docs/interpreter/objects/pipes/detailed/snakeCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/souvlakiCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/titleCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/upperCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/words": "docs",
+            "/docs/interpreter/objects/structures/description": "docs",
+            "/docs/interpreter/objects/structures/detailed/if": "docs",
+            "/docs/interpreter/objects/variables/description": "docs",
+            "/docs/interpreter/objects/variables/detailed/general/creator_portal": "docs",
+            "/docs/interpreter/objects/variables/detailed/general/creator_voice": "docs",
+            "/docs/interpreter/objects/variables/detailed/general/double_slash": "docs",
+            "/docs/interpreter/objects/variables/detailed/general/slash": "docs",
+            "/docs/interpreter/objects/variables/detailed/member/member_active_count": "docs",
+            "/docs/interpreter/objects/variables/detailed/member/member_count": "docs",
+            "/docs/interpreter/objects/variables/detailed/member/member_history": "docs",
+            "/docs/interpreter/objects/variables/detailed/member/member_list": "docs",
+            "/docs/interpreter/objects/variables/detailed/member/member_with_status": "docs",
+            "/docs/interpreter/objects/variables/detailed/status/status_count": "docs",
+            "/docs/interpreter/objects/variables/detailed/status/status_history": "docs",
+            "/docs/interpreter/objects/variables/detailed/status/status_list": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/date": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/day_name": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/day_number": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/hour": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/minute": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/month_name": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/month_number": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/second": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/time": "docs",
+            "/docs/interpreter/objects/variables/detailed/time/year": "docs",
+            "/docs/ranking": "docs"
+          },
+          "docs": [
+            {
+              "unversionedId": "commands/description",
+              "id": "commands/description",
+              "isDocsHomePage": false,
+              "title": "Commands",
+              "description": "Commands are used to communicate with Portal, by typing {prefix}{command} (ex. ./about)",
+              "source": "@site/docs/commands/description.md",
+              "slug": "/commands/description",
+              "permalink": "/docs/commands/description",
+              "editUrl": "https://portal-bot.xyz/docs/commands/description.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Description",
+                "permalink": "/docs/"
+              },
+              "next": {
+                "title": "about",
+                "permalink": "/docs/commands/detailed/about"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/about",
+              "id": "commands/detailed/about",
+              "isDocsHomePage": false,
+              "title": "about",
+              "description": "|           Description           | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/about.md",
+              "slug": "/commands/detailed/about",
+              "permalink": "/docs/commands/detailed/about",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/about.md",
+              "version": "current",
+              "sidebar_label": "about",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Commands",
+                "permalink": "/docs/commands/description"
+              },
+              "next": {
+                "title": "announce",
+                "permalink": "/docs/commands/detailed/announce"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/announce",
+              "id": "commands/detailed/announce",
+              "isDocsHomePage": false,
+              "title": "announce",
+              "description": "|                              Description                              |      Argument       | Accessible |  Cooldown   |",
+              "source": "@site/docs/commands/detailed/announce.md",
+              "slug": "/commands/detailed/announce",
+              "permalink": "/docs/commands/detailed/announce",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/announce.md",
+              "version": "current",
+              "sidebar_label": "announce",
+              "sidebar": "docs",
+              "previous": {
+                "title": "about",
+                "permalink": "/docs/commands/detailed/about"
+              },
+              "next": {
+                "title": "announcement",
+                "permalink": "/docs/commands/detailed/announcement"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/announcement",
+              "id": "commands/detailed/announcement",
+              "isDocsHomePage": false,
+              "title": "announcement",
+              "description": "|                                     Description                                     |               Argument                | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/announcement.md",
+              "slug": "/commands/detailed/announcement",
+              "permalink": "/docs/commands/detailed/announcement",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/announcement.md",
+              "version": "current",
+              "sidebar_label": "announcement",
+              "sidebar": "docs",
+              "previous": {
+                "title": "announce",
+                "permalink": "/docs/commands/detailed/announce"
+              },
+              "next": {
+                "title": "corona",
+                "permalink": "/docs/commands/detailed/corona"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/bet",
+              "id": "commands/detailed/bet",
+              "isDocsHomePage": false,
+              "title": "bet",
+              "description": "|              Description              |      Argument       | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/bet.md",
+              "slug": "/commands/detailed/bet",
+              "permalink": "/docs/commands/detailed/bet",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/bet.md",
+              "version": "current",
+              "sidebar_label": "bet"
+            },
+            {
+              "unversionedId": "commands/detailed/corona",
+              "id": "commands/detailed/corona",
+              "isDocsHomePage": false,
+              "title": "corona",
+              "description": "|                    Description                     |     Argument      | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/corona.md",
+              "slug": "/commands/detailed/corona",
+              "permalink": "/docs/commands/detailed/corona",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/corona.md",
+              "version": "current",
+              "sidebar_label": "corona",
+              "sidebar": "docs",
+              "previous": {
+                "title": "announcement",
+                "permalink": "/docs/commands/detailed/announcement"
+              },
+              "next": {
+                "title": "crypto",
+                "permalink": "/docs/commands/detailed/crypto"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/crypto",
+              "id": "commands/detailed/crypto",
+              "isDocsHomePage": false,
+              "title": "crypto",
+              "description": "|                        Description                         |            Argument             | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/crypto.md",
+              "slug": "/commands/detailed/crypto",
+              "permalink": "/docs/commands/detailed/crypto",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/crypto.md",
+              "version": "current",
+              "sidebar_label": "crypto",
+              "sidebar": "docs",
+              "previous": {
+                "title": "corona",
+                "permalink": "/docs/commands/detailed/corona"
+              },
+              "next": {
+                "title": "delete",
+                "permalink": "/docs/commands/detailed/delete"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/delete",
+              "id": "commands/detailed/delete",
+              "isDocsHomePage": false,
+              "title": "delete",
+              "description": "|                    Description                    |        Argument        | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/delete.md",
+              "slug": "/commands/detailed/delete",
+              "permalink": "/docs/commands/detailed/delete",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/delete.md",
+              "version": "current",
+              "sidebar_label": "delete",
+              "sidebar": "docs",
+              "previous": {
+                "title": "crypto",
+                "permalink": "/docs/commands/detailed/crypto"
+              },
+              "next": {
+                "title": "focus",
+                "permalink": "/docs/commands/detailed/focus"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/focus",
+              "id": "commands/detailed/focus",
+              "isDocsHomePage": false,
+              "title": "focus",
+              "description": "|                       Description                       |      Argument       | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/focus.md",
+              "slug": "/commands/detailed/focus",
+              "permalink": "/docs/commands/detailed/focus",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/focus.md",
+              "version": "current",
+              "sidebar_label": "focus",
+              "sidebar": "docs",
+              "previous": {
+                "title": "delete",
+                "permalink": "/docs/commands/detailed/delete"
+              },
+              "next": {
+                "title": "force",
+                "permalink": "/docs/commands/detailed/force"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/force",
+              "id": "commands/detailed/force",
+              "isDocsHomePage": false,
+              "title": "force",
+              "description": "|                     Description                      | Argument | Accessible |   Cooldown   |",
+              "source": "@site/docs/commands/detailed/force.md",
+              "slug": "/commands/detailed/force",
+              "permalink": "/docs/commands/detailed/force",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/force.md",
+              "version": "current",
+              "sidebar_label": "force",
+              "sidebar": "docs",
+              "previous": {
+                "title": "focus",
+                "permalink": "/docs/commands/detailed/focus"
+              },
+              "next": {
+                "title": "help",
+                "permalink": "/docs/commands/detailed/help"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/help",
+              "id": "commands/detailed/help",
+              "isDocsHomePage": false,
+              "title": "help",
+              "description": "|                          Description                          |                                        Argument                                         | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/help.md",
+              "slug": "/commands/detailed/help",
+              "permalink": "/docs/commands/detailed/help",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/help.md",
+              "version": "current",
+              "sidebar_label": "help",
+              "sidebar": "docs",
+              "previous": {
+                "title": "force",
+                "permalink": "/docs/commands/detailed/force"
+              },
+              "next": {
+                "title": "ignore",
+                "permalink": "/docs/commands/detailed/ignore"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/ignore",
+              "id": "commands/detailed/ignore",
+              "isDocsHomePage": false,
+              "title": "ignore",
+              "description": "|                       Description                       | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/ignore.md",
+              "slug": "/commands/detailed/ignore",
+              "permalink": "/docs/commands/detailed/ignore",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ignore.md",
+              "version": "current",
+              "sidebar_label": "ignore",
+              "sidebar": "docs",
+              "previous": {
+                "title": "help",
+                "permalink": "/docs/commands/detailed/help"
+              },
+              "next": {
+                "title": "join",
+                "permalink": "/docs/commands/detailed/join"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/join",
+              "id": "commands/detailed/join",
+              "isDocsHomePage": false,
+              "title": "join",
+              "description": "|         Description          | Argument | Accessible |   Cooldown    |",
+              "source": "@site/docs/commands/detailed/join.md",
+              "slug": "/commands/detailed/join",
+              "permalink": "/docs/commands/detailed/join",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/join.md",
+              "version": "current",
+              "sidebar_label": "join",
+              "sidebar": "docs",
+              "previous": {
+                "title": "ignore",
+                "permalink": "/docs/commands/detailed/ignore"
+              },
+              "next": {
+                "title": "joke",
+                "permalink": "/docs/commands/detailed/joke"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/joke",
+              "id": "commands/detailed/joke",
+              "isDocsHomePage": false,
+              "title": "joke",
+              "description": "|     Description     |   Argument    | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/joke.md",
+              "slug": "/commands/detailed/joke",
+              "permalink": "/docs/commands/detailed/joke",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/joke.md",
+              "version": "current",
+              "sidebar_label": "joke",
+              "sidebar": "docs",
+              "previous": {
+                "title": "join",
+                "permalink": "/docs/commands/detailed/join"
+              },
+              "next": {
+                "title": "leaderboard",
+                "permalink": "/docs/commands/detailed/leaderboard"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/leaderboard",
+              "id": "commands/detailed/leaderboard",
+              "isDocsHomePage": false,
+              "title": "leaderboard",
+              "description": "|             Description             |        Argument        | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/leaderboard.md",
+              "slug": "/commands/detailed/leaderboard",
+              "permalink": "/docs/commands/detailed/leaderboard",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/leaderboard.md",
+              "version": "current",
+              "sidebar_label": "leaderboard",
+              "sidebar": "docs",
+              "previous": {
+                "title": "joke",
+                "permalink": "/docs/commands/detailed/joke"
+              },
+              "next": {
+                "title": "leave",
+                "permalink": "/docs/commands/detailed/leave"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/leave",
+              "id": "commands/detailed/leave",
+              "isDocsHomePage": false,
+              "title": "leave",
+              "description": "|            Description            | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/leave.md",
+              "slug": "/commands/detailed/leave",
+              "permalink": "/docs/commands/detailed/leave",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/leave.md",
+              "version": "current",
+              "sidebar_label": "leave",
+              "sidebar": "docs",
+              "previous": {
+                "title": "leaderboard",
+                "permalink": "/docs/commands/detailed/leaderboard"
+              },
+              "next": {
+                "title": "level",
+                "permalink": "/docs/commands/detailed/level"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/level",
+              "id": "commands/detailed/level",
+              "isDocsHomePage": false,
+              "title": "level",
+              "description": "|    Description     | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/level.md",
+              "slug": "/commands/detailed/level",
+              "permalink": "/docs/commands/detailed/level",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/level.md",
+              "version": "current",
+              "sidebar_label": "level",
+              "sidebar": "docs",
+              "previous": {
+                "title": "leave",
+                "permalink": "/docs/commands/detailed/leave"
+              },
+              "next": {
+                "title": "music",
+                "permalink": "/docs/commands/detailed/music"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/music",
+              "id": "commands/detailed/music",
+              "isDocsHomePage": false,
+              "title": "music",
+              "description": "|                              Description                              |               Argument                | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/music.md",
+              "slug": "/commands/detailed/music",
+              "permalink": "/docs/commands/detailed/music",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/music.md",
+              "version": "current",
+              "sidebar_label": "music",
+              "sidebar": "docs",
+              "previous": {
+                "title": "level",
+                "permalink": "/docs/commands/detailed/level"
+              },
+              "next": {
+                "title": "ping",
+                "permalink": "/docs/commands/detailed/ping"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/news",
+              "id": "commands/detailed/news",
+              "isDocsHomePage": false,
+              "title": "news",
+              "description": "|                Description                 |             Argument             | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/news.md",
+              "slug": "/commands/detailed/news",
+              "permalink": "/docs/commands/detailed/news",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/news.md",
+              "version": "current",
+              "sidebar_label": "news"
+            },
+            {
+              "unversionedId": "commands/detailed/ping",
+              "id": "commands/detailed/ping",
+              "isDocsHomePage": false,
+              "title": "ping",
+              "description": "|                 Description                 | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/ping.md",
+              "slug": "/commands/detailed/ping",
+              "permalink": "/docs/commands/detailed/ping",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ping.md",
+              "version": "current",
+              "sidebar_label": "ping",
+              "sidebar": "docs",
+              "previous": {
+                "title": "music",
+                "permalink": "/docs/commands/detailed/music"
+              },
+              "next": {
+                "title": "portal",
+                "permalink": "/docs/commands/detailed/portal"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/poll",
+              "id": "commands/detailed/poll",
+              "isDocsHomePage": false,
+              "title": "poll",
+              "description": "|                              Description                               |              Argument              | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/poll.md",
+              "slug": "/commands/detailed/poll",
+              "permalink": "/docs/commands/detailed/poll",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/poll.md",
+              "version": "current",
+              "sidebar_label": "poll"
+            },
+            {
+              "unversionedId": "commands/detailed/portal",
+              "id": "commands/detailed/portal",
+              "isDocsHomePage": false,
+              "title": "portal",
+              "description": "|                               Description                               |               Argument                | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/portal.md",
+              "slug": "/commands/detailed/portal",
+              "permalink": "/docs/commands/detailed/portal",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/portal.md",
+              "version": "current",
+              "sidebar_label": "portal",
+              "sidebar": "docs",
+              "previous": {
+                "title": "ping",
+                "permalink": "/docs/commands/detailed/ping"
+              },
+              "next": {
+                "title": "ranks",
+                "permalink": "/docs/commands/detailed/ranks"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/ranks",
+              "id": "commands/detailed/ranks",
+              "isDocsHomePage": false,
+              "title": "ranks",
+              "description": "|           Description           | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/ranks.md",
+              "slug": "/commands/detailed/ranks",
+              "permalink": "/docs/commands/detailed/ranks",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ranks.md",
+              "version": "current",
+              "sidebar_label": "ranks",
+              "sidebar": "docs",
+              "previous": {
+                "title": "portal",
+                "permalink": "/docs/commands/detailed/portal"
+              },
+              "next": {
+                "title": "role_assigner",
+                "permalink": "/docs/commands/detailed/role_assigner"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/role_assigner",
+              "id": "commands/detailed/role_assigner",
+              "isDocsHomePage": false,
+              "title": "role_assigner",
+              "description": "|                          Description                           |    Argument    | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/role_assigner.md",
+              "slug": "/commands/detailed/role_assigner",
+              "permalink": "/docs/commands/detailed/role_assigner",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/role_assigner.md",
+              "version": "current",
+              "sidebar_label": "role_assigner",
+              "sidebar": "docs",
+              "previous": {
+                "title": "ranks",
+                "permalink": "/docs/commands/detailed/ranks"
+              },
+              "next": {
+                "title": "roll",
+                "permalink": "/docs/commands/detailed/roll"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/roll",
+              "id": "commands/detailed/roll",
+              "isDocsHomePage": false,
+              "title": "roll",
+              "description": "|                  Description                  |      Argument      | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/roll.md",
+              "slug": "/commands/detailed/roll",
+              "permalink": "/docs/commands/detailed/roll",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/roll.md",
+              "version": "current",
+              "sidebar_label": "roll",
+              "sidebar": "docs",
+              "previous": {
+                "title": "role_assigner",
+                "permalink": "/docs/commands/detailed/role_assigner"
+              },
+              "next": {
+                "title": "run",
+                "permalink": "/docs/commands/detailed/run"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/run",
+              "id": "commands/detailed/run",
+              "isDocsHomePage": false,
+              "title": "run",
+              "description": "|                     Description                      |      Argument      | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/run.md",
+              "slug": "/commands/detailed/run",
+              "permalink": "/docs/commands/detailed/run",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/run.md",
+              "version": "current",
+              "sidebar_label": "run",
+              "sidebar": "docs",
+              "previous": {
+                "title": "roll",
+                "permalink": "/docs/commands/detailed/roll"
+              },
+              "next": {
+                "title": "set_ranks",
+                "permalink": "/docs/commands/detailed/set_ranks"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/set",
+              "id": "commands/detailed/set",
+              "isDocsHomePage": false,
+              "title": "set",
+              "description": "|          Description           |       Argument        | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/set.md",
+              "slug": "/commands/detailed/set",
+              "permalink": "/docs/commands/detailed/set",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/set.md",
+              "version": "current",
+              "sidebar_label": "set",
+              "sidebar": "docs",
+              "previous": {
+                "title": "set_ranks",
+                "permalink": "/docs/commands/detailed/set_ranks"
+              },
+              "next": {
+                "title": "state",
+                "permalink": "/docs/commands/detailed/state"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/set_ranks",
+              "id": "commands/detailed/set_ranks",
+              "isDocsHomePage": false,
+              "title": "set_ranks",
+              "description": "|                     Description                      | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/set_ranks.md",
+              "slug": "/commands/detailed/set_ranks",
+              "permalink": "/docs/commands/detailed/set_ranks",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/set_ranks.md",
+              "version": "current",
+              "sidebar_label": "set_ranks",
+              "sidebar": "docs",
+              "previous": {
+                "title": "run",
+                "permalink": "/docs/commands/detailed/run"
+              },
+              "next": {
+                "title": "set",
+                "permalink": "/docs/commands/detailed/set"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/state",
+              "id": "commands/detailed/state",
+              "isDocsHomePage": false,
+              "title": "state",
+              "description": "|             Description             | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/state.md",
+              "slug": "/commands/detailed/state",
+              "permalink": "/docs/commands/detailed/state",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/state.md",
+              "version": "current",
+              "sidebar_label": "state",
+              "sidebar": "docs",
+              "previous": {
+                "title": "set",
+                "permalink": "/docs/commands/detailed/set"
+              },
+              "next": {
+                "title": "url",
+                "permalink": "/docs/commands/detailed/url"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/url",
+              "id": "commands/detailed/url",
+              "isDocsHomePage": false,
+              "title": "url",
+              "description": "|                            Description                            |               Argument                | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/url.md",
+              "slug": "/commands/detailed/url",
+              "permalink": "/docs/commands/detailed/url",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/url.md",
+              "version": "current",
+              "sidebar_label": "url",
+              "sidebar": "docs",
+              "previous": {
+                "title": "state",
+                "permalink": "/docs/commands/detailed/state"
+              },
+              "next": {
+                "title": "weather",
+                "permalink": "/docs/commands/detailed/weather"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/weather",
+              "id": "commands/detailed/weather",
+              "isDocsHomePage": false,
+              "title": "weather",
+              "description": "|                       Description                        |    Argument     | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/weather.md",
+              "slug": "/commands/detailed/weather",
+              "permalink": "/docs/commands/detailed/weather",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/weather.md",
+              "version": "current",
+              "sidebar_label": "weather",
+              "sidebar": "docs",
+              "previous": {
+                "title": "url",
+                "permalink": "/docs/commands/detailed/url"
+              },
+              "next": {
+                "title": "whoami",
+                "permalink": "/docs/commands/detailed/whoami"
+              }
+            },
+            {
+              "unversionedId": "commands/detailed/whoami",
+              "id": "commands/detailed/whoami",
+              "isDocsHomePage": false,
+              "title": "whoami",
+              "description": "|                   Description                   | Argument | Accessible | Cooldown |",
+              "source": "@site/docs/commands/detailed/whoami.md",
+              "slug": "/commands/detailed/whoami",
+              "permalink": "/docs/commands/detailed/whoami",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/whoami.md",
+              "version": "current",
+              "sidebar_label": "whoami",
+              "sidebar": "docs",
+              "previous": {
+                "title": "weather",
+                "permalink": "/docs/commands/detailed/weather"
+              },
+              "next": {
+                "title": "Description",
+                "permalink": "/docs/interpreter/description"
+              }
+            },
+            {
+              "unversionedId": "descriptions",
+              "id": "descriptions",
+              "isDocsHomePage": false,
+              "title": "Description",
+              "description": "How do I communicate with portal",
+              "source": "@site/docs/descriptions.md",
+              "slug": "/",
+              "permalink": "/docs/",
+              "editUrl": "https://portal-bot.xyz/docs/descriptions.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "next": {
+                "title": "Commands",
+                "permalink": "/docs/commands/description"
+              }
+            },
+            {
+              "unversionedId": "interpreter/description",
+              "id": "interpreter/description",
+              "isDocsHomePage": false,
+              "title": "Description",
+              "description": "Text Interpreter is a program used by Portal when asked to generate",
+              "source": "@site/docs/interpreter/description.md",
+              "slug": "/interpreter/description",
+              "permalink": "/docs/interpreter/description",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/description.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "previous": {
+                "title": "whoami",
+                "permalink": "/docs/commands/detailed/whoami"
+              },
+              "next": {
+                "title": "Attributes",
+                "permalink": "/docs/interpreter/objects/attributes/description"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/description",
+              "id": "interpreter/objects/attributes/description",
+              "isDocsHomePage": false,
+              "title": "Attributes",
+              "description": "| prefix |                                                      Description                                                       |    Format    | Example &g.locale |",
+              "source": "@site/docs/interpreter/objects/attributes/description.md",
+              "slug": "/interpreter/objects/attributes/description",
+              "permalink": "/docs/interpreter/objects/attributes/description",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/description.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Description",
+                "permalink": "/docs/interpreter/description"
+              },
+              "next": {
+                "title": "g.locale",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.locale"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/global/g.locale",
+              "id": "interpreter/objects/attributes/detailed/global/g.locale",
+              "isDocsHomePage": false,
+              "title": "g.locale",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.locale.md",
+              "slug": "/interpreter/objects/attributes/detailed/global/g.locale",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.locale",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.locale.md",
+              "version": "current",
+              "sidebar_label": "g.locale",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Attributes",
+                "permalink": "/docs/interpreter/objects/attributes/description"
+              },
+              "next": {
+                "title": "g.prefix",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.prefix"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/global/g.prefix",
+              "id": "interpreter/objects/attributes/detailed/global/g.prefix",
+              "isDocsHomePage": false,
+              "title": "g.prefix",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.prefix.md",
+              "slug": "/interpreter/objects/attributes/detailed/global/g.prefix",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.prefix",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.prefix.md",
+              "version": "current",
+              "sidebar_label": "g.prefix",
+              "sidebar": "docs",
+              "previous": {
+                "title": "g.locale",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.locale"
+              },
+              "next": {
+                "title": "g.profanity_level",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.profanity_level"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/global/g.profanity_level",
+              "id": "interpreter/objects/attributes/detailed/global/g.profanity_level",
+              "isDocsHomePage": false,
+              "title": "g.profanity_level",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.profanity_level.md",
+              "slug": "/interpreter/objects/attributes/detailed/global/g.profanity_level",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.profanity_level",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.profanity_level.md",
+              "version": "current",
+              "sidebar_label": "g.profanity_level",
+              "sidebar": "docs",
+              "previous": {
+                "title": "g.prefix",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.prefix"
+              },
+              "next": {
+                "title": "g.rank_speed",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.rank_speed"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/global/g.rank_speed",
+              "id": "interpreter/objects/attributes/detailed/global/g.rank_speed",
+              "isDocsHomePage": false,
+              "title": "g.rank_speed",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.rank_speed.md",
+              "slug": "/interpreter/objects/attributes/detailed/global/g.rank_speed",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.rank_speed",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.rank_speed.md",
+              "version": "current",
+              "sidebar_label": "g.rank_speed",
+              "sidebar": "docs",
+              "previous": {
+                "title": "g.profanity_level",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.profanity_level"
+              },
+              "next": {
+                "title": "m.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/member/m.regex"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/member/m.regex",
+              "id": "interpreter/objects/attributes/detailed/member/m.regex",
+              "isDocsHomePage": false,
+              "title": "m.regex",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/member/m.regex.md",
+              "slug": "/interpreter/objects/attributes/detailed/member/m.regex",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/member/m.regex",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/member/m.regex.md",
+              "version": "current",
+              "sidebar_label": "m.regex",
+              "sidebar": "docs",
+              "previous": {
+                "title": "g.rank_speed",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.rank_speed"
+              },
+              "next": {
+                "title": "p.ann_announce",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.ann_announce",
+              "id": "interpreter/objects/attributes/detailed/portal/p.ann_announce",
+              "isDocsHomePage": false,
+              "title": "p.ann_announce",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.ann_announce",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce.md",
+              "version": "current",
+              "sidebar_label": "p.ann_announce",
+              "sidebar": "docs",
+              "previous": {
+                "title": "m.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/member/m.regex"
+              },
+              "next": {
+                "title": "p.ann_user",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_user"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.ann_user",
+              "id": "interpreter/objects/attributes/detailed/portal/p.ann_user",
+              "isDocsHomePage": false,
+              "title": "p.ann_user",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.ann_user.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.ann_user",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_user",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.ann_user.md",
+              "version": "current",
+              "sidebar_label": "p.ann_user",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.ann_announce",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce"
+              },
+              "next": {
+                "title": "p.locale",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.locale"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.locale",
+              "id": "interpreter/objects/attributes/detailed/portal/p.locale",
+              "isDocsHomePage": false,
+              "title": "p.locale",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.locale.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.locale",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.locale",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.locale.md",
+              "version": "current",
+              "sidebar_label": "p.locale",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.ann_user",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_user"
+              },
+              "next": {
+                "title": "p.no_bots",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.no_bots"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.no_bots",
+              "id": "interpreter/objects/attributes/detailed/portal/p.no_bots",
+              "isDocsHomePage": false,
+              "title": "p.no_bots",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.no_bots.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.no_bots",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.no_bots",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.no_bots.md",
+              "version": "current",
+              "sidebar_label": "p.no_bots",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.locale",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.locale"
+              },
+              "next": {
+                "title": "p.regex_overwrite",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.regex",
+              "id": "interpreter/objects/attributes/detailed/portal/p.regex",
+              "isDocsHomePage": false,
+              "title": "p.regex",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.regex.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.regex",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.regex.md",
+              "version": "current",
+              "sidebar_label": "p.regex",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.regex_overwrite",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite"
+              },
+              "next": {
+                "title": "p.render",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.render"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.regex_overwrite",
+              "id": "interpreter/objects/attributes/detailed/portal/p.regex_overwrite",
+              "isDocsHomePage": false,
+              "title": "p.regex_overwrite",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.regex_overwrite",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite.md",
+              "version": "current",
+              "sidebar_label": "p.regex_overwrite",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.no_bots",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.no_bots"
+              },
+              "next": {
+                "title": "p.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.render",
+              "id": "interpreter/objects/attributes/detailed/portal/p.render",
+              "isDocsHomePage": false,
+              "title": "p.render",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.render.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.render",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.render",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.render.md",
+              "version": "current",
+              "sidebar_label": "p.render",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex"
+              },
+              "next": {
+                "title": "p.user_limit",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.user_limit"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.user_limit",
+              "id": "interpreter/objects/attributes/detailed/portal/p.user_limit",
+              "isDocsHomePage": false,
+              "title": "p.user_limit",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.user_limit.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.user_limit",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.user_limit",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.user_limit.md",
+              "version": "current",
+              "sidebar_label": "p.user_limit",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.render",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.render"
+              },
+              "next": {
+                "title": "p.v.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.v.regex"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/portal/p.v.regex",
+              "id": "interpreter/objects/attributes/detailed/portal/p.v.regex",
+              "isDocsHomePage": false,
+              "title": "p.v.regex",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.v.regex.md",
+              "slug": "/interpreter/objects/attributes/detailed/portal/p.v.regex",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.v.regex",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.v.regex.md",
+              "version": "current",
+              "sidebar_label": "p.v.regex",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.user_limit",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.user_limit"
+              },
+              "next": {
+                "title": "v.ann_announce",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.ann_announce",
+              "id": "interpreter/objects/attributes/detailed/voice/v.ann_announce",
+              "isDocsHomePage": false,
+              "title": "v.ann_announce",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.ann_announce",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce.md",
+              "version": "current",
+              "sidebar_label": "v.ann_announce",
+              "sidebar": "docs",
+              "previous": {
+                "title": "p.v.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.v.regex"
+              },
+              "next": {
+                "title": "v.ann_user",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_user"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.ann_user",
+              "id": "interpreter/objects/attributes/detailed/voice/v.ann_user",
+              "isDocsHomePage": false,
+              "title": "v.ann_user",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.ann_user.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.ann_user",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_user",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.ann_user.md",
+              "version": "current",
+              "sidebar_label": "v.ann_user",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.ann_announce",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce"
+              },
+              "next": {
+                "title": "v.locale",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.locale"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.bitrate",
+              "id": "interpreter/objects/attributes/detailed/voice/v.bitrate",
+              "isDocsHomePage": false,
+              "title": "v.bitrate",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.bitrate.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.bitrate",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.bitrate",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.bitrate.md",
+              "version": "current",
+              "sidebar_label": "v.bitrate"
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.locale",
+              "id": "interpreter/objects/attributes/detailed/voice/v.locale",
+              "isDocsHomePage": false,
+              "title": "v.locale",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.locale.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.locale",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.locale",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.locale.md",
+              "version": "current",
+              "sidebar_label": "v.locale",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.ann_user",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_user"
+              },
+              "next": {
+                "title": "v.no_bots",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.no_bots"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.no_bots",
+              "id": "interpreter/objects/attributes/detailed/voice/v.no_bots",
+              "isDocsHomePage": false,
+              "title": "v.no_bots",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.no_bots.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.no_bots",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.no_bots",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.no_bots.md",
+              "version": "current",
+              "sidebar_label": "v.no_bots",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.locale",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.locale"
+              },
+              "next": {
+                "title": "v.position",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.position"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.position",
+              "id": "interpreter/objects/attributes/detailed/voice/v.position",
+              "isDocsHomePage": false,
+              "title": "v.position",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.position.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.position",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.position",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.position.md",
+              "version": "current",
+              "sidebar_label": "v.position",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.no_bots",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.no_bots"
+              },
+              "next": {
+                "title": "v.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.regex"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.regex",
+              "id": "interpreter/objects/attributes/detailed/voice/v.regex",
+              "isDocsHomePage": false,
+              "title": "v.regex",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.regex.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.regex",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.regex",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.regex.md",
+              "version": "current",
+              "sidebar_label": "v.regex",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.position",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.position"
+              },
+              "next": {
+                "title": "v.render",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.render"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.render",
+              "id": "interpreter/objects/attributes/detailed/voice/v.render",
+              "isDocsHomePage": false,
+              "title": "v.render",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.render.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.render",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.render",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.render.md",
+              "version": "current",
+              "sidebar_label": "v.render",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.regex",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.regex"
+              },
+              "next": {
+                "title": "v.user_limit",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.user_limit"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/voice/v.user_limit",
+              "id": "interpreter/objects/attributes/detailed/voice/v.user_limit",
+              "isDocsHomePage": false,
+              "title": "v.user_limit",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.user_limit.md",
+              "slug": "/interpreter/objects/attributes/detailed/voice/v.user_limit",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.user_limit",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.user_limit.md",
+              "version": "current",
+              "sidebar_label": "v.user_limit",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.render",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.render"
+              },
+              "next": {
+                "title": "Variable",
+                "permalink": "/docs/interpreter/objects/variables/description"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/description",
+              "id": "interpreter/objects/pipes/description",
+              "isDocsHomePage": false,
+              "title": "Pipes",
+              "description": "| prefix |                                      Description                                      | Format  | Example &g.locale\\|upperCase |",
+              "source": "@site/docs/interpreter/objects/pipes/description.md",
+              "slug": "/interpreter/objects/pipes/description",
+              "permalink": "/docs/interpreter/objects/pipes/description",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/description.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "previous": {
+                "title": "second",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/second"
+              },
+              "next": {
+                "title": "acronym",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/acronym"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/acronym",
+              "id": "interpreter/objects/pipes/detailed/acronym",
+              "isDocsHomePage": false,
+              "title": "acronym",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/acronym.md",
+              "slug": "/interpreter/objects/pipes/detailed/acronym",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/acronym",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/acronym.md",
+              "version": "current",
+              "sidebar_label": "acronym",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Pipes",
+                "permalink": "/docs/interpreter/objects/pipes/description"
+              },
+              "next": {
+                "title": "camelCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/camelCase",
+              "id": "interpreter/objects/pipes/detailed/camelCase",
+              "isDocsHomePage": false,
+              "title": "camelCase",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/camelCase.md",
+              "slug": "/interpreter/objects/pipes/detailed/camelCase",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/camelCase.md",
+              "version": "current",
+              "sidebar_label": "camelCase",
+              "sidebar": "docs",
+              "previous": {
+                "title": "acronym",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/acronym"
+              },
+              "next": {
+                "title": "capitalise",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/capitalise"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/capitalise",
+              "id": "interpreter/objects/pipes/detailed/capitalise",
+              "isDocsHomePage": false,
+              "title": "capitalise",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/capitalise.md",
+              "slug": "/interpreter/objects/pipes/detailed/capitalise",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/capitalise",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/capitalise.md",
+              "version": "current",
+              "sidebar_label": "capitalise",
+              "sidebar": "docs",
+              "previous": {
+                "title": "camelCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+              },
+              "next": {
+                "title": "decapitalise",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/decapitalise"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/consonants",
+              "id": "interpreter/objects/pipes/detailed/consonants",
+              "isDocsHomePage": false,
+              "title": "consonants",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/consonants.md",
+              "slug": "/interpreter/objects/pipes/detailed/consonants",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/consonants",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/consonants.md",
+              "version": "current",
+              "sidebar_label": "consonants"
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/decapitalise",
+              "id": "interpreter/objects/pipes/detailed/decapitalise",
+              "isDocsHomePage": false,
+              "title": "decapitalise",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/decapitalise.md",
+              "slug": "/interpreter/objects/pipes/detailed/decapitalise",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/decapitalise",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/decapitalise.md",
+              "version": "current",
+              "sidebar_label": "decapitalise",
+              "sidebar": "docs",
+              "previous": {
+                "title": "capitalise",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/capitalise"
+              },
+              "next": {
+                "title": "length",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/length"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/length",
+              "id": "interpreter/objects/pipes/detailed/length",
+              "isDocsHomePage": false,
+              "title": "length",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/length.md",
+              "slug": "/interpreter/objects/pipes/detailed/length",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/length",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/length.md",
+              "version": "current",
+              "sidebar_label": "length",
+              "sidebar": "docs",
+              "previous": {
+                "title": "decapitalise",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/decapitalise"
+              },
+              "next": {
+                "title": "lowerCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/lowerCase"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/lowerCase",
+              "id": "interpreter/objects/pipes/detailed/lowerCase",
+              "isDocsHomePage": false,
+              "title": "lowerCase",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/lowerCase.md",
+              "slug": "/interpreter/objects/pipes/detailed/lowerCase",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/lowerCase",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/lowerCase.md",
+              "version": "current",
+              "sidebar_label": "lowerCase",
+              "sidebar": "docs",
+              "previous": {
+                "title": "length",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/length"
+              },
+              "next": {
+                "title": "populous_count",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/populous_count"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/populous",
+              "id": "interpreter/objects/pipes/detailed/populous",
+              "isDocsHomePage": false,
+              "title": "populous",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/populous.md",
+              "slug": "/interpreter/objects/pipes/detailed/populous",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/populous",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/populous.md",
+              "version": "current",
+              "sidebar_label": "populous",
+              "sidebar": "docs",
+              "previous": {
+                "title": "populous_count",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/populous_count"
+              },
+              "next": {
+                "title": "snakeCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/snakeCase"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/populous_count",
+              "id": "interpreter/objects/pipes/detailed/populous_count",
+              "isDocsHomePage": false,
+              "title": "populous_count",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/populous_count.md",
+              "slug": "/interpreter/objects/pipes/detailed/populous_count",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/populous_count",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/populous_count.md",
+              "version": "current",
+              "sidebar_label": "populous_count",
+              "sidebar": "docs",
+              "previous": {
+                "title": "lowerCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/lowerCase"
+              },
+              "next": {
+                "title": "populous",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/populous"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/snakeCase",
+              "id": "interpreter/objects/pipes/detailed/snakeCase",
+              "isDocsHomePage": false,
+              "title": "snakeCase",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/snakeCase.md",
+              "slug": "/interpreter/objects/pipes/detailed/snakeCase",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/snakeCase",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/snakeCase.md",
+              "version": "current",
+              "sidebar_label": "snakeCase",
+              "sidebar": "docs",
+              "previous": {
+                "title": "populous",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/populous"
+              },
+              "next": {
+                "title": "souvlakiCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/souvlakiCase"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/souvlakiCase",
+              "id": "interpreter/objects/pipes/detailed/souvlakiCase",
+              "isDocsHomePage": false,
+              "title": "souvlakiCase",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/souvlakiCase.md",
+              "slug": "/interpreter/objects/pipes/detailed/souvlakiCase",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/souvlakiCase",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/souvlakiCase.md",
+              "version": "current",
+              "sidebar_label": "souvlakiCase",
+              "sidebar": "docs",
+              "previous": {
+                "title": "snakeCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/snakeCase"
+              },
+              "next": {
+                "title": "titleCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/titleCase"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/titleCase",
+              "id": "interpreter/objects/pipes/detailed/titleCase",
+              "isDocsHomePage": false,
+              "title": "titleCase",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/titleCase.md",
+              "slug": "/interpreter/objects/pipes/detailed/titleCase",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/titleCase",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/titleCase.md",
+              "version": "current",
+              "sidebar_label": "titleCase",
+              "sidebar": "docs",
+              "previous": {
+                "title": "souvlakiCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/souvlakiCase"
+              },
+              "next": {
+                "title": "upperCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/upperCase"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/upperCase",
+              "id": "interpreter/objects/pipes/detailed/upperCase",
+              "isDocsHomePage": false,
+              "title": "upperCase",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/upperCase.md",
+              "slug": "/interpreter/objects/pipes/detailed/upperCase",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/upperCase",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/upperCase.md",
+              "version": "current",
+              "sidebar_label": "upperCase",
+              "sidebar": "docs",
+              "previous": {
+                "title": "titleCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/titleCase"
+              },
+              "next": {
+                "title": "words",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/words"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/vowels",
+              "id": "interpreter/objects/pipes/detailed/vowels",
+              "isDocsHomePage": false,
+              "title": "vowels",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/vowels.md",
+              "slug": "/interpreter/objects/pipes/detailed/vowels",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/vowels",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/vowels.md",
+              "version": "current",
+              "sidebar_label": "vowels"
+            },
+            {
+              "unversionedId": "interpreter/objects/pipes/detailed/words",
+              "id": "interpreter/objects/pipes/detailed/words",
+              "isDocsHomePage": false,
+              "title": "words",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/pipes/detailed/words.md",
+              "slug": "/interpreter/objects/pipes/detailed/words",
+              "permalink": "/docs/interpreter/objects/pipes/detailed/words",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/words.md",
+              "version": "current",
+              "sidebar_label": "words",
+              "sidebar": "docs",
+              "previous": {
+                "title": "upperCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/upperCase"
+              },
+              "next": {
+                "title": "Structures",
+                "permalink": "/docs/interpreter/objects/structures/description"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/structures/description",
+              "id": "interpreter/objects/structures/description",
+              "isDocsHomePage": false,
+              "title": "Structures",
+              "description": "| prefix | sufix |                  Description                   |",
+              "source": "@site/docs/interpreter/objects/structures/description.md",
+              "slug": "/interpreter/objects/structures/description",
+              "permalink": "/docs/interpreter/objects/structures/description",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/structures/description.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "previous": {
+                "title": "words",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/words"
+              },
+              "next": {
+                "title": "if",
+                "permalink": "/docs/interpreter/objects/structures/detailed/if"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/structures/detailed/if",
+              "id": "interpreter/objects/structures/detailed/if",
+              "isDocsHomePage": false,
+              "title": "if",
+              "description": "|                        Description                         |",
+              "source": "@site/docs/interpreter/objects/structures/detailed/if.md",
+              "slug": "/interpreter/objects/structures/detailed/if",
+              "permalink": "/docs/interpreter/objects/structures/detailed/if",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/structures/detailed/if.md",
+              "version": "current",
+              "sidebar_label": "if",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Structures",
+                "permalink": "/docs/interpreter/objects/structures/description"
+              },
+              "next": {
+                "title": "Ranking System",
+                "permalink": "/docs/ranking"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/description",
+              "id": "interpreter/objects/variables/description",
+              "isDocsHomePage": false,
+              "title": "Variable",
+              "description": "| prefix |                           Description                           |   Format    |       Example $status_list       |",
+              "source": "@site/docs/interpreter/objects/variables/description.md",
+              "slug": "/interpreter/objects/variables/description",
+              "permalink": "/docs/interpreter/objects/variables/description",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/description.md",
+              "version": "current",
+              "sidebar_label": "Description",
+              "sidebar": "docs",
+              "previous": {
+                "title": "v.user_limit",
+                "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.user_limit"
+              },
+              "next": {
+                "title": "creator_portal",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_portal"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/general/creator_portal",
+              "id": "interpreter/objects/variables/detailed/general/creator_portal",
+              "isDocsHomePage": false,
+              "title": "creator_portal",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/general/creator_portal.md",
+              "slug": "/interpreter/objects/variables/detailed/general/creator_portal",
+              "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_portal",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/creator_portal.md",
+              "version": "current",
+              "sidebar_label": "creator_portal",
+              "sidebar": "docs",
+              "previous": {
+                "title": "Variable",
+                "permalink": "/docs/interpreter/objects/variables/description"
+              },
+              "next": {
+                "title": "creator_voice",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_voice"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/general/creator_voice",
+              "id": "interpreter/objects/variables/detailed/general/creator_voice",
+              "isDocsHomePage": false,
+              "title": "creator_voice",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/general/creator_voice.md",
+              "slug": "/interpreter/objects/variables/detailed/general/creator_voice",
+              "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_voice",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/creator_voice.md",
+              "version": "current",
+              "sidebar_label": "creator_voice",
+              "sidebar": "docs",
+              "previous": {
+                "title": "creator_portal",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_portal"
+              },
+              "next": {
+                "title": "/#",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/slash"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/general/double_slash",
+              "id": "interpreter/objects/variables/detailed/general/double_slash",
+              "isDocsHomePage": false,
+              "title": "\\##",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/general/double_slash.md",
+              "slug": "/interpreter/objects/variables/detailed/general/double_slash",
+              "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/double_slash.md",
+              "version": "current",
+              "sidebar_label": "\\##",
+              "sidebar": "docs",
+              "previous": {
+                "title": "/#",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/slash"
+              },
+              "next": {
+                "title": "member_list",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_list"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/general/slash",
+              "id": "interpreter/objects/variables/detailed/general/slash",
+              "isDocsHomePage": false,
+              "title": "/#",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/general/slash.md",
+              "slug": "/interpreter/objects/variables/detailed/general/slash",
+              "permalink": "/docs/interpreter/objects/variables/detailed/general/slash",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/slash.md",
+              "version": "current",
+              "sidebar_label": "/#",
+              "sidebar": "docs",
+              "previous": {
+                "title": "creator_voice",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_voice"
+              },
+              "next": {
+                "title": "\\##",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/member/member_active_count",
+              "id": "interpreter/objects/variables/detailed/member/member_active_count",
+              "isDocsHomePage": false,
+              "title": "member_active_count",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/member/member_active_count.md",
+              "slug": "/interpreter/objects/variables/detailed/member/member_active_count",
+              "permalink": "/docs/interpreter/objects/variables/detailed/member/member_active_count",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_active_count.md",
+              "version": "current",
+              "sidebar_label": "member_active_count",
+              "sidebar": "docs",
+              "previous": {
+                "title": "member_count",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_count"
+              },
+              "next": {
+                "title": "member_with_status",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_with_status"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/member/member_count",
+              "id": "interpreter/objects/variables/detailed/member/member_count",
+              "isDocsHomePage": false,
+              "title": "member_count",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/member/member_count.md",
+              "slug": "/interpreter/objects/variables/detailed/member/member_count",
+              "permalink": "/docs/interpreter/objects/variables/detailed/member/member_count",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_count.md",
+              "version": "current",
+              "sidebar_label": "member_count",
+              "sidebar": "docs",
+              "previous": {
+                "title": "member_list",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_list"
+              },
+              "next": {
+                "title": "member_active_count",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_active_count"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/member/member_history",
+              "id": "interpreter/objects/variables/detailed/member/member_history",
+              "isDocsHomePage": false,
+              "title": "member_history",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/member/member_history.md",
+              "slug": "/interpreter/objects/variables/detailed/member/member_history",
+              "permalink": "/docs/interpreter/objects/variables/detailed/member/member_history",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_history.md",
+              "version": "current",
+              "sidebar_label": "member_history",
+              "sidebar": "docs",
+              "previous": {
+                "title": "member_with_status",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_with_status"
+              },
+              "next": {
+                "title": "status_list",
+                "permalink": "/docs/interpreter/objects/variables/detailed/status/status_list"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/member/member_list",
+              "id": "interpreter/objects/variables/detailed/member/member_list",
+              "isDocsHomePage": false,
+              "title": "member_list",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/member/member_list.md",
+              "slug": "/interpreter/objects/variables/detailed/member/member_list",
+              "permalink": "/docs/interpreter/objects/variables/detailed/member/member_list",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_list.md",
+              "version": "current",
+              "sidebar_label": "member_list",
+              "sidebar": "docs",
+              "previous": {
+                "title": "\\##",
+                "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash"
+              },
+              "next": {
+                "title": "member_count",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_count"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/member/member_with_status",
+              "id": "interpreter/objects/variables/detailed/member/member_with_status",
+              "isDocsHomePage": false,
+              "title": "member_with_status",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/member/member_with_status.md",
+              "slug": "/interpreter/objects/variables/detailed/member/member_with_status",
+              "permalink": "/docs/interpreter/objects/variables/detailed/member/member_with_status",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_with_status.md",
+              "version": "current",
+              "sidebar_label": "member_with_status",
+              "sidebar": "docs",
+              "previous": {
+                "title": "member_active_count",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_active_count"
+              },
+              "next": {
+                "title": "member_history",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_history"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/status/status_count",
+              "id": "interpreter/objects/variables/detailed/status/status_count",
+              "isDocsHomePage": false,
+              "title": "status_count",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/status/status_count.md",
+              "slug": "/interpreter/objects/variables/detailed/status/status_count",
+              "permalink": "/docs/interpreter/objects/variables/detailed/status/status_count",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/status/status_count.md",
+              "version": "current",
+              "sidebar_label": "status_count",
+              "sidebar": "docs",
+              "previous": {
+                "title": "status_list",
+                "permalink": "/docs/interpreter/objects/variables/detailed/status/status_list"
+              },
+              "next": {
+                "title": "status_history",
+                "permalink": "/docs/interpreter/objects/variables/detailed/status/status_history"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/status/status_history",
+              "id": "interpreter/objects/variables/detailed/status/status_history",
+              "isDocsHomePage": false,
+              "title": "status_history",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/status/status_hisotry.md",
+              "slug": "/interpreter/objects/variables/detailed/status/status_history",
+              "permalink": "/docs/interpreter/objects/variables/detailed/status/status_history",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/status/status_hisotry.md",
+              "version": "current",
+              "sidebar_label": "status_history",
+              "sidebar": "docs",
+              "previous": {
+                "title": "status_count",
+                "permalink": "/docs/interpreter/objects/variables/detailed/status/status_count"
+              },
+              "next": {
+                "title": "date",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/date"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/status/status_list",
+              "id": "interpreter/objects/variables/detailed/status/status_list",
+              "isDocsHomePage": false,
+              "title": "status_list",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/status/status_list.md",
+              "slug": "/interpreter/objects/variables/detailed/status/status_list",
+              "permalink": "/docs/interpreter/objects/variables/detailed/status/status_list",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/status/status_list.md",
+              "version": "current",
+              "sidebar_label": "status_list",
+              "sidebar": "docs",
+              "previous": {
+                "title": "member_history",
+                "permalink": "/docs/interpreter/objects/variables/detailed/member/member_history"
+              },
+              "next": {
+                "title": "status_count",
+                "permalink": "/docs/interpreter/objects/variables/detailed/status/status_count"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/date",
+              "id": "interpreter/objects/variables/detailed/time/date",
+              "isDocsHomePage": false,
+              "title": "date",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/date.md",
+              "slug": "/interpreter/objects/variables/detailed/time/date",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/date",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/date.md",
+              "version": "current",
+              "sidebar_label": "date",
+              "sidebar": "docs",
+              "previous": {
+                "title": "status_history",
+                "permalink": "/docs/interpreter/objects/variables/detailed/status/status_history"
+              },
+              "next": {
+                "title": "day_number",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/day_number"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/day_name",
+              "id": "interpreter/objects/variables/detailed/time/day_name",
+              "isDocsHomePage": false,
+              "title": "day_name",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/day_name.md",
+              "slug": "/interpreter/objects/variables/detailed/time/day_name",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/day_name",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/day_name.md",
+              "version": "current",
+              "sidebar_label": "day_name",
+              "sidebar": "docs",
+              "previous": {
+                "title": "day_number",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/day_number"
+              },
+              "next": {
+                "title": "month_number",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/month_number"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/day_number",
+              "id": "interpreter/objects/variables/detailed/time/day_number",
+              "isDocsHomePage": false,
+              "title": "day_number",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/day_number.md",
+              "slug": "/interpreter/objects/variables/detailed/time/day_number",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/day_number",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/day_number.md",
+              "version": "current",
+              "sidebar_label": "day_number",
+              "sidebar": "docs",
+              "previous": {
+                "title": "date",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/date"
+              },
+              "next": {
+                "title": "day_name",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/day_name"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/hour",
+              "id": "interpreter/objects/variables/detailed/time/hour",
+              "isDocsHomePage": false,
+              "title": "hour",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/hour.md",
+              "slug": "/interpreter/objects/variables/detailed/time/hour",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/hour",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/hour.md",
+              "version": "current",
+              "sidebar_label": "hour",
+              "sidebar": "docs",
+              "previous": {
+                "title": "time",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/time"
+              },
+              "next": {
+                "title": "minute",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/minute"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/minute",
+              "id": "interpreter/objects/variables/detailed/time/minute",
+              "isDocsHomePage": false,
+              "title": "minute",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/minute.md",
+              "slug": "/interpreter/objects/variables/detailed/time/minute",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/minute",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/minute.md",
+              "version": "current",
+              "sidebar_label": "minute",
+              "sidebar": "docs",
+              "previous": {
+                "title": "hour",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/hour"
+              },
+              "next": {
+                "title": "second",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/second"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/month_name",
+              "id": "interpreter/objects/variables/detailed/time/month_name",
+              "isDocsHomePage": false,
+              "title": "month_name",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/month_name.md",
+              "slug": "/interpreter/objects/variables/detailed/time/month_name",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/month_name",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/month_name.md",
+              "version": "current",
+              "sidebar_label": "month_name",
+              "sidebar": "docs",
+              "previous": {
+                "title": "month_number",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/month_number"
+              },
+              "next": {
+                "title": "year",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/year"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/month_number",
+              "id": "interpreter/objects/variables/detailed/time/month_number",
+              "isDocsHomePage": false,
+              "title": "month_number",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/month_number.md",
+              "slug": "/interpreter/objects/variables/detailed/time/month_number",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/month_number",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/month_number.md",
+              "version": "current",
+              "sidebar_label": "month_number",
+              "sidebar": "docs",
+              "previous": {
+                "title": "day_name",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/day_name"
+              },
+              "next": {
+                "title": "month_name",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/month_name"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/second",
+              "id": "interpreter/objects/variables/detailed/time/second",
+              "isDocsHomePage": false,
+              "title": "second",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/second.md",
+              "slug": "/interpreter/objects/variables/detailed/time/second",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/second",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/second.md",
+              "version": "current",
+              "sidebar_label": "second",
+              "sidebar": "docs",
+              "previous": {
+                "title": "minute",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/minute"
+              },
+              "next": {
+                "title": "Pipes",
+                "permalink": "/docs/interpreter/objects/pipes/description"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/time",
+              "id": "interpreter/objects/variables/detailed/time/time",
+              "isDocsHomePage": false,
+              "title": "time",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/time.md",
+              "slug": "/interpreter/objects/variables/detailed/time/time",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/time",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/time.md",
+              "version": "current",
+              "sidebar_label": "time",
+              "sidebar": "docs",
+              "previous": {
+                "title": "year",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/year"
+              },
+              "next": {
+                "title": "hour",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/hour"
+              }
+            },
+            {
+              "unversionedId": "interpreter/objects/variables/detailed/time/year",
+              "id": "interpreter/objects/variables/detailed/time/year",
+              "isDocsHomePage": false,
+              "title": "year",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/variables/detailed/time/year.md",
+              "slug": "/interpreter/objects/variables/detailed/time/year",
+              "permalink": "/docs/interpreter/objects/variables/detailed/time/year",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/year.md",
+              "version": "current",
+              "sidebar_label": "year",
+              "sidebar": "docs",
+              "previous": {
+                "title": "month_name",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/month_name"
+              },
+              "next": {
+                "title": "time",
+                "permalink": "/docs/interpreter/objects/variables/detailed/time/time"
+              }
+            },
+            {
+              "unversionedId": "ranking",
+              "id": "ranking",
+              "isDocsHomePage": false,
+              "title": "Ranking System",
+              "description": "Description",
+              "source": "@site/docs/ranking.md",
+              "slug": "/ranking",
+              "permalink": "/docs/ranking",
+              "editUrl": "https://portal-bot.xyz/docs/ranking.md",
+              "version": "current",
+              "sidebar_label": "Ranking System",
+              "sidebar": "docs",
+              "previous": {
+                "title": "if",
+                "permalink": "/docs/interpreter/objects/structures/detailed/if"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogPosts": [
+        {
+          "id": "0.6.6",
+          "metadata": {
+            "permalink": "/blog/0.6.6",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-03-22-0.6.6.md",
+            "source": "@site/blog/2021-03-22-0.6.6.md",
+            "description": "Pinned video in music player",
+            "date": "2021-03-22T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              },
+              {
+                "label": "winston",
+                "permalink": "/blog/tags/winston"
+              }
+            ],
+            "title": "0.6.6",
+            "readingTime": 0.335,
+            "truncated": true,
+            "nextItem": {
+              "title": "0.6.5",
+              "permalink": "/blog/0.6.5"
+            }
+          }
+        },
+        {
+          "id": "0.6.5",
+          "metadata": {
+            "permalink": "/blog/0.6.5",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-03-15-0.6.5.md",
+            "source": "@site/blog/2021-03-15-0.6.5.md",
+            "description": "Text interpreter refactoring, code restructure and minor fixes.",
+            "date": "2021-03-15T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.6.5",
+            "readingTime": 0.085,
+            "truncated": true,
+            "prevItem": {
+              "title": "0.6.6",
+              "permalink": "/blog/0.6.6"
+            },
+            "nextItem": {
+              "title": "0.6.4",
+              "permalink": "/blog/0.6.4"
+            }
+          }
+        },
+        {
+          "id": "0.6.4",
+          "metadata": {
+            "permalink": "/blog/0.6.4",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-03-10-0.6.4.md",
+            "source": "@site/blog/2021-03-10-0.6.4.md",
+            "description": "Implemented bet and news commands, updated music player design and updated replys.",
+            "date": "2021-03-10T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.6.4",
+            "readingTime": 0.325,
+            "truncated": true,
+            "prevItem": {
+              "title": "0.6.5",
+              "permalink": "/blog/0.6.5"
+            },
+            "nextItem": {
+              "title": "0.6.3",
+              "permalink": "/blog/0.6.3"
+            }
+          }
+        },
+        {
+          "id": "0.6.3",
+          "metadata": {
+            "permalink": "/blog/0.6.3",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-03-05-0.6.3.md",
+            "source": "@site/blog/2021-03-05-0.6.3.md",
+            "description": "Increased responsed time by 70% and updated music player.",
+            "date": "2021-03-05T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.6.3",
+            "readingTime": 0.21,
+            "truncated": true,
+            "prevItem": {
+              "title": "0.6.4",
+              "permalink": "/blog/0.6.4"
+            },
+            "nextItem": {
+              "title": "0.6.0",
+              "permalink": "/blog/0.6.0"
+            }
+          }
+        },
+        {
+          "id": "0.6.0",
+          "metadata": {
+            "permalink": "/blog/0.6.0",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-02-15-0.6.0.md",
+            "source": "@site/blog/2021-02-15-0.6.0.md",
+            "description": "Transition from JSON file database to mongo database.",
+            "date": "2021-02-15T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.6.0",
+            "readingTime": 0.215,
+            "truncated": true,
+            "prevItem": {
+              "title": "0.6.3",
+              "permalink": "/blog/0.6.3"
+            },
+            "nextItem": {
+              "title": "0.5.7",
+              "permalink": "/blog/0.5.7"
+            }
+          }
+        },
+        {
+          "id": "0.5.7",
+          "metadata": {
+            "permalink": "/blog/0.5.7",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-01-18-0.5.7.md",
+            "source": "@site/blog/2021-01-18-0.5.7.md",
+            "description": "Updates and bug fixes through application.",
+            "date": "2021-01-18T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.5.7",
+            "readingTime": 0.03,
+            "truncated": false,
+            "prevItem": {
+              "title": "0.6.0",
+              "permalink": "/blog/0.6.0"
+            },
+            "nextItem": {
+              "title": "0.5.0",
+              "permalink": "/blog/0.5.0"
+            }
+          }
+        },
+        {
+          "id": "0.5.0",
+          "metadata": {
+            "permalink": "/blog/0.5.0",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2021-01-08-0.5.0.md",
+            "source": "@site/blog/2021-01-08-0.5.0.md",
+            "description": "Upgraded from Javascript to Typescript.",
+            "date": "2021-01-08T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.5.0",
+            "readingTime": 0.22,
+            "truncated": true,
+            "prevItem": {
+              "title": "0.5.7",
+              "permalink": "/blog/0.5.7"
+            },
+            "nextItem": {
+              "title": "0.2.1",
+              "permalink": "/blog/0.2.1"
+            }
+          }
+        },
+        {
+          "id": "0.2.1",
+          "metadata": {
+            "permalink": "/blog/0.2.1",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2020-06-16-0.2.1.md",
+            "source": "@site/blog/2020-06-16-0.2.1.md",
+            "description": "Improvements upon initial beta testing with more commands after command code rewrite.",
+            "date": "2020-06-16T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.2.1",
+            "readingTime": 0.06,
+            "truncated": false,
+            "prevItem": {
+              "title": "0.5.0",
+              "permalink": "/blog/0.5.0"
+            },
+            "nextItem": {
+              "title": "0.1.0",
+              "permalink": "/blog/0.1.0"
+            }
+          }
+        },
+        {
+          "id": "0.1.0",
+          "metadata": {
+            "permalink": "/blog/0.1.0",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2020-05-18-0.1.0.md",
+            "source": "@site/blog/2020-05-18-0.1.0.md",
+            "description": "Initial launch on two servers as a beta test. Regulating the preformance of the Bot throughout servers.",
+            "date": "2020-05-18T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.1.0",
+            "readingTime": 0.085,
+            "truncated": false,
+            "prevItem": {
+              "title": "0.2.1",
+              "permalink": "/blog/0.2.1"
+            },
+            "nextItem": {
+              "title": "0.0.1",
+              "permalink": "/blog/0.0.1"
+            }
+          }
+        },
+        {
+          "id": "0.0.1",
+          "metadata": {
+            "permalink": "/blog/0.0.1",
+            "editUrl": "https://portal-bot.xyz/blog/blog/2020-05-05-0.0.1.md",
+            "source": "@site/blog/2020-05-05-0.0.1.md",
+            "description": "Initial release was more of a proof of concept and check of viability and scale.",
+            "date": "2020-05-05T00:00:00.000Z",
+            "tags": [
+              {
+                "label": "discordjs",
+                "permalink": "/blog/tags/discordjs"
+              },
+              {
+                "label": "discord",
+                "permalink": "/blog/tags/discord"
+              },
+              {
+                "label": "bot",
+                "permalink": "/blog/tags/bot"
+              }
+            ],
+            "title": "0.0.1",
+            "readingTime": 0.105,
+            "truncated": false,
+            "prevItem": {
+              "title": "0.1.0",
+              "permalink": "/blog/0.1.0"
+            }
+          }
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 10,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "0.6.6",
+            "0.6.5",
+            "0.6.4",
+            "0.6.3",
+            "0.6.0",
+            "0.5.7",
+            "0.5.0",
+            "0.2.1",
+            "0.1.0",
+            "0.0.1"
+          ]
+        }
+      ],
+      "blogTags": {
+        "discordjs": {
+          "name": "discordjs",
+          "items": [
+            "0.6.6",
+            "0.6.5",
+            "0.6.4",
+            "0.6.3",
+            "0.6.0",
+            "0.5.7",
+            "0.5.0",
+            "0.2.1",
+            "0.1.0",
+            "0.0.1"
+          ],
+          "permalink": "/blog/tags/discordjs"
+        },
+        "discord": {
+          "name": "discord",
+          "items": [
+            "0.6.6",
+            "0.6.5",
+            "0.6.4",
+            "0.6.3",
+            "0.6.0",
+            "0.5.7",
+            "0.5.0",
+            "0.2.1",
+            "0.1.0",
+            "0.0.1"
+          ],
+          "permalink": "/blog/tags/discord"
+        },
+        "bot": {
+          "name": "bot",
+          "items": [
+            "0.6.6",
+            "0.6.5",
+            "0.6.4",
+            "0.6.3",
+            "0.6.0",
+            "0.5.7",
+            "0.5.0",
+            "0.2.1",
+            "0.1.0",
+            "0.0.1"
+          ],
+          "permalink": "/blog/tags/bot"
+        },
+        "winston": {
+          "name": "winston",
+          "items": [
+            "0.6.6"
+          ],
+          "permalink": "/blog/tags/winston"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/commands",
+        "source": "@site/src/pages/commands.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/features",
+        "source": "@site/src/pages/features.js"
+      },
+      {
+        "type": "mdx",
+        "permalink": "/help",
+        "source": "@site/src/pages/help.md"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/interpreter",
+        "source": "@site/src/pages/interpreter.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/music-player",
+        "source": "@site/src/pages/music-player.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

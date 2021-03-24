@@ -1,0 +1,13 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/vowels",
+  "id": "interpreter/objects/pipes/detailed/vowels",
+  "isDocsHomePage": false,
+  "title": "vowels",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/vowels.md",
+  "slug": "/interpreter/objects/pipes/detailed/vowels",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/vowels",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/vowels.md",
+  "version": "current",
+  "sidebar_label": "vowels"
+}

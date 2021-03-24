@@ -1,0 +1,22 @@
+{
+  "unversionedId": "commands/detailed/setup",
+  "id": "commands/detailed/setup",
+  "isDocsHomePage": false,
+  "title": "setup",
+  "description": "|                     Description                     | Argument | Accessible |   Cooldown    |",
+  "source": "@site/docs/commands/detailed/setup.md",
+  "slug": "/commands/detailed/setup",
+  "permalink": "/docs/commands/detailed/setup",
+  "editUrl": "https://portal-bot.xyz/docs/commands/detailed/setup.md",
+  "version": "current",
+  "sidebar_label": "setup",
+  "sidebar": "docs",
+  "previous": {
+    "title": "set",
+    "permalink": "/docs/commands/detailed/set"
+  },
+  "next": {
+    "title": "state",
+    "permalink": "/docs/commands/detailed/state"
+  }
+}

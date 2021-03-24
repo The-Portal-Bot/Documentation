@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/attributes/detailed/portal/p.ann_user",
+  "id": "interpreter/objects/attributes/detailed/portal/p.ann_user",
+  "isDocsHomePage": false,
+  "title": "p.ann_user",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.ann_user.md",
+  "slug": "/interpreter/objects/attributes/detailed/portal/p.ann_user",
+  "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_user",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.ann_user.md",
+  "version": "current",
+  "sidebar_label": "p.ann_user",
+  "sidebar": "docs",
+  "previous": {
+    "title": "p.ann_announce",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce"
+  },
+  "next": {
+    "title": "p.locale",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.locale"
+  }
+}

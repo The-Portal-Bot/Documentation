@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/time/day_number",
+  "id": "interpreter/objects/variables/detailed/time/day_number",
+  "isDocsHomePage": false,
+  "title": "day_number",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/time/day_number.md",
+  "slug": "/interpreter/objects/variables/detailed/time/day_number",
+  "permalink": "/docs/interpreter/objects/variables/detailed/time/day_number",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/day_number.md",
+  "version": "current",
+  "sidebar_label": "day_number",
+  "sidebar": "docs",
+  "previous": {
+    "title": "date",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/date"
+  },
+  "next": {
+    "title": "day_name",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/day_name"
+  }
+}

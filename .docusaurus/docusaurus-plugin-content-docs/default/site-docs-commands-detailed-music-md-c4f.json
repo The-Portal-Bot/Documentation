@@ -1,0 +1,22 @@
+{
+  "unversionedId": "commands/detailed/music",
+  "id": "commands/detailed/music",
+  "isDocsHomePage": false,
+  "title": "music",
+  "description": "|                              Description                              |               Argument                | Accessible | Cooldown |",
+  "source": "@site/docs/commands/detailed/music.md",
+  "slug": "/commands/detailed/music",
+  "permalink": "/docs/commands/detailed/music",
+  "editUrl": "https://portal-bot.xyz/docs/commands/detailed/music.md",
+  "version": "current",
+  "sidebar_label": "music",
+  "sidebar": "docs",
+  "previous": {
+    "title": "level",
+    "permalink": "/docs/commands/detailed/level"
+  },
+  "next": {
+    "title": "ping",
+    "permalink": "/docs/commands/detailed/ping"
+  }
+}

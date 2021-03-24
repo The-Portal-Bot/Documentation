@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/capitalise",
+  "id": "interpreter/objects/pipes/detailed/capitalise",
+  "isDocsHomePage": false,
+  "title": "capitalise",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/capitalise.md",
+  "slug": "/interpreter/objects/pipes/detailed/capitalise",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/capitalise",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/capitalise.md",
+  "version": "current",
+  "sidebar_label": "capitalise",
+  "sidebar": "docs",
+  "previous": {
+    "title": "camelCase",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+  },
+  "next": {
+    "title": "decapitalise",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/decapitalise"
+  }
+}

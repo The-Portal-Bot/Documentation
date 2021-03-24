@@ -1,0 +1,22 @@
+{
+  "unversionedId": "commands/detailed/set_ranks",
+  "id": "commands/detailed/set_ranks",
+  "isDocsHomePage": false,
+  "title": "set_ranks",
+  "description": "|                     Description                      | Argument | Accessible | Cooldown |",
+  "source": "@site/docs/commands/detailed/set_ranks.md",
+  "slug": "/commands/detailed/set_ranks",
+  "permalink": "/docs/commands/detailed/set_ranks",
+  "editUrl": "https://portal-bot.xyz/docs/commands/detailed/set_ranks.md",
+  "version": "current",
+  "sidebar_label": "set_ranks",
+  "sidebar": "docs",
+  "previous": {
+    "title": "run",
+    "permalink": "/docs/commands/detailed/run"
+  },
+  "next": {
+    "title": "set",
+    "permalink": "/docs/commands/detailed/set"
+  }
+}

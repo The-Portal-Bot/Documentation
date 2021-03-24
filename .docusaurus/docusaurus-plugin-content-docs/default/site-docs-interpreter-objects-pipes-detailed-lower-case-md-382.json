@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/lowerCase",
+  "id": "interpreter/objects/pipes/detailed/lowerCase",
+  "isDocsHomePage": false,
+  "title": "lowerCase",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/lowerCase.md",
+  "slug": "/interpreter/objects/pipes/detailed/lowerCase",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/lowerCase",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/lowerCase.md",
+  "version": "current",
+  "sidebar_label": "lowerCase",
+  "sidebar": "docs",
+  "previous": {
+    "title": "length",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/length"
+  },
+  "next": {
+    "title": "populous_count",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/populous_count"
+  }
+}

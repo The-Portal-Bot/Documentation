@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/upperCase",
+  "id": "interpreter/objects/pipes/detailed/upperCase",
+  "isDocsHomePage": false,
+  "title": "upperCase",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/upperCase.md",
+  "slug": "/interpreter/objects/pipes/detailed/upperCase",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/upperCase",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/upperCase.md",
+  "version": "current",
+  "sidebar_label": "upperCase",
+  "sidebar": "docs",
+  "previous": {
+    "title": "titleCase",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/titleCase"
+  },
+  "next": {
+    "title": "words",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/words"
+  }
+}

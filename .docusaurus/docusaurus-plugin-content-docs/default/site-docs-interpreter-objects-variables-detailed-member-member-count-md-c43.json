@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/member/member_count",
+  "id": "interpreter/objects/variables/detailed/member/member_count",
+  "isDocsHomePage": false,
+  "title": "member_count",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/member/member_count.md",
+  "slug": "/interpreter/objects/variables/detailed/member/member_count",
+  "permalink": "/docs/interpreter/objects/variables/detailed/member/member_count",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/member/member_count.md",
+  "version": "current",
+  "sidebar_label": "member_count",
+  "sidebar": "docs",
+  "previous": {
+    "title": "member_list",
+    "permalink": "/docs/interpreter/objects/variables/detailed/member/member_list"
+  },
+  "next": {
+    "title": "member_active_count",
+    "permalink": "/docs/interpreter/objects/variables/detailed/member/member_active_count"
+  }
+}

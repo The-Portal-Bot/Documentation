@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/attributes/detailed/portal/p.regex",
+  "id": "interpreter/objects/attributes/detailed/portal/p.regex",
+  "isDocsHomePage": false,
+  "title": "p.regex",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/attributes/detailed/portal/p.regex.md",
+  "slug": "/interpreter/objects/attributes/detailed/portal/p.regex",
+  "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/portal/p.regex.md",
+  "version": "current",
+  "sidebar_label": "p.regex",
+  "sidebar": "docs",
+  "previous": {
+    "title": "p.regex_overwrite",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite"
+  },
+  "next": {
+    "title": "p.render",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/portal/p.render"
+  }
+}

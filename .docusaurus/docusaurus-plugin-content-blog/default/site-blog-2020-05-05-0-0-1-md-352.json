@@ -1,0 +1,28 @@
+{
+  "permalink": "/blog/0.0.1",
+  "editUrl": "https://portal-bot.xyz/blog/blog/2020-05-05-0.0.1.md",
+  "source": "@site/blog/2020-05-05-0.0.1.md",
+  "description": "Initial release was more of a proof of concept and check of viability and scale.",
+  "date": "2020-05-05T00:00:00.000Z",
+  "tags": [
+    {
+      "label": "discordjs",
+      "permalink": "/blog/tags/discordjs"
+    },
+    {
+      "label": "discord",
+      "permalink": "/blog/tags/discord"
+    },
+    {
+      "label": "bot",
+      "permalink": "/blog/tags/bot"
+    }
+  ],
+  "title": "0.0.1",
+  "readingTime": 0.105,
+  "truncated": false,
+  "prevItem": {
+    "title": "0.1.0",
+    "permalink": "/blog/0.1.0"
+  }
+}

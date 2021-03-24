@@ -1,0 +1,512 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "descriptions",
+          "docs": [
+            {
+              "id": "commands/description",
+              "path": "/docs/commands/description",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/about",
+              "path": "/docs/commands/detailed/about",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/announce",
+              "path": "/docs/commands/detailed/announce",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/announcement",
+              "path": "/docs/commands/detailed/announcement",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/bet",
+              "path": "/docs/commands/detailed/bet"
+            },
+            {
+              "id": "commands/detailed/corona",
+              "path": "/docs/commands/detailed/corona",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/crypto",
+              "path": "/docs/commands/detailed/crypto",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/delete",
+              "path": "/docs/commands/detailed/delete",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/focus",
+              "path": "/docs/commands/detailed/focus",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/force",
+              "path": "/docs/commands/detailed/force",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/help",
+              "path": "/docs/commands/detailed/help",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/ignore",
+              "path": "/docs/commands/detailed/ignore",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/join",
+              "path": "/docs/commands/detailed/join",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/joke",
+              "path": "/docs/commands/detailed/joke",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/leaderboard",
+              "path": "/docs/commands/detailed/leaderboard",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/leave",
+              "path": "/docs/commands/detailed/leave",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/level",
+              "path": "/docs/commands/detailed/level",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/music",
+              "path": "/docs/commands/detailed/music",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/news",
+              "path": "/docs/commands/detailed/news"
+            },
+            {
+              "id": "commands/detailed/ping",
+              "path": "/docs/commands/detailed/ping",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/poll",
+              "path": "/docs/commands/detailed/poll"
+            },
+            {
+              "id": "commands/detailed/portal",
+              "path": "/docs/commands/detailed/portal",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/ranks",
+              "path": "/docs/commands/detailed/ranks",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/role_assigner",
+              "path": "/docs/commands/detailed/role_assigner",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/roll",
+              "path": "/docs/commands/detailed/roll",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/run",
+              "path": "/docs/commands/detailed/run",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/set",
+              "path": "/docs/commands/detailed/set",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/set_ranks",
+              "path": "/docs/commands/detailed/set_ranks",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/state",
+              "path": "/docs/commands/detailed/state",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/url",
+              "path": "/docs/commands/detailed/url",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/weather",
+              "path": "/docs/commands/detailed/weather",
+              "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/whoami",
+              "path": "/docs/commands/detailed/whoami",
+              "sidebar": "docs"
+            },
+            {
+              "id": "descriptions",
+              "path": "/docs/",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/description",
+              "path": "/docs/interpreter/description",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/description",
+              "path": "/docs/interpreter/objects/attributes/description",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/global/g.locale",
+              "path": "/docs/interpreter/objects/attributes/detailed/global/g.locale",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/global/g.prefix",
+              "path": "/docs/interpreter/objects/attributes/detailed/global/g.prefix",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/global/g.profanity_level",
+              "path": "/docs/interpreter/objects/attributes/detailed/global/g.profanity_level",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/global/g.rank_speed",
+              "path": "/docs/interpreter/objects/attributes/detailed/global/g.rank_speed",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/member/m.regex",
+              "path": "/docs/interpreter/objects/attributes/detailed/member/m.regex",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.ann_announce",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.ann_user",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.ann_user",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.locale",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.locale",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.no_bots",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.no_bots",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.regex",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.regex",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.regex_overwrite",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.regex_overwrite",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.render",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.render",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.user_limit",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.user_limit",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/portal/p.v.regex",
+              "path": "/docs/interpreter/objects/attributes/detailed/portal/p.v.regex",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.ann_announce",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.ann_user",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.ann_user",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.bitrate",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.bitrate"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.locale",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.locale",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.no_bots",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.no_bots",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.position",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.position",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.regex",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.regex",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.render",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.render",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/voice/v.user_limit",
+              "path": "/docs/interpreter/objects/attributes/detailed/voice/v.user_limit",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/description",
+              "path": "/docs/interpreter/objects/pipes/description",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/acronym",
+              "path": "/docs/interpreter/objects/pipes/detailed/acronym",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/camelCase",
+              "path": "/docs/interpreter/objects/pipes/detailed/camelCase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/capitalise",
+              "path": "/docs/interpreter/objects/pipes/detailed/capitalise",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/consonants",
+              "path": "/docs/interpreter/objects/pipes/detailed/consonants"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/decapitalise",
+              "path": "/docs/interpreter/objects/pipes/detailed/decapitalise",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/length",
+              "path": "/docs/interpreter/objects/pipes/detailed/length",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/lowerCase",
+              "path": "/docs/interpreter/objects/pipes/detailed/lowerCase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/populous",
+              "path": "/docs/interpreter/objects/pipes/detailed/populous",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/populous_count",
+              "path": "/docs/interpreter/objects/pipes/detailed/populous_count",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/snakeCase",
+              "path": "/docs/interpreter/objects/pipes/detailed/snakeCase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/souvlakiCase",
+              "path": "/docs/interpreter/objects/pipes/detailed/souvlakiCase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/titleCase",
+              "path": "/docs/interpreter/objects/pipes/detailed/titleCase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/upperCase",
+              "path": "/docs/interpreter/objects/pipes/detailed/upperCase",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/vowels",
+              "path": "/docs/interpreter/objects/pipes/detailed/vowels"
+            },
+            {
+              "id": "interpreter/objects/pipes/detailed/words",
+              "path": "/docs/interpreter/objects/pipes/detailed/words",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/structures/description",
+              "path": "/docs/interpreter/objects/structures/description",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/structures/detailed/if",
+              "path": "/docs/interpreter/objects/structures/detailed/if",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/description",
+              "path": "/docs/interpreter/objects/variables/description",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/general/creator_portal",
+              "path": "/docs/interpreter/objects/variables/detailed/general/creator_portal",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/general/creator_voice",
+              "path": "/docs/interpreter/objects/variables/detailed/general/creator_voice",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/general/double_slash",
+              "path": "/docs/interpreter/objects/variables/detailed/general/double_slash",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/general/slash",
+              "path": "/docs/interpreter/objects/variables/detailed/general/slash",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/member/member_active_count",
+              "path": "/docs/interpreter/objects/variables/detailed/member/member_active_count",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/member/member_count",
+              "path": "/docs/interpreter/objects/variables/detailed/member/member_count",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/member/member_history",
+              "path": "/docs/interpreter/objects/variables/detailed/member/member_history",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/member/member_list",
+              "path": "/docs/interpreter/objects/variables/detailed/member/member_list",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/member/member_with_status",
+              "path": "/docs/interpreter/objects/variables/detailed/member/member_with_status",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/status/status_count",
+              "path": "/docs/interpreter/objects/variables/detailed/status/status_count",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/status/status_history",
+              "path": "/docs/interpreter/objects/variables/detailed/status/status_history",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/status/status_list",
+              "path": "/docs/interpreter/objects/variables/detailed/status/status_list",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/date",
+              "path": "/docs/interpreter/objects/variables/detailed/time/date",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/day_name",
+              "path": "/docs/interpreter/objects/variables/detailed/time/day_name",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/day_number",
+              "path": "/docs/interpreter/objects/variables/detailed/time/day_number",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/hour",
+              "path": "/docs/interpreter/objects/variables/detailed/time/hour",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/minute",
+              "path": "/docs/interpreter/objects/variables/detailed/time/minute",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/month_name",
+              "path": "/docs/interpreter/objects/variables/detailed/time/month_name",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/month_number",
+              "path": "/docs/interpreter/objects/variables/detailed/time/month_number",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/second",
+              "path": "/docs/interpreter/objects/variables/detailed/time/second",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/time",
+              "path": "/docs/interpreter/objects/variables/detailed/time/time",
+              "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/variables/detailed/time/year",
+              "path": "/docs/interpreter/objects/variables/detailed/time/year",
+              "sidebar": "docs"
+            },
+            {
+              "id": "ranking",
+              "path": "/docs/ranking",
+              "sidebar": "docs"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

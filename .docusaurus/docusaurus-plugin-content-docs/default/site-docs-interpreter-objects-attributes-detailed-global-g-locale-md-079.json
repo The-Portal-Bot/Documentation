@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/attributes/detailed/global/g.locale",
+  "id": "interpreter/objects/attributes/detailed/global/g.locale",
+  "isDocsHomePage": false,
+  "title": "g.locale",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.locale.md",
+  "slug": "/interpreter/objects/attributes/detailed/global/g.locale",
+  "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.locale",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.locale.md",
+  "version": "current",
+  "sidebar_label": "g.locale",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Attributes",
+    "permalink": "/docs/interpreter/objects/attributes/description"
+  },
+  "next": {
+    "title": "g.prefix",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.prefix"
+  }
+}

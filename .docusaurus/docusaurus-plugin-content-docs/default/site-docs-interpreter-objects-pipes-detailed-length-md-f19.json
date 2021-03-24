@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/length",
+  "id": "interpreter/objects/pipes/detailed/length",
+  "isDocsHomePage": false,
+  "title": "length",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/length.md",
+  "slug": "/interpreter/objects/pipes/detailed/length",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/length",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/length.md",
+  "version": "current",
+  "sidebar_label": "length",
+  "sidebar": "docs",
+  "previous": {
+    "title": "decapitalise",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/decapitalise"
+  },
+  "next": {
+    "title": "lowerCase",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/lowerCase"
+  }
+}

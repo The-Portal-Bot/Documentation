@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/pipes/detailed/acronym",
+  "id": "interpreter/objects/pipes/detailed/acronym",
+  "isDocsHomePage": false,
+  "title": "acronym",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/pipes/detailed/acronym.md",
+  "slug": "/interpreter/objects/pipes/detailed/acronym",
+  "permalink": "/docs/interpreter/objects/pipes/detailed/acronym",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/acronym.md",
+  "version": "current",
+  "sidebar_label": "acronym",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Pipes",
+    "permalink": "/docs/interpreter/objects/pipes/description"
+  },
+  "next": {
+    "title": "camelCase",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+  }
+}

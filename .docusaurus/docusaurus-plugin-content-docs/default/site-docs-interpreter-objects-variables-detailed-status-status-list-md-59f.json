@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/status/status_list",
+  "id": "interpreter/objects/variables/detailed/status/status_list",
+  "isDocsHomePage": false,
+  "title": "status_list",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/status/status_list.md",
+  "slug": "/interpreter/objects/variables/detailed/status/status_list",
+  "permalink": "/docs/interpreter/objects/variables/detailed/status/status_list",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/status/status_list.md",
+  "version": "current",
+  "sidebar_label": "status_list",
+  "sidebar": "docs",
+  "previous": {
+    "title": "member_history",
+    "permalink": "/docs/interpreter/objects/variables/detailed/member/member_history"
+  },
+  "next": {
+    "title": "status_count",
+    "permalink": "/docs/interpreter/objects/variables/detailed/status/status_count"
+  }
+}

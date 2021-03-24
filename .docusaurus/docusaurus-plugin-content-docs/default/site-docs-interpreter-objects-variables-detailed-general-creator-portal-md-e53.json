@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/general/creator_portal",
+  "id": "interpreter/objects/variables/detailed/general/creator_portal",
+  "isDocsHomePage": false,
+  "title": "creator_portal",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/general/creator_portal.md",
+  "slug": "/interpreter/objects/variables/detailed/general/creator_portal",
+  "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_portal",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/creator_portal.md",
+  "version": "current",
+  "sidebar_label": "creator_portal",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Variable",
+    "permalink": "/docs/interpreter/objects/variables/description"
+  },
+  "next": {
+    "title": "creator_voice",
+    "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_voice"
+  }
+}

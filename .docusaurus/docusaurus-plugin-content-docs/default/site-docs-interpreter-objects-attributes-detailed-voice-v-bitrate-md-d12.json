@@ -1,0 +1,13 @@
+{
+  "unversionedId": "interpreter/objects/attributes/detailed/voice/v.bitrate",
+  "id": "interpreter/objects/attributes/detailed/voice/v.bitrate",
+  "isDocsHomePage": false,
+  "title": "v.bitrate",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/attributes/detailed/voice/v.bitrate.md",
+  "slug": "/interpreter/objects/attributes/detailed/voice/v.bitrate",
+  "permalink": "/docs/interpreter/objects/attributes/detailed/voice/v.bitrate",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/voice/v.bitrate.md",
+  "version": "current",
+  "sidebar_label": "v.bitrate"
+}

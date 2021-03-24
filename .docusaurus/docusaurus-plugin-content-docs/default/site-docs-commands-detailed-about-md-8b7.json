@@ -1,0 +1,22 @@
+{
+  "unversionedId": "commands/detailed/about",
+  "id": "commands/detailed/about",
+  "isDocsHomePage": false,
+  "title": "about",
+  "description": "|           Description           | Argument | Accessible | Cooldown |",
+  "source": "@site/docs/commands/detailed/about.md",
+  "slug": "/commands/detailed/about",
+  "permalink": "/docs/commands/detailed/about",
+  "editUrl": "https://portal-bot.xyz/docs/commands/detailed/about.md",
+  "version": "current",
+  "sidebar_label": "about",
+  "sidebar": "docs",
+  "previous": {
+    "title": "Commands",
+    "permalink": "/docs/commands/description"
+  },
+  "next": {
+    "title": "announce",
+    "permalink": "/docs/commands/detailed/announce"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/attributes/detailed/global/g.profanity_level",
+  "id": "interpreter/objects/attributes/detailed/global/g.profanity_level",
+  "isDocsHomePage": false,
+  "title": "g.profanity_level",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.profanity_level.md",
+  "slug": "/interpreter/objects/attributes/detailed/global/g.profanity_level",
+  "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.profanity_level",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.profanity_level.md",
+  "version": "current",
+  "sidebar_label": "g.profanity_level",
+  "sidebar": "docs",
+  "previous": {
+    "title": "g.prefix",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.prefix"
+  },
+  "next": {
+    "title": "g.rank_speed",
+    "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.rank_speed"
+  }
+}

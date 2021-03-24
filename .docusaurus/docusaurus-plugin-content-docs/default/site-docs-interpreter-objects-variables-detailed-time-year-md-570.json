@@ -1,0 +1,22 @@
+{
+  "unversionedId": "interpreter/objects/variables/detailed/time/year",
+  "id": "interpreter/objects/variables/detailed/time/year",
+  "isDocsHomePage": false,
+  "title": "year",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/variables/detailed/time/year.md",
+  "slug": "/interpreter/objects/variables/detailed/time/year",
+  "permalink": "/docs/interpreter/objects/variables/detailed/time/year",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/time/year.md",
+  "version": "current",
+  "sidebar_label": "year",
+  "sidebar": "docs",
+  "previous": {
+    "title": "month_name",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/month_name"
+  },
+  "next": {
+    "title": "time",
+    "permalink": "/docs/interpreter/objects/variables/detailed/time/time"
+  }
+}
