@@ -144,11 +144,34 @@ function Home() {
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">Music Player</h1>
-          <p className="hero__subtitle">Easy to use, fast and fun</p>
+          <p className="hero__subtitle">
+          <div>
+            <h3>
+              You can enter
+            </h3>
+            <h4>
+              <i>Video names, Youtube URLs, Youtube playlist URLs or portal_video_queue.json</i>
+            </h4>
+          </div> 
+          </p>
         </div>
       </header>
 
-      <main>
+      {/* <main className={clsx(styles.heroBanner)}>
+        <div>
+          <h3>
+            In the Music Channel you can enter
+          </h3>
+          <p>
+            a video name<br />
+            a youtube url<br />
+            a youtube playlist url<br />
+            a portal_video_queue.json
+          </p>
+        </div>          
+      </main> */}
+
+      <main>        
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
