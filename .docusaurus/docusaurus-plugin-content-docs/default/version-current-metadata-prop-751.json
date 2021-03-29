@@ -515,6 +515,16 @@
                   },
                   {
                     "type": "link",
+                    "label": "vowels",
+                    "href": "/docs/interpreter/objects/pipes/detailed/vowels"
+                  },
+                  {
+                    "type": "link",
+                    "label": "consonants",
+                    "href": "/docs/interpreter/objects/pipes/detailed/consonants"
+                  },
+                  {
+                    "type": "link",
                     "label": "camelCase",
                     "href": "/docs/interpreter/objects/pipes/detailed/camelCase"
                   },
@@ -669,6 +679,7 @@
     "/docs/interpreter/objects/pipes/detailed/acronym": "docs",
     "/docs/interpreter/objects/pipes/detailed/camelCase": "docs",
     "/docs/interpreter/objects/pipes/detailed/capitalise": "docs",
+    "/docs/interpreter/objects/pipes/detailed/consonants": "docs",
     "/docs/interpreter/objects/pipes/detailed/decapitalise": "docs",
     "/docs/interpreter/objects/pipes/detailed/length": "docs",
     "/docs/interpreter/objects/pipes/detailed/lowerCase": "docs",
@@ -678,6 +689,7 @@
     "/docs/interpreter/objects/pipes/detailed/souvlakiCase": "docs",
     "/docs/interpreter/objects/pipes/detailed/titleCase": "docs",
     "/docs/interpreter/objects/pipes/detailed/upperCase": "docs",
+    "/docs/interpreter/objects/pipes/detailed/vowels": "docs",
     "/docs/interpreter/objects/pipes/detailed/words": "docs",
     "/docs/interpreter/objects/structures/description": "docs",
     "/docs/interpreter/objects/structures/detailed/if": "docs",

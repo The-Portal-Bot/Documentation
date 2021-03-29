@@ -6,13 +6,14 @@ sidebar_label: state
 
 |             Description             | Argument | Accessible | Cooldown |
 | :---------------------------------: | :------: | :--------: | :------: |
-| Returns the current state of Portal | __none__ | `everyone` |  `none`  |
+| Returns the current state of Portal | **none** | `everyone` |  `none`  |
 
 ## Examples
 
-* Lets say you want to see the current channels Portal controls, you would type
-    ```bash
-    ./state
-    ```
+- Lets say you want to see the current channels Portal controls, you would type
 
-    Portal will reply with the _current state of Portal controlled channels_ in an embedded card.
+  ```bash
+  ./state
+  ```
+
+  Portal will reply with the _current state of Portal controlled channels_ in an embedded card.

@@ -3,7 +3,7 @@
   "id": "commands/detailed/url",
   "isDocsHomePage": false,
   "title": "url",
-  "description": "|                            Description                            |               Argument                | Accessible | Cooldown |",
+  "description": "|                            Description                            |         Argument          | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/url.md",
   "slug": "/commands/detailed/url",
   "permalink": "/docs/commands/detailed/url",

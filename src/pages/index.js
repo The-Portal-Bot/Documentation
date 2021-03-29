@@ -139,33 +139,36 @@ function Home() {
             With Portal's{" "}
             <Link
               className={clsx(styles.linkHighlight)}
-              to={useBaseUrl("features/")}
-            >
-              Features
-            </Link>{" "}
-            and{" "}
-            <Link
-              className={clsx(styles.linkHighlight)}
               to={useBaseUrl("commands/")}
             >
               Commands
-            </Link>
+            </Link>{" "}you can have
             <br />
-            you can have an organised and fully functional server in just a few
-            steps.
+            an organised and fully functional server in just a few steps.
             <br />
 
             <br />
-            The{" "}
+            With a sublime and easy to use{" "}
+            <Link
+              className={clsx(styles.linkHighlight)}
+              to={useBaseUrl("music-player/")}
+            >
+              Music Player
+            </Link>
+            <br />
+            you can listen to what you want, however you want.
+            <br />
+
+            <br />
+            With a sophisticated{" "}
             <Link
               className={clsx(styles.linkHighlight)}
               to={useBaseUrl("interpreter/")}
             >
               Text Interpreter
-            </Link>{" "}
-            is a program used to generate channel names.
+            </Link>{" "}whith which you can create
             <br />
-            You can create anything you want !
+            just about any custom channel name.
           </p>
         </div>
       </main>

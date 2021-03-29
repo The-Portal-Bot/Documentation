@@ -6,7 +6,7 @@ sidebar_label: set
 
 |          Description           |       Argument        | Accessible | Cooldown |
 | :----------------------------: | :-------------------: | :--------: | :------: |
-| Sets the value of an attribute | __!attribute !value__ |  `admin`   |  `none`  |
+| Sets the value of an attribute | **!attribute !value** |  `admin`   |  `none`  |
 
 :::note
 
@@ -16,16 +16,18 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 ## Examples
 
-* Lets say you want to set the attribute locale of the Portal, you would type
-    ```bash
-    ./set g.locale gr
-    ```
+- Lets say you want to set the attribute locale of the Portal, you would type
 
-    will update global locale to gr
+  ```bash
+  ./set g.locale gr
+  ```
 
-* Lets say you want to set the attribute regex of your current voice channel, you would type
-    ```bash
-    ./set v.regex My new name
-    ```
+  will update global locale to gr
 
-    will update name of current voice to _My new name_
+- Lets say you want to set the attribute regex of your current voice channel, you would type
+
+  ```bash
+  ./set v.regex My new name
+  ```
+
+  will update name of current voice to _My new name_

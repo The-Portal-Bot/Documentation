@@ -1,3 +1,4 @@
+import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
@@ -139,7 +140,7 @@ function Home() {
   return (
     <Layout
       title="Music Player"
-      description="Description will go into a meta tag in <head />"
+      description="Music Player"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
@@ -147,11 +148,24 @@ function Home() {
           <p className="hero__subtitle">
           <div>
             <h3>
-              You can enter
+              type <i><Link
+              className={clsx(styles.linkHighlight)}
+              to={useBaseUrl("docs/commands/detailed/music")}
+            >
+              ./music music
+            </Link></i> and then just enter a
             </h3>
             <h4>
-              <i>Video names, Youtube URLs, Youtube playlist URLs or portal_video_queue.json</i>
+              <i>video names, youtube video URLs, youtube playlist URL or portal_video_queue.json</i>
             </h4>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('docs/commands/detailed/music')}>
+              setup music channel
+            </Link>
           </div> 
           </p>
         </div>

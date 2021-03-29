@@ -3,7 +3,7 @@
   "id": "commands/detailed/music",
   "isDocsHomePage": false,
   "title": "music",
-  "description": "|                              Description                              |               Argument                | Accessible | Cooldown |",
+  "description": "|                              Description                              |         Argument          | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/music.md",
   "slug": "/commands/detailed/music",
   "permalink": "/docs/commands/detailed/music",

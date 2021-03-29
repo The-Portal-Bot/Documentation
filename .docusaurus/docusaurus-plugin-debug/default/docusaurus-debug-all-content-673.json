@@ -445,6 +445,14 @@
                           },
                           {
                             "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/vowels"
+                          },
+                          {
+                            "type": "doc",
+                            "id": "interpreter/objects/pipes/detailed/consonants"
+                          },
+                          {
+                            "type": "doc",
                             "id": "interpreter/objects/pipes/detailed/camelCase"
                           },
                           {
@@ -584,6 +592,7 @@
             "/docs/interpreter/objects/pipes/detailed/acronym": "docs",
             "/docs/interpreter/objects/pipes/detailed/camelCase": "docs",
             "/docs/interpreter/objects/pipes/detailed/capitalise": "docs",
+            "/docs/interpreter/objects/pipes/detailed/consonants": "docs",
             "/docs/interpreter/objects/pipes/detailed/decapitalise": "docs",
             "/docs/interpreter/objects/pipes/detailed/length": "docs",
             "/docs/interpreter/objects/pipes/detailed/lowerCase": "docs",
@@ -593,6 +602,7 @@
             "/docs/interpreter/objects/pipes/detailed/souvlakiCase": "docs",
             "/docs/interpreter/objects/pipes/detailed/titleCase": "docs",
             "/docs/interpreter/objects/pipes/detailed/upperCase": "docs",
+            "/docs/interpreter/objects/pipes/detailed/vowels": "docs",
             "/docs/interpreter/objects/pipes/detailed/words": "docs",
             "/docs/interpreter/objects/structures/description": "docs",
             "/docs/interpreter/objects/structures/detailed/if": "docs",
@@ -693,7 +703,7 @@
               "id": "commands/detailed/announcement",
               "isDocsHomePage": false,
               "title": "announcement",
-              "description": "|                                     Description                                     |               Argument                | Accessible | Cooldown |",
+              "description": "|                                     Description                                     |         Argument          | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/announcement.md",
               "slug": "/commands/detailed/announcement",
               "permalink": "/docs/commands/detailed/announcement",
@@ -709,6 +719,19 @@
                 "title": "corona",
                 "permalink": "/docs/commands/detailed/corona"
               }
+            },
+            {
+              "unversionedId": "commands/detailed/ban",
+              "id": "commands/detailed/ban",
+              "isDocsHomePage": false,
+              "title": "ban",
+              "description": "|        Description        |       Argument       | Accessible  |   Cooldown    |",
+              "source": "@site/docs/commands/detailed/ban.md",
+              "slug": "/commands/detailed/ban",
+              "permalink": "/docs/commands/detailed/ban",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ban.md",
+              "version": "current",
+              "sidebar_label": "ban"
             },
             {
               "unversionedId": "commands/detailed/bet",
@@ -882,7 +905,7 @@
               "id": "commands/detailed/join",
               "isDocsHomePage": false,
               "title": "join",
-              "description": "|         Description          | Argument | Accessible |   Cooldown    |",
+              "description": "|          Description          | Argument | Accessible |   Cooldown    |",
               "source": "@site/docs/commands/detailed/join.md",
               "slug": "/commands/detailed/join",
               "permalink": "/docs/commands/detailed/join",
@@ -920,6 +943,19 @@
                 "title": "leaderboard",
                 "permalink": "/docs/commands/detailed/leaderboard"
               }
+            },
+            {
+              "unversionedId": "commands/detailed/kick",
+              "id": "commands/detailed/kick",
+              "isDocsHomePage": false,
+              "title": "kick",
+              "description": "|        Description         |  Argument   | Accessible  |   Cooldown    |",
+              "source": "@site/docs/commands/detailed/kick.md",
+              "slug": "/commands/detailed/kick",
+              "permalink": "/docs/commands/detailed/kick",
+              "editUrl": "https://portal-bot.xyz/docs/commands/detailed/kick.md",
+              "version": "current",
+              "sidebar_label": "kick"
             },
             {
               "unversionedId": "commands/detailed/leaderboard",
@@ -992,7 +1028,7 @@
               "id": "commands/detailed/music",
               "isDocsHomePage": false,
               "title": "music",
-              "description": "|                              Description                              |               Argument                | Accessible | Cooldown |",
+              "description": "|                              Description                              |         Argument          | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/music.md",
               "slug": "/commands/detailed/music",
               "permalink": "/docs/commands/detailed/music",
@@ -1014,7 +1050,7 @@
               "id": "commands/detailed/news",
               "isDocsHomePage": false,
               "title": "news",
-              "description": "|                Description                 |             Argument             | Accessible | Cooldown |",
+              "description": "|                Description                 |             Argument              | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/news.md",
               "slug": "/commands/detailed/news",
               "permalink": "/docs/commands/detailed/news",
@@ -1062,7 +1098,7 @@
               "id": "commands/detailed/portal",
               "isDocsHomePage": false,
               "title": "portal",
-              "description": "|                               Description                               |               Argument                | Accessible | Cooldown |",
+              "description": "|                               Description                               |         Argument          | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/portal.md",
               "slug": "/commands/detailed/portal",
               "permalink": "/docs/commands/detailed/portal",
@@ -1150,7 +1186,7 @@
               "id": "commands/detailed/run",
               "isDocsHomePage": false,
               "title": "run",
-              "description": "|                     Description                      |      Argument      | Accessible | Cooldown |",
+              "description": "|                     Description                      |   Argument    | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/run.md",
               "slug": "/commands/detailed/run",
               "permalink": "/docs/commands/detailed/run",
@@ -1238,7 +1274,7 @@
               "id": "commands/detailed/url",
               "isDocsHomePage": false,
               "title": "url",
-              "description": "|                            Description                            |               Argument                | Accessible | Cooldown |",
+              "description": "|                            Description                            |         Argument          | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/url.md",
               "slug": "/commands/detailed/url",
               "permalink": "/docs/commands/detailed/url",
@@ -1260,7 +1296,7 @@
               "id": "commands/detailed/weather",
               "isDocsHomePage": false,
               "title": "weather",
-              "description": "|                       Description                        |    Argument     | Accessible | Cooldown |",
+              "description": "|                       Description                       |    Argument    | Accessible | Cooldown |",
               "source": "@site/docs/commands/detailed/weather.md",
               "slug": "/commands/detailed/weather",
               "permalink": "/docs/commands/detailed/weather",
@@ -1360,6 +1396,19 @@
                 "title": "g.locale",
                 "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.locale"
               }
+            },
+            {
+              "unversionedId": "interpreter/objects/attributes/detailed/global/g.initial_role",
+              "id": "interpreter/objects/attributes/detailed/global/g.initial_role",
+              "isDocsHomePage": false,
+              "title": "g.initial_role",
+              "description": "Description",
+              "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.initial_role.md",
+              "slug": "/interpreter/objects/attributes/detailed/global/g.initial_role",
+              "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.initial_role",
+              "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.initial_role.md",
+              "version": "current",
+              "sidebar_label": "g.initial_role"
             },
             {
               "unversionedId": "interpreter/objects/attributes/detailed/global/g.locale",
@@ -1898,8 +1947,8 @@
                 "permalink": "/docs/interpreter/objects/pipes/description"
               },
               "next": {
-                "title": "camelCase",
-                "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+                "title": "vowels",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/vowels"
               }
             },
             {
@@ -1916,8 +1965,8 @@
               "sidebar_label": "camelCase",
               "sidebar": "docs",
               "previous": {
-                "title": "acronym",
-                "permalink": "/docs/interpreter/objects/pipes/detailed/acronym"
+                "title": "consonants",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/consonants"
               },
               "next": {
                 "title": "capitalise",
@@ -1957,7 +2006,16 @@
               "permalink": "/docs/interpreter/objects/pipes/detailed/consonants",
               "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/consonants.md",
               "version": "current",
-              "sidebar_label": "consonants"
+              "sidebar_label": "consonants",
+              "sidebar": "docs",
+              "previous": {
+                "title": "vowels",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/vowels"
+              },
+              "next": {
+                "title": "camelCase",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+              }
             },
             {
               "unversionedId": "interpreter/objects/pipes/detailed/decapitalise",
@@ -2168,7 +2226,16 @@
               "permalink": "/docs/interpreter/objects/pipes/detailed/vowels",
               "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/vowels.md",
               "version": "current",
-              "sidebar_label": "vowels"
+              "sidebar_label": "vowels",
+              "sidebar": "docs",
+              "previous": {
+                "title": "acronym",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/acronym"
+              },
+              "next": {
+                "title": "consonants",
+                "permalink": "/docs/interpreter/objects/pipes/detailed/consonants"
+              }
             },
             {
               "unversionedId": "interpreter/objects/pipes/detailed/words",

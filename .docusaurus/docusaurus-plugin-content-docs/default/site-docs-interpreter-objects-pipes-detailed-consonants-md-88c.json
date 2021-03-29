@@ -9,5 +9,14 @@
   "permalink": "/docs/interpreter/objects/pipes/detailed/consonants",
   "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/consonants.md",
   "version": "current",
-  "sidebar_label": "consonants"
+  "sidebar_label": "consonants",
+  "sidebar": "docs",
+  "previous": {
+    "title": "vowels",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/vowels"
+  },
+  "next": {
+    "title": "camelCase",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/camelCase"
+  }
 }

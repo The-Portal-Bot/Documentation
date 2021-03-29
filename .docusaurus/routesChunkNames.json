@@ -236,7 +236,7 @@
     "component": "365a7bdd",
     "config": "5e9f5e1a"
   },
-  "/docs-3bf": {
+  "/docs-1a5": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
@@ -259,6 +259,10 @@
   "/docs/commands/detailed/announcement-b77": {
     "component": "17896441",
     "content": "eab91937"
+  },
+  "/docs/commands/detailed/ban-05b": {
+    "component": "17896441",
+    "content": "cbb615ce"
   },
   "/docs/commands/detailed/bet-1cf": {
     "component": "17896441",
@@ -299,6 +303,10 @@
   "/docs/commands/detailed/joke-ef3": {
     "component": "17896441",
     "content": "c2b856d0"
+  },
+  "/docs/commands/detailed/kick-e63": {
+    "component": "17896441",
+    "content": "a2dc486f"
   },
   "/docs/commands/detailed/leaderboard-bc9": {
     "component": "17896441",
@@ -379,6 +387,10 @@
   "/docs/interpreter/objects/attributes/description-4a0": {
     "component": "17896441",
     "content": "655498bb"
+  },
+  "/docs/interpreter/objects/attributes/detailed/global/g.initial_role-d97": {
+    "component": "17896441",
+    "content": "3ec70d12"
   },
   "/docs/interpreter/objects/attributes/detailed/global/g.locale-7dd": {
     "component": "17896441",

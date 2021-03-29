@@ -31,6 +31,10 @@
               "sidebar": "docs"
             },
             {
+              "id": "commands/detailed/ban",
+              "path": "/docs/commands/detailed/ban"
+            },
+            {
               "id": "commands/detailed/bet",
               "path": "/docs/commands/detailed/bet"
             },
@@ -78,6 +82,10 @@
               "id": "commands/detailed/joke",
               "path": "/docs/commands/detailed/joke",
               "sidebar": "docs"
+            },
+            {
+              "id": "commands/detailed/kick",
+              "path": "/docs/commands/detailed/kick"
             },
             {
               "id": "commands/detailed/leaderboard",
@@ -181,6 +189,10 @@
               "id": "interpreter/objects/attributes/description",
               "path": "/docs/interpreter/objects/attributes/description",
               "sidebar": "docs"
+            },
+            {
+              "id": "interpreter/objects/attributes/detailed/global/g.initial_role",
+              "path": "/docs/interpreter/objects/attributes/detailed/global/g.initial_role"
             },
             {
               "id": "interpreter/objects/attributes/detailed/global/g.locale",
@@ -318,7 +330,8 @@
             },
             {
               "id": "interpreter/objects/pipes/detailed/consonants",
-              "path": "/docs/interpreter/objects/pipes/detailed/consonants"
+              "path": "/docs/interpreter/objects/pipes/detailed/consonants",
+              "sidebar": "docs"
             },
             {
               "id": "interpreter/objects/pipes/detailed/decapitalise",
@@ -367,7 +380,8 @@
             },
             {
               "id": "interpreter/objects/pipes/detailed/vowels",
-              "path": "/docs/interpreter/objects/pipes/detailed/vowels"
+              "path": "/docs/interpreter/objects/pipes/detailed/vowels",
+              "sidebar": "docs"
             },
             {
               "id": "interpreter/objects/pipes/detailed/words",

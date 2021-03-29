@@ -74,15 +74,15 @@ module.exports = {
                     position: 'left',
                 },
                 {
-                    to: 'interpreter/',
-                    activeBasePath: 'interpreter',
-                    label: 'Text Interpreter',
-                    position: 'left',
-                },
-                {
                     to: 'music-player/',
                     activeBasePath: 'music-player',
                     label: 'Music Player',
+                    position: 'left',
+                },
+                {
+                    to: 'interpreter/',
+                    activeBasePath: 'interpreter',
+                    label: 'Text Interpreter',
                     position: 'left',
                 },
                 {
@@ -119,12 +119,12 @@ module.exports = {
                         to: 'commands/',
                     },
                     {
-                        label: 'Text Interpreter',
-                        to: 'interpreter/',
-                    },
-                    {
                         label: 'Music Player',
                         to: 'music-player/',
+                    },
+                    {
+                        label: 'Text Interpreter',
+                        to: 'interpreter/',
                     }
                 ]
             },
@@ -135,7 +135,7 @@ module.exports = {
                     to: 'help',
                 }, {
                     label: 'Portal Official Server',
-                    href: 'https://discord.com/invite/nuKXgFXr5y',
+                    href: 'https://discord.com/invite/WrMUzJYyzJ',
                 },
                 {
                     label: 'Github',
@@ -150,8 +150,12 @@ module.exports = {
                     to: 'blog',
                 },
                 {
-                    label: 'Top.gg',
+                    label: 'top.gg',
                     href: 'https://top.gg/bot/704400876860735569',
+                },
+                {
+                    label: 'bots.gg',
+                    href: 'https://discord.bots.gg/bots/704400876860735569',
                 }
                 ]
             },

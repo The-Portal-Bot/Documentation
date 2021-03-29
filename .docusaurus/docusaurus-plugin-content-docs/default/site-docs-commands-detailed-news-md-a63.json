@@ -3,7 +3,7 @@
   "id": "commands/detailed/news",
   "isDocsHomePage": false,
   "title": "news",
-  "description": "|                Description                 |             Argument             | Accessible | Cooldown |",
+  "description": "|                Description                 |             Argument              | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/news.md",
   "slug": "/commands/detailed/news",
   "permalink": "/docs/commands/detailed/news",

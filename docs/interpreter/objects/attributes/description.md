@@ -8,7 +8,7 @@ sidebar_label: Description
 | :----: | :--------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
 |   &    | _Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance_ | `&attribute` |        `gr`         |
 
-Attributes have three categories _global, portal, voice and member_. You can recognise the category of an attribute by the prefix in its name, for example ___p.locale___ refers to the locale of the portal whereas ___g.prefix___ refers to the prefix of the bot.
+Attributes have three categories _global, portal, voice and member_. You can recognise the category of an attribute by the prefix in its name, for example **_p.locale_** refers to the locale of the portal whereas **_g.prefix_** refers to the prefix of the bot.
 
 ## List of Attributes
 
@@ -16,11 +16,17 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ---
 
+### [g.initial_role](/docs/interpreter/objects/attributes/detailed/global/g.initial_role)
+
+|      Description       | Type | Default | Clearance |
+| :--------------------: | :--: | :-----: | :-------: |
+| _global starting role_ | role | _null_  |  `admin`  |
+
 ### [g.locale](/docs/interpreter/objects/attributes/detailed/global/g.locale)
 
-|   Description   | Type  |     Default      | Clearance |
-| :-------------: | :---: | :--------------: | :-------: |
-| _global locale_ | enum  | _gr_, _en_, _de_ |  `admin`  |
+|   Description   | Type | Default | Clearance |
+| :-------------: | :--: | :-----: | :-------: |
+| _global locale_ | enum |  _en_   |  `admin`  |
 
 ### [g.prefix](/docs/interpreter/objects/attributes/detailed/global/g.prefix)
 
@@ -40,7 +46,7 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 | :-----------------------------: | :----: | :-------------------------: | :-------: |
 | _In what speed members rank up_ | string | _none, slow, default, fast_ |  `admin`  |
 
-##  Member
+## Member
 
 ---
 
@@ -59,7 +65,7 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 |                     Description                     |  Type   | Default | Clearance |
 | :-------------------------------------------------: | :-----: | :-----: | :-------: |
 | _if announcements will be made in voices of portal_ | boolean | _true_  | `portal`  |
- 
+
 ### [p.ann_user](/docs/interpreter/objects/attributes/detailed/portal/p.ann_user)
 
 |                          Description                           |  Type   | Default | Clearance |
@@ -68,9 +74,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [p.locale](/docs/interpreter/objects/attributes/detailed/portal/p.locale)
 
-|    Description    | Type  |     Default      | Clearance |
-| :---------------: | :---: | :--------------: | :-------: |
-| _portal's locale_ | enum  | _gr_, _en_, _de_ | `portal`  |
+|    Description    | Type | Default | Clearance |
+| :---------------: | :--: | :-----: | :-------: |
+| _portal's locale_ | enum |  _en_   | `portal`  |
 
 ### [p.no_bots](/docs/interpreter/objects/attributes/detailed/portal/p.no_bots)
 
@@ -86,9 +92,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [p.regex](/docs/interpreter/objects/attributes/detailed/portal/p.regex)
 
-|              Description              |  Type   |                Default                 | Clearance |
-| :-----------------------------------: | :-----: | :------------------------------------: | :-------: |
-| _regex guidelines for portal's title_ | boolean | _G$#-P$member\_count \| $status\_list_ | `portal`  |
+|              Description              |  Type   |               Default                | Clearance |
+| :-----------------------------------: | :-----: | :----------------------------------: | :-------: |
+| _regex guidelines for portal's title_ | boolean | _G$#-P$member_count \| $status_list_ | `portal`  |
 
 ### [p.render](/docs/interpreter/objects/attributes/detailed/portal/p.render)
 
@@ -104,9 +110,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [p.v.regex](/docs/interpreter/objects/attributes/detailed/portal/p.v.regex)
 
-|                  Description                   |  Type   |                Default                 | Clearance |
-| :--------------------------------------------: | :-----: | :------------------------------------: | :-------: |
-| _regex guidelines for portal's voice's titles_ | boolean | _G$#-P$member\_count \| $status\_list_ | `portal`  |
+|                  Description                   |  Type   |               Default                | Clearance |
+| :--------------------------------------------: | :-----: | :----------------------------------: | :-------: |
+| _regex guidelines for portal's voice's titles_ | boolean | _G$#-P$member_count \| $status_list_ | `portal`  |
 
 ## Voice
 
@@ -132,9 +138,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [v.locale](/docs/interpreter/objects/attributes/detailed/voice/v.locale)
 
-|   Description    | Type  |     Default      | Clearance |
-| :--------------: | :---: | :--------------: | :-------: |
-| _voice's locale_ | enum  | _gr_, _en_, _de_ |  `voice`  |
+|   Description    | Type | Default | Clearance |
+| :--------------: | :--: | :-----: | :-------: |
+| _voice's locale_ | enum |  _en_   |  `voice`  |
 
 ### [v.no_bots](/docs/interpreter/objects/attributes/detailed/voice/v.no_bots)
 
@@ -144,15 +150,15 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [v.position](/docs/interpreter/objects/attributes/detailed/voice/v.position)
 
-|          Description          | Type  |     Default      | Clearance |
-| :---------------------------: | :---: | :--------------: | :-------: |
-| _voice's position in discord_ | enum  | _gr_, _en_, _de_ |  `voice`  |
+|          Description          | Type | Default | Clearance |
+| :---------------------------: | :--: | :-----: | :-------: |
+| _voice's position in discord_ | enum |  _en_   |  `voice`  |
 
 ### [v.regex](/docs/interpreter/objects/attributes/detailed/voice/v.regex)
 
-|             Description              |  Type   |                Default                 | Clearance |
-| :----------------------------------: | :-----: | :------------------------------------: | :-------: |
-| _regex guidelines for voice's title_ | boolean | _G$#-P$member\_count \| $status\_list_ |  `voice`  |
+|             Description              |  Type   |               Default                | Clearance |
+| :----------------------------------: | :-----: | :----------------------------------: | :-------: |
+| _regex guidelines for voice's title_ | boolean | _G$#-P$member_count \| $status_list_ |  `voice`  |
 
 ### [v.render](/docs/interpreter/objects/attributes/detailed/voice/v.render)
 

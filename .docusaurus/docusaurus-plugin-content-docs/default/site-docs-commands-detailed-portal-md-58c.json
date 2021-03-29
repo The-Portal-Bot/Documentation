@@ -3,7 +3,7 @@
   "id": "commands/detailed/portal",
   "isDocsHomePage": false,
   "title": "portal",
-  "description": "|                               Description                               |               Argument                | Accessible | Cooldown |",
+  "description": "|                               Description                               |         Argument          | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/portal.md",
   "slug": "/commands/detailed/portal",
   "permalink": "/docs/commands/detailed/portal",

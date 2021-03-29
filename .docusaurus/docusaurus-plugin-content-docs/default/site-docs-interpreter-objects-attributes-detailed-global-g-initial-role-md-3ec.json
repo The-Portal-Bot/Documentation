@@ -1,0 +1,13 @@
+{
+  "unversionedId": "interpreter/objects/attributes/detailed/global/g.initial_role",
+  "id": "interpreter/objects/attributes/detailed/global/g.initial_role",
+  "isDocsHomePage": false,
+  "title": "g.initial_role",
+  "description": "Description",
+  "source": "@site/docs/interpreter/objects/attributes/detailed/global/g.initial_role.md",
+  "slug": "/interpreter/objects/attributes/detailed/global/g.initial_role",
+  "permalink": "/docs/interpreter/objects/attributes/detailed/global/g.initial_role",
+  "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/attributes/detailed/global/g.initial_role.md",
+  "version": "current",
+  "sidebar_label": "g.initial_role"
+}

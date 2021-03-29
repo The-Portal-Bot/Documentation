@@ -4,22 +4,24 @@ title: url
 sidebar_label: url
 ---
 
-|                            Description                            |               Argument                | Accessible | Cooldown |
-| :---------------------------------------------------------------: | :-----------------------------------: | :--------: | :------: |
-| Creates a new url channel or sets<br />the current channel as url | __!channel \| @category__ |  `admin`   |  `none`  |
+|                            Description                            |         Argument          | Accessible | Cooldown |
+| :---------------------------------------------------------------: | :-----------------------: | :--------: | :------: |
+| Creates a new url channel or sets<br />the current channel as url | **!channel \| @category** |  `admin`   |  `none`  |
 
 ## Examples
 
-* Lets say you want to create a new url channel, you would type
-    ```bash
-    ./url youtube_videos
-    ```
+- Lets say you want to create a new url channel, you would type
 
-    This would create a new url channel called youtube_videos_.
+  ```bash
+  ./url youtube_videos
+  ```
 
-* Lets say you want to create a new url channel under a category, you would type
-    ```bash
-    ./url youtube_videos | url
-    ```
+  This would create a new url channel called youtube*videos*.
 
-    This would create a new url channel called youtube_videos_ under category _url_.
+- Lets say you want to create a new url channel under a category, you would type
+
+  ```bash
+  ./url youtube_videos | url
+  ```
+
+  This would create a new url channel called youtube*videos* under category _url_.

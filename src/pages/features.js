@@ -84,11 +84,10 @@ function Feature({ imageUrl, title, description }) {
 }
 
 function Home() {
-  const context = useDocusaurusContext();
   return (
     <Layout
       title="Features"
-      description="Description will go into a meta tag in <head />">
+      description="Features">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">Features</h1>

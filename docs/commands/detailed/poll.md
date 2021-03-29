@@ -6,17 +6,18 @@ sidebar_label: poll
 
 |                              Description                               |              Argument              | Accessible | Cooldown |
 | :--------------------------------------------------------------------: | :--------------------------------: | :--------: | :------: |
-| Replies with a message poll, that people can vote until owner stops it | __!poll_question \| [JSON array]__ | `everyone` |  `none`  |
+| Replies with a message poll, that people can vote until owner stops it | **!poll_question \| [JSON array]** | `everyone` |  `none`  |
 
 ## Examples
 
-* Lets say you want to create a new poll, you would type
-    ```json
-    ./poll Should I buy a new phone ? | [ "yes", "no" ]
-    ```
+- Lets say you want to create a new poll, you would type
 
-    This would create message with all options given alongside a numbered emote.
-    Polling is indefinate and ends when creator reacts with 🏁.
+  ```json
+  ./poll Should I buy a new phone ? | [ "yes", "no" ]
+  ```
+
+  This would create message with all options given alongside a numbered emote.
+  Polling is indefinate and ends when creator reacts with 🏁.
 
 :::tip
 

@@ -9,5 +9,14 @@
   "permalink": "/docs/interpreter/objects/pipes/detailed/vowels",
   "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/pipes/detailed/vowels.md",
   "version": "current",
-  "sidebar_label": "vowels"
+  "sidebar_label": "vowels",
+  "sidebar": "docs",
+  "previous": {
+    "title": "acronym",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/acronym"
+  },
+  "next": {
+    "title": "consonants",
+    "permalink": "/docs/interpreter/objects/pipes/detailed/consonants"
+  }
 }

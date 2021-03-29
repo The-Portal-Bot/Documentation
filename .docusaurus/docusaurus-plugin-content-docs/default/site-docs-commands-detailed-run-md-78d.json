@@ -3,7 +3,7 @@
   "id": "commands/detailed/run",
   "isDocsHomePage": false,
   "title": "run",
-  "description": "|                     Description                      |      Argument      | Accessible | Cooldown |",
+  "description": "|                     Description                      |   Argument    | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/run.md",
   "slug": "/commands/detailed/run",
   "permalink": "/docs/commands/detailed/run",

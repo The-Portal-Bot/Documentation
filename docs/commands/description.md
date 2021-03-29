@@ -4,9 +4,9 @@ title: Commands
 sidebar_label: Description
 ---
 
-Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex. ./about) 
+Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex. ./about)
 you can access this command, and await a reply or action from Portal.<br /><br />
-**Portal prefix: ./ *(default)***
+**Portal prefix: ./ _(default)_**
 
 ## A
 
@@ -16,29 +16,35 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 
 |           Description           | Argument | Clearance  | Cooldown |
 | :-----------------------------: | :------: | :--------: | :------: |
-| Returns an about Portal message | __none__ | `everyone` |  `none`  |
+| Returns an about Portal message | **none** | `everyone` |  `none`  |
 
 ### [announce](/docs/commands/detailed/announce)
 
 |                              Description                              |      Argument       | Clearance  |  Cooldown   |
 | :-------------------------------------------------------------------: | :-----------------: | :--------: | :---------: |
-| Makes an announcement in the announcement<br />channel and tags @here | __!title \| @body__ | `everyone` | `1min/user` |
+| Makes an announcement in the announcement<br />channel and tags @here | **!title \| @body** | `everyone` | `1min/user` |
 
 ### [announcement](/docs/commands/detailed/announcement)
 
 |                                     Description                                     |         Argument          | Clearance | Cooldown |
 | :---------------------------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Creates a new announcement channel or<br />sets the current channel as announcement | __!channel \| @category__ |  `admin`  |  `none`  |
+| Creates a new announcement channel or<br />sets the current channel as announcement | **!channel \| @category** |  `admin`  |  `none`  |
 
 ## B
 
 ---
 
+### [ban](/docs/commands/detailed/ban)
+
+|        Description        |       Argument       | Accessible  |   Cooldown    |
+| :-----------------------: | :------------------: | :---------: | :-----------: |
+| Bans a member from server | **@reason \| @days** | `moderator` | `1min/member` |
+
 ### [bet](/docs/commands/detailed/bet)
 
 |              Description              |      Argument       | Clearance  | Cooldown |
 | :-----------------------------------: | :-----------------: | :--------: | :------: |
-| Replies with the latest betting stats | __!provider !game__ | `everyone` |  `none`  |
+| Replies with the latest betting stats | **!provider !game** | `everyone` |  `none`  |
 
 ## C
 
@@ -48,13 +54,13 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 
 |                    Description                     |     Argument      | Clearance  | Cooldown |
 | :------------------------------------------------: | :---------------: | :--------: | :------: |
-| Replies with the daily state of corona virus cases | __!country_code__ | `everyone` |  `none`  |
+| Replies with the daily state of corona virus cases | **!country_code** | `everyone` |  `none`  |
 
 ### [crypto](/docs/commands/detailed/crypto)
 
 |                        Description                         |            Argument             | Clearance  | Cooldown |
 | :--------------------------------------------------------: | :-----------------------------: | :--------: | :------: |
-| Replies with the current price of requested cryptocurrency | __!cryptocurrency \| exchange__ | `everyone` |  `none`  |
+| Replies with the current price of requested cryptocurrency | **!cryptocurrency \| exchange** | `everyone` |  `none`  |
 
 ## D
 
@@ -64,7 +70,7 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 
 |                    Description                    |        Argument        | Clearance | Cooldown |
 | :-----------------------------------------------: | :--------------------: | :-------: | :------: |
-| Deletes n number of messsages on the text channel | __!numer_of_messages__ |  `admin`  |  `none`  |
+| Deletes n number of messsages on the text channel | **!numer_of_messages** |  `admin`  |  `none`  |
 
 :::note
 
@@ -80,7 +86,7 @@ Note that Portal will delete n + 1 messages as it will also delete the command t
 
 |                       Description                       |      Argument       | Clearance | Cooldown |
 | :-----------------------------------------------------: | :-----------------: | :-------: | :------: |
-| Creates focus channel for you and your requested member | __!username @time__ |  `admin`  |  `none`  |
+| Creates focus channel for you and your requested member | **!username @time** |  `admin`  |  `none`  |
 
 :::note
 
@@ -92,7 +98,7 @@ If duration is not specified the channel will live until everyone has left
 
 |                     Description                      | Argument | Clearance |   Cooldown   |
 | :--------------------------------------------------: | :------: | :-------: | :----------: |
-| Clones current channel in order to force-update name | __none__ |  `admin`  | `2min/admin` |
+| Clones current channel in order to force-update name | **none** |  `admin`  | `2min/admin` |
 
 ## H
 
@@ -102,7 +108,7 @@ If duration is not specified the channel will live until everyone has left
 
 |                          Description                          |                                        Argument                                         | Clearance  | Cooldown |
 | :-----------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :--------: | :------: |
-| Returns a help-list if specified returns specific description | __variables/attributes/pipes/structures__,<br /> __@command/@vrbl/@attr/@pipe/@struct__ | `everyone` |  `none`  |
+| Returns a help-list if specified returns specific description | **variables/attributes/pipes/structures**,<br /> **@command/@vrbl/@attr/@pipe/@struct** | `everyone` |  `none`  |
 
 ## I
 
@@ -112,7 +118,7 @@ If duration is not specified the channel will live until everyone has left
 
 |                       Description                       | Argument | Clearance | Cooldown |
 | :-----------------------------------------------------: | :------: | :-------: | :------: |
-| ignore channels, so that portal does not listen to them | __none__ |  `admin`  |  `none`  |
+| ignore channels, so that portal does not listen to them | **none** |  `admin`  |  `none`  |
 
 ## J
 
@@ -122,19 +128,27 @@ If duration is not specified the channel will live until everyone has left
 
 |                            Description                             |         Argument          | Clearance | Cooldown |
 | :----------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | __!channel \| @category__ |  `admin`  |  `none`  |
+| Create ignore channel or sets as ignore channel or ignore a member | **!channel \| @category** |  `admin`  |  `none`  |
 
 ### [joke](/docs/commands/detailed/joke)
 
 |     Description     |   Argument    | Clearance  | Cooldown |
 | :-----------------: | :-----------: | :--------: | :------: |
-| Replies with a joke | __@category__ | `everyone` |  `none`  |
+| Replies with a joke | **@category** | `everyone` |  `none`  |
 
 :::note
 
 Note that category can be dad, chuck or blonde
 
 :::
+
+## K
+
+### [kick](/docs/commands/detailed/kick)
+
+|        Description         |  Argument   | Accessible  |   Cooldown    |
+| :------------------------: | :---------: | :---------: | :-----------: |
+| Kicks a member from server | **@reason** | `moderator` | `1min/member` |
 
 ## L
 
@@ -144,19 +158,19 @@ Note that category can be dad, chuck or blonde
 
 |             Description             |        Argument        | Clearance  | Cooldown |
 | :---------------------------------: | :--------------------: | :--------: | :------: |
-| Replies with the top 10 leaderboard | __@number_of_members__ | `everyone` |  `none`  |
+| Replies with the top 10 leaderboard | **@number_of_members** | `everyone` |  `none`  |
 
 ### [leave](/docs/commands/detailed/leave)
 
 |            Description            | Argument | Clearance  | Cooldown |
 | :-------------------------------: | :------: | :--------: | :------: |
-| Removes Portal from voice channel | __none__ | `everyone` |  `none`  |
+| Removes Portal from voice channel | **none** | `everyone` |  `none`  |
 
 ### [level](/docs/commands/detailed/level)
 
 |    Description     | Argument | Clearance  | Cooldown |
 | :----------------: | :------: | :--------: | :------: |
-| Returns your level | __none__ | `everyone` |  `none`  |
+| Returns your level | **none** | `everyone` |  `none`  |
 
 ## M
 
@@ -166,7 +180,7 @@ Note that category can be dad, chuck or blonde
 
 |                              Description                              |         Argument          | Clearance | Cooldown |
 | :-------------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Creates a new music channel or sets<br />the current channel as music | __!channel \| @category__ |  `admin`  |  `none`  |
+| Creates a new music channel or sets<br />the current channel as music | **!channel \| @category** |  `admin`  |  `none`  |
 
 ## N
 
@@ -174,9 +188,9 @@ Note that category can be dad, chuck or blonde
 
 ### [news](/docs/commands/detailed/news)
 
-|                Description                 |             Argument             | Clearance  | Cooldown |
-| :----------------------------------------: | :------------------------------: | :--------: | :------: |
-| Replies with the latest news from category | __!category @number_of_articles_ | `everyone` |  `none`  |
+|                Description                 |             Argument              | Clearance  | Cooldown |
+| :----------------------------------------: | :-------------------------------: | :--------: | :------: |
+| Replies with the latest news from category | \__!category @number_of_articles_ | `everyone` |  `none`  |
 
 ## P
 
@@ -186,19 +200,19 @@ Note that category can be dad, chuck or blonde
 
 |                 Description                 | Argument | Clearance  | Cooldown |
 | :-----------------------------------------: | :------: | :--------: | :------: |
-| Pings Portal and returns round trip latency | __none__ | `everyone` |  `none`  |
+| Pings Portal and returns round trip latency | **none** | `everyone` |  `none`  |
 
 ### [poll](/docs/commands/detailed/poll)
 
 |                              Description                               |              Argument              | Clearance  | Cooldown |
 | :--------------------------------------------------------------------: | :--------------------------------: | :--------: | :------: |
-| Replies with a message poll, that people can vote until owner stops it | __!poll_question \| [JSON array]__ | `everyone` |  `none`  |
+| Replies with a message poll, that people can vote until owner stops it | **!poll_question \| [JSON array]** | `everyone` |  `none`  |
 
 ### [portal](/docs/commands/detailed/portal)
 
 |                               Description                               |         Argument          | Clearance | Cooldown |
 | :---------------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Creates a new portal channel or sets<br />the current channel as portal | __!channel \| @category__ |  `admin`  |  `none`  |
+| Creates a new portal channel or sets<br />the current channel as portal | **!channel \| @category** |  `admin`  |  `none`  |
 
 ## R
 
@@ -208,13 +222,13 @@ Note that category can be dad, chuck or blonde
 
 |           Description           | Argument | Clearance  | Cooldown |
 | :-----------------------------: | :------: | :--------: | :------: |
-| Returns ranks of ranking system | __none__ | `everyone` |  `none`  |
+| Returns ranks of ranking system | **none** | `everyone` |  `none`  |
 
-### [role_assigner ](/docs/commands/detailed/role_assigner )
+### [role_assigner ](/docs/commands/detailed/role_assigner)
 
 |                          Description                           |    Argument    | Clearance | Cooldown |
 | :------------------------------------------------------------: | :------------: | :-------: | :------: |
-| Replies with a message that gives roles when an emote is added | __!role_json__ |  `admin`  |  `none`  |
+| Replies with a message that gives roles when an emote is added | **!role_json** |  `admin`  |  `none`  |
 
 :::caution
 
@@ -226,13 +240,13 @@ For Portal to be able to assign roles, said roles must all be beneath Portal's r
 
 |                  Description                  |      Argument      | Clearance  | Cooldown |
 | :-------------------------------------------: | :----------------: | :--------: | :------: |
-| Roll follows the same philosophy as in roll20 | __!roll sequence__ | `everyone` |  `none`  |
+| Roll follows the same philosophy as in roll20 | **!roll sequence** | `everyone` |  `none`  |
 
 ### [run](/docs/commands/detailed/run)
 
-|                     Description                      |      Argument      | Clearance  | Cooldown |
-| :--------------------------------------------------: | :----------------: | :--------: | :------: |
-| Runs the given command string and returns its output | __!exec\_command__ | `everyone` |  `none`  |
+|                     Description                      |     Argument      | Clearance  | Cooldown |
+| :--------------------------------------------------: | :---------------: | :--------: | :------: |
+| Runs the given command string and returns its output | **!exec_command** | `everyone` |  `none`  |
 
 :::note
 
@@ -248,13 +262,13 @@ run is designed for you to test names before setting them to your channel
 
 |                     Description                      | Argument | Clearance | Cooldown |
 | :--------------------------------------------------: | :------: | :-------: | :------: |
-| Sets roles that will be given when said level reache | __none__ |  `admin`  |  `none`  |
+| Sets roles that will be given when said level reache | **none** |  `admin`  |  `none`  |
 
 ### [set](/docs/commands/detailed/set)
 
 |          Description           |       Argument        | Clearance | Cooldown |
 | :----------------------------: | :-------------------: | :-------: | :------: |
-| Sets the value of an attribute | __!attribute !value__ |  `admin`  |  `none`  |
+| Sets the value of an attribute | **!attribute !value** |  `admin`  |  `none`  |
 
 :::note
 
@@ -266,7 +280,7 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 |             Description             | Argument | Clearance  | Cooldown |
 | :---------------------------------: | :------: | :--------: | :------: |
-| Returns the current state of Portal | __none__ | `everyone` |  `none`  |
+| Returns the current state of Portal | **none** | `everyone` |  `none`  |
 
 ## U
 
@@ -276,7 +290,7 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 |                            Description                            |         Argument          | Clearance | Cooldown |
 | :---------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Creates a new url channel or sets<br />the current channel as url | __!channel \| @category__ |  `admin`  |  `none`  |
+| Creates a new url channel or sets<br />the current channel as url | **!channel \| @category** |  `admin`  |  `none`  |
 
 ## W
 
@@ -284,12 +298,12 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 
 ### [weather](/docs/commands/detailed/weather)
 
-|                       Description                       |    Argument     | Clearance  | Cooldown |
-| :-----------------------------------------------------: | :-------------: | :--------: | :------: |
-| Replies with the current whether for the requested city | __!city\_name__ | `everyone` |  `none`  |
+|                       Description                       |    Argument    | Clearance  | Cooldown |
+| :-----------------------------------------------------: | :------------: | :--------: | :------: |
+| Replies with the current whether for the requested city | **!city_name** | `everyone` |  `none`  |
 
 ### [whoami](/docs/commands/detailed/whoami)
 
 |                   Description                   | Argument | Clearance  | Cooldown |
 | :---------------------------------------------: | :------: | :--------: | :------: |
-| Replies with the your personal information card | __none__ | `everyone` |  `none`  |
+| Replies with the your personal information card | **none** | `everyone` |  `none`  |

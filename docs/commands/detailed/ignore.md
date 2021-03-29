@@ -6,19 +6,20 @@ sidebar_label: ignore
 
 |                       Description                       | Argument | Accessible | Cooldown |
 | :-----------------------------------------------------: | :------: | :--------: | :------: |
-| ignore channels, so that portal does not listen to them | __none__ |  `admin`   |  `none`  |
+| ignore channels, so that portal does not listen to them | **none** |  `admin`   |  `none`  |
 
 ## Examples
 
-* Lets say you want to ignore a channel _car photos_, you would type inside of it
-    ```bash
-    ./ignore
-    ```
+- Lets say you want to ignore a channel _car photos_, you would type inside of it
 
-* Lets say you want to stopping ignoring channel _car photos_, you would type inside of it
-    ```bash
-    ./ignore
-    ```
+  ```bash
+  ./ignore
+  ```
+
+- Lets say you want to stopping ignoring channel _car photos_, you would type inside of it
+  ```bash
+  ./ignore
+  ```
 
 :::tip
 

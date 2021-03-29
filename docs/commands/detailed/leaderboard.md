@@ -6,23 +6,25 @@ sidebar_label: leaderboard
 
 |             Description             |        Argument        | Accessible | Cooldown |
 | :---------------------------------: | :--------------------: | :--------: | :------: |
-| Replies with the top 10 leaderboard | __@number_of_members__ | `everyone` |  `none`  |
+| Replies with the top 10 leaderboard | **@number_of_members** | `everyone` |  `none`  |
 
 ## Examples
 
-* Lets say you want to get the current leaderboard, you would type
-    ```bash
-    ./leaderboard
-    ```
+- Lets say you want to get the current leaderboard, you would type
 
-    This will return the leaderboard with all members in server
+  ```bash
+  ./leaderboard
+  ```
 
-* Lets say you want to get only the top 10, you would type
-    ```bash
-    ./leaderboard 10
-    ```
+  This will return the leaderboard with all members in server
 
-    This will return the leaderboard with all members in server
+- Lets say you want to get only the top 10, you would type
+
+  ```bash
+  ./leaderboard 10
+  ```
+
+  This will return the leaderboard with all members in server
 
 :::tip
 

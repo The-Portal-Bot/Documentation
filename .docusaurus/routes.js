@@ -114,7 +114,7 @@ export default [
 },
 {
   path: '/docs',
-  component: ComponentCreator('/docs','3bf'),
+  component: ComponentCreator('/docs','1a5'),
   
   routes: [
 {
@@ -140,6 +140,11 @@ export default [
 {
   path: '/docs/commands/detailed/announcement',
   component: ComponentCreator('/docs/commands/detailed/announcement','b77'),
+  exact: true,
+},
+{
+  path: '/docs/commands/detailed/ban',
+  component: ComponentCreator('/docs/commands/detailed/ban','05b'),
   exact: true,
 },
 {
@@ -190,6 +195,11 @@ export default [
 {
   path: '/docs/commands/detailed/joke',
   component: ComponentCreator('/docs/commands/detailed/joke','ef3'),
+  exact: true,
+},
+{
+  path: '/docs/commands/detailed/kick',
+  component: ComponentCreator('/docs/commands/detailed/kick','e63'),
   exact: true,
 },
 {
@@ -290,6 +300,11 @@ export default [
 {
   path: '/docs/interpreter/objects/attributes/description',
   component: ComponentCreator('/docs/interpreter/objects/attributes/description','4a0'),
+  exact: true,
+},
+{
+  path: '/docs/interpreter/objects/attributes/detailed/global/g.initial_role',
+  component: ComponentCreator('/docs/interpreter/objects/attributes/detailed/global/g.initial_role','d97'),
   exact: true,
 },
 {

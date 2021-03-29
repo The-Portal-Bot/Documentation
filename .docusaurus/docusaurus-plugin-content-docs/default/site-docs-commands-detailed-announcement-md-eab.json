@@ -3,7 +3,7 @@
   "id": "commands/detailed/announcement",
   "isDocsHomePage": false,
   "title": "announcement",
-  "description": "|                                     Description                                     |               Argument                | Accessible | Cooldown |",
+  "description": "|                                     Description                                     |         Argument          | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/announcement.md",
   "slug": "/commands/detailed/announcement",
   "permalink": "/docs/commands/detailed/announcement",
