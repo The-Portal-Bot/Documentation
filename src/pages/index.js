@@ -103,15 +103,24 @@ function AddButton({ imageUrl, title, link }) {
 
 function LoopingText({ start, sentences, end }) {
   return (
-    <p>
+    <div>
       { start}{" "}
-      <TextLoop>
-        {sentences.map((sentence) => (
-          <p><t><b>{sentence.line}</b></t></p>
+      <TextLoop
+        noWrap={true}
+        interval={3000}
+        adjustingSpeed={100}
+        mask={true}
+        springConfig={{ stiffness: 700, damping: 100 }}>
+        {sentences.map((sentence, idx) => (
+          <div key={idx}>
+            <b>
+              {sentence.line}
+            </b>
+          </div>
         ))}
       </TextLoop>
       {" "}{end}
-    </p>
+    </div>
   );
 }
 
@@ -124,22 +133,25 @@ function Home() {
   return (
     <Layout title={"Main"} description="Portal main">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
-        <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">
+        <div className={clsx("container", styles.alignCenter)}>
+          <h1 className={clsx("hero__title", styles.alignCenter)}>{siteConfig.title}</h1>
+          <div className={clsx("hero__subtitle", styles.alignCenter, styles.marginBottomAlways)}>
             {siteConfig.tagline}
             <LoopingText
-              start={"you will"}
+              // start={"you will"}
               sentences={[
-                { line: "get an organised", link: "/docs/commands/detailed/portal" },
-                { line: "get a moderated", link: "/docs/commands/detailed/kick" },
-                { line: "add an admin for your", link: "/docs/commands/detailed/role_assigner" },
-                { line: "increase engagement to your", link: "/docs/commands/detailed/news" },
-                { line: "add a ranking system to your", link: "/docs/commands/detailed/news" }
+                { line: "organise your server with just a few channels", link: "/docs/commands/detailed/portal" },
+                { line: "a music channel that just works effortlessly", link: "/docs/commands/detailed/news" },
+                { line: "make members moderators with just one click", link: "/docs/commands/detailed/kick" },
+                { line: "increase engagement with amazing features", link: "/docs/commands/detailed/news" },
+                { line: "keep you server and channel clean and civil", link: "/docs/commands/detailed/role_assigner" },
+                { line: "with anti spam build-in, you can keep chill", link: "/docs/commands/detailed/role_assigner" },
+                { line: "award engagment with rak-ups and roles", link: "/docs/commands/detailed/news" },
+                { line: "easily distribute roles to members with reacts", link: "/docs/commands/detailed/news" }
               ]}
-              end={"server in just a few steps."}
+            // end={"server in just a few steps."}
             />
-          </p>
+          </div>
           <div className={clsx(styles.buttons, styles.aligner)}>
             <AddButton
               className={clsx(styles.marginBottom)}

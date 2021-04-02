@@ -91,8 +91,8 @@
     max-width: 25rem;
 }
 
-.marginBottom {
-    margin-bottom: 0rem;
+.marginBottomAlways {
+    margin-bottom: 1rem;
 }
 
 .marginRight {
@@ -125,6 +125,10 @@ a:hover {
 
 .alignLeft {
     text-align: left;
+}
+
+.alignCenter {
+    text-align: center;
 }
 
 .alignRight {
