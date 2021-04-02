@@ -9,5 +9,14 @@
   "permalink": "/docs/commands/detailed/ban",
   "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ban.md",
   "version": "current",
-  "sidebar_label": "ban"
+  "sidebar_label": "ban",
+  "sidebar": "docs",
+  "previous": {
+    "title": "announcement",
+    "permalink": "/docs/commands/detailed/announcement"
+  },
+  "next": {
+    "title": "bet",
+    "permalink": "/docs/commands/detailed/bet"
+  }
 }

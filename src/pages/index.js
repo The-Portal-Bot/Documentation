@@ -5,6 +5,7 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import styles from "./styles.module.css";
+import TextLoop from "react-text-loop";
 
 const urlInvite =
   "https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot";
@@ -100,6 +101,20 @@ function AddButton({ imageUrl, title, link }) {
   );
 }
 
+function LoopingText({ start, sentences, end }) {
+  return (
+    <p>
+      { start}{" "}
+      <TextLoop>
+        {sentences.map((sentence) => (
+          <p><t><b>{sentence.line}</b></t></p>
+        ))}
+      </TextLoop>
+      {" "}{end}
+    </p>
+  );
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -111,7 +126,20 @@ function Home() {
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className="hero__subtitle">
+            {siteConfig.tagline}
+            <LoopingText
+              start={"you will"}
+              sentences={[
+                { line: "get an organised", link: "/docs/commands/detailed/portal" },
+                { line: "get a moderated", link: "/docs/commands/detailed/kick" },
+                { line: "add an admin for your", link: "/docs/commands/detailed/role_assigner" },
+                { line: "increase engagement to your", link: "/docs/commands/detailed/news" },
+                { line: "add a ranking system to your", link: "/docs/commands/detailed/news" }
+              ]}
+              end={"server in just a few steps."}
+            />
+          </p>
           <div className={clsx(styles.buttons, styles.aligner)}>
             <AddButton
               className={clsx(styles.marginBottom)}
@@ -136,17 +164,15 @@ function Home() {
       <main className={clsx("hero--secondary", styles.heroBanner)}>
         <div className="container">
           <p className={clsx("hero__subtitle", styles.marginRight)}>
-            With Portal's{" "}
+            Portal has many{" "}
             <Link
               className={clsx(styles.linkHighlight)}
               to={useBaseUrl("commands/")}
             >
               Commands
-            </Link>{" "}you can have
+            </Link>{" "}to aid in<br />moderation, automation
+            {" "}and organisation of your server.
             <br />
-            an organised and fully functional server in just a few steps.
-            <br />
-
             <br />
             With a sublime and easy to use{" "}
             <Link
@@ -160,15 +186,15 @@ function Home() {
             <br />
 
             <br />
-            With a sophisticated{" "}
+            With the help of the{" "}
             <Link
               className={clsx(styles.linkHighlight)}
               to={useBaseUrl("interpreter/")}
             >
               Text Interpreter
-            </Link>{" "}whith which you can create
+            </Link>{" "}you can create
             <br />
-            just about any custom channel name.
+            just about any custom channel name you want.
           </p>
         </div>
       </main>

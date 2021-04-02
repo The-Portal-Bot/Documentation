@@ -15,5 +15,3 @@ sidebar_label: about
   ```bash
   ./about
   ```
-
-  Portal will reply with an _About Portal_ embedded card.

@@ -32,11 +32,13 @@
             },
             {
               "id": "commands/detailed/ban",
-              "path": "/docs/commands/detailed/ban"
+              "path": "/docs/commands/detailed/ban",
+              "sidebar": "docs"
             },
             {
               "id": "commands/detailed/bet",
-              "path": "/docs/commands/detailed/bet"
+              "path": "/docs/commands/detailed/bet",
+              "sidebar": "docs"
             },
             {
               "id": "commands/detailed/corona",
@@ -85,7 +87,8 @@
             },
             {
               "id": "commands/detailed/kick",
-              "path": "/docs/commands/detailed/kick"
+              "path": "/docs/commands/detailed/kick",
+              "sidebar": "docs"
             },
             {
               "id": "commands/detailed/leaderboard",
@@ -109,7 +112,8 @@
             },
             {
               "id": "commands/detailed/news",
-              "path": "/docs/commands/detailed/news"
+              "path": "/docs/commands/detailed/news",
+              "sidebar": "docs"
             },
             {
               "id": "commands/detailed/ping",
@@ -118,7 +122,8 @@
             },
             {
               "id": "commands/detailed/poll",
-              "path": "/docs/commands/detailed/poll"
+              "path": "/docs/commands/detailed/poll",
+              "sidebar": "docs"
             },
             {
               "id": "commands/detailed/portal",

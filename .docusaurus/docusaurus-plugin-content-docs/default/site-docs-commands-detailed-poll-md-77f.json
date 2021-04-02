@@ -9,5 +9,14 @@
   "permalink": "/docs/commands/detailed/poll",
   "editUrl": "https://portal-bot.xyz/docs/commands/detailed/poll.md",
   "version": "current",
-  "sidebar_label": "poll"
+  "sidebar_label": "poll",
+  "sidebar": "docs",
+  "previous": {
+    "title": "ping",
+    "permalink": "/docs/commands/detailed/ping"
+  },
+  "next": {
+    "title": "portal",
+    "permalink": "/docs/commands/detailed/portal"
+  }
 }

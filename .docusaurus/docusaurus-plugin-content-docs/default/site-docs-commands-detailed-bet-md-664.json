@@ -9,5 +9,14 @@
   "permalink": "/docs/commands/detailed/bet",
   "editUrl": "https://portal-bot.xyz/docs/commands/detailed/bet.md",
   "version": "current",
-  "sidebar_label": "bet"
+  "sidebar_label": "bet",
+  "sidebar": "docs",
+  "previous": {
+    "title": "ban",
+    "permalink": "/docs/commands/detailed/ban"
+  },
+  "next": {
+    "title": "corona",
+    "permalink": "/docs/commands/detailed/corona"
+  }
 }

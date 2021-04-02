@@ -46,6 +46,14 @@
                       },
                       {
                         "type": "doc",
+                        "id": "commands/detailed/ban"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/bet"
+                      },
+                      {
+                        "type": "doc",
                         "id": "commands/detailed/corona"
                       },
                       {
@@ -82,6 +90,10 @@
                       },
                       {
                         "type": "doc",
+                        "id": "commands/detailed/kick"
+                      },
+                      {
+                        "type": "doc",
                         "id": "commands/detailed/leaderboard"
                       },
                       {
@@ -98,7 +110,15 @@
                       },
                       {
                         "type": "doc",
+                        "id": "commands/detailed/news"
+                      },
+                      {
+                        "type": "doc",
                         "id": "commands/detailed/ping"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "commands/detailed/poll"
                       },
                       {
                         "type": "doc",
@@ -538,6 +558,8 @@
             "/docs/commands/detailed/about": "docs",
             "/docs/commands/detailed/announce": "docs",
             "/docs/commands/detailed/announcement": "docs",
+            "/docs/commands/detailed/ban": "docs",
+            "/docs/commands/detailed/bet": "docs",
             "/docs/commands/detailed/corona": "docs",
             "/docs/commands/detailed/crypto": "docs",
             "/docs/commands/detailed/delete": "docs",
@@ -547,11 +569,14 @@
             "/docs/commands/detailed/ignore": "docs",
             "/docs/commands/detailed/join": "docs",
             "/docs/commands/detailed/joke": "docs",
+            "/docs/commands/detailed/kick": "docs",
             "/docs/commands/detailed/leaderboard": "docs",
             "/docs/commands/detailed/leave": "docs",
             "/docs/commands/detailed/level": "docs",
             "/docs/commands/detailed/music": "docs",
+            "/docs/commands/detailed/news": "docs",
             "/docs/commands/detailed/ping": "docs",
+            "/docs/commands/detailed/poll": "docs",
             "/docs/commands/detailed/portal": "docs",
             "/docs/commands/detailed/ranks": "docs",
             "/docs/commands/detailed/role_assigner": "docs",
@@ -716,8 +741,8 @@
                 "permalink": "/docs/commands/detailed/announce"
               },
               "next": {
-                "title": "corona",
-                "permalink": "/docs/commands/detailed/corona"
+                "title": "ban",
+                "permalink": "/docs/commands/detailed/ban"
               }
             },
             {
@@ -731,7 +756,16 @@
               "permalink": "/docs/commands/detailed/ban",
               "editUrl": "https://portal-bot.xyz/docs/commands/detailed/ban.md",
               "version": "current",
-              "sidebar_label": "ban"
+              "sidebar_label": "ban",
+              "sidebar": "docs",
+              "previous": {
+                "title": "announcement",
+                "permalink": "/docs/commands/detailed/announcement"
+              },
+              "next": {
+                "title": "bet",
+                "permalink": "/docs/commands/detailed/bet"
+              }
             },
             {
               "unversionedId": "commands/detailed/bet",
@@ -744,7 +778,16 @@
               "permalink": "/docs/commands/detailed/bet",
               "editUrl": "https://portal-bot.xyz/docs/commands/detailed/bet.md",
               "version": "current",
-              "sidebar_label": "bet"
+              "sidebar_label": "bet",
+              "sidebar": "docs",
+              "previous": {
+                "title": "ban",
+                "permalink": "/docs/commands/detailed/ban"
+              },
+              "next": {
+                "title": "corona",
+                "permalink": "/docs/commands/detailed/corona"
+              }
             },
             {
               "unversionedId": "commands/detailed/corona",
@@ -760,8 +803,8 @@
               "sidebar_label": "corona",
               "sidebar": "docs",
               "previous": {
-                "title": "announcement",
-                "permalink": "/docs/commands/detailed/announcement"
+                "title": "bet",
+                "permalink": "/docs/commands/detailed/bet"
               },
               "next": {
                 "title": "crypto",
@@ -940,8 +983,8 @@
                 "permalink": "/docs/commands/detailed/join"
               },
               "next": {
-                "title": "leaderboard",
-                "permalink": "/docs/commands/detailed/leaderboard"
+                "title": "kick",
+                "permalink": "/docs/commands/detailed/kick"
               }
             },
             {
@@ -955,7 +998,16 @@
               "permalink": "/docs/commands/detailed/kick",
               "editUrl": "https://portal-bot.xyz/docs/commands/detailed/kick.md",
               "version": "current",
-              "sidebar_label": "kick"
+              "sidebar_label": "kick",
+              "sidebar": "docs",
+              "previous": {
+                "title": "joke",
+                "permalink": "/docs/commands/detailed/joke"
+              },
+              "next": {
+                "title": "leaderboard",
+                "permalink": "/docs/commands/detailed/leaderboard"
+              }
             },
             {
               "unversionedId": "commands/detailed/leaderboard",
@@ -971,8 +1023,8 @@
               "sidebar_label": "leaderboard",
               "sidebar": "docs",
               "previous": {
-                "title": "joke",
-                "permalink": "/docs/commands/detailed/joke"
+                "title": "kick",
+                "permalink": "/docs/commands/detailed/kick"
               },
               "next": {
                 "title": "leave",
@@ -1041,8 +1093,8 @@
                 "permalink": "/docs/commands/detailed/level"
               },
               "next": {
-                "title": "ping",
-                "permalink": "/docs/commands/detailed/ping"
+                "title": "news",
+                "permalink": "/docs/commands/detailed/news"
               }
             },
             {
@@ -1056,7 +1108,16 @@
               "permalink": "/docs/commands/detailed/news",
               "editUrl": "https://portal-bot.xyz/docs/commands/detailed/news.md",
               "version": "current",
-              "sidebar_label": "news"
+              "sidebar_label": "news",
+              "sidebar": "docs",
+              "previous": {
+                "title": "music",
+                "permalink": "/docs/commands/detailed/music"
+              },
+              "next": {
+                "title": "ping",
+                "permalink": "/docs/commands/detailed/ping"
+              }
             },
             {
               "unversionedId": "commands/detailed/ping",
@@ -1072,12 +1133,12 @@
               "sidebar_label": "ping",
               "sidebar": "docs",
               "previous": {
-                "title": "music",
-                "permalink": "/docs/commands/detailed/music"
+                "title": "news",
+                "permalink": "/docs/commands/detailed/news"
               },
               "next": {
-                "title": "portal",
-                "permalink": "/docs/commands/detailed/portal"
+                "title": "poll",
+                "permalink": "/docs/commands/detailed/poll"
               }
             },
             {
@@ -1091,7 +1152,16 @@
               "permalink": "/docs/commands/detailed/poll",
               "editUrl": "https://portal-bot.xyz/docs/commands/detailed/poll.md",
               "version": "current",
-              "sidebar_label": "poll"
+              "sidebar_label": "poll",
+              "sidebar": "docs",
+              "previous": {
+                "title": "ping",
+                "permalink": "/docs/commands/detailed/ping"
+              },
+              "next": {
+                "title": "portal",
+                "permalink": "/docs/commands/detailed/portal"
+              }
             },
             {
               "unversionedId": "commands/detailed/portal",
@@ -1107,8 +1177,8 @@
               "sidebar_label": "portal",
               "sidebar": "docs",
               "previous": {
-                "title": "ping",
-                "permalink": "/docs/commands/detailed/ping"
+                "title": "poll",
+                "permalink": "/docs/commands/detailed/poll"
               },
               "next": {
                 "title": "ranks",
@@ -2365,7 +2435,7 @@
                 "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_portal"
               },
               "next": {
-                "title": "/#",
+                "title": "_#",
                 "permalink": "/docs/interpreter/objects/variables/detailed/general/slash"
               }
             },
@@ -2373,17 +2443,17 @@
               "unversionedId": "interpreter/objects/variables/detailed/general/double_slash",
               "id": "interpreter/objects/variables/detailed/general/double_slash",
               "isDocsHomePage": false,
-              "title": "\\##",
+              "title": "_##",
               "description": "Description",
               "source": "@site/docs/interpreter/objects/variables/detailed/general/double_slash.md",
               "slug": "/interpreter/objects/variables/detailed/general/double_slash",
               "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash",
               "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/double_slash.md",
               "version": "current",
-              "sidebar_label": "\\##",
+              "sidebar_label": "_##",
               "sidebar": "docs",
               "previous": {
-                "title": "/#",
+                "title": "_#",
                 "permalink": "/docs/interpreter/objects/variables/detailed/general/slash"
               },
               "next": {
@@ -2395,21 +2465,21 @@
               "unversionedId": "interpreter/objects/variables/detailed/general/slash",
               "id": "interpreter/objects/variables/detailed/general/slash",
               "isDocsHomePage": false,
-              "title": "/#",
+              "title": "_#",
               "description": "Description",
               "source": "@site/docs/interpreter/objects/variables/detailed/general/slash.md",
               "slug": "/interpreter/objects/variables/detailed/general/slash",
               "permalink": "/docs/interpreter/objects/variables/detailed/general/slash",
               "editUrl": "https://portal-bot.xyz/docs/interpreter/objects/variables/detailed/general/slash.md",
               "version": "current",
-              "sidebar_label": "/#",
+              "sidebar_label": "_#",
               "sidebar": "docs",
               "previous": {
                 "title": "creator_voice",
                 "permalink": "/docs/interpreter/objects/variables/detailed/general/creator_voice"
               },
               "next": {
-                "title": "\\##",
+                "title": "_##",
                 "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash"
               }
             },
@@ -2493,7 +2563,7 @@
               "sidebar_label": "member_list",
               "sidebar": "docs",
               "previous": {
-                "title": "\\##",
+                "title": "_##",
                 "permalink": "/docs/interpreter/objects/variables/detailed/general/double_slash"
               },
               "next": {

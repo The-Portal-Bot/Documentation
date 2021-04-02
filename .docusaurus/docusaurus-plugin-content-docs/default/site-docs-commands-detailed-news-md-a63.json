@@ -9,5 +9,14 @@
   "permalink": "/docs/commands/detailed/news",
   "editUrl": "https://portal-bot.xyz/docs/commands/detailed/news.md",
   "version": "current",
-  "sidebar_label": "news"
+  "sidebar_label": "news",
+  "sidebar": "docs",
+  "previous": {
+    "title": "music",
+    "permalink": "/docs/commands/detailed/music"
+  },
+  "next": {
+    "title": "ping",
+    "permalink": "/docs/commands/detailed/ping"
+  }
 }

@@ -21,9 +21,9 @@ There are four ranking speeds.
 
 ### Voice channel points are given as follows
 
-**seconds spent** x speed-multiplier<br />
-**minutes spent** x speed-multiplier x 60 x 1.15<br />
-**hours spent** x speed-multiplier x 60 x 60 x 1.25<br />
+**seconds spent** x speed-multiplier x 0.50<br />
+**minutes spent** x speed-multiplier x 30 x 1.15<br />
+**hours spent** x speed-multiplier x 30 x 30 x 1.25<br />
 
 
 ### Points per message are given as follows
@@ -36,7 +36,7 @@ _(maximum amount of points per message is 5)_
 A **Tier** is a state you are in, as you level you up, you will get higher tiers as well.
 Higher tiers means harder level ups, which can be seen bellow.
 
-When **points** are creater than **tier x 1000**, you level up. Doing do will reset your points.
+When **points** are creater than **tier x 2500**, you level up. Doing do will reset your points.
 Every fifth level increase you progress to the next **tier** which means it is harder to level up.<br />
 _(Leveling from 1-5 is easier than 5-10 and so on)_
 

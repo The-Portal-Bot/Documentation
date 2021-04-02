@@ -1,7 +1,7 @@
 ---
 id: double_slash
-title: \##
-sidebar_label: \##
+title: _##
+sidebar_label: _##
 ---
 
 ### Description

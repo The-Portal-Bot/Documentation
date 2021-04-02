@@ -42,6 +42,16 @@
               },
               {
                 "type": "link",
+                "label": "ban",
+                "href": "/docs/commands/detailed/ban"
+              },
+              {
+                "type": "link",
+                "label": "bet",
+                "href": "/docs/commands/detailed/bet"
+              },
+              {
+                "type": "link",
                 "label": "corona",
                 "href": "/docs/commands/detailed/corona"
               },
@@ -87,6 +97,11 @@
               },
               {
                 "type": "link",
+                "label": "kick",
+                "href": "/docs/commands/detailed/kick"
+              },
+              {
+                "type": "link",
                 "label": "leaderboard",
                 "href": "/docs/commands/detailed/leaderboard"
               },
@@ -107,8 +122,18 @@
               },
               {
                 "type": "link",
+                "label": "news",
+                "href": "/docs/commands/detailed/news"
+              },
+              {
+                "type": "link",
                 "label": "ping",
                 "href": "/docs/commands/detailed/ping"
+              },
+              {
+                "type": "link",
+                "label": "poll",
+                "href": "/docs/commands/detailed/poll"
               },
               {
                 "type": "link",
@@ -368,12 +393,12 @@
                       },
                       {
                         "type": "link",
-                        "label": "/#",
+                        "label": "_#",
                         "href": "/docs/interpreter/objects/variables/detailed/general/slash"
                       },
                       {
                         "type": "link",
-                        "label": "\\##",
+                        "label": "_##",
                         "href": "/docs/interpreter/objects/variables/detailed/general/double_slash"
                       }
                     ]
@@ -625,6 +650,8 @@
     "/docs/commands/detailed/about": "docs",
     "/docs/commands/detailed/announce": "docs",
     "/docs/commands/detailed/announcement": "docs",
+    "/docs/commands/detailed/ban": "docs",
+    "/docs/commands/detailed/bet": "docs",
     "/docs/commands/detailed/corona": "docs",
     "/docs/commands/detailed/crypto": "docs",
     "/docs/commands/detailed/delete": "docs",
@@ -634,11 +661,14 @@
     "/docs/commands/detailed/ignore": "docs",
     "/docs/commands/detailed/join": "docs",
     "/docs/commands/detailed/joke": "docs",
+    "/docs/commands/detailed/kick": "docs",
     "/docs/commands/detailed/leaderboard": "docs",
     "/docs/commands/detailed/leave": "docs",
     "/docs/commands/detailed/level": "docs",
     "/docs/commands/detailed/music": "docs",
+    "/docs/commands/detailed/news": "docs",
     "/docs/commands/detailed/ping": "docs",
+    "/docs/commands/detailed/poll": "docs",
     "/docs/commands/detailed/portal": "docs",
     "/docs/commands/detailed/ranks": "docs",
     "/docs/commands/detailed/role_assigner": "docs",

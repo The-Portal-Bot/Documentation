@@ -12,11 +12,11 @@
   "sidebar_label": "ping",
   "sidebar": "docs",
   "previous": {
-    "title": "music",
-    "permalink": "/docs/commands/detailed/music"
+    "title": "news",
+    "permalink": "/docs/commands/detailed/news"
   },
   "next": {
-    "title": "portal",
-    "permalink": "/docs/commands/detailed/portal"
+    "title": "poll",
+    "permalink": "/docs/commands/detailed/poll"
   }
 }

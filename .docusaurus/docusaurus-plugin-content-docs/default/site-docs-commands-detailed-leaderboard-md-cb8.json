@@ -12,8 +12,8 @@
   "sidebar_label": "leaderboard",
   "sidebar": "docs",
   "previous": {
-    "title": "joke",
-    "permalink": "/docs/commands/detailed/joke"
+    "title": "kick",
+    "permalink": "/docs/commands/detailed/kick"
   },
   "next": {
     "title": "leave",

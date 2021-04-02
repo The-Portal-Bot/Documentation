@@ -9,5 +9,14 @@
   "permalink": "/docs/commands/detailed/kick",
   "editUrl": "https://portal-bot.xyz/docs/commands/detailed/kick.md",
   "version": "current",
-  "sidebar_label": "kick"
+  "sidebar_label": "kick",
+  "sidebar": "docs",
+  "previous": {
+    "title": "joke",
+    "permalink": "/docs/commands/detailed/joke"
+  },
+  "next": {
+    "title": "leaderboard",
+    "permalink": "/docs/commands/detailed/leaderboard"
+  }
 }

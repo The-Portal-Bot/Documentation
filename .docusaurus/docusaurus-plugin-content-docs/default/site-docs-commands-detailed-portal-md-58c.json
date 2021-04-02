@@ -12,8 +12,8 @@
   "sidebar_label": "portal",
   "sidebar": "docs",
   "previous": {
-    "title": "ping",
-    "permalink": "/docs/commands/detailed/ping"
+    "title": "poll",
+    "permalink": "/docs/commands/detailed/poll"
   },
   "next": {
     "title": "ranks",
