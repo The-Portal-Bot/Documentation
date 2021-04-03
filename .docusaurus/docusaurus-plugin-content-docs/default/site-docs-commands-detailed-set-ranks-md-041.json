@@ -3,7 +3,7 @@
   "id": "commands/detailed/set_ranks",
   "isDocsHomePage": false,
   "title": "set_ranks",
-  "description": "|                     Description                      | Argument | Accessible | Cooldown |",
+  "description": "|                       Description                        | Argument | Accessible | Cooldown |",
   "source": "@site/docs/commands/detailed/set_ranks.md",
   "slug": "/commands/detailed/set_ranks",
   "permalink": "/docs/commands/detailed/set_ranks",

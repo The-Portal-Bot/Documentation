@@ -4,9 +4,9 @@ title: kick
 sidebar_label: kick
 ---
 
-|        Description         |  Argument   | Accessible  |   Cooldown    |
-| :------------------------: | :---------: | :---------: | :-----------: |
-| Kicks a member from server | **@reason** | `moderator` | `1min/member` |
+|        Description         |    Argument     | Accessible  |  Cooldown   |
+| :------------------------: | :-------------: | :---------: | :---------: | ------------- |
+| Kicks a member from server | \*\*!member_tag | @reason\*\* | `moderator` | `1min/member` |
 
 ## Examples
 

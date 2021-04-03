@@ -118,7 +118,7 @@ If duration is not specified the channel will live until everyone has left
 
 |                       Description                       | Argument | Clearance | Cooldown |
 | :-----------------------------------------------------: | :------: | :-------: | :------: |
-| ignore channels, so that portal does not listen to them | **none** |  `admin`  |  `none`  |
+| Ignore channels, so that portal does not listen to them | **none** |  `admin`  |  `none`  |
 
 ## J
 
@@ -126,9 +126,9 @@ If duration is not specified the channel will live until everyone has left
 
 ### [join](/docs/commands/detailed/join)
 
-|                            Description                             |         Argument          | Clearance | Cooldown |
-| :----------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
-| Create ignore channel or sets as ignore channel or ignore a member | **!channel \| @category** |  `admin`  |  `none`  |
+|                            Description                             | Argument | Clearance | Cooldown |
+| :----------------------------------------------------------------: | :------: | :-------: | :------: |
+| Create ignore channel or sets as ignore channel or ignore a member | **none** |  `admin`  |  `none`  |
 
 ### [joke](/docs/commands/detailed/joke)
 
@@ -146,9 +146,9 @@ Note that category can be dad, chuck or blonde
 
 ### [kick](/docs/commands/detailed/kick)
 
-|        Description         |  Argument   | Accessible  |   Cooldown    |
-| :------------------------: | :---------: | :---------: | :-----------: |
-| Kicks a member from server | **@reason** | `moderator` | `1min/member` |
+|        Description         |    Argument    | Accessible  |  Cooldown   |
+| :------------------------: | :------------: | :---------: | :---------: | ------------- |
+| Kicks a member from server | \*\*member_tag | @reason\*\* | `moderator` | `1min/member` |
 
 ## L
 
@@ -188,9 +188,9 @@ Note that category can be dad, chuck or blonde
 
 ### [news](/docs/commands/detailed/news)
 
-|                Description                 |             Argument              | Clearance  | Cooldown |
-| :----------------------------------------: | :-------------------------------: | :--------: | :------: |
-| Replies with the latest news from category | \__!category @number_of_articles_ | `everyone` |  `none`  |
+|                Description                 |            Argument             | Clearance  | Cooldown |
+| :----------------------------------------: | :-----------------------------: | :--------: | :------: |
+| Replies with the latest news from category | _!category @number_of_articles_ | `everyone` |  `none`  |
 
 ## P
 
@@ -260,9 +260,9 @@ run is designed for you to test names before setting them to your channel
 
 ### [set_ranks](/docs/commands/detailed/set_ranks)
 
-|                     Description                      | Argument | Clearance | Cooldown |
-| :--------------------------------------------------: | :------: | :-------: | :------: |
-| Sets roles that will be given when said level reache | **none** |  `admin`  |  `none`  |
+|                       Description                        | Argument | Clearance | Cooldown |
+| :------------------------------------------------------: | :------: | :-------: | :------: |
+| Sets roles that will be given when said level is reached | **none** |  `admin`  |  `none`  |
 
 ### [set](/docs/commands/detailed/set)
 

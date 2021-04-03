@@ -4,9 +4,9 @@ title: set_ranks
 sidebar_label: set_ranks
 ---
 
-|                     Description                      | Argument | Accessible | Cooldown |
-| :--------------------------------------------------: | :------: | :--------: | :------: |
-| Sets roles that will be given when said level reache | **none** |  `admin`   |  `none`  |
+|                       Description                        | Argument | Accessible | Cooldown |
+| :------------------------------------------------------: | :------: | :--------: | :------: |
+| Sets roles that will be given when said level is reached | **none** |  `admin`   |  `none`  |
 
 ## Examples
 

@@ -6,7 +6,7 @@ sidebar_label: ignore
 
 |                       Description                       | Argument | Accessible | Cooldown |
 | :-----------------------------------------------------: | :------: | :--------: | :------: |
-| ignore channels, so that portal does not listen to them | **none** |  `admin`   |  `none`  |
+| Ignore channels, so that portal does not listen to them | **none** |  `admin`   |  `none`  |
 
 ## Examples
 

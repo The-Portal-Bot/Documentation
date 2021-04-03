@@ -3,7 +3,7 @@
   "id": "commands/detailed/kick",
   "isDocsHomePage": false,
   "title": "kick",
-  "description": "|        Description         |  Argument   | Accessible  |   Cooldown    |",
+  "description": "|        Description         |    Argument     | Accessible  |  Cooldown   |",
   "source": "@site/docs/commands/detailed/kick.md",
   "slug": "/commands/detailed/kick",
   "permalink": "/docs/commands/detailed/kick",
