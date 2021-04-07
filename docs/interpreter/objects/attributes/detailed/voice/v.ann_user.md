@@ -6,7 +6,8 @@ sidebar_label: v.ann_user
 
 ### Description
 
-Whether Portal announces the members join or leave a voice channel. Portal will speek `"user joined the channel"` and `"user left the channel"` respectively
+Whether Portal announces the members join or leave a voice channel.
+Portal will speek `"user joined the channel"` and `"user left the channel"` respectively
 
 * Default: `true`
 * Clearance: `portal`

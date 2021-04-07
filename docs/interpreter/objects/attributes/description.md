@@ -60,6 +60,12 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ---
 
+### [p.allowed_roles](/docs/interpreter/objects/attributes/detailed/portal/p.allowed_roles)
+
+|                 Description                 |   Type    | Default | Clearance |
+| :-----------------------------------------: | :-------: | :-----: | :-------: |
+| _roles allowed to enter the portal channel_ | @role_tag | _null_  | `portal`  |
+
 ### [p.ann_announce](/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce)
 
 |                     Description                     |  Type   | Default | Clearance |
@@ -117,6 +123,12 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 ## Voice
 
 ---
+
+### [v.allowed_roles](/docs/interpreter/objects/attributes/detailed/voice/v.allowed_roles)
+
+|                Description                 |   Type    | Default | Clearance |
+| :----------------------------------------: | :-------: | :-----: | :-------: |
+| _roles allowed to enter the voice channel_ | @role_tag | _null_  |  `voice`  |
 
 ### [v.ann_announce](/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce)
 

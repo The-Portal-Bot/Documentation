@@ -6,7 +6,8 @@ sidebar_label: p.locale
 
 ### Description
 
-The portal locale refers to the language the current portal is set to operate. Remember that voice channels inherit the portal locale.
+The portal locale refers to the language the current portal is set to operate.
+Remember that voice channels inherit the portal locale.
 
 * Default: `en`
 * Clearance: `portal`

@@ -120,6 +120,12 @@ If duration is not specified the channel will live until everyone has left
 | :-----------------------------------------------------: | :------: | :-------: | :------: |
 | Ignore channels, so that portal does not listen to them | **none** |  `admin`  |  `none`  |
 
+### [invite](/docs/commands/detailed/invite)
+
+|                           Description                           |    Argument    | Accessible |   Cooldown    |
+| :-------------------------------------------------------------: | :------------: | :--------: | :-----------: |
+| creates an invite link and sends it to you as a private message | **!role_json** |  `admin`   | `1min/member` |
+
 ## J
 
 ---

@@ -18,6 +18,7 @@ module.exports = {
                         'commands/detailed/force',
                         'commands/detailed/help',
                         'commands/detailed/ignore',
+                        'commands/detailed/invite',
                         'commands/detailed/join',
                         'commands/detailed/joke',
                         'commands/detailed/kick',
@@ -67,6 +68,7 @@ module.exports = {
                                 },
                                 {
                                     'Portal': [
+                                        'interpreter/objects/attributes/detailed/portal/p.allowed_roles',
                                         'interpreter/objects/attributes/detailed/portal/p.ann_announce',
                                         'interpreter/objects/attributes/detailed/portal/p.ann_user',
                                         'interpreter/objects/attributes/detailed/portal/p.locale',
@@ -80,6 +82,7 @@ module.exports = {
                                 },
                                 {
                                     'Voice': [
+                                        'interpreter/objects/attributes/detailed/voice/v.allowed_roles',
                                         'interpreter/objects/attributes/detailed/voice/v.ann_announce',
                                         'interpreter/objects/attributes/detailed/voice/v.ann_user',
                                         'interpreter/objects/attributes/detailed/voice/v.locale',
