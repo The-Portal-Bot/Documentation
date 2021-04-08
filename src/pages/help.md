@@ -6,27 +6,28 @@ sidebar_label: Help
 
 ## Documentation
 
-You can find the detailed Documentation [here](/docs)
+Full detailed Documentation [here](/docs)
 
 ---
 
 ## Discord Server
 
-You can join the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)
+You can join the [Official Discord Server](https://discord.com/invite/WrMUzJYyzJ)
 and get answers to your questions
 
 ---
 
 ## Error Reporting & Feature requests
 
-Error reporting and feature requests can be made through github or from
-the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)
+Error reporting and feature requests can be made through
+[Github issues](https://github.com/keybraker/Portal/issues) or in
+the [official Discord Server](https://discord.com/invite/WrMUzJYyzJ)
 
 ---
 
 ## FAQ
 
-### Q. **How can I give members authority?**
+### Q. **How can I give members authority ?**
 
 #### A. You have to create roles `p.admin` , `p.mod`, `p.dj`and `p.ignore` and assign them to users.
 
@@ -37,23 +38,28 @@ the [Official Discord Server](https://discord.com/invite/nuKXgFXr5y)
 | make dj        | `p.dj`     | A dj controls the music player without votes                                                         |
 | ignore         | `p.ignore` | An ignored member will be ignored by Portal                                                          |
 
-### Q. **What does Portal do?**
+### Q. **What does Portal do ?**
 
-#### A. Portal is a fully functional multipurpose discord bot that helps you manage and organise your server.
+#### A. It is a multipurpose Discord bot that helps you manage and organise your server,gives you informative commands but also fun ones and has a the easiest to use and most intuitive music player.
 
 It provides:
 
-1. Voice channels on demand (with auto-name update)
-2. Assigns and strips roles from users with a single reaction
-3. Creates temporary "focus" channels for private conversations
-4. Music player that is clean and clutter free
-5. Portal will keep you up to speed, with voice announcements
-6. Get the latest on the corona virus and current weather
-7. Ignored / Announcement / URL-only channels
+- Voice channels on demand (automatic naming, update, deletion) [./portal](/docs/commands/detailed/portal)
+- Give and remove roles from users with a single reaction [./role_assigner](/docs/commands/detailed/role_assigner)
+- Creates temporary "focus" channels for private conversations [./focus](/docs/commands/detailed/focus)
+- Music player that is clean and clutter free [./music](/music-player)
+- Get the latest on [covid19](/docs/commands/detailed/corona),
+  [weather](/docs/commands/detailed/weather), [crypto](/docs/commands/detailed/crypto), [news](/docs/commands/detailed/news) and more
+- [ignored](/docs/commands/detailed/ignore), [announcement](/docs/commands/detailed/announcement)
+ , [url-only](/docs/commands/detailed/url) channels
+- You can create moderators easily who can kick, ban and create customisable server invites<br />without ever giving them any permission just one role `p.mod`
+- A [ranking system](/docs/ranking) that allows you to give roles according to levels
+- Easily create server [polls](/docs/commands/detailed/poll)
+- _Much more_
 
 ---
 
-### Q. **How do I create portal controlled channels?**
+### Q. **How do I create portal controlled channel ?**
 
 #### A. All portal channels are spawned in the same manner.
 
@@ -85,7 +91,7 @@ Create a new music/announcement (text)
 
 ---
 
-### Q. **How do I remove a channel from its category?**
+### Q. **How do I remove a channel from its category ?**
 
 #### A. You just have to write a message inside the channel with the category name
 
@@ -94,7 +100,7 @@ you just have to type `./music` and the channel will no longer be the music chan
 
 ---
 
-### Q. **How do I play music from music channel?**
+### Q. **How do I play music from music channel ?**
 
 #### A. First create a music channel and then just type the song you want.
 

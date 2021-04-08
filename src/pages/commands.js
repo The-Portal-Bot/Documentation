@@ -14,7 +14,7 @@ const features = [
       <>
         With Portal you can have one voice-channel to rule them all. Simply
         create a portal channel which allows you to have, unlimited voice channels
-        that will be dynamically named and deleted when the last member has left them.
+        that will be dynamically named, updated and deleted when everyone has them.
       </>
     ),
   },

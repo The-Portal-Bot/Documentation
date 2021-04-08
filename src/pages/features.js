@@ -30,8 +30,7 @@ const features = [
     imageUrl: 'svg/fast_time.svg',
     description: (
       <>
-        Coded with attention to be fast, robust and reliable.
-        Hosted online so it never missed a click.
+        Coded with attention to speed, robust and reliable.
       </>
     ),
   },
@@ -50,9 +49,8 @@ const features = [
     imageUrl: 'svg/spam.svg',
     description: (
       <>
-        Portal will warn members if they are spamming.
-        Commands that are prown to spamming have cooldowns
-        so that spamming is avoided.
+        Portal does not kick or ban, it mutes and silences users
+        that are not respecting the server. [under maintenance]
       </>
     ),
   },

@@ -62,9 +62,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [p.allowed_roles](/docs/interpreter/objects/attributes/detailed/portal/p.allowed_roles)
 
-|                 Description                 |   Type    | Default | Clearance |
-| :-----------------------------------------: | :-------: | :-----: | :-------: |
-| _roles allowed to enter the portal channel_ | @role_tag | _null_  | `portal`  |
+|               Description               |  Type   |   Default   | Clearance |
+| :-------------------------------------: | :-----: | :---------: | :-------: |
+| _roles allowed to enter portal channel_ | [@role] | _@everyone_ | `portal`  |
 
 ### [p.ann_announce](/docs/interpreter/objects/attributes/detailed/portal/p.ann_announce)
 
@@ -114,6 +114,12 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 | :-----------------------------------------: | :----: | :------------: | :-------: |
 | _max number of members for portal's voices_ | number | _0_ (infinite) | `portal`  |
 
+### [p.v.allowed_roles](/docs/interpreter/objects/attributes/detailed/portal/p.v.allowed_roles)
+
+|                                                        Description                                                        |  Type   |   Default   | Clearance |
+| :-----------------------------------------------------------------------------------------------------------------------: | :-----: | :---------: | :-------: |
+| _[allowed roles](/docs/interpreter/objects/attributes/detailed/voice/v.allowed_roles) given from portal to voice channel_ | [@role] | _@everyone_ | `portal`  |
+
 ### [p.v.regex](/docs/interpreter/objects/attributes/detailed/portal/p.v.regex)
 
 |                  Description                   |  Type   |               Default                | Clearance |
@@ -126,9 +132,9 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ### [v.allowed_roles](/docs/interpreter/objects/attributes/detailed/voice/v.allowed_roles)
 
-|                Description                 |   Type    | Default | Clearance |
-| :----------------------------------------: | :-------: | :-----: | :-------: |
-| _roles allowed to enter the voice channel_ | @role_tag | _null_  |  `voice`  |
+|              Description               |  Type   |   Default   | Clearance |
+| :------------------------------------: | :-----: | :---------: | :-------: |
+| _roles allowed to enter voice channel_ | [@role] | _@everyone_ |  `voice`  |
 
 ### [v.ann_announce](/docs/interpreter/objects/attributes/detailed/voice/v.ann_announce)
 
