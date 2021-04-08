@@ -1,7 +1,7 @@
 ---
-id: p.allowed_roles
-title: p.allowed_roles
-sidebar_label: p.allowed_roles
+id: p.v.allowed_roles
+title: p.v.allowed_roles
+sidebar_label: p.v.allowed_roles
 ---
 
 ### Description

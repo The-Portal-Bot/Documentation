@@ -12,6 +12,8 @@ Portal **does not** respond to private messages.
 You can make a request (command) by typing your prefix
 (default: `./`) followed by the command, for example: `./help`.
 
+---
+
 ## [Commands](commands/description)
 
 Portal has many different commands, with many different functions.

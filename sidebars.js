@@ -77,6 +77,7 @@ module.exports = {
                                         'interpreter/objects/attributes/detailed/portal/p.regex',
                                         'interpreter/objects/attributes/detailed/portal/p.render',
                                         'interpreter/objects/attributes/detailed/portal/p.user_limit',
+                                        'interpreter/objects/attributes/detailed/portal/p.v.allowed_roles',
                                         'interpreter/objects/attributes/detailed/portal/p.v.regex'
                                     ]
                                 },

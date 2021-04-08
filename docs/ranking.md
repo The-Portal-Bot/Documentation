@@ -22,8 +22,7 @@ There are four ranking speeds.
 
 **seconds spent** x speed-multiplier x 0.50<br />
 **minutes spent** x speed-multiplier x 30 x 1.15<br />
-**hours spent** x speed-multiplier x 30 x 30 x 1.25<br />
-
+**hours spent** x speed-multiplier x 30 x 30 x 1.25
 
 ### Points per message are given as follows
 
@@ -32,11 +31,13 @@ _(maximum amount of points per message is 5)_
 
 ### Leveling
 
-A **Tier** is a state you are in, as you level you up, you will get higher tiers as well.
-Higher tiers means harder level ups, which can be seen bellow.
+A **Tier** is a ranking bucket you are in. As you level you up, you will reach higher tiers.
+Higher tiers mean harder level-ups, as they factor in the leveling point thresholds.
 
-When **points** are creater than **tier x 2500**, you level up. Doing do will reset your points.
-Every fifth level increase you progress to the next **tier** which means it is harder to level up.<br />
+When **points** are greater than **tier x 2500**, you level up. After a level-up your points are reset.
+Every fifth level-up your **tier** increases by one, which means it is harder to level up every 5th level,
+for the next five levels.<br />
+
 _(Leveling from 1-5 is easier than 5-10 and so on)_
 
 ### Setting up the Ranking System
@@ -53,6 +54,6 @@ Roles that are destributed are not remove upon Ranking System update.
 
 ### Get Ranking Information
 
-* To see the server leaderboard use command [leaderboard](commands/detailed/leaderboard)
-* To see your current ranking stats use command [level](commands/detailed/level)
-* To see what role you get at what level use command [ranks](commands/detailed/ranks)
+- To see the server leaderboard use command [leaderboard](commands/detailed/leaderboard)
+- To see your current ranking stats use command [level](commands/detailed/level)
+- To see what role you get at what level use command [ranks](commands/detailed/ranks)
