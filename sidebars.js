@@ -55,7 +55,9 @@ module.exports = {
                             'All Attributes': [
                                 {
                                     'Global': [
+                                        'interpreter/objects/attributes/detailed/global/g.initial_role',
                                         'interpreter/objects/attributes/detailed/global/g.locale',
+                                        'interpreter/objects/attributes/detailed/global/g.mute_role',
                                         'interpreter/objects/attributes/detailed/global/g.prefix',
                                         'interpreter/objects/attributes/detailed/global/g.profanity_level',
                                         'interpreter/objects/attributes/detailed/global/g.rank_speed'
@@ -86,6 +88,7 @@ module.exports = {
                                         'interpreter/objects/attributes/detailed/voice/v.allowed_roles',
                                         'interpreter/objects/attributes/detailed/voice/v.ann_announce',
                                         'interpreter/objects/attributes/detailed/voice/v.ann_user',
+                                        'interpreter/objects/attributes/detailed/voice/v.bitrate',
                                         'interpreter/objects/attributes/detailed/voice/v.locale',
                                         'interpreter/objects/attributes/detailed/voice/v.no_bots',
                                         'interpreter/objects/attributes/detailed/voice/v.position',
@@ -147,10 +150,9 @@ module.exports = {
                         {
                             'All Pipes': [
                                 'interpreter/objects/pipes/detailed/acronym',
-                                'interpreter/objects/pipes/detailed/vowels',
-                                'interpreter/objects/pipes/detailed/consonants',
                                 'interpreter/objects/pipes/detailed/camelCase',
                                 'interpreter/objects/pipes/detailed/capitalise',
+                                'interpreter/objects/pipes/detailed/consonants',
                                 'interpreter/objects/pipes/detailed/decapitalise',
                                 'interpreter/objects/pipes/detailed/length',
                                 'interpreter/objects/pipes/detailed/lowerCase',
@@ -160,6 +162,7 @@ module.exports = {
                                 'interpreter/objects/pipes/detailed/souvlakiCase',
                                 'interpreter/objects/pipes/detailed/titleCase',
                                 'interpreter/objects/pipes/detailed/upperCase',
+                                'interpreter/objects/pipes/detailed/vowels',
                                 'interpreter/objects/pipes/detailed/words'
                             ]
                         }
@@ -176,6 +179,24 @@ module.exports = {
                 }
             ]
         },
-        'ranking'
+        'ranking',
+        {
+            'Hosting': [
+                {
+                    Standard: [
+                        'hosting/standard/prerequisites',
+                        'hosting/standard/build',
+                        'hosting/standard/configuration',
+                        'hosting/standard/deployment'
+                    ],
+                    Docker: [
+                        'hosting/docker/prerequisites',
+                        'hosting/docker/build',
+                        'hosting/docker/configuration',
+                        'hosting/docker/deployment'
+                    ]
+                }
+            ]
+        },
     ]
 };

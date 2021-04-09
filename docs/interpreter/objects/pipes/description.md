@@ -22,18 +22,6 @@ You can chain pipes together, for example `john|consonants|upperCase` would disp
 | :--------------------------------: | :----: |
 | _returns the acronym of the input_ | string |
 
-### [vowels](/docs/interpreter/objects/pipes/detailed/vowels)
-
-|            Description            |  Type  |
-| :-------------------------------: | :----: |
-| _returns the vowels of the input_ | string |
-
-### [consonants](/docs/interpreter/objects/pipes/detailed/consonants)
-
-|              Description              |  Type  |
-| :-----------------------------------: | :----: |
-| _returns the consonants of the input_ | string |
-
 ### [camelCase](/docs/interpreter/objects/pipes/detailed/camelCase)
 
 |             Description             |  Type  |
@@ -45,6 +33,12 @@ You can chain pipes together, for example `john|consonants|upperCase` would disp
 |                                     Description                                      |  Type  |
 | :----------------------------------------------------------------------------------: | :----: |
 | _returns the input capitalised, the first letter capitalcase and the rest lowercase_ | string |
+
+### [consonants](/docs/interpreter/objects/pipes/detailed/consonants)
+
+|              Description              |  Type  |
+| :-----------------------------------: | :----: |
+| _returns the consonants of the input_ | string |
 
 ### [decapitalise](/docs/interpreter/objects/pipes/detailed/decapitalise)
 
@@ -99,6 +93,12 @@ You can chain pipes together, for example `john|consonants|upperCase` would disp
 |             Description             |  Type  |
 | :---------------------------------: | :----: |
 | _returns an uppercase of the input_ | string |
+
+### [vowels](/docs/interpreter/objects/pipes/detailed/vowels)
+
+|            Description            |  Type  |
+| :-------------------------------: | :----: |
+| _returns the vowels of the input_ | string |
 
 ### [word](/docs/interpreter/objects/pipes/detailed/words)
 

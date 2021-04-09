@@ -28,6 +28,12 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 | :-------------: | :--: | :-----: | :-------: |
 | _global locale_ | enum |  _en_   |  `admin`  |
 
+### [g.mute_role](/docs/interpreter/objects/attributes/detailed/global/g.mute_role)
+
+|                Description                 |   Type    | Default | Clearance |
+| :----------------------------------------: | :-------: | :-----: | :-------: |
+| _The role given to members when spamming._ | @role_tag | _null_  |  `admin`  |
+
 ### [g.prefix](/docs/interpreter/objects/attributes/detailed/global/g.prefix)
 
 |    Description    |  Type  | Default | Clearance |

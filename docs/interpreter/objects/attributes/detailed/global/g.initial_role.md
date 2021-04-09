@@ -18,4 +18,5 @@ You can set the initial_role to any role in the server.
 :::tip
 
 Simply add the role tag when using [set](/docs/commands/detailed/set) command to update its value
+
 :::
