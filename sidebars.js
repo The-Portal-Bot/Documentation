@@ -31,13 +31,13 @@ module.exports = {
                         'commands/detailed/poll',
                         'commands/detailed/portal',
                         'commands/detailed/ranks',
-                        'commands/detailed/role_assigner',
                         'commands/detailed/roll',
                         'commands/detailed/run',
                         'commands/detailed/set_ranks',
                         'commands/detailed/set',
                         'commands/detailed/state',
                         'commands/detailed/url',
+                        'commands/detailed/vendor',
                         'commands/detailed/weather',
                         'commands/detailed/whoami'
                     ]
@@ -185,14 +185,14 @@ module.exports = {
                 {
                     Standard: [
                         'hosting/standard/prerequisites',
-                        'hosting/standard/build',
                         'hosting/standard/configuration',
+                        'hosting/standard/build',
                         'hosting/standard/deployment'
                     ],
                     Docker: [
                         'hosting/docker/prerequisites',
-                        'hosting/docker/build',
                         'hosting/docker/configuration',
+                        'hosting/docker/build',
                         'hosting/docker/deployment'
                     ]
                 }

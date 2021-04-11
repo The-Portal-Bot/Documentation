@@ -143,8 +143,8 @@ function Home() {
                 { line: "a music channel that just works effortlessly", link: "/docs/commands/detailed/news" },
                 { line: "make members moderators with just one click", link: "/docs/commands/detailed/kick" },
                 { line: "increase engagement with amazing features", link: "/docs/commands/detailed/news" },
-                { line: "keep you server and channel clean and civil", link: "/docs/commands/detailed/role_assigner" },
-                { line: "with anti spam build-in, you can keep chill", link: "/docs/commands/detailed/role_assigner" },
+                { line: "keep you server and channel clean and civil", link: "/docs/commands/detailed/vendor" },
+                { line: "with anti spam build-in, you can keep chill", link: "/docs/commands/detailed/vendor" },
                 { line: "award engagment with rak-ups and roles", link: "/docs/commands/detailed/news" },
                 { line: "easily distribute roles to members with reacts", link: "/docs/commands/detailed/news" }
               ]}
@@ -200,7 +200,7 @@ function Home() {
             With the help of the{" "}
             <Link
               className={clsx(styles.linkHighlight)}
-              to={useBaseUrl("interpreter/")}
+              to={useBaseUrl("docs/interpreter/description/")}
             >
               Text Interpreter
             </Link>{" "}you can create

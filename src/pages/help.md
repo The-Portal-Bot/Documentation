@@ -45,7 +45,7 @@ the [official Discord Server](https://discord.com/invite/WrMUzJYyzJ)
 It provides:
 
 - Voice channels on demand (automatic naming, update, deletion) [./portal](/docs/commands/detailed/portal)
-- Give and remove roles from users with a single reaction [./role_assigner](/docs/commands/detailed/role_assigner)
+- Give and remove roles from users with a single reaction [./vendor](/docs/commands/detailed/vendor)
 - Creates temporary "focus" channels for private conversations [./focus](/docs/commands/detailed/focus)
 - Music player that is clean and clutter free [./music](/music-player)
 - Get the latest on [covid19](/docs/commands/detailed/corona),

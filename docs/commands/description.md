@@ -72,12 +72,6 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 | :-----------------------------------------------: | :--------------------: | :-------: | :------: |
 | Deletes n number of messsages on the text channel | **!numer_of_messages** |  `admin`  |  `none`  |
 
-:::note
-
-Note that Portal will delete n + 1 messages as it will also delete the command to delete
-
-:::
-
 ## F
 
 ---
@@ -87,12 +81,6 @@ Note that Portal will delete n + 1 messages as it will also delete the command t
 |                       Description                       |      Argument       | Clearance | Cooldown |
 | :-----------------------------------------------------: | :-----------------: | :-------: | :------: |
 | Creates focus channel for you and your requested member | **!username @time** |  `admin`  |  `none`  |
-
-:::note
-
-If duration is not specified the channel will live until everyone has left
-
-:::
 
 ### [force](/docs/commands/detailed/force)
 
@@ -141,12 +129,6 @@ If duration is not specified the channel will live until everyone has left
 |     Description     |   Argument    | Clearance  | Cooldown |
 | :-----------------: | :-----------: | :--------: | :------: |
 | Replies with a joke | **@category** | `everyone` |  `none`  |
-
-:::note
-
-Note that category can be dad, chuck or blonde
-
-:::
 
 ## K
 
@@ -230,18 +212,6 @@ Note that category can be dad, chuck or blonde
 | :-----------------------------: | :------: | :--------: | :------: |
 | Returns ranks of ranking system | **none** | `everyone` |  `none`  |
 
-### [role_assigner ](/docs/commands/detailed/role_assigner)
-
-|                          Description                           |    Argument    | Clearance | Cooldown |
-| :------------------------------------------------------------: | :------------: | :-------: | :------: |
-| Replies with a message that gives roles when an emote is added | **!role_json** |  `admin`  |  `none`  |
-
-:::caution
-
-For Portal to be able to assign roles, said roles must all be beneath Portal's role, in server settings
-
-:::
-
 ### [roll](/docs/commands/detailed/roll)
 
 |                  Description                  |      Argument      | Clearance  | Cooldown |
@@ -253,12 +223,6 @@ For Portal to be able to assign roles, said roles must all be beneath Portal's r
 |                     Description                      |     Argument      | Clearance  | Cooldown |
 | :--------------------------------------------------: | :---------------: | :--------: | :------: |
 | Runs the given command string and returns its output | **!exec_command** | `everyone` |  `none`  |
-
-:::note
-
-run is designed for you to test names before setting them to your channel
-
-:::
 
 ## S
 
@@ -276,12 +240,6 @@ run is designed for you to test names before setting them to your channel
 | :----------------------------: | :-------------------: | :-------: | :------: |
 | Sets the value of an attribute | **!attribute !value** |  `admin`  |  `none`  |
 
-:::note
-
-Note that you do not have to use attribute prefix (&), as you can only set attributes
-
-:::
-
 ### [state](/docs/commands/detailed/state)
 
 |             Description             | Argument | Clearance  | Cooldown |
@@ -297,6 +255,22 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 |                            Description                            |         Argument          | Clearance | Cooldown |
 | :---------------------------------------------------------------: | :-----------------------: | :-------: | :------: |
 | Creates a new url channel or sets<br />the current channel as url | **!channel \| @category** |  `admin`  |  `none`  |
+
+## V
+
+---
+
+### [vendor](/docs/commands/detailed/vendor)
+
+|                                    Description                                    |    Argument    | Clearance | Cooldown |
+| :-------------------------------------------------------------------------------: | :------------: | :-------: | :------: |
+| Generates with a message that gives or removes a member from corresponding role/s | **!role_json** |  `admin`  |  `none`  |
+
+:::caution
+
+For Portal to be able to assign roles, said roles must all be beneath Portal's role, in server settings
+
+:::
 
 ## W
 
