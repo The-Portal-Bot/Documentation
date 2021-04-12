@@ -27,18 +27,6 @@ the [official Discord Server](https://discord.com/invite/WrMUzJYyzJ)
 
 ## FAQ
 
-### Q. **How can I give members authority ?**
-
-#### A. You have to create roles `p.admin` , `p.mod`, `p.dj`, `p.whitelist` and `p.ignore` and assign them to users.
-
-| to             | give role     | description                                                                                                                                                                             |
-| :------------- | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| make admin     | `p.admin`     | An admin can use all the authorised commands                                                                                                                                            |
-| make moderator | `p.mod`       | A moderator can [kick](/docs/commands/detailed/kick) and [ban](/docs/commands/detailed/ban) members, can generate [invites](/docs/commands/detailed/invite) and change auto-mod options |
-| make dj        | `p.dj`        | A dj controls the music player without votes                                                                                                                                            |
-| whitelist      | `p.whitelist` | A whitelisted member will be excluded from spam moderation                                                                                                                              |
-| ignore         | `p.ignore`    | An ignored member will be ignored by Portal                                                                                                                                             |
-
 ### Q. **What does Portal do ?**
 
 #### A. It is a multipurpose Discord bot that helps you manage and organise your server,gives you informative commands but also fun ones and has a the easiest to use and most intuitive music player.
@@ -60,6 +48,20 @@ It provides:
 
 ---
 
+### Q. **How can I give members authority ?**
+
+#### A. You have to create roles `p.admin` , `p.mod`, `p.dj`, `p.whitelist` and `p.ignore` and assign them to users.
+
+| to             | give role     | description                                                                                                                                                                             |
+| :------------- | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| make admin     | `p.admin`     | An admin can use all the authorised commands                                                                                                                                            |
+| make moderator | `p.mod`       | A moderator can [kick](/docs/commands/detailed/kick) and [ban](/docs/commands/detailed/ban) members, can generate [invites](/docs/commands/detailed/invite) and change auto-mod options |
+| make dj        | `p.dj`        | A dj controls the music player without votes                                                                                                                                            |
+| whitelist      | `p.whitelist` | A whitelisted member will be excluded from spam moderation                                                                                                                              |
+| ignore         | `p.ignore`    | An ignored member will be ignored by Portal                                                                                                                                             |
+
+---
+
 ### Q. **How do I create portal controlled channel ?**
 
 #### A. All portal channels are spawned in the same manner.
@@ -67,27 +69,35 @@ It provides:
 Create a new portal (voice) that spawns voice channels
 
 1. will create a new portal channel named **my_portal**
+
    ```bash
-       ./portal my_portal
+   ./portal my_portal
    ```
+
 2. will create a new portal channel named **my_portal** and category **my_category** and make **my_portal** as child
+
    ```bash
-       ./portal my_portal | my_category
+   ./portal my_portal | my_category
    ```
 
 Create a new music/announcement (text)
 
 1. will make current channel music/announcement
+
    ```bash
-       ./music
+   ./music
    ```
+
 2. will create a new requested type channel named **my_channel** and category **my_category** and make **my_portal** as child
+
    ```bash
-       ./music my_channel
+   ./music my_channel
    ```
+
 3. will create a new requested type channel named **my_channel** and category **my_category** and make **my_channel** as child
+
    ```bash
-       ./music my_channel | my_category
+   ./music my_channel | my_category
    ```
 
 ---
