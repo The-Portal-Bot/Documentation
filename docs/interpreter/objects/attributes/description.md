@@ -16,11 +16,23 @@ Attributes have three categories _global, portal, voice and member_. You can rec
 
 ---
 
+### [g.ban_after](/docs/interpreter/objects/attributes/detailed/global/g.ban_after)
+
+|                   Description                   |  Type  | Default | Clearance |
+| :---------------------------------------------: | :----: | :-----: | :-------: |
+| _the penalty count at which a member is banned_ | number | _null_  |  `admin`  |
+
 ### [g.initial_role](/docs/interpreter/objects/attributes/detailed/global/g.initial_role)
 
 |      Description       | Type | Default | Clearance |
 | :--------------------: | :--: | :-----: | :-------: |
 | _global starting role_ | role | _null_  |  `admin`  |
+
+### [g.kick_after](/docs/interpreter/objects/attributes/detailed/global/g.kick_after)
+
+|                   Description                   |  Type  | Default | Clearance |
+| :---------------------------------------------: | :----: | :-----: | :-------: |
+| _the penalty count at which a member is kicked_ | number | _null_  |  `admin`  |
 
 ### [g.locale](/docs/interpreter/objects/attributes/detailed/global/g.locale)
 

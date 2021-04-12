@@ -240,6 +240,12 @@ you can access this command, and await a reply or action from Portal.<br /><br /
 | :----------------------------: | :-------------------: | :-------: | :------: |
 | Sets the value of an attribute | **!attribute !value** |  `admin`  |  `none`  |
 
+### [spam_rules](/docs/commands/detailed/spam_rules)
+
+|               Description                | Argument | Accessible | Cooldown |
+| :--------------------------------------: | :------: | :--------: | :------: |
+| Returns the current spam_rules of Portal | **none** | `everyone` |  `none`  |
+
 ### [state](/docs/commands/detailed/state)
 
 |             Description             | Argument | Clearance  | Cooldown |

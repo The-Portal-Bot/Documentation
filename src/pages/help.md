@@ -29,14 +29,15 @@ the [official Discord Server](https://discord.com/invite/WrMUzJYyzJ)
 
 ### Q. **How can I give members authority ?**
 
-#### A. You have to create roles `p.admin` , `p.mod`, `p.dj`and `p.ignore` and assign them to users.
+#### A. You have to create roles `p.admin` , `p.mod`, `p.dj`, `p.whitelist` and `p.ignore` and assign them to users.
 
-| to             | give role  | description                                                                                          |
-| :------------- | :--------- | :--------------------------------------------------------------------------------------------------- |
-| make admin     | `p.admin`  | An admin can use all the authorised commands                                                         |
-| make moderator | `p.mod`    | An moderator can [kick](/docs/commands/detailed/kick) and [ban](/docs/commands/detailed/ban) members |
-| make dj        | `p.dj`     | A dj controls the music player without votes                                                         |
-| ignore         | `p.ignore` | An ignored member will be ignored by Portal                                                          |
+| to             | give role     | description                                                                                                                                                                             |
+| :------------- | :------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| make admin     | `p.admin`     | An admin can use all the authorised commands                                                                                                                                            |
+| make moderator | `p.mod`       | A moderator can [kick](/docs/commands/detailed/kick) and [ban](/docs/commands/detailed/ban) members, can generate [invites](/docs/commands/detailed/invite) and change auto-mod options |
+| make dj        | `p.dj`        | A dj controls the music player without votes                                                                                                                                            |
+| whitelist      | `p.whitelist` | A whitelisted member will be excluded from spam moderation                                                                                                                              |
+| ignore         | `p.ignore`    | An ignored member will be ignored by Portal                                                                                                                                             |
 
 ### Q. **What does Portal do ?**
 
@@ -51,7 +52,7 @@ It provides:
 - Get the latest on [covid19](/docs/commands/detailed/corona),
   [weather](/docs/commands/detailed/weather), [crypto](/docs/commands/detailed/crypto), [news](/docs/commands/detailed/news) and more
 - [ignored](/docs/commands/detailed/ignore), [announcement](/docs/commands/detailed/announcement)
- , [url-only](/docs/commands/detailed/url) channels
+  , [url-only](/docs/commands/detailed/url) channels
 - You can create moderators easily who can kick, ban and create customisable server invites<br />without ever giving them any permission just one role `p.mod`
 - A [ranking system](/docs/ranking) that allows you to give roles according to levels
 - Easily create server [polls](/docs/commands/detailed/poll)

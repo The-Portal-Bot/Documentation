@@ -35,6 +35,7 @@ module.exports = {
                         'commands/detailed/run',
                         'commands/detailed/set_ranks',
                         'commands/detailed/set',
+                        'commands/detailed/spam_rules',
                         'commands/detailed/state',
                         'commands/detailed/url',
                         'commands/detailed/vendor',
@@ -55,7 +56,9 @@ module.exports = {
                             'All Attributes': [
                                 {
                                     'Global': [
+                                        'interpreter/objects/attributes/detailed/global/g.ban_after',
                                         'interpreter/objects/attributes/detailed/global/g.initial_role',
+                                        'interpreter/objects/attributes/detailed/global/g.kick_after',
                                         'interpreter/objects/attributes/detailed/global/g.locale',
                                         'interpreter/objects/attributes/detailed/global/g.mute_role',
                                         'interpreter/objects/attributes/detailed/global/g.prefix',

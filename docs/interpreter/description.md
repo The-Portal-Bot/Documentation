@@ -13,25 +13,25 @@ So lets say you are playing Counter Strike, your channel's name will be
 __CS:GO__.
 
 
-### [Variables](objects/variables/description)
+### [Variables](/docs/interpreter/objects/variables/description)
 
 | prefix |                           Description                           |   Format    |       Example `$status_list`       |
 | :----: | :-------------------------------------------------------------: | :---------: | :--------------------------------: |
 |   $    | _Variables are immutable and live data that return information_ | `$variable` | `CS:GO`<br />or<br />`CS:GO, Apex` |
 
-### [Attributes](objects/attributes/description)
+### [Attributes](/docs/interpreter/objects/attributes/description)
 
 | prefix |                                                      Description                                                       |    Format    | Example `@g.locale` |
 | :----: | :--------------------------------------------------------------------------------------------------------------------: | :----------: | :-----------------: |
 |   &    | _Attributes are Portal Bot's, Portal Voice or Voice Channel options that can be manipulated by whomever has clearance_ | `&attribute` |        `gr`         |
 
-### [Pipes](objects/pipes/description)
+### [Pipes](/docs/interpreter/objects/pipes/description)
 
 | prefix |                                      Description                                      | Format | Example @g.locale \| upperCase |
 | :----: | :-----------------------------------------------------------------------------------: | :----: | :----------------------------: |
 |   \|   | _Pipes are mini functions you can pass text or Variables to manipulate their outcome_ | \|pipe |              `GR`              |
 
-### [Structures](objects/structures/description)
+### [Structures](/docs/interpreter/objects/structures/description)
 
 | prefix | sufix |                  Description                   |
 | :----: | :---: | :--------------------------------------------: |
