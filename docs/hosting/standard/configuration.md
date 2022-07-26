@@ -6,30 +6,34 @@ sidebar_label: Configuration
 
 1. Add the API keys from the services you want.
 
-   ```json title="Portal/src/config.json"
+   ```env title="Portal/src/.env"
    {
-     "version": "0.6.8", // current version
-     "token": "add-your-token-here", // your Discord-API-Token
-     "prefix": "./", // default prefix
-     "mongo_url": "mongodb://mongo/portal?compressors=zlib&gssapiServiceName=portal", // mongoDB url
-     "owner_id": "add-your-id-(optional)", // owner ID may be used throughout Portal
-     "api_keys": {
-       // Api keys for Portal services
-       "OpenWeatherMap": "add-open-weather-map-api-key",
-       "covid_193": "add-covid-193-api-key",
-       "lyrics": "add-genius-api-key",
-       "coingecko": "add-coingecko-api-key",
-       "football_data": "add-football-data-api-key",
-       "yahoo_finance": "add-yahoo-finance-api-key",
-       "new_york_times": "add-new-york-time-api-key",
-       "translate": {
-         "engine": "yandex",
-         "key": "add-yeandex-api-key"
-       }
-     },
-     "delete_delay": 7, // how long after message sent, will it be deleted
-     "debug": false, // display run time information in console
-     "log": false // log files in ../logs directory on host
+    # current version
+    VERSION=0.6.8
+    # your Discord-API-Token
+    TOKEN=add-your-token-here
+    # default prefix
+    PREFIX=./
+    # mongoDB url
+    MONGO_URL=mongodb://mongo/portal?compressors=zlib&gssapiServiceName=portal
+    # owner ID may be used throughout Portal
+    OWNER_ID=add-your-id-(optional)
+    # API KEYS
+    OPENWEATHERMAP=add-open-weather-map-api-key
+    COVID_193=add-covid-193-api-key
+    LYRICS=add-genius-api-key
+    COINGECKO=add-coingecko-api-key
+    FOOTBALL_DATA=add-football-data-api-key
+    YAHOO_FINANCE=add-yahoo-finance-api-key
+    NEW_YORK_TIMES=add-new-york-time-api-key
+    TRANSLATE_ENGINE=yandex
+    # how long after message sent, will it be deleted
+    TRANSLATE_KEY=add-yeandex-api-key
+    # display run time information in console
+    DELETE_DELAY=7
+    # log files in ../logs directory on host
+    DEBUG=false
+    LOG=falsE
    }
    ```
 
