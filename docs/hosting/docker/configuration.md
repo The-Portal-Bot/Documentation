@@ -7,34 +7,32 @@ sidebar_label: Configuration
 1. Add the API keys from the services you want.
 
    ```env title="Portal/src/.env"
-   {
-    # current version
-    VERSION=0.6.8
-    # your Discord-API-Token
-    TOKEN=add-your-token-here
-    # default prefix
-    PREFIX=./
-    # mongoDB url
-    MONGO_URL=mongodb://mongo/portal?compressors=zlib&gssapiServiceName=portal
-    # owner ID may be used throughout Portal
-    OWNER_ID=add-your-id-(optional)
-    # API KEYS
-    OPENWEATHERMAP=add-open-weather-map-api-key
-    COVID_193=add-covid-193-api-key
-    LYRICS=add-genius-api-key
-    COINGECKO=add-coingecko-api-key
-    FOOTBALL_DATA=add-football-data-api-key
-    YAHOO_FINANCE=add-yahoo-finance-api-key
-    NEW_YORK_TIMES=add-new-york-time-api-key
-    TRANSLATE_ENGINE=yandex
-    # how long after message sent, will it be deleted
-    TRANSLATE_KEY=add-yeandex-api-key
-    # display run time information in console
-    DELETE_DELAY=7
-    # log files in ../logs directory on host
-    DEBUG=false
-    LOG=falsE
-   }
+   # current version
+   VERSION=0.6.8
+   # your Discord-API-Token
+   TOKEN=add-your-token-here
+   # default prefix
+   PREFIX=./
+   # mongoDB url
+   MONGO_URL=mongodb://mongo/portal?compressors=zlib&gssapiServiceName=portal
+   # owner ID may be used throughout Portal
+   OWNER_ID=add-your-id-(optional)
+   # API KEYS
+   OPENWEATHERMAP=add-open-weather-map-api-key
+   COVID_193=add-covid-193-api-key
+   LYRICS=add-genius-api-key
+   COINGECKO=add-coingecko-api-key
+   FOOTBALL_DATA=add-football-data-api-key
+   YAHOO_FINANCE=add-yahoo-finance-api-key
+   NEW_YORK_TIMES=add-new-york-time-api-key
+   TRANSLATE_ENGINE=yandex
+   # how long after message sent, will it be deleted
+   TRANSLATE_KEY=add-yeandex-api-key
+   # display run time information in console
+   DELETE_DELAY=7
+   # log files in ../logs directory on host
+   DEBUG=false
+   LOG=falsE
    ```
 
 :::caution
