@@ -6,7 +6,7 @@ sidebar_label: Configuration
 
 1. Add the API keys from the services you want.
 
-   ```env title="Portal/src/.env"
+   ```c title="Portal/src/.env"
    # current version
    VERSION=0.6.8
    # your Discord-API-Token
