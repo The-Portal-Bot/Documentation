@@ -37,13 +37,13 @@ sidebar_label: Configuration
 
 :::caution
 
-Keep in mind that mongo_url by default is set to link to docker container, in case you are running it as a standalone app, you shall give the url of the mongo database
+Keep in mind that MONGO_URL by default is set to link to docker container, in case you are running it as a standalone app, you shall give the url of the mongo database.
 
 :::
 
 :::info
 
-Note that if you do not want to use an api, go to `Portal/src/config.command.json` and delete the command corelating to the missing api (ex. covid_193 -> corona).
+Note that if you do not want to use an API, go to `Portal/src/config.command.json` and delete the command corelating to the missing api (ex. covid_193 -> corona).
 
 :::
 
