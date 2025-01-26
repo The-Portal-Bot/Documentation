@@ -33,26 +33,26 @@ module.exports = {
             // using user system preferences, instead of the hardcoded defaultMode
             respectPrefersColorScheme: true,
 
-            // Dark/light switch icon options
-            switchConfig: {
-                // Icon for the switch while in dark mode
-                darkIcon: '\u{200B}',//'\u{1F319}',
+            // // Dark/light switch icon options
+            // switchConfig: {
+            //     // Icon for the switch while in dark mode
+            //     darkIcon: '\u{200B}',//'\u{1F319}',
 
-                // CSS to apply to dark icon,
-                // React inline style object
-                // see https://reactjs.org/docs/dom-elements.html#style
-                darkIconStyle: {
-                    marginLeft: '1px',
-                },
+            //     // CSS to apply to dark icon,
+            //     // React inline style object
+            //     // see https://reactjs.org/docs/dom-elements.html#style
+            //     darkIconStyle: {
+            //         marginLeft: '1px',
+            //     },
 
-                // Unicode icons such as '\u2600' will work
-                // Unicode with 5 chars require brackets: '\u{1F602}'
-                lightIcon: '\u{200B}',//'\u2600',
+            //     // Unicode icons such as '\u2600' will work
+            //     // Unicode with 5 chars require brackets: '\u{1F602}'
+            //     lightIcon: '\u{200B}',//'\u2600',
 
-                lightIconStyle: {
-                    marginLeft: '1px',
-                },
-            },
+            //     lightIconStyle: {
+            //         marginLeft: '1px',
+            //     },
+            // },
         },
         navbar: {
             title: 'Portal',
@@ -90,11 +90,6 @@ module.exports = {
                     activeBasePath: 'help',
                     label: 'Help',
                     position: 'right',
-                },
-                {
-                    to: 'blog',
-                    label: 'Blog',
-                    position: 'right'
                 },
                 {
                     href: 'https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot',
@@ -135,10 +130,7 @@ module.exports = {
             },
             {
                 title: 'More',
-                items: [{
-                    label: 'Blog',
-                    to: 'blog',
-                },
+                items: [
                 {
                     label: 'top.gg',
                     href: 'https://top.gg/bot/704400876860735569',
@@ -160,9 +152,31 @@ module.exports = {
                     href: 'https://github.com/sponsors/keybraker',
                 }
                 ]
+            },
+            {
+                title: 'Policies',
+                items: [{
+                    label: 'Terms and Service',
+                    to: 'termsofservice',
+                },
+                {
+                    label: 'Privacy Policy',
+                    href: 'privacypolicy',
+                }
+                ]
             }
             ],
-            copyright: `<br />Copyright © 2020 - ${new Date().getFullYear()}<br />Designed and Built by Ioannis Tsiakkas`,
+            copyright: `<br />Copyright © 2020 - ${new Date().getFullYear()}<br />Designed and Built by <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://itsiakkas.com"
+                className="
+                    italic text-sm font-extrabold hover:underline
+                    text-cinema-dark dark:text-cinema-light text-wrap
+                "
+                >
+                    Keybraker
+                </a>`,
         },
     },
     presets: [
@@ -172,10 +186,6 @@ module.exports = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://portal-bot.xyz/',
-                },
-                blog: {
-                    showReadingTime: true,
-                    editUrl: 'https://portal-bot.xyz/blog/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),

@@ -1,9 +1,9 @@
-import React from 'react';
-import clsx from 'clsx';
-import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import clsx from 'clsx';
+import React from 'react';
+
+import Layout from '@theme/Layout';
 import styles from './styles.module.css';
 
 const features = [
@@ -36,9 +36,9 @@ const features = [
     imageUrl: 'svg/features2.svg',
     description: (
       <>
-        Portal has many usefull features you can use, from informative commands
+        Portal has many useful features you can use, from informative commands
         like <b>./corona gr</b> and <b>./weather Athens</b> to funny ones, like <b>./joke</b> and
-        even more usefull once like <b>./focus</b> and <b>./url</b> !
+        even more useful once like <b>./focus</b> and <b>./url</b> !
       </>
     ),
   }

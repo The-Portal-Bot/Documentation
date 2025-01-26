@@ -86,7 +86,7 @@ function AddButton({ imageUrl, title, link }) {
       className={clsx(
         styles.marginRight,
         styles.marginBottomSmall,
-        "button button--outline button--secondary button--lg",
+        "button button--outline button--secondary button--lg text-black",
         styles.buttons,
         styles.minWidth
       )}
@@ -185,15 +185,15 @@ function Home() {
             {" "}and organisation of your server.
             <br />
             <br />
-            With a sublime and easy to use{" "}
+            With a sublime{" "}
             <Link
               className={clsx(styles.linkHighlight)}
               to={useBaseUrl("music-player/")}
             >
               Music Player
-            </Link>
+            </Link>{" "}that is easy to use
             <br />
-            you can listen to what you want, however you want.
+            listening to what you want, is easier than ever.
             <br />
 
             <br />

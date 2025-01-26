@@ -14,26 +14,26 @@ sidebar_label: Description
 
 ---
 
-### [creator_portal](/docs/interpreter/objects/variables/detailed/general/creator_portal)
+### [creator_portal](detailed/general/creator_portal)
 
 |                                 Description                                  |  Type  |
 | :--------------------------------------------------------------------------: | :----: |
 | _The name of the portal channel, the current voice channel was spawned from_ | string |
 
-### [creator_voice](/docs/interpreter/objects/variables/detailed/general/creator_voice)
+### [creator_voice](detailed/general/creator_voice)
 
 |    Description     |  Type  |
 | :----------------: | :----: |
 | _creator of voice_ | string |
 
 
-### [##](/docs/interpreter/objects/variables/detailed/general/double_slash)
+### [##](detailed/general/double_slash)
 
 |             Description             |  Type  |
 | :---------------------------------: | :----: |
 | _number of channel in list with \#_ | string |
 
-### [#](/docs/interpreter/objects/variables/detailed/general/slash)
+### [#](detailed/general/slash)
 
 |         Description         |  Type  |
 | :-------------------------: | :----: |
@@ -44,31 +44,31 @@ sidebar_label: Description
 
 ---
 
-### [member_list](/docs/interpreter/objects/variables/detailed/member/member_list)
+### [member_list](detailed/member/member_list)
 
 |             Description              |  Type  |
 | :----------------------------------: | :----: |
 | _returns the currently played games_ | string |
 
-### [member_count](/docs/interpreter/objects/variables/detailed/member/member_count)
+### [member_count](detailed/member/member_count)
 
 |          Description           |  Type  |
 | :----------------------------: | :----: |
 | _number of members in channel_ | string |
 
-### [member_active_count](/docs/interpreter/objects/variables/detailed/member/member_active_count)
+### [member_active_count](detailed/member/member_active_count)
 
 |         Description         |  Type  |
 | :-------------------------: | :----: |
 | _number of members playing_ | string |
 
-### [member_with_status](/docs/interpreter/objects/variables/detailed/member/member_with_status)
+### [member_with_status](detailed/member/member_with_status)
 
 |             Description              |  Type  |
 | :----------------------------------: | :----: |
 | _number of member with given status_ | string |
 
-### [member_history](/docs/interpreter/objects/variables/detailed/member/member_history)
+### [member_history](detailed/member/member_history)
 
 |                  Description                  |  Type  |
 | :-------------------------------------------: | :----: |
@@ -78,19 +78,19 @@ sidebar_label: Description
 
 ---
 
-### [status_list](/docs/interpreter/objects/variables/detailed/status/status_list)
+### [status_list](detailed/status/status_list)
 
 |            Description            |  Type  |
 | :-------------------------------: | :----: |
 | _list of current member statuses_ | string |
 
-### [status_count](/docs/interpreter/objects/variables/detailed/status/status_count)
+### [status_count](detailed/status/status_count)
 
 |            Description             |  Type  |
 | :--------------------------------: | :----: |
 | _count of current member statuses_ | string |
 
-### [status_history](/docs/interpreter/objects/variables/detailed/status/status_history)
+### [status_history](detailed/status/status_history)
 
 |                   Description                    |  Type  |
 | :----------------------------------------------: | :----: |
@@ -100,61 +100,61 @@ sidebar_label: Description
 
 ---
 
-### [date](/docs/interpreter/objects/variables/detailed/time/date)
+### [date](detailed/time/date)
 
 |       Description       |  Type  |
 | :---------------------: | :----: |
 | _full date: dd/mm/yyyy_ | string |
 
-### [day_name](/docs/interpreter/objects/variables/detailed/time/day_name)
+### [day_name](detailed/time/day_name)
 
 |           Description            |  Type  |
 | :------------------------------: | :----: |
 | _gets the day name (ex. Monday)_ | string |
 
-### [day_number](/docs/interpreter/objects/variables/detailed/time/day_number)
+### [day_number](detailed/time/day_number)
 
 |          Description           |  Type  |
 | :----------------------------: | :----: |
 | _gets the day number (ex. 01)_ | string |
 
-### [month_name](/docs/interpreter/objects/variables/detailed/time/month_name)
+### [month_name](detailed/time/month_name)
 
 |           Description           |  Type  |
 | :-----------------------------: | :----: |
 | _gets the month name (ex. Feb)_ | string |
 
-### [month_number](/docs/interpreter/objects/variables/detailed/time/month_number)
+### [month_number](detailed/time/month_number)
 
 |           Description            |  Type  |
 | :------------------------------: | :----: |
 | _gets the month number (ex. 02)_ | string |
 
-### [year](/docs/interpreter/objects/variables/detailed/time/year)
+### [year](detailed/time/year)
 
 |   Description   |  Type  |
 | :-------------: | :----: |
 | _gets the year_ | string |
 
-### [time](/docs/interpreter/objects/variables/detailed/time/time)
+### [time](detailed/time/time.md)
 
 |      Description      |  Type  |
 | :-------------------: | :----: |
 | _full time: hh:mm:ss_ | string |
 
-### [hour](/docs/interpreter/objects/variables/detailed/time/hour)
+### [hour](detailed/time/hour)
 
 |   Description   |  Type  |
 | :-------------: | :----: |
 | _gets the hour_ | string |
 
-### [minute](/docs/interpreter/objects/variables/detailed/time/minute)
+### [minute](detailed/time/minute)
 
 |    Description    |  Type  |
 | :---------------: | :----: |
 | _gets the minute_ | string |
 
-### [second](/docs/interpreter/objects/variables/detailed/time/second)
+### [second](detailed/time/second)
 
 |    Description    |  Type  |
 | :---------------: | :----: |

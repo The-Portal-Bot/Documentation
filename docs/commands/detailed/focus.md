@@ -36,7 +36,7 @@ If duration is not specified the channel will live until everyone has left
    1. Mallory will be asked if she want to talk with you.
    2. If she replies with yes, a new channel will be made called `PR-23' 12:45/01:08`
       _note that first part is current time and second part is expiration time_
-   3. After the time you gave (11') has ended, you will be both moved<br \>
+   3. After the time you gave (11') has ended, you will be both moved<br />
       to your previous channel and the focus channel will be deleted
       _note that the name would have been `PR-23' 01:05/01:08` as 10 minutes will have passed_
 

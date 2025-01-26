@@ -36,9 +36,9 @@ const features = [
     imageUrl: 'svg/features2.svg',
     description: (
       <>
-        Portal has many usefull features you can use, from informative commands
+        Portal has many useful features you can use, from informative commands
         like <b>./corona gr</b> and <b>./weather Athens</b> to funny ones, like <b>./joke</b> and
-        even more usefull once like <b>./focus</b> and <b>./url</b> !
+        even more useful once like <b>./focus</b> and <b>./url</b> !
       </>
     ),
   }
@@ -60,7 +60,6 @@ function Feature({ imageUrl, title, description }) {
 }
 
 function Home() {
-  const context = useDocusaurusContext();
   return (
     <Layout
       title="Commands"

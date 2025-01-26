@@ -57,11 +57,10 @@ function Feature({ imageUrl, title, description }) {
 }
 
 function Home() {
-  const context = useDocusaurusContext();
   return (
     <Layout
       title="Commands"
-      description="All Commnads"
+      description="All commands"
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
