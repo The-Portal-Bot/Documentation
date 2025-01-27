@@ -157,11 +157,11 @@ module.exports = {
                 title: 'Policies',
                 items: [{
                     label: 'Terms and Service',
-                    to: 'termsofservice',
+                    to: 'terms-of-service',
                 },
                 {
                     label: 'Privacy Policy',
-                    href: 'privacypolicy',
+                    to: 'privacy-policy',
                 }
                 ]
             }
