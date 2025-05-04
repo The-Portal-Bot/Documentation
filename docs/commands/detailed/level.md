@@ -13,7 +13,7 @@ sidebar_label: level
 - Lets say you want to get your current level card, you would type
 
   ```bash
-  ./level
+  /level
   ```
 
   Portal will reply with an _current level_ embedded card.

@@ -13,7 +13,7 @@ sidebar_label: url
 - Lets say you want to create a new url channel, you would type
 
   ```bash
-  ./url youtube_videos
+  /url youtube_videos
   ```
 
   This would create a new url channel called youtube*videos*.
@@ -21,7 +21,7 @@ sidebar_label: url
 - Lets say you want to create a new url channel under a category, you would type
 
   ```bash
-  ./url youtube_videos | url
+  /url youtube_videos | url
   ```
 
   This would create a new url channel called youtube*videos* under category _url_.

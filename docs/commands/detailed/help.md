@@ -13,24 +13,24 @@ sidebar_label: help
 - Lets say you want to get general information, you would type
 
   ```bash
-  ./help
+  /help
   ```
 
 - Lets say you want to learn how to use the command force, you would type
 
   ```bash
-  ./help force
+  /help force
   ```
 
 - Lets say you want to know all the variables Portal has, you would type
 
   ```bash
-  ./help variables
+  /help variables
   ```
 
 - Lets say you want to know all the variables guide Portal has, you would type
   ```bash
-  ./help variables guide
+  /help variables guide
   ```
 
 :::tip

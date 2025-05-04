@@ -12,5 +12,5 @@ sidebar_label: leave
 
 - Lets say you want Portal to leave your channel, you would type
   ```bash
-  ./leave
+  /leave
   ```

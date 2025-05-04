@@ -19,7 +19,7 @@ run is designed for you to test names before setting them to your channel
 - Lets say you want to see the statuses of members inside the channel, you would type
 
   ```bash
-  ./run $member_list
+  /run $member_list
   ```
 
   If current members in channel are Alex and Mallory it will reply with `Alex, Mallory`

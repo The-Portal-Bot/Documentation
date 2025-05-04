@@ -13,7 +13,7 @@ sidebar_label: force
 - Lets say you want to force update your current session, you would type
 
   ```bash
-  ./force
+  /force
   ```
 
   This will create a copy of your current channel with an updated name and move all users to it

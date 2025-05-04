@@ -12,5 +12,5 @@ sidebar_label: join
 
 - Lets say you want Portal to join your voice channel, you would type
   ```bash
-  ./join
+  /join
   ```

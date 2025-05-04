@@ -13,7 +13,7 @@ sidebar_label: whoami
 - Lets say you want to get your information card, you would type
 
   ```bash
-  ./whoami
+  /whoami
   ```
 
   Portal will reply with a _personal_ embedded card.

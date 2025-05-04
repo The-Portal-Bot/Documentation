@@ -13,7 +13,7 @@ sidebar_label: bet
 - Lets say you want to get the latest Tzoker outcome, you would type
 
   ```bash
-  ./bet opap Tzoker
+  /bet opap Tzoker
   ```
 
   Portal will reply with an embedded card that has the _latest outcome for Tzoker_.

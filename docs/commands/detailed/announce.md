@@ -13,7 +13,7 @@ sidebar_label: announce
 - Lets say you want to ask people in the server to play CS:GO with you, you would type
 
   ```bash
-  ./announce CS in 5 minutes ? | Have two free spots !
+  /announce CS in 5 minutes ? | Have two free spots !
   ```
 
   This would create a message in the announcement channel (if it exists) that would have title: _CS in 5 minutes_ and message

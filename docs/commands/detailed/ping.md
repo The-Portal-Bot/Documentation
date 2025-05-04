@@ -13,5 +13,5 @@ sidebar_label: ping
 - Lets say you want to learn the latency to Portal, you would type
 
   ```bash
-  ./ping
+  /ping
   ```

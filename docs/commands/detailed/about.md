@@ -13,5 +13,5 @@ sidebar_label: about
 - Lets say you want to see the latest about portal, you would type
 
   ```bash
-  ./about
+  /about
   ```

@@ -19,16 +19,16 @@ Note that category can be blonde, dad, chuck, animal, job, knock
 - Lets say you want to get a joke, you would type
 
   ```bash
-  ./joke
+  /joke
   ```
 
 - Lets say you want to get a joke from a certain category, you would type
 
   ```bash
-  ./joke blonde
+  /joke blonde
   ```
 
 - Lets say you want to get a joke with your a custom name displayed, you would type
   ```bash
-  ./joke John
+  /joke John
   ```

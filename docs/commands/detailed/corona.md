@@ -13,13 +13,13 @@ sidebar_label: corona
 - Lets say you want to get the latest on the pandemic for Greece, you would type
 
   ```bash
-  ./corona gr
+  /corona gr
   ```
 
   or
 
   ```bash
-  ./corona greece
+  /corona greece
   ```
 
   Portal will reply with an embedded card that has the _corona statitics for Greece_.

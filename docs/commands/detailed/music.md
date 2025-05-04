@@ -13,7 +13,7 @@ sidebar_label: music
 - Lets say you want to create a new music channel, you would type
 
   ```bash
-  ./music music_player
+  /music music_player
   ```
 
   This would create a new music channel called _music_player_.
@@ -21,7 +21,7 @@ sidebar_label: music
 - Lets say you want to create a new music channel under a category, you would type
 
   ```bash
-  ./music music_player | music
+  /music music_player | music
   ```
 
   This would create a new music channel called _music_player_ under category _music_.

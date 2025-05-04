@@ -13,7 +13,7 @@ sidebar_label: spam_rules
 - Lets say you want to see the Portal's spame policy, you would type
 
   ```bash
-  ./spam_rules
+  /spam_rules
   ```
 
   Portal will reply with the spam policy of Portal, in an embedded card.

@@ -19,7 +19,7 @@ Note that Portal will delete n + 1 messages as it will also delete the command t
 - Lets say you want to delete 9 messages, you would type
 
   ```bash
-  ./delete 9
+  /delete 9
   ```
 
   Portal will delete 9 messages plus the delete message you wrote

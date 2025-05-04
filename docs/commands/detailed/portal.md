@@ -13,7 +13,7 @@ sidebar_label: portal
 - Lets say you want to create a new portal channel, you would type
 
   ```bash
-  ./portal channel_spawner
+  /portal channel_spawner
   ```
 
   This would create a new portal channel called _channel_spawner_.
@@ -21,7 +21,7 @@ sidebar_label: portal
 - Lets say you want to create a new portal channel under a category, you would type
 
   ```bash
-  ./portal channel_spawner | portal
+  /portal channel_spawner | portal
   ```
 
   This would create a new portal channel called _channel_spawner_ under category _portal_.

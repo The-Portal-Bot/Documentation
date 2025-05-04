@@ -13,7 +13,7 @@ sidebar_label: ranks
 - Lets say you want to see the ranking system of current server, you would type
 
   ```bash
-  ./ranks
+  /ranks
   ```
 
   Portal will reply with a list with ranks you get at certain levels, essentially the ranking system.

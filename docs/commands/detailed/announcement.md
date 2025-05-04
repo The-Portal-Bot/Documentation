@@ -13,7 +13,7 @@ sidebar_label: announcement
 - Lets say you want to create a new announcement channel, you would type
 
   ```bash
-  ./announcement megaphone
+  /announcement megaphone
   ```
 
   This would create a new announcement channel called _megaphone_.
@@ -21,7 +21,7 @@ sidebar_label: announcement
 - Lets say you want to create a new announcement channel under a category, you would type
 
   ```bash
-  ./announcement megaphone | announcements
+  /announcement megaphone | announcements
   ```
 
   This would create a new announcement channel called _megaphone_ under category _announcements_.

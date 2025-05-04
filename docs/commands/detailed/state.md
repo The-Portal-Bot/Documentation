@@ -13,7 +13,7 @@ sidebar_label: state
 - Lets say you want to see the current channels Portal controls, you would type
 
   ```bash
-  ./state
+  /state
   ```
 
   Portal will reply with the _current state of Portal controlled channels_ in an embedded card.

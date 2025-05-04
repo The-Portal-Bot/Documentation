@@ -13,7 +13,7 @@ sidebar_label: news
 - Lets say you want to get the latest news on the world, you would type
 
   ```bash
-  ./news world
+  /news world
   ```
 
   Portal will reply with an embedded card that has the _latest news of the world_.
@@ -21,7 +21,7 @@ sidebar_label: news
 - Lets say you want to get 2 articles with the latest news on science, you would type
 
   ```bash
-  ./news world 2
+  /news world 2
   ```
 
   Portal will reply with an embedded card that has the _latest news of the world_.

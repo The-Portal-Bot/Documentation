@@ -13,7 +13,7 @@ sidebar_label: ban
 - Lets say you want to ban member Mallory for one day, you would type
 
   ```bash
-  ./ban @Mallory
+  /ban @Mallory
   ```
 
   Mallory will be banned with reason _banned by admin_ for _1_ day, as these are
@@ -22,7 +22,7 @@ sidebar_label: ban
 - Lets say you want to ban member Mallory with reason _'used profanities'_ for _3 days_, you would type
 
   ```bash
-  ./ban @Mallory | used profanities | 3
+  /ban @Mallory | used profanities | 3
   ```
 
   Mallory will be banned with reason _used profanities_ for _3_ days.

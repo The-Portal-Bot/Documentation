@@ -13,7 +13,7 @@ sidebar_label: leaderboard
 - Lets say you want to get the current leaderboard, you would type
 
   ```bash
-  ./leaderboard
+  /leaderboard
   ```
 
   This will return the leaderboard with all members in server
@@ -21,7 +21,7 @@ sidebar_label: leaderboard
 - Lets say you want to get only the top 10, you would type
 
   ```bash
-  ./leaderboard 10
+  /leaderboard 10
   ```
 
   This will return the leaderboard with all members in server

@@ -13,12 +13,12 @@ sidebar_label: ignore
 - Lets say you want to ignore a channel _car photos_, you would type inside of it
 
   ```bash
-  ./ignore
+  /ignore
   ```
 
 - Lets say you want to stopping ignoring channel _car photos_, you would type inside of it
   ```bash
-  ./ignore
+  /ignore
   ```
 
 :::tip

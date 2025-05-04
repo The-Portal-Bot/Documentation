@@ -13,7 +13,7 @@ sidebar_label: weather
 - Lets say you want to get current weather forcast for Athens Greece, you would type
 
   ```bash
-  ./weather Athens
+  /weather Athens
   ```
 
   Portal will reply with a _current weather data for Athens Greece_ in an embedded card.

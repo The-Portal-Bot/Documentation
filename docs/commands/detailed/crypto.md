@@ -13,7 +13,7 @@ sidebar_label: crypto
 - Lets say you want to get the current price of Bitcoin in USD, you would type
 
   ```bash
-  ./crypto bitcoin | usd
+  /crypto bitcoin | usd
   ```
 
   Portal will reply with an _crypto statitics for bitcoin in USD_ embedded card.

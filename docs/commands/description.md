@@ -6,7 +6,7 @@ sidebar_label: Description
 
 Commands are used to communicate with Portal, by typing `{prefix}{command}` (ex. ./about)
 you can access this command, and await a reply or action from Portal.<br /><br />
-**Portal prefix: ./ _(default)_**
+**Portal prefix: / _(default)_**
 
 ## A
 

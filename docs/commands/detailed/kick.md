@@ -13,7 +13,7 @@ sidebar_label: kick
 - Lets say you want to kick member Mallory, you would type
 
   ```bash
-  ./kick @Mallory
+  /kick @Mallory
   ```
 
   Mallory will be kickned with reason _kickned by admin_, as these are
@@ -22,7 +22,7 @@ sidebar_label: kick
 - Lets say you want to kick member Mallory with reason _'used profanities'_, you would type
 
   ```bash
-  ./kick @Mallory | used profanities
+  /kick @Mallory | used profanities
   ```
 
   Mallory will be kickned with reason _used profanities_ days.

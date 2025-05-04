@@ -19,7 +19,7 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 - Lets say you want to set the attribute locale of the Portal, you would type
 
   ```bash
-  ./set g.locale gr
+  /set g.locale gr
   ```
 
   will update global locale to gr
@@ -27,7 +27,7 @@ Note that you do not have to use attribute prefix (&), as you can only set attri
 - Lets say you want to set the attribute regex of your current voice channel, you would type
 
   ```bash
-  ./set v.regex My new name
+  /set v.regex My new name
   ```
 
   will update name of current voice to _My new name_

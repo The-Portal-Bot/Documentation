@@ -13,7 +13,7 @@ sidebar_label: roll
 - Lets say you want to roll 1 dice that has 6 sides, you would type
 
   ```bash
-  ./roll 1d6
+  /roll 1d6
   ```
 
   possible reply: `@you rolled 6`
@@ -21,7 +21,7 @@ sidebar_label: roll
 - Lets say you want to roll 1 dice that has 6 sides and also see the dices you rolled, you would type
 
   ```bash
-  ./roll 1d6 | show
+  /roll 1d6 | show
   ```
 
   possible reply: `@you rolled 6 (1,2,1,2 from 1d6+3d2)`
@@ -29,7 +29,7 @@ sidebar_label: roll
 - Lets say you want to roll 1 dice that has 6 sides 3 dices that have 2 sides, you would type
 
   ```bash
-  ./roll 1d6+3d2
+  /roll 1d6+3d2
   ```
 
   possible reply: `@you rolled 8`
