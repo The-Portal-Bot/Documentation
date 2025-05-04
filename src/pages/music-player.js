@@ -146,27 +146,27 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">Music Player</h1>
           <p className="hero__subtitle">
-          <div>
-            <h3>
-              type <i><Link
-              className={clsx(styles.linkHighlight)}
-              to={useBaseUrl("docs/commands/detailed/music")}
-            >
-              ./music music
-            </Link></i> and then just enter a
-            </h3>
-            <h4>
-              <i>video names, youtube video URLs, youtube playlist URL or portal_video_queue.json</i>
-            </h4>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('docs/commands/detailed/music')}>
-              setup music channel
-            </Link>
-          </div> 
+            <div>
+              <h3>
+                type <i><Link
+                  className={clsx(styles.linkHighlight)}
+                  to={useBaseUrl("docs/commands/detailed/music")}
+                >
+                  /music music
+                </Link></i> and then just enter a
+              </h3>
+              <h4>
+                <i>video names, youtube video URLs, youtube playlist URL or portal_video_queue.json</i>
+              </h4>
+              <Link
+                className={clsx(
+                  'button button--outline button--secondary button--lg',
+                  styles.getStarted,
+                )}
+                to={useBaseUrl('docs/commands/detailed/music')}>
+                setup music channel
+              </Link>
+            </div>
           </p>
         </div>
       </header>
@@ -182,10 +182,10 @@ function Home() {
             a youtube playlist url<br />
             a portal_video_queue.json
           </p>
-        </div>          
+        </div>
       </main> */}
 
-      <main>        
+      <main>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

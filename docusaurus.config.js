@@ -92,7 +92,7 @@ module.exports = {
                     position: 'right',
                 },
                 {
-                    href: 'https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot',
+                    href: 'https://discord.com/oauth2/authorize?client_id=704400876860735569',
                     label: 'Add to Discord',
                     position: 'right',
                 },
