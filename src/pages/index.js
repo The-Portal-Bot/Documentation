@@ -5,7 +5,7 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import styles from "./styles.module.css";
-import TextLoop from "react-text-loop";
+import { TextLoop } from "react-text-loop-next";
 
 const urlInvite =
   "https://discord.com/oauth2/authorize?client_id=704400876860735569&permissions=8&redirect_uri=http%3A%2F%2Fwww.localhost%3A4000%2Fpremium%2F&scope=bot";
@@ -145,7 +145,7 @@ function Home() {
                 { line: "increase engagement with amazing features", link: "/docs/commands/detailed/news" },
                 { line: "keep you server and channel clean and civil", link: "/docs/commands/detailed/vendor" },
                 { line: "with anti spam build-in, you can keep chill", link: "/docs/commands/detailed/vendor" },
-                { line: "award engagment with rak-ups and roles", link: "/docs/commands/detailed/news" },
+                { line: "award engagement with rak-ups and roles", link: "/docs/commands/detailed/news" },
                 { line: "easily distribute roles to members with reacts", link: "/docs/commands/detailed/news" }
               ]}
             // end={"server in just a few steps."}

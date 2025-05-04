@@ -1,7 +1,7 @@
 ---
-id: terms-and-service
-title: TermsOfService
-sidebar_label: TermsOfService
+id: terms-of-service
+title: Terms of Service
+sidebar_label: Terms of Service
 ---
 
 # Terms of Service

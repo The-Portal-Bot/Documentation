@@ -1,7 +1,7 @@
 ---
 id: privacy-policy
-title: PrivacyPolicy
-sidebar_label: PrivacyPolicy
+title: Privacy Policy
+sidebar_label: Privacy Policy
 ---
 
 # Privacy Policy
