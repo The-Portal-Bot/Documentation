@@ -7,7 +7,7 @@ sidebar_label: Ranking System
 ## Description
 
 Portal's leveling system tracks messages sent and minutes spent in server's voice channels.<br />
-Different actions ammount to different points that give you levels which then give you roles.
+Different actions amount to different points that give you levels which then give you roles.
 
 ### Ranking Speed
 

@@ -6,30 +6,26 @@ sidebar_label: Prerequisites
 
 #### macOS
 
-1.  install [homebrew](https://brew.sh)
+1.  install [deno](https://deno.com/)
 
-        $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-2.  update homebrew
-
-        $ brew update
-
-3.  install npm and node ^14.x
-
-        $ brew install node@14
+        ```bash
+        curl -fsSL https://deno.land/install.sh | sh
+        ```
 
 #### ubuntu
 
-1.  install npm ^6.x
+1.  install [deno](https://deno.com/)
 
-        $ sudo curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash –
+        ```bash
+        curl -fsSL https://deno.land/install.sh | sh
+        ```
 
-2.  install nodejs ^14.x
+#### windows
 
-        $ sudo apt install nodejs
+1.  install [deno](https://deno.com/)
 
-:::warning
+        ```bash
+        irm https://deno.land/install.ps1 | iex
+        ```
 
-make sure you have node version ^14.x or higher with `node -v`
-
-:::
+:::warning Make sure you have deno version ^2.0.0

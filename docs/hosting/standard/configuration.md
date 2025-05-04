@@ -12,7 +12,7 @@ sidebar_label: Configuration
    # your Discord-API-Token
    TOKEN=add-your-token-here
    # default prefix
-   PREFIX=./
+   PREFIX=/
    # mongoDB url
    MONGO_URL=mongodb://mongo/portal?compressors=zlib&gssapiServiceName=portal
    # owner ID may be used throughout Portal

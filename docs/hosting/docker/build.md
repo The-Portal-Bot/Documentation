@@ -8,20 +8,25 @@ sidebar_label: Build
 
 1.  Go to Portal directory
 
-        $ cd Portal
+        ```bash
+        cd Portal
+        ```
 
 2.  Create Portal image and download mongo image
 
-        $ docker-compose build
+        ```bash
+        docker-compose build
+        ```
 
 3.  Check if everything went well
 
-        $ docker images
+        ```bash
+        docker images
 
-        REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
-        portal       latest    4cfb856dc61d   2 minutes ago   1.27GB
-        node         14        e2885a998904   5 minutes ago    943MB
-        mongo        4.4.3     ca8e14b1fda6   4 minutes ago    493MB
+        REPOSITORY               TAG       IMAGE ID       CREATED          SIZE
+        keybraker/portal         latest    3ad539add3b7   13 seconds ago   441MB
+        mongo                    5.0       54bcd8da3ea5   3 months ago     493MB
+        ```
 
 ---
 
@@ -37,10 +42,15 @@ better use [docker-compose](/docs/hosting/docker/build/#portal-docker)
 
 1.  build Portal
 
-        $ docker build . -f docker/Dockerfile -t portal
+        ```bash
+        docker build . -f docker/Dockerfile -t portal
+        ```
 
 2.  Check if everything went well
 
-        $ docker images
+        ```bash
+        docker images
+
         REPOSITORY   TAG       IMAGE ID       CREATED          SIZE
         portal       latest    4cfb856dc61d   15 minutes ago   1.27GB
+        ```
